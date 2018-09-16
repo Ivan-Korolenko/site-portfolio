@@ -78,11 +78,11 @@
                   if (re.test(userAgent)) return true
                   else return false
         }
-        // detect IE, Edge or Safari (disabled for now), don't redirect bots
-        if ((document.documentMode || /Edge/.test(navigator.userAgent) || /MSIE (\d+\.\d+);/.test(navigator.userAgent) 
-        // || (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)) 
+        // detect IE, Edge, don't redirect bots
+        if ((document.documentMode || /Edge/.test(navigator.userAgent) || /MSIE (\d+\.\d+);/.test(navigator.userAgent))
+        // || (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1))
         && botCheck() !== true) 
-            window.location = 'not-supported.html'
+          window.location = 'not-supported.html'
     </script>
     <noscript>
         <meta HTTP-EQUIV="Refresh" CONTENT="0;URL=js_off.html">
