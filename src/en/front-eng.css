@@ -1,0 +1,46 @@
+/* © 2017 Ivan Korolenko */
+
+.section-1-main-text {
+    width: 75vw;
+}
+
+.section-2-header {
+    line-height: 10rem;
+    margin-top: -8rem; 
+}
+
+.section-2-about-me {
+    width: 50rem;
+}
+
+.section-2-my-interests {
+    margin-left: 0.5rem;
+}
+
+.section-2-facts-p span:before {
+    width: 12rem;
+}
+
+.section-3-header:before {
+    margin-left: -2rem;
+}
+
+.section-3-used-tech-header:after {
+    width: 19vw;
+}
+
+@media screen and (max-width:1280px) and (orientation:portrait) {
+    .bottom-nav li {
+        margin: 0 1rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .section-2-facts-p span:before {
+        width: 12.5rem;
+    }
+
+    .section-3-used-tech-header:after {
+        width: 38vw;
+    }
+}

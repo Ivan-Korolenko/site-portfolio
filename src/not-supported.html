@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
-        // if all ok -> go on normal part of the site
+        // if all ok -> go to normal part of the site
         if (!document.documentMode && !/Edge/.test(navigator.userAgent) && !/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
             window.location = 'index.php';
         }
@@ -15,9 +15,8 @@
 </head>
 
 <body>
-    <div style="position: absolute; top:0; left: 0; z-index:900; width: 100%; height: 100%;">
-        <p style="margin-top: 36px; font-size: 36px; text-align: center;">Вы используете браузер Internet Explorer или Edge.<br>Данный сайт, как и большинство современных сайтов, не хочет работать с этими браузерами, потому что это заставляет его грустить. <br> Пожалуйста, установите один из этих браузеров, чтобы зайти на данный сайт:<br><a href="https://www.google.ru/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a><br><a href="https://www.mozilla.org/ru/firefox/new/" target="_blank">Mozilla Firefox</a></p><br><br>
-        <p style="font-size: 36px; text-align: center;">You are using Internet Explorer or Edge.<br>This website, like most modern websites, does not want to work with these browsers, because it makes him sad. <br> Please install one of these browsers to visit this website:<br><a href="https://www.google.ru/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a><br><a href="https://www.mozilla.org/ru/firefox/new/" target="_blank">Mozilla Firefox</a></p>
+    <div style="position: absolute; top:0; left: 0; display: flex; justify-content: center; align-items: center; z-index:900; width: 100%; height: 100%; background-color: #171717;">
+        <p style="font-size: 36px; text-align: left; margin: 0 25px; color: #fff; font-family: Arial, sans-serif;">Вы используете браузер, который не способен корректно отобразить данный сайт.<br>Пожалуйста, используйте один из этих браузеров:<br><a href="https://www.google.ru/chrome/browser/desktop/index.html" target="_blank" style="outline: none; color: #fff;">Google Chrome</a><br><a href="https://www.mozilla.org/ru/firefox/new/" target="_blank" style="outline: none; color: #fff;">Mozilla Firefox</a></p>
     </div>
 </body>
 

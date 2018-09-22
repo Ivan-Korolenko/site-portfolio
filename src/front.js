@@ -19,6 +19,11 @@ import './lib/slick/slick.min.js'
 
 $(document).ready(function () {
 
+    let wordsForRotator = ['сайты', 'идеи', 'концепции', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации']
+    if (lang && lang === "eng") {
+        wordsForRotator = ['websites', 'ideas', 'concepts', 'design', 'illustrations', 'algorithms', 'animations']
+    }
+
     enquire
         .register("screen and (min-width:1280px)", {
 
@@ -51,7 +56,7 @@ $(document).ready(function () {
                 function wordRotate() {
                     $('.section-1-word-rotate').empty();
                     $('.section-1-word-rotate').wordsrotator({
-                        words: ['сайты', 'идеи', 'концепции', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации'],
+                        words: wordsForRotator,
                         randomize: false,
                         stopOnHover: true,
                         changeOnClick: false,
@@ -483,7 +488,7 @@ $(document).ready(function () {
                         complete: () => {
                             //Частицы на фоне первой секции
                             window.requestAnimationFrame(() => {
-                                particlesJS.load('particles-background-section-5', 'particles-configs/particlesjs-config-section-5.json');
+                                particlesJS.load('particles-background-section-5', './particles-configs/particlesjs-config-section-5.json');
                             });
                             document.isFifthParticlesLoaded = true;
                             //Если частицы в пятой секции загрузились до частиц в первой
@@ -815,7 +820,7 @@ $(document).ready(function () {
                 function wordRotate() {
                     $('.section-1-word-rotate').empty();
                     $('.section-1-word-rotate').wordsrotator({
-                        words: ['сайты', 'идеи', 'концепции', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации'],
+                        words: wordsForRotator,
                         randomize: false,
                         stopOnHover: true,
                         changeOnClick: false,
@@ -1174,7 +1179,7 @@ $(document).ready(function () {
                         complete: () => {
                             //Частицы на фоне первой секции
                             window.requestAnimationFrame(() => {
-                                particlesJS.load('particles-background-section-5', 'particles-configs/particlesjs-config-section-5-mobile.json');
+                                particlesJS.load('particles-background-section-5', './particles-configs/particlesjs-config-section-5-mobile.json');
                             });
                             document.isFifthParticlesLoaded = true;
                             //Если частицы в пятой секции загрузились до частиц в первой
@@ -1440,7 +1445,7 @@ $(document).ready(function () {
                 function wordRotate() {
                     $('.section-1-word-rotate').empty();
                     $('.section-1-word-rotate').wordsrotator({
-                        words: ['сайты', 'идеи', 'концепции', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации'],
+                        words: wordsForRotator,
                         randomize: false,
                         stopOnHover: true,
                         changeOnClick: false,
@@ -1799,7 +1804,7 @@ $(document).ready(function () {
                         complete: () => {
                             //Частицы на фоне первой секции
                             window.requestAnimationFrame(() => {
-                                particlesJS.load('particles-background-section-5', 'particles-configs/particlesjs-config-section-5-mobile.json');
+                                particlesJS.load('particles-background-section-5', './particles-configs/particlesjs-config-section-5-mobile.json');
                             });
                             document.isFifthParticlesLoaded = true;
                             //Если частицы в пятой секции загрузились до частиц в первой

@@ -60,6 +60,7 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
         <meta HTTP-EQUIV="Refresh" CONTENT="0;URL=js_off.html">
     </noscript>
 
+    <script>var lang = "eng"</script>
     <script type="text/javascript" src="front.js?version=<?php echo filemtime('front.js'); ?>"></script>
 </head>
 

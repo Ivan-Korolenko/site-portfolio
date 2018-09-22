@@ -13,7 +13,7 @@ module.exports = {
     context: path.resolve(__dirname, 'src'),
     entry: {
         'front': './front',
-        'en/front': './en/front'
+        'en/front': './en/front-eng'
     },
     module: {
         rules: [
@@ -90,11 +90,11 @@ module.exports = {
             { from: './particles-configs', to: '../dist/particles-configs' },
 
             { from: './en/images', to: '../dist/en/images' },
-            { from: './en/fonts', to: '../dist/en/fonts' },
+            { from: './fonts', to: '../dist/en/fonts' },
             { from: './en/index.php', to: '../dist/en/index.php' },
             { from: './en/not-supported.html', to: '../dist/en/not-supported.html' },
             { from: './en/js_off.html', to: '../dist/en/js_off.html' },
-            { from: './en/particles-configs', to: '../dist/en/particles-configs' },
+            { from: './particles-configs', to: '../dist/en/particles-configs' },
         ]),
         new webpack.ProvidePlugin({
             $: 'jquery',
