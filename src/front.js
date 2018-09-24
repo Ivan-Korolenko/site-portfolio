@@ -68,9 +68,41 @@ $(document).ready(function () {
                 changeOnClick: false,
                 animationIn: "fadeIn",
                 animationOut: "fadeOut",
-                speed: 3000
+                speed: 2000
             })
         }
+
+        //Анимации прелоадера start
+        const preloaderAnimation = anime.timeline({
+            autoplay: false
+        })
+
+        preloaderAnimation
+            .add({
+                targets: '.preloader-container',
+                duration: 500,
+                easing: 'easeInOutQuad',
+                complete: () => {
+                    $('.preloader-container').css('opacity', '0')
+                }
+            })
+            .add({
+                targets: '.preloader-container',
+                duration: 1500,
+                begin: () => {
+                    //Включаем скроллинг
+                    onepagescrollEnable()
+                    //Запускаем анимации первого экрана
+                    window.requestAnimationFrame(() => {
+                        section1StartAnimation.play()
+                    })
+                },
+                complete: () => {
+                    $('.preloader-container').css('display', 'none')
+
+                }
+            })
+        //end
 
         //Анимации первого экрана start
 
@@ -90,7 +122,7 @@ $(document).ready(function () {
                     },
                     {
                         value: "0",
-                        duration: 2000
+                        duration: 1500
                     }
                 ],
                 easing: "easeInOutQuad"
@@ -108,40 +140,40 @@ $(document).ready(function () {
                 targets: '#Тень_человека',
                 opacity: {
                     value: 0,
-                    duration: 1500
+                    duration: 1000
                 },
+                delay: 500,
                 easing: "easeInOutQuad"
-                //            offset: '-=800'
             })
             .add({
                 targets: '#Краски',
                 opacity: {
                     value: 1,
-                    duration: 1000
+                    duration: 500
                 },
                 easing: "easeInOutQuad",
-                offset: '-=500'
+                offset: '-=350'
             })
             .add({
                 targets: '#Полосы_на_дереве',
-                duration: 1000,
+                duration: 500,
                 opacity: 1,
                 easing: "easeInOutQuad"
             })
-            .add({
-                targets: '#section-1-back-overlay',
-                opacity: 1,
-                delay: 500,
-                easing: "linear",
-                begin: (anim) => {
-                    document.getElementById("section-1-back-container").style.filter = "blur(2px)"
-                }
-            })
+            // .add({
+            //     targets: '#section-1-back-overlay',
+            //     opacity: 1,
+            //     delay: 0,
+            //     easing: "linear",
+            //     begin: (anim) => {
+            //         document.getElementById("section-1-back-container").style.filter = "blur(2px)"
+            //     }
+            // })
             .add({
                 targets: section1Foreground,
                 opacity: 0,
                 easing: "easeInOutQuad",
-                duration: 500,
+                duration: 10,
                 complete: (anim, i) => {
                     $(section1Foreground).css('opacity', '1')
                     for (i = 0; i < section1Foreground.length; ++i) {
@@ -160,8 +192,8 @@ $(document).ready(function () {
                 targets: '#particles-background-section-1',
                 opacity: 1,
                 easing: "easeInOutQuad",
-                duration: 1500,
-                delay: 1000
+                duration: 1000,
+                delay: 100
             })
         }
         else {
@@ -179,39 +211,6 @@ $(document).ready(function () {
             
 
         //Анимации первого экрана end
-
-        //Анимации прелоадера start
-        const preloaderAnimation = anime.timeline({
-            autoplay: false
-        })
-
-        preloaderAnimation
-            .add({
-                targets: '.preloader-container',
-                duration: 100,
-                easing: 'easeInOutQuad',
-                complete: () => {
-                    $('.preloader-container').css('opacity', '0')
-                }
-            })
-            .add({
-                targets: '.preloader-container',
-                duration: 2100,
-                begin: () => {
-                    //Включаем скроллинг
-                    onepagescrollEnable()
-                    //Запускаем анимации первого экрана
-                    window.requestAnimationFrame(() => {
-                        section1StartAnimation.play()
-                    })
-                },
-                complete: () => {
-                    $('.preloader-container').css('display', 'none')
-
-                }
-            })
-        //end
-
 
         //Объявляем облако интересов и ставим на паузу start
         if (!$('#section-2-my-interests-cloud-canvas').tagcanvas({
@@ -660,7 +659,7 @@ $(document).ready(function () {
         new Vivus('preloader', {
             start: 'autostart',
             type: 'sync',
-            duration: 200,
+            duration: 100,
             animTimingFunction: Vivus.EASE,
             onReady: function () {
                 $('#preloader').css('stroke-opacity', '1')

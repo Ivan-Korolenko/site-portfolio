@@ -77,9 +77,9 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
-        new UglifyJSPlugin({
-            sourceMap: true
-        }),
+        // new UglifyJSPlugin({
+        //     sourceMap: true
+        // }),
         // extractSass,
         new CopyWebpackPlugin([
             { from: './images', to: '../dist/images' },

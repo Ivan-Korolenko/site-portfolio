@@ -33,7 +33,7 @@ body {
     /*    text-align: center;*/
     text-align: left;
     font-size: 1vw;
-    background-color: black;
+    background-color: #020009;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -143,7 +143,7 @@ li {
     background-color: #171717;
     width: 100vw;
     height: 100vh;
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 #preloader {
@@ -197,12 +197,12 @@ li {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
 }
 
 .section-1-main-text,
 .bottom-nav {
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .section-1-main-text,
@@ -393,7 +393,7 @@ li {
     align-items: center;
     justify-content: center;
     width: 86vw;
-    border: 0.1rem white solid;
+    /* border: 0.1rem white solid; */
     padding: 3rem;
     background: rgba(0, 0, 0, 0.5);
 }
@@ -695,7 +695,7 @@ li {
 }
 
 
-/*
+ 
 .skill-1 {
     background-color: #3834a2;
 }
@@ -723,9 +723,9 @@ li {
 .skill-7 {
     background-color: #9e34a2;
 }
-*/
 
-.skill-1 {
+
+/* .skill-1 {
     background-color: #db6d33;
 }
 
@@ -751,7 +751,7 @@ li {
 
 .skill-7 {
     background-color: #37b740;
-}
+} */
 
 .skill-1,
 .skill-2,
