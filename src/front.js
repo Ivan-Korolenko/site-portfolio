@@ -573,37 +573,38 @@ $(document).ready(function () {
                         section5StartAnimation.play()
                     })
                 }
-            } else {
-                if (sectionNumber.includes(1)) {
-                    //Останавливаем стартовый таймлайн анимаций первой секции
-                    window.requestAnimationFrame(() => {
-                        section1StartAnimation.pause()
-                    })
+            } 
+            // else {
+            //     if (sectionNumber.includes(1)) {
+            //         //Останавливаем стартовый таймлайн анимаций первой секции
+            //         window.requestAnimationFrame(() => {
+            //             section1StartAnimation.pause()
+            //         })
 
-                    //WordsRotator в первой секции
-                    if (typeof window.wordsRotatorT !== 'undefined') {
-                        window.clearInterval(wordsRotatorT)
-                    }
-                }
-                if (sectionNumber.includes(2)) {
-                    //Ставим на паузу анимации второго экрана
-                    window.requestAnimationFrame(() => {
-                        section2StartAnimation.pause()
-                    })
+            //         //WordsRotator в первой секции
+            //         if (typeof window.wordsRotatorT !== 'undefined') {
+            //             window.clearInterval(wordsRotatorT)
+            //         }
+            //     }
+            //     if (sectionNumber.includes(2)) {
+            //         //Ставим на паузу анимации второго экрана
+            //         window.requestAnimationFrame(() => {
+            //             section2StartAnimation.pause()
+            //         })
 
-                    //Ставим на паузу облако интересов
-                    $('#section-2-my-interests-cloud-canvas').tagcanvas("pause")
+            //         //Ставим на паузу облако интересов
+            //         $('#section-2-my-interests-cloud-canvas').tagcanvas("pause")
 
-                }
-                if (sectionNumber.includes(3)) {}
-                if (sectionNumber.includes(4)) {}
-                if (sectionNumber.includes(5)) {
-                    //Останавливаем стартовый таймлайн анимаций пятой секции
-                    window.requestAnimationFrame(() => {
-                        section5StartAnimation.pause()
-                    })
-                }
-            }
+            //     }
+            //     if (sectionNumber.includes(3)) {}
+            //     if (sectionNumber.includes(4)) {}
+            //     if (sectionNumber.includes(5)) {
+            //         //Останавливаем стартовый таймлайн анимаций пятой секции
+            //         window.requestAnimationFrame(() => {
+            //             section5StartAnimation.pause()
+            //         })
+            //     }
+            // }
         }
 
         //Скролл секциями
@@ -622,23 +623,23 @@ $(document).ready(function () {
                     switch (index) {
                         case 1:
                             AnimationControlPlay(true, [1])
-                            AnimationControlPlay(false, [2, 3, 4, 5])
+                            // AnimationControlPlay(false, [2, 3, 4, 5])
                             break
                         case 2:
                             AnimationControlPlay(true, [2])
-                            AnimationControlPlay(false, [1, 3, 4, 5])
+                            // AnimationControlPlay(false, [1, 3, 4, 5])
                             break
                         case 3:
                             AnimationControlPlay(true, [3])
-                            AnimationControlPlay(false, [1, 2, 4, 5])
+                            // AnimationControlPlay(false, [1, 2, 4, 5])
                             break
                         case 4:
                             AnimationControlPlay(true, [4])
-                            AnimationControlPlay(false, [1, 2, 3, 5])
+                            // AnimationControlPlay(false, [1, 2, 3, 5])
                             break
                         case 5:
                             AnimationControlPlay(true, [5])
-                            AnimationControlPlay(false, [1, 2, 3, 4])
+                            // AnimationControlPlay(false, [1, 2, 3, 4])
                             break
                     }
                 },
@@ -676,13 +677,13 @@ $(document).ready(function () {
         //------------- Обработка событий ----------------------------------
         //------------------------------------------------------------------
 
-        //Остановить все анимации, если пользователь перешел на другую вкладку, и продолжить проигрывание, если вернулся
-        ifvisible.on("blur", () => {
-            AnimationControlPlay(false, [1, 2, 3, 4, 5])
-        })
-        ifvisible.on("focus", () => {
-            AnimationControlPlay(true, [document.numberOfActiveSection])
-        })
+        // //Остановить все анимации, если пользователь перешел на другую вкладку, и продолжить проигрывание, если вернулся
+        // ifvisible.on("blur", () => {
+        //     AnimationControlPlay(false, [1, 2, 3, 4, 5])
+        // })
+        // ifvisible.on("focus", () => {
+        //     AnimationControlPlay(true, [document.numberOfActiveSection])
+        // })
 
         //Анимации меню start
         $('#nav-icon1').click(function (event) {
