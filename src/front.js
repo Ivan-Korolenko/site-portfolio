@@ -122,7 +122,7 @@ $(document).ready(function () {
                     },
                     {
                         value: "0",
-                        duration: 1500
+                        duration: 1000
                     }
                 ],
                 easing: "easeInOutQuad"
@@ -284,21 +284,21 @@ $(document).ready(function () {
             .add({
                 targets: '.section-2-about-me',
                 opacity: 1,
-                duration: 1000,
-                delay: 500,
+                delay: 100,
+                duration: 200,
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: '.section-2-my-interests',
                 opacity: 1,
-                duration: 1000,
+                duration: 500,
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: '.section-2-facts',
                 opacity: 1,
-                duration: 1000,
-                delay: 500,
+                duration: 500,
+                delay: 200,
                 easing: "easeInOutQuad",
                 complete: () => {
                     factsSlide.slick('slickPlay')
@@ -325,7 +325,7 @@ $(document).ready(function () {
         section3StartAnimation
             .add({
                 targets: '.section-3-header',
-                duration: 400,
+                duration: 100,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.section-3-header').css('transform', 'rotate(10deg) translate(0rem)')
@@ -334,7 +334,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.skill-1',
-                duration: 1000,
+                duration: 300,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.skill-1').css('transform', 'translate(0rem)')
@@ -342,7 +342,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.skill-2',
-                duration: 1100,
+                duration: 350,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.skill-2').css('transform', 'translate(0rem)')
@@ -350,7 +350,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.skill-3',
-                duration: 1200,
+                duration: 400,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.skill-3').css('transform', 'translate(0rem)')
@@ -358,7 +358,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.skill-4',
-                duration: 1300,
+                duration: 450,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.skill-4').css('transform', 'translate(0rem)')
@@ -366,7 +366,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.skill-5',
-                duration: 1400,
+                duration: 500,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.skill-5').css('transform', 'translate(0rem)')
@@ -374,7 +374,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.skill-6',
-                duration: 1500,
+                duration: 550,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.skill-6').css('transform', 'translate(0rem)')
@@ -382,7 +382,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.skill-7',
-                duration: 1600,
+                duration: 600,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.skill-7').css('transform', 'translate(0rem)')
@@ -390,7 +390,7 @@ $(document).ready(function () {
             })
             .add({
                 targets: '.section-3-used-tech',
-                duration: 1700,
+                duration: 1000,
                 easing: "easeInOutQuad",
                 complete: () => {
                     $('.section-3-used-tech').css('transform', 'rotate(10deg) translate(0rem)')
@@ -415,78 +415,79 @@ $(document).ready(function () {
                 targets: section4AnimationTargets[0],
                 opacity: 1,
                 delay: 500,
-                duration: 500,
+                duration: 200,
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[1],
                 opacity: 1,
-                duration: 500,
+                duration: 200,
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[2],
                 opacity: 1,
-                duration: 500,
-                offset: '-=50',
+                duration: 200,
+                offset: '-=20',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[3],
                 opacity: 1,
-                duration: 500,
-                offset: '-=150',
+                duration: 200,
+                offset: '-=40',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[4],
                 opacity: 1,
-                duration: 500,
-                offset: '-=200',
+                duration: 200,
+                offset: '-=60',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[5],
                 opacity: 1,
-                duration: 500,
-                offset: '-=250',
+                duration: 200,
+                offset: '-=80',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[6],
                 opacity: 1,
-                duration: 500,
-                offset: '-=300',
+                duration: 200,
+                offset: '-=100',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[7],
                 opacity: 1,
-                duration: 500,
-                offset: '-=350',
+                duration: 200,
+                offset: '-=120',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[8],
                 opacity: 1,
-                duration: 500,
-                offset: '-=400',
+                duration: 200,
+                offset: '-=140',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[9],
                 opacity: 1,
-                duration: 500,
-                offset: '-=450',
+                duration: 200,
+                offset: '-=160',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[10],
                 opacity: 1,
-                duration: 500,
-                offset: '-=500',
+                duration: 200,
+                offset: '-=180',
                 easing: "easeInOutQuad"
             })
+
 
         //end
 
@@ -499,14 +500,14 @@ $(document).ready(function () {
             .add({
                 targets: '.section-5-header',
                 opacity: 1,
-                duration: 500,
+                duration: 300,
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: '.section-5-content',
                 opacity: 1,
-                duration: 500,
-                delay: 500,
+                duration: 300,
+                delay: 300,
                 easing: "easeInOutQuad",
                 complete: () => {
                     //Частицы на фоне пятой секции
@@ -525,7 +526,7 @@ $(document).ready(function () {
             .add({
                 targets: '#particles-background-section-5',
                 opacity: 1,
-                duration: 1500,
+                duration: 500,
                 delay: 500,
                 easing: "easeInOutQuad"
             })
