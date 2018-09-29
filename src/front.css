@@ -473,7 +473,7 @@ li {
 
 .section-2-photo {
     transform: translateY(-100%);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .section-2-photo-img {

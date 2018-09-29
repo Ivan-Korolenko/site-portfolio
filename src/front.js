@@ -284,7 +284,7 @@ $(document).ready(function () {
             .add({
                 targets: '.section-2-about-me',
                 opacity: 1,
-                delay: 100,
+                delay: 200,
                 duration: 200,
                 easing: "easeInOutQuad"
             })
