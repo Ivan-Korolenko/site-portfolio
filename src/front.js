@@ -661,7 +661,7 @@ $(document).ready(function () {
         new Vivus('preloader', {
             start: 'autostart',
             type: 'sync',
-            duration: 130,
+            duration: 100,
             animTimingFunction: Vivus.EASE,
             onReady: function () {
                 $('#preloader').css('stroke-opacity', '1')
@@ -691,7 +691,10 @@ $(document).ready(function () {
         //     AnimationControlPlay(true, [document.numberOfActiveSection])
         // })
 
-        //Анимации меню start
+        let scrollState = ''
+        let transformStyle = ''
+
+        // Анимации меню
         $('#nav-icon1').click(function (event) {
             event.stopImmediatePropagation()
             $('#nav-icon1').toggleClass('open')
@@ -708,8 +711,13 @@ $(document).ready(function () {
                     'right': '50%'
                 })
 
-                // Отключаем скролл
+                // Сохраняем позицию скролла
+                scrollState = $("#section-scroll").css("transform")
+                transformStyle = ($("#section-scroll").attr("style") ? $("#section-scroll").attr("style") : '') + ' transform:' + scrollState + ' !important;'
+
+                // Отключаем скролл и ставим позцию скролла в запомненную
                 $("body").addClass("disabled-onepage-scroll disable-scroll")
+                $("#section-scroll").attr("style", transformStyle)
             } 
             else {
                 $('.nav').removeClass('slideInRight')
@@ -740,11 +748,10 @@ $(document).ready(function () {
         $('.nav').click(function (event) {
                 event.stopImmediatePropagation()
             })
-        //end
         
         
 
-        //Анимация блока "Почему я это делаю?"
+        // Анимация блока "Почему я это делаю?"
         $('.section-2-why').click(function (event) {
             $('.section-2-why').toggleClass('open')
             if ($('.section-2-why').hasClass('open')) {
