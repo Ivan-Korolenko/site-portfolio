@@ -1471,11 +1471,6 @@ Do you have an interesting idea? Let's bring it to life!
                     <div>Favorite writer of the "fantasy" genre - Andrzej Sapkowski</div>
                 </div>
             </div>
-
-            <div class="section-2-why">
-                <p class="section-2-why-p white header">Why am I doing this?</p>
-                <p class="section-2-why-because white header">Because it's cool!</p>
-            </div>
         </section>
         <section class="section-3 column">
             <div class="section-3-header header white">

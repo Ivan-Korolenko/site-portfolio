@@ -1482,11 +1482,6 @@
                     <div>Любимый писатель жанра "фэнтези" - Анджей Сапковский</div>
                 </div>
             </div>
-
-            <div class="section-2-why">
-                <p class="section-2-why-p white header">Почему я делаю это?</p>
-                <p class="section-2-why-because white header">Потому что это круто!</p>
-            </div>
         </section>
         <section class="section-3 column">
             <div class="section-3-header header white">

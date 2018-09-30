@@ -117,12 +117,12 @@ $(document).ready(function () {
                 opacity: 1,
                 translateY: [
                     {
-                        value: "300",
+                        value: "200",
                         duration: 0
                     },
                     {
                         value: "0",
-                        duration: 1000
+                        duration: 1500
                     }
                 ],
                 easing: "easeInOutQuad"
@@ -275,10 +275,12 @@ $(document).ready(function () {
         section2StartAnimation
             .add({
                 targets: '.section-2-photo',
+                opacity: 1,
+                delay: 100,
                 duration: 500,
                 easing: "easeInOutQuad",
                 complete: () => {
-                    $('.section-2-photo').css('transform', 'translateY(0)')
+                    $('.section-2-photo').css({'transform': 'translateY(0)'})
                 }
             })
             .add({
@@ -302,16 +304,6 @@ $(document).ready(function () {
                 easing: "easeInOutQuad",
                 complete: () => {
                     factsSlide.slick('slickPlay')
-                }
-            })
-            .add({
-                targets: '.section-2-why',
-                opacity: 1,
-                duration: 500,
-                offset: "-=500",
-                easing: "easeInOutQuad",
-                complete: () => {
-                    $('.section-2-why').css('pointer-events', 'auto')
                 }
             })
 
@@ -749,27 +741,6 @@ $(document).ready(function () {
                 event.stopImmediatePropagation()
             })
         
-        
-
-        // Анимация блока "Почему я это делаю?"
-        $('.section-2-why').click(function (event) {
-            $('.section-2-why').toggleClass('open')
-            if ($('.section-2-why').hasClass('open')) {
-                $('.section-2-why').css('margin-bottom', deviceVersion === "mobile" ? '-28rem' : '-38rem')
-            } else {
-                $('.section-2-why').css('margin-bottom', deviceVersion === "mobile" ? '-30rem' : '-42rem')
-            }
-        })
-        //Клик за пределами элемента, но не по самому элементу также вызывает закрытие
-        $('.section-2').click(function (event) {
-                if ($('.section-2-why').hasClass('open')) {
-                    $('.section-2-why').css('margin-bottom', deviceVersion === "mobile" ? '-30rem' : '-42rem')
-                    $('.section-2-why').removeClass('open')
-                }
-            })
-            .children('.section-2-why').click(function (event) {
-                return false
-            })
 
         //Анимация блока "Использованные технологии"
         if (deviceVersion === "desktop") {
