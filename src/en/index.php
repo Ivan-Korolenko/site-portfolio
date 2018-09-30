@@ -1,4 +1,4 @@
-<!-- © 2017 Ivan Korolenko -->
+<!-- © 2017-2018 Ivan Korolenko -->
 
 <!DOCTYPE HTML>
 <html lang="ru">
@@ -99,7 +99,7 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
                 <li class="menu-elem-5" data-page-to="5">
                     How to contact me?
                 </li>
-                <p class="copyright">© 2017 Ivan Korolenko</p>
+                <p class="copyright">© 2017-2018 Ivan Korolenko</p>
             </div>
         </nav>
     </div>

@@ -612,7 +612,7 @@ $(document).ready(function () {
             $("#section-scroll").onepage_scroll({
                 sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
                 easing: "ease-in-out",
-                animationTime: 500,
+                animationTime: 300,
                 pagination: false,
                 updateURL: false,
                 beforeMove: function (index) {
@@ -649,7 +649,7 @@ $(document).ready(function () {
                 responsiveFallback: false, // You can fallback to normal page scroll by defining the width of the browser in which
                 // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
                 // the browser's width is less than 600, the fallback will kick in.
-                direction: "horizontal"
+                direction: "vertical"
             })
         }
 
@@ -661,7 +661,7 @@ $(document).ready(function () {
         new Vivus('preloader', {
             start: 'autostart',
             type: 'sync',
-            duration: 100,
+            duration: 130,
             animTimingFunction: Vivus.EASE,
             onReady: function () {
                 $('#preloader').css('stroke-opacity', '1')
@@ -669,6 +669,12 @@ $(document).ready(function () {
         }, function () {
             //Запускаем анимацию прелоадера
             window.requestAnimationFrame(() => {
+                // Анимация "Приближения и затухания букв" перед исчезновением прелоадера
+                $('#preloader path').css({
+                    'opacity': '0',
+                    'transform-origin': 'center',
+                    'transform': 'translateX(150vw) scale(20)',
+                })
                 preloaderAnimation.play()
             })
         })
@@ -697,11 +703,24 @@ $(document).ready(function () {
                 })
                 $('.nav').removeClass('slideOutRight')
                 $('.nav').addClass('slideInRight')
-                $('#nav-icon1').css('margin-right', '19rem')
-            } else {
+                $('#nav-icon1').css({
+                    'margin-right': '0',
+                    'right': '50%'
+                })
+
+                // Отключаем скролл
+                $("body").addClass("disabled-onepage-scroll disable-scroll")
+            } 
+            else {
                 $('.nav').removeClass('slideInRight')
                 $('.nav').addClass('slideOutRight')
-                $('#nav-icon1').css('margin-right', '2rem')
+                $('#nav-icon1').css({
+                    'margin-right': '2rem',
+                    'right': '0'
+                })
+
+                // Включаем скролл
+                $("body").removeClass("disabled-onepage-scroll disable-scroll")
             }
         })
             .parents('body').click(function (event) {
@@ -709,7 +728,13 @@ $(document).ready(function () {
                 $('#nav-icon1').removeClass('open')
                 $('.nav').removeClass('slideInRight')
                 $('.nav').addClass('slideOutRight')
-                $('#nav-icon1').css('margin-right', '2rem')
+                $('#nav-icon1').css({
+                    'margin-right': '2rem',
+                    'right': '0'
+                })
+
+                // Включаем скролл
+                $("body").removeClass("disabled-onepage-scroll disable-scroll")
             }
             })
         $('.nav').click(function (event) {

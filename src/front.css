@@ -103,6 +103,10 @@ li {
     list-style: none;
 }
 
+.disable-scroll, .disable-scroll .wrapper {
+    overflow: hidden !important;
+}
+
 
 /*----------- END BASE ---------------*/
 
@@ -150,7 +154,11 @@ li {
     width: 100%;
     height: 100%;
     stroke-opacity: 0;
-    transition: all .6s ease-in-out;
+    transition: stroke-opacity .6s ease-in-out;
+}
+
+#preloader path {
+    transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
 }
 
 .section-3-skills,
@@ -245,7 +253,7 @@ li {
     width: 3.1rem;
     height: 2.325rem;
     transform: rotate(0deg);
-    transition: .3s ease-in-out;
+    transition: all .4s ease-in-out;
     cursor: pointer;
 }
 
@@ -258,7 +266,7 @@ li {
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition: .3s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 #nav-icon1 span:nth-child(1) {
@@ -296,7 +304,7 @@ li {
     top: 0;
     right: 0;
     align-self: flex-end;
-    width: 25rem;
+    width: 100vw;
     height: 100vh;
     display: none;
     text-align: left;
@@ -312,7 +320,7 @@ li {
     overflow: hidden;
     width: 100%;
     height: 100%;
-    margin-right: -0.5vw;
+    /* margin-right: -0.5vw; */
 }
 
 .nav-back {
@@ -331,8 +339,10 @@ li {
 .nav-internal {
     position: fixed;
     z-index: 5;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     font-size: 1.5rem;
+    right: 40%;
+    top: 30%;
 }
 
 .nav-language-changer {
@@ -960,7 +970,7 @@ li {
 
 .slideOutRight,
 .slideInRight {
-    animation-duration: .2s;
+    animation-duration: .4s;
 }
 
 .fadeOutRight {
