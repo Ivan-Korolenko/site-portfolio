@@ -410,11 +410,12 @@ li {
 
 .section-1-main-text-p1 {
     font-size: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-1-main-text-p2 {
-    font-size: 1.65rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .bottom-nav {
@@ -958,6 +959,20 @@ li {
         transform: scaleX(1);
     }
 }
+
+.move-up-down {
+    animation: move-up-down 2s ease-in-out infinite;
+}
+
+
+@keyframes move-up-down {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1rem);
+    }
+  }
 
 
 /*----------- END CSS Animations ---------------*/

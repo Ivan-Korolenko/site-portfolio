@@ -20,7 +20,7 @@ import './lib/slick/slick.min.js'
 $(document).ready(function () {
 
     // Задаем различия в языковых версиях
-    let wordsForRotator = ['сайты', 'идеи', 'концепции', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации']
+    let wordsForRotator = ['приложения', 'сайты', 'идеи', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации']
     if (lang && lang === "eng") {
         wordsForRotator = ['websites', 'ideas', 'concepts', 'design', 'illustrations', 'algorithms', 'animations']
     }
@@ -780,6 +780,8 @@ $(document).ready(function () {
         $('.nav-internal li, .bottom-nav li').click(function (event) {
             let pageToScrollTo = parseInt($(this).attr('data-page-to'))
             $("#section-scroll").moveTo(pageToScrollTo)
+            // Закрываем меню имитируя нажатие на крестик
+            $('#nav-icon1').click()
         })
 
 })

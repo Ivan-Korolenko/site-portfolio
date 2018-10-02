@@ -1363,7 +1363,7 @@
                 <p class="section-1-main-text-p1 header">Привет, меня зовут Иван Короленко,<br> и я создаю
                     <span class="section-1-word-rotate">сайты</span>
                 </p>
-                <p class="section-1-main-text-p2">Хотите узнать обо мне больше? Листайте дальше</p>
+                <p class="section-1-main-text-p2">↓</p>
             </div>
 
             <div class="bottom-nav row white">
