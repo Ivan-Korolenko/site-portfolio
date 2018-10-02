@@ -15,6 +15,7 @@ import './lib/particles.min.js'
 $.wordsrotator = require('./lib/modified-word-rotator/jquery.wordrotator.min.js') 
 $.tagcanvas = require('./lib/jquery.tagcanvas.min.js') 
 import './lib/slick/slick.min.js'
+import Parallax from 'parallax-js'
 
 
 $(document).ready(function () {
@@ -25,7 +26,7 @@ $(document).ready(function () {
         wordsForRotator = ['websites', 'ideas', 'concepts', 'design', 'illustrations', 'algorithms', 'animations']
     }
 
-    // Задачем различия в версиях для разных форматов устройств
+    // Задаем различия в версиях для разных форматов устройств
     let section2WhyMarginBottom = null
     let deviceVersion = null
 
@@ -186,6 +187,10 @@ $(document).ready(function () {
                         particlesJS.load('particles-background-section-1', './particles-configs/particlesjs-config-section-1.json')
                     })
                     document.isFirstParticlesLoaded = true
+
+                    // Запускаем параллакс
+                    let scene = document.querySelector('#section-1-parallax-scene')
+                    let parallaxInstance = new Parallax(scene)
                 }
             })
             .add({
