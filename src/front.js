@@ -11,7 +11,8 @@ let Vivus = require('./lib/vivus.min.js')
 let anime = require('./lib/anime.min.js') 
 let ifvisible = require('./lib/ifvisible.min.js') 
 $.onepage_scroll = require('./lib/modified-jquery.onepage-scroll.js') 
-import './lib/particles.min.js'
+// import './lib/particles.min.js'
+import './lib/modified-particlesjs'
 $.wordsrotator = require('./lib/modified-word-rotator/jquery.wordrotator.min.js') 
 $.tagcanvas = require('./lib/jquery.tagcanvas.min.js') 
 import './lib/slick/slick.min.js'
@@ -184,7 +185,10 @@ $(document).ready(function () {
                     window.requestAnimationFrame(wordRotate)
                     //Частицы на фоне первой секции
                     window.requestAnimationFrame(() => {
-                        particlesJS.load('particles-background-section-1', './particles-configs/particlesjs-config-section-1.json')
+                        particlesJS.load('particles-background-section-1',
+                        //  './particles-configs/particlesjs-config-section-1_specks-of-dust.json'
+                        './particles-configs/particlesjs-config-section-1_rain.json'
+                        )
                     })
                     document.isFirstParticlesLoaded = true
 
