@@ -34,6 +34,7 @@ body {
     text-align: left;
     font-size: 1vw;
     background-color: #020009;
+    background-color: linear-gradient(to right, #010008 0%, #020108 100%);
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -107,6 +108,10 @@ li {
     overflow: hidden !important;
 }
 
+.no-transition {
+    transition: none !important;
+}
+
 
 /*----------- END BASE ---------------*/
 
@@ -177,11 +182,11 @@ li {
 #section-1-back-container {
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: -15vh;
+    left: -10vw;
     margin-top: -0.5vh;
     margin-left: -0.5vw;
-    left: 0;
-    width: 101vw;
+    width: 121vw;
     object-fit: cover;
     height: 100vh;
     transition: 2s -webkit-filter linear;

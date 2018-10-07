@@ -192,6 +192,10 @@ $(document).ready(function () {
                     })
                     document.isFirstParticlesLoaded = true
 
+                    // Отключаем скорость анимации у элементов иллюстрации
+                    $('#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2')
+                        .addClass('no-transition')
+
                     // Запускаем параллакс
                     let scene = document.querySelector('#section-1-parallax-scene')
                     let parallaxInstance = new Parallax(scene)
