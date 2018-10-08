@@ -689,7 +689,7 @@ $(document).ready(function () {
                 $('#preloader path').css({
                     'opacity': '0',
                     'transform-origin': 'center',
-                    'transform': 'translateX(150vw) scale(20)',
+                    'transform': 'translateX(100%) scale(20)',
                 })
                 preloaderAnimation.play()
             })
