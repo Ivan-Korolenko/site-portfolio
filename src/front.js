@@ -192,7 +192,9 @@ $(document).ready(function () {
 
                     let firstPlan = new Parallax(scene, {
                         selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
-                        invertY: true
+                        invertY: true,
+                        scalarY: 10.0,
+                        scalarX: 7.0
                     })
 
                     let farAwayLand = new Parallax(scene, {
