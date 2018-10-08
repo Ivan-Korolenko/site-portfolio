@@ -162,15 +162,6 @@ $(document).ready(function () {
                 opacity: 1,
                 easing: "easeInOutQuad"
             })
-            // .add({
-            //     targets: '#section-1-back-overlay',
-            //     opacity: 1,
-            //     delay: 0,
-            //     easing: "linear",
-            //     begin: (anim) => {
-            //         document.getElementById("section-1-back-container").style.filter = "blur(2px)"
-            //     }
-            // })
             .add({
                 targets: section1Foreground,
                 opacity: 0,
@@ -198,7 +189,27 @@ $(document).ready(function () {
 
                     // Запускаем параллакс
                     let scene = document.querySelector('#section-1-parallax-scene')
-                    let parallaxInstance = new Parallax(scene)
+
+                    let firstPlan = new Parallax(scene, {
+                        selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
+                        invertY: true
+                    })
+
+                    let farAwayLand = new Parallax(scene, {
+                        selector: '#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца',
+                        invertY: true,
+                        scalarY: 10.0,
+                        scalarX: 7.0
+                    })
+
+                    let hills = new Parallax(scene, {
+                        selector: '#Холмы',
+                        invertY: true,
+                        scalarY: 15.0,
+                        scalarX: 5.0
+                    })
+
+
                 }
             })
             .add({
