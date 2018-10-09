@@ -241,7 +241,7 @@ $(document).ready(function () {
         //Объявляем облако интересов и ставим на паузу start
         if (!$('#section-2-my-interests-cloud-canvas').tagcanvas({
                 textColour: '#ffffff',
-                textFont: 'Raleway, sans-serif',
+                textFont: "'Raleway-Light', 'Century Gothic', CenturyGothic, AppleGothic, Arial, sans-serif",
                 outlineThickness: 0,
                 outlineMethod: "none",
                 lock: 'xy',

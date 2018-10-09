@@ -26,7 +26,7 @@
 html,
 body {
     box-sizing: border-box;
-    font-family: 'Raleway-Light', sans-serif;
+    font-family: 'Raleway-Light', 'Century Gothic', CenturyGothic, AppleGothic, Arial, sans-serif;
     /*    font-family: 'Roboto Condensed', sans-serif;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -34,7 +34,6 @@ body {
     text-align: left;
     font-size: 1vw;
     background-color: #020009;
-    background-color: linear-gradient(to right, #010008 0%, #020108 100%);
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -507,7 +506,7 @@ li {
     font-size: 1.3rem;
     text-align: left;
     margin: 1rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
     width: 40rem;
     opacity: 0;
     transition: all 0.2s ease-in-out;
@@ -521,9 +520,9 @@ li {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 2rem;
+    margin-top: 8rem;
     margin-left: 2rem;
-    width: 25vw;
+    width: 26rem;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -534,7 +533,7 @@ li {
 }
 
 .section-2-my-interests-p2 {
-    font-size: 0.8rem;
+    font-size: 0.92rem;
     text-align: center;
 }
 
@@ -542,8 +541,8 @@ li {
     overflow: hidden;
     margin-top: 2rem;
     border-radius: 50%;
-    width: 25rem;
-    height: 25rem;
+    width: 26rem;
+    height: 26rem;
     background: #3B2A66;
 }
 
@@ -553,7 +552,7 @@ li {
     right: 0;
     margin-top: 8rem;
     margin-right: 0rem;
-    width: 25rem;
+    width: 28rem;
     height: 50rem;
     opacity: 0;
 }
@@ -576,15 +575,15 @@ li {
 }
 
 .section-2-facts-slider {
-    width: 22rem;
+    width: 28rem;
     height: 50rem;
     margin: auto;
     cursor: pointer;
 }
 
 .section-2-facts-slider .slick-slide {
-    width: 21rem !important;
-    height: 21rem !important;
+    width: 25rem !important;
+    height: 25rem !important;
     text-align: center;
     display: flex !important;
     align-items: center;
