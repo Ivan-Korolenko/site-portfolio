@@ -504,10 +504,11 @@ li {
 }
 
 .section-2-about-me {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 0rem;
-    width: 49rem;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 1rem;
+    margin-left: 5rem;
+    width: 40rem;
     opacity: 0;
     transition: all 0.2s ease-in-out;
 }
