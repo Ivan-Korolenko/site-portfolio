@@ -2042,8 +2042,29 @@
                 </div>
                 <div class="section-3-used-tech-content">
                     <div class="section-3-used-tech-text">
-                        Список технологий, использованных мной для создания этого сайта:<br><br>HTML5
-                        <br>CSS3<br>FlexBox<br>JavaScript (ECMA Script 6)<br>JQuery 3<br>SVG<br>HTML Canvas<br>Animate.css<br>Particles.js<br>Anime.js<br>Slick.js<br>Ifinvisible.js<br>Onepagescroll.js<br>Enquire.js<br>Vivus.js<br>Tagcanvas.js<br>CSS Animations<br>Wordrotator.js<br>PHP
+                        <div class="section-3-used-tech-list-header">Список технологий, использованных мной для создания этого сайта:</div>
+                        <div class="section-3-used-tech-list-wrap">
+                            <ul class="section-3-used-tech-list">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>FlexBox</li>
+                                <li>JavaScript (ES6)</li>
+                                <li>JQuery 3</li>
+                                <li>SVG</li>
+                                <li>HTML Canvas</li>
+                                <li>Animate.css</li>
+                                <li>Particles.js</li>
+                                <li>Anime.js</li>
+                                <li>Slick.js</li>
+                                <li>Ifinvisible.js</li>
+                                <li>Onepagescroll.js</li>
+                                <li>Enquire.js</li>
+                                <li>Vivus.js</li>
+                                <li>Tagcanvas.js</li>
+                                <li>Wordrotator.js</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

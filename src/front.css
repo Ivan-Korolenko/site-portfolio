@@ -617,7 +617,8 @@ li {
     margin-left: -4rem;
     z-index: -1;
     transform: skewX(20deg);
-    background-color: #3B2A66;
+    /* background-color: #3B2A66; */
+    background-color: #3834a2;
 }
 
 .section-3-header {
@@ -786,9 +787,35 @@ li {
 }
 
 .section-3-used-tech-text {
-    margin-top: 8rem;
+    margin-top: 20vh;
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+.section-3-used-tech-list-header {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.section-3-used-tech-list-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-3-used-tech-list {
+    text-align: left;
+    flex-wrap: wrap;
+    line-height: 3rem;
+    max-height: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: -11rem;
+}
+
+.section-3-used-tech-list li {
+    margin-right: 7.5rem;
 }
 
 .section-3-used-tech-exit {

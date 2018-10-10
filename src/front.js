@@ -268,7 +268,7 @@ $(document).ready(function () {
             // TagCanvas failed to load
             $('#myCanvasContainer').hide()
         }
-        
+
         //Отключаем клики по ссылкам в облаке интересов
         $('#section-2-my-interests-cloud a').click(() => {
             return false
@@ -772,8 +772,8 @@ $(document).ready(function () {
                     'transform': 'rotate(0deg) translate(40vw,-86vh)',
                     'cursor': 'auto'
                 })
-                $('.section-3-used-tech-header').css('transform', 'translate(0, 1vw)')
-                $('.section-3-used-tech-text').css('transform', 'translate(0, -5vw)')
+                $('.section-3-used-tech-header').css('transform', 'translate(0, 1rem)')
+                $('.section-3-used-tech-text').css('transform', 'translate(0, -17vh)')
             })
         }
         else {
@@ -782,7 +782,7 @@ $(document).ready(function () {
                     'transform': 'rotate(0deg) translate(40vw,-80vh)',
                     'cursor': 'auto'
                 })
-                $('.section-3-used-tech-header').css('transform', 'translate(-8vw, 1vw)')
+                $('.section-3-used-tech-header').css('transform', 'translate(-8rem, 1rem)')
                 $('.section-3-used-tech-text').css('transform', 'translate(0, 0)')
             })
         }
