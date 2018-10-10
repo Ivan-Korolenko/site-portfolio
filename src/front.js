@@ -58,8 +58,6 @@ $(document).ready(function () {
             section1NavInternal = document.getElementsByClassName('nav-internal'),
             section1MainText = document.getElementsByClassName('section-1-main-text')
 
-        //end
-
         //Вращение слов в первой секции
         function wordRotate() {
             $('.section-1-word-rotate').empty()
@@ -74,7 +72,7 @@ $(document).ready(function () {
             })
         }
 
-        //Анимации прелоадера start
+        // Анимации прелоадера
         const preloaderAnimation = anime.timeline({
             autoplay: false
         })
@@ -104,9 +102,9 @@ $(document).ready(function () {
 
                 }
             })
-        //end
 
-        //Анимации первого экрана start
+
+        // --- Анимации первого экрана ---
 
         const section1StartAnimation = anime.timeline({
             autoplay: false
@@ -234,11 +232,9 @@ $(document).ready(function () {
                 })
         }
 
-            
+        // --- END Анимации первого экрана ---
 
-        //Анимации первого экрана end
-
-        //Объявляем облако интересов и ставим на паузу start
+        // Объявляем облако интересов и ставим на паузу
         if (!$('#section-2-my-interests-cloud-canvas').tagcanvas({
                 textColour: '#ffffff',
                 textFont: "'Raleway-Light', 'Century Gothic', CenturyGothic, AppleGothic, Arial, sans-serif",
@@ -246,14 +242,14 @@ $(document).ready(function () {
                 outlineMethod: "none",
                 lock: 'xy',
                 depth: 1,
-                activeCursor: "auto",
+                activeCursor: "pointer",
                 decel: 0,
                 radiusX: 1.15,
                 radiusY: 1.15,
                 radiusZ: 1.15,
                 fadeIn: 600,
-                freezeActive: false,
-                frontSelect: true,
+                freezeActive: true,
+                frontSelect: false,
                 maxSpeed: 0.05,
                 initial: [0.05, -0.05],
                 minSpeed: 0.05,
@@ -261,7 +257,13 @@ $(document).ready(function () {
                 minBrightness: 0.1,
                 shuffleTags: false,
                 txtOpt: true,
-                wheelZoom: false
+                wheelZoom: true,
+                clickToFront: 300,
+                dragControl: true,
+                dragThreshold: 50,
+                pinchZoom: true,
+                noTagsMessage: false,
+                zoomStep: 0.1,
             })) {
             // TagCanvas failed to load
             $('#myCanvasContainer').hide()
@@ -271,29 +273,28 @@ $(document).ready(function () {
             return false
         })
         $('#section-2-my-interests-cloud-canvas').tagcanvas("pause")
-        //end
 
         //Слайдер
         const factsSlide = $('.section-2-facts-slider').slick({
-            swipe: false,
-            touchMove: false,
-            draggable: false,
+            swipe: true,
+            touchMove: true,
+            draggable: true,
             autoplay: false,
-            autoplaySpeed: 3000,
-            speed: 1000,
+            autoplaySpeed: 5000,
+            speed: 600,
             arrows: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
             adaptiveHeight: true,
             pauseOnFocus: true,
-            pauseOnHover: true,
+            pauseOnHover: false,
             vertical: true,
             verticalSwiping: true,
             cssEase: 'ease-in-out'
         })
 
-        //Анимации второго экрана start
+        // Анимации второго экрана
         const section2StartAnimation = anime.timeline({
             autoplay: false
         })
@@ -333,9 +334,7 @@ $(document).ready(function () {
                 }
             })
 
-        //Анимации второго экрана end
-
-        //Анимации третьего экрана start
+        // Анимации третьего экрана
         const section3StartAnimation = anime.timeline({
             autoplay: false
         })
@@ -416,14 +415,12 @@ $(document).ready(function () {
                 }
             })
 
-        //end
-
+        // --- Анимации четвертого экрана ---
 
         let section4AnimationTargets = deviceVersion === 'desktop' 
             ? document.querySelectorAll('#section-4-back #portfolio-cases a')
             : document.querySelectorAll('#section-4-back-mobile #portfolio-cases a') 
 
-        //Анимации четвертого экрана start
         const section4StartAnimation = anime.timeline({
             autoplay: false
         })
@@ -506,10 +503,10 @@ $(document).ready(function () {
                 easing: "easeInOutQuad"
             })
 
+        // --- END Анимации четвертого экрана ---
 
-        //end
 
-        //Анимации пятого экрана start
+        // Анимации пятого экрана
         const section5StartAnimation = anime.timeline({
             autoplay: false
         })
@@ -549,9 +546,7 @@ $(document).ready(function () {
                 easing: "easeInOutQuad"
             })
 
-        //Анимации пятого экрана end
-
-        //Управление проигрыванием анимаций
+        // Управление проигрыванием анимаций
         function AnimationControlPlay(play, sectionNumber) {
             if (play) {
                 if (sectionNumber.includes(1)) {
@@ -625,7 +620,7 @@ $(document).ready(function () {
             // }
         }
 
-        //Скролл секциями
+        // Скролл секциями
         function onepagescrollEnable() {
             $("#section-scroll").onepage_scroll({
                 sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
@@ -749,7 +744,7 @@ $(document).ready(function () {
                 $("body").removeClass("disabled-onepage-scroll disable-scroll")
             }
         })
-            .parents('body').click(function (event) {
+        .parents('body').click(function (event) {
             if ($('#nav-icon1').hasClass('open')) {
                 $('#nav-icon1').removeClass('open')
                 $('.nav').removeClass('slideInRight')
@@ -762,13 +757,14 @@ $(document).ready(function () {
                 // Включаем скролл
                 $("body").removeClass("disabled-onepage-scroll disable-scroll")
             }
-            })
+        })
+
         $('.nav').click(function (event) {
-                event.stopImmediatePropagation()
-            })
+            event.stopImmediatePropagation()
+        })
         
 
-        //Анимация блока "Использованные технологии"
+        // Анимация блока "Использованные технологии"
         if (deviceVersion === "desktop") {
             $('.section-3-used-tech').click(function (event) {
                 $('.section-3-used-tech').css({
