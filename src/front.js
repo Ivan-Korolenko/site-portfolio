@@ -268,6 +268,7 @@ $(document).ready(function () {
             // TagCanvas failed to load
             $('#myCanvasContainer').hide()
         }
+        
         //Отключаем клики по ссылкам в облаке интересов
         $('#section-2-my-interests-cloud a').click(() => {
             return false
