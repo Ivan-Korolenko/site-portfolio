@@ -958,7 +958,7 @@ li {
 
 .slideOutRight,
 .slideInRight {
-    animation-duration: .4s;
+    animation-duration: .4s !important;
 }
 
 .fadeOutRight {
