@@ -38,20 +38,20 @@
 
     <meta charset="utf-8">
     
-    <meta name="description" content="Сайт-портфолио Ивана Короленко. Веб-разработка, дизайн, иллюстрации." />
-    <meta name="keywords" content="Иван Короленко, портфолио, веб-разработка, дизайн, иллюстрации" />
+    <meta name="description" content="Сайт-портфолио Ивана Короленко. Frontend веб-разработка." />
+    <meta name="keywords" content="Иван Короленко, портфолио, разработка, frontend, фронтэнд" />
     <meta name="author" content="Иван Короленко" />
     <meta name="copyright" content="Иван Короленко" />
 
     <meta property="og:title" content="Иван Короленко" />
-    <meta property="og:description" content="Сайт-портфолио Ивана Короленко. Веб-разработка, дизайн, иллюстрации." />
+    <meta property="og:description" content="Сайт-портфолио Ивана Короленко. Frontend веб-разработка." />
     <meta property="og:image" content="https://ivankorolenko.com/images/big-logo.jpg" />
     <meta property="og:site_name" content="Иван Короленко" />
     <meta property="og:url" content="https://ivankorolenko.com/" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Иван Короленко" />
-    <meta name="twitter:description" content="Сайт-портфолио Ивана Короленко. Веб-разработка, дизайн, иллюстрации." />
+    <meta name="twitter:description" content="Сайт-портфолио Ивана Короленко. Frontend веб-разработка." />
     <meta name="twitter:creator" content="Иван Короленко" />
     <meta name="twitter:image" content="https://ivankorolenko.com/images/big-logo.jpg" />
 
@@ -65,7 +65,7 @@
 
     <title>Иван Короленко</title>
 
-    <link rel="icon" href="images/small-logo.jpg">
+    <link rel="icon" href="images/small-logo-white.png">
 
     <link rel="stylesheet" type="text/css" href="front.css?version=<?php echo filemtime('front.css'); ?>" />
     
