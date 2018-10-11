@@ -1986,45 +1986,45 @@
             </div>
             <div class="section-3-skills white">
                 <div class="section-3-skill skill-1">
-                    <p class="section-3-skill-header header">HTML5</p>
+                    <p class="section-3-skill-header header">HTML 5</p>
                     <div class="section-3-skill-text">
-                        Зачем это нужно: Каркас сайта<br>Уровень знаний: Достаточный для построения верстки любой сложности и необычности.
+                        Зачем это нужно: Каркас и контент сайта<br>Уровень знаний: Достаточный для построения верстки любой сложности и необычности.
                     </div>
                 </div>
                 <div class="section-3-skill skill-2 white">
-                    <p class="section-3-skill-header header">CSS3</p>
+                    <p class="section-3-skill-header header">CSS 3</p>
                     <div class="section-3-skill-text">
                         Зачем это нужно: Внешний вид сайта<br>Уровень знаний: Достаточный для воплощения в жизнь любой безумной дизайнерской фантазии.
                     </div>
                 </div>
                 <div class="section-3-skill skill-3 white">
-                    <p class="section-3-skill-header header">JavaScript (+/- jQuery)</p>
+                    <p class="section-3-skill-header header">JS (+ React, Redux, jQuery, и т.д.)</p>
                     <div class="section-3-skill-text">
-                        Зачем это нужно: Анимации, оперативная загрузка и отправка данных на сайте<br>Уровень знаний: Достаточный для создания frontend-части любого веб-приложения
+                        Зачем это нужно: Построение клиентской (с которой взаимодействует пользователь) части веб-приложения<br>Уровень знаний: Достаточный для создания frontend части приложения уровня Telegram Web
                     </div>
                 </div>
                 <div class="section-3-skill skill-4 white">
                     <p class="section-3-skill-header header">PHP</p>
                     <div class="section-3-skill-text">
-                        Зачем это нужно: Подключение к базам данных, авторизация, серверная логика<br>Уровень знаний: Достаточный для создания backend-части большинства веб-приложений
+                        Зачем это нужно: Серверная логика, интенсивные вычисления, связь пользователей, обмен информацией с БД<br>Уровень знаний: Достаточный для создания backend части веб-приложений средней сложности
                     </div>
                 </div>
                 <div class="section-3-skill skill-5 white">
                     <p class="section-3-skill-header header">SQL</p>
                     <div class="section-3-skill-text">
-                        Зачем это нужно: Работа с информацией в базах данных<br>Уровень знаний: Достаточный для создания и поддержки БД большинства веб-приложений
+                        Зачем это нужно: Работа с информацией в базе данных<br>Уровень знаний: Достаточный для создания и поддержки БД веб-приложения средней сложности
                     </div>
                 </div>
                 <div class="section-3-skill skill-6 white">
                     <p class="section-3-skill-header header">Illustrator + Photoshop</p>
                     <div class="section-3-skill-text">
-                        Зачем это нужно: Создание/редактирование изображений, иллюстраций<br>Уровень знаний: Достаточный для создания иллюстрации в первой секции этого сайта и любых манипуляций с изображениями
+                        Зачем это нужно: Создание/редактирование растровых и векторных изображений<br>Уровень знаний: Достаточный для создания иллюстрации в первой секции этого сайта и любых манипуляций с изображениями
                     </div>
                 </div>
                 <div class="section-3-skill skill-7 white">
                     <p class="section-3-skill-header header">Дизайн</p>
                     <div class="section-3-skill-text">
-                        Зачем это нужно: Создание проектов, на которые будет приятно смотреть<br> Уровень знаний: Достаточный, чтобы у пользователей не возникало желания вырвать себе глаза при взгляде на сайт
+                        Зачем это нужно: Создание проектов, на которые будет приятно смотреть<br> Уровень знаний: Достаточный для того чтобы у пользователей не возникало желания вырвать себе глаза при взгляде на сайт
                     </div>
                 </div>
             </div>
@@ -2042,7 +2042,7 @@
                 </div>
                 <div class="section-3-used-tech-content">
                     <div class="section-3-used-tech-text">
-                        <div class="section-3-used-tech-list-header">Список технологий, использованных мной для создания этого сайта:</div>
+                        <div class="section-3-used-tech-list-header">Технологии, на которых работает этот сайт:</div>
                         <div class="section-3-used-tech-list-wrap">
                             <ul class="section-3-used-tech-list">
                                 <li>HTML5</li>
