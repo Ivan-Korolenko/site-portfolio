@@ -2073,541 +2073,541 @@
             <div class="section-4-back-container" id="section-4-back-container">
 
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" class="section-4-back" id="section-4-back">
-  <defs>
-    <style>
-      .section-4-back-cls-1,.section-4-back-cls-24,.section-4-back-cls-25{fill:none;}.section-4-back-cls-1,.section-4-back-cls-24,.section-4-back-cls-4{stroke:#3b2a66;stroke-miterlimit:10;}.section-4-back-cls-1{stroke-width:2px;}.section-4-back-cls-2{fill:#171717;}.section-4-back-cls-3{clip-path:url(#section-4-back-clip-path);}.section-4-back-cls-4{fill:#3b2a66;}.section-4-back-cls-5{font-size:36px;}.section-4-back-cls-12,.section-4-back-cls-14,.section-4-back-cls-26,.section-4-back-cls-5,.section-4-back-cls-7{fill:#fff;}.section-4-back-cls-12,.section-4-back-cls-26,.section-4-back-cls-5{font-family:PoiretOne-Regular, Poiret One;}.section-4-back-cls-6{letter-spacing:-0.11em;}.section-4-back-cls-12,.section-4-back-cls-7{font-size:28px;}.section-4-back-cls-14,.section-4-back-cls-7{font-family:Raleway-Light, Raleway;}.section-4-back-cls-8{clip-path:url(#section-4-back-clip-path-2);}.section-4-back-cls-9{letter-spacing:-0.07em;}.section-4-back-cls-10{clip-path:url(#section-4-back-clip-path-3);}.section-4-back-cls-11{clip-path:url(#section-4-back-clip-path-4);}.section-4-back-cls-13{letter-spacing:-0.04em;}.section-4-back-cls-14{font-size:20px;}.section-4-back-cls-15{clip-path:url(#section-4-back-clip-path-5);}.section-4-back-cls-16{letter-spacing:-0.07em;}.section-4-back-cls-17{clip-path:url(#section-4-back-clip-path-6);}.section-4-back-cls-18{clip-path:url(#section-4-back-clip-path-7);}.section-4-back-cls-19{clip-path:url(#section-4-back-clip-path-8);}.section-4-back-cls-20{clip-path:url(#section-4-back-clip-path-9);}.section-4-back-cls-21{clip-path:url(#section-4-back-clip-path-10);}.section-4-back-cls-22{letter-spacing:-0.05em;}.section-4-back-cls-23{clip-path:url(#section-4-back-clip-path-11);}.section-4-back-cls-26{font-size:58px;}.section-4-back-cls-27{letter-spacing:-0.06em;}
-    </style>
-    <clipPath id="section-4-back-clip-path">
-      <path id="Ромб" class="section-4-back-cls-1" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-2">
-      <path id="Ромб-2" data-name="Ромб" class="section-4-back-cls-1" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-3">
-      <path id="Ромб-3" data-name="Ромб" class="section-4-back-cls-1" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-4">
-      <path id="Треугольник" class="section-4-back-cls-1" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-5">
-      <path id="Треугольник-2" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-6">
-      <path id="Треугольник-3" data-name="Треугольник" class="section-4-back-cls-1" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-7">
-      <path id="Треугольник-4" data-name="Треугольник" class="section-4-back-cls-1" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-8">
-      <path id="Треугольник-5" data-name="Треугольник" class="section-4-back-cls-1" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-9">
-      <path id="Треугольник-6" data-name="Треугольник" class="section-4-back-cls-1" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-10">
-      <path id="Треугольник-7" data-name="Треугольник" class="section-4-back-cls-1" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-11">
-      <path id="Треугольник-8" data-name="Треугольник" class="section-4-back-cls-1" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
-    </clipPath>
-  </defs>
-  <path id="Фон" class="section-4-back-cls-2" d="M0 0h1920v1080H0z"/>
-  <g id="portfolio-cases">
-    <g id="mksoloview">
-      <g class="section-4-back-cls-3">
-          <a href="projects/mksoloviev/" target="_blank">
-        <image width="772" height="273" transform="translate(382 132.4)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
-        <g id="overlay" class="overlay">
-          <path id="overlay-back" class="section-4-back-cls-4" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
-          <text class="section-4-back-cls-5" transform="translate(715.23 207)">
-            <tspan class="section-4-back-cls-6">Т</tspan><tspan x="11.38" y="0">ренинг</tspan><tspan x="-114.3" y="43.2">Владимира Соловьева</tspan>
-          </text>
-          <text class="section-4-back-cls-7" transform="translate(639.45 310.44)">
-            Frontend, backend
-          </text>
-        </g>
-              </a>
-      </g>
-      <path id="Ромб-4" data-name="Ромб" class="section-4-back-cls-1" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
-    </g>
-    <g id="solverytics">
-      <g class="section-4-back-cls-8">
-          <a href="projects/solverytics/" target="_blank">
-        <image width="780" height="320" transform="translate(1152 355.13)" xlink:href="images/section-4-back-pics/solverytics.jpg"/>
-        <g id="overlay-2" data-name="overlay" class="overlay">
-          <path id="overlay-back-2" data-name="overlay-back" class="section-4-back-cls-4" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
-          <text class="section-4-back-cls-5" transform="translate(1464.53 491.73)">
-            So<tspan class="section-4-back-cls-9" x="37.58" y="0">l</tspan><tspan x="44.1" y="0">verytics</tspan>
-          </text>
-          <text class="section-4-back-cls-7" transform="translate(1354.98 560.17)">
-            Frontend, backend, дизайн
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Ромб-5" data-name="Ромб" class="section-4-back-cls-1" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
-    </g>
-    <g id="logo-centr">
-      <g class="section-4-back-cls-10">
-          <a href="http://logo-centr.ru/" target="_blank">
-        <image width="830" height="300" transform="translate(0 539)" xlink:href="images/section-4-back-pics/logo-centr.jpg"/>
-        <g id="overlay-3" data-name="overlay" class="overlay">
-          <path id="overlay-back-3" data-name="overlay-back" class="section-4-back-cls-4" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
-          <text class="section-4-back-cls-5" transform="translate(268.95 627.4)">
-            Центр развития<tspan x="-35.1" y="43.2">детей и подростков</tspan>
-          </text>
-          <text class="section-4-back-cls-7" transform="translate(255.45 730.85)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Ромб-6" data-name="Ромб" class="section-4-back-cls-1" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
-    </g>
-    <g id="atlant">
-      <g class="section-4-back-cls-11">
-          <a href="http://stroim-kottedzh.ru/" target="_blank">
-        <image width="390" height="280" transform="translate(1530 264.86)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
-        <g id="overlay-4" data-name="overlay" class="overlay">
-          <path id="overlay-back-4" data-name="overlay-back" class="section-4-back-cls-4" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
-          <text class="section-4-back-cls-12" transform="translate(1712.53 378.5)">
-            At<tspan class="section-4-back-cls-13" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan>
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(1674.94 422.1)">
-            Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-9" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
-    </g>
-    <g id="mbuz-dsu-2">
-      <g class="section-4-back-cls-15">
-          <a href="projects/mbuz-dsu-2/" target="_blank">
-        <image width="390" height="280" transform="translate(1533 530.27)" xlink:href="images/section-4-back-pics/mbuz-dsu-2.jpg"/>
-        <g id="overlay-5" data-name="overlay" class="overlay">
-          <path id="overlay-back-5" data-name="overlay-back" class="section-4-back-cls-4" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
-          <text class="section-4-back-cls-12" transform="translate(1707.71 658.23)">
-            МБУЗ <tspan class="section-4-back-cls-16" x="79.18" y="0">Д</tspan><tspan x="102.28" y="0">СУ 2</tspan>
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(1701.18 701.83)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-10" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
-    </g>
-    <g id="dobra">
-      <g class="section-4-back-cls-17">
-          <a href="projects/me_v2.0/dobra/" target="_blank">
-        <image width="391" height="280" transform="translate(380.5 670.27)" xlink:href="images/section-4-back-pics/dobra.JPG"/>
-        <g id="overlay-6" data-name="overlay" class="overlay">
-          <path id="overlay-back-6" data-name="overlay-back" class="section-4-back-cls-4" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
-          <text class="section-4-back-cls-12" transform="translate(534.25 783.91)">
-            Добра доставка
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(522.94 827.5)">
-            Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-11" data-name="Треугольник" class="section-4-back-cls-1" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
-    </g>
-    <g id="yashmebel">
-      <g class="section-4-back-cls-18">
-          <a href="http://yashmebel.ru/" target="_blank">
-        <image width="390" height="280" transform="translate(768 675.67)" xlink:href="images/section-4-back-pics/yashmebel.JPG"/>
-        <g id="overlay-7" data-name="overlay" class="overlay">
-          <path id="overlay-back-7" data-name="overlay-back" class="section-4-back-cls-4" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
-          <text class="section-4-back-cls-12" transform="translate(844.72 794.81)">
-            ЯшМебель
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(815.45 838.41)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-12" data-name="Треугольник" class="section-4-back-cls-1" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
-    </g>
-    <g id="vektor">
-      <g class="section-4-back-cls-19">
-          <a href="projects/vektor/" target="_blank">
-        <image width="390" height="280" transform="translate(0 405.4)" xlink:href="images/section-4-back-pics/vektor.jpg"/>
-        <g id="overlay-8" data-name="overlay" class="overlay">
-          <path id="overlay-back-8" data-name="overlay-back" class="section-4-back-cls-4" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
-          <text class="section-4-back-cls-12" transform="translate(97.29 514.54)">
-            Вектор
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(45.07 558.14)">
-            Frontend, backend, <tspan x="51.91" y="24">логотип</tspan>
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-13" data-name="Треугольник" class="section-4-back-cls-1" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
-    </g>
-    <g id="hermes-news">
-      <g class="section-4-back-cls-20">
-          <a href="projects/hermes-news/" target="_blank">
-        <image width="390" height="280" transform="translate(381 270.27)" xlink:href="images/section-4-back-pics/hermes-news.jpg"/>
-        <g id="overlay-9" data-name="overlay" class="overlay">
-          <path id="overlay-back-9" data-name="overlay-back" class="section-4-back-cls-4" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
-          <text class="section-4-back-cls-12" transform="translate(440.6 389.41)">
-            Hermes News
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(393.97 433.01)">
-            Frontend, backend, дизайн
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-14" data-name="Треугольник" class="section-4-back-cls-1" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
-    </g>
-    <g id="me">
-      <g class="section-4-back-cls-21">
-          <a href="projects/me_v2.0/" target="_blank">
-        <image width="390" height="280" transform="translate(-6 265.27)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
-        <g id="overlay-10" data-name="overlay" class="overlay">
-          <path id="overlay-back-10" data-name="overlay-back" class="section-4-back-cls-4" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
-          <text class="section-4-back-cls-12" transform="translate(137.75 388.5)">
-            Mar<tspan class="section-4-back-cls-22" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan>
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(165.18 432.1)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-15" data-name="Треугольник" class="section-4-back-cls-1" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
-    </g>
-    <g id="broasty">
-      <g class="section-4-back-cls-23">
-          <a href="http://broastyfoodtruck.com/" target="_blank">
-        <image width="390" height="280" transform="translate(762 805.27)" xlink:href="images/section-4-back-pics/broasty.jpg"/>
-        <g id="overlay-11" data-name="overlay" class="overlay">
-          <path id="overlay-back-11" data-name="overlay-back" class="section-4-back-cls-4" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
-          <text class="section-4-back-cls-12" transform="translate(976.85 919.04)">
-            Broasty
-          </text>
-          <text class="section-4-back-cls-14" transform="translate(897.06 962.64)">
-            Дополнение функционала
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-16" data-name="Треугольник" class="section-4-back-cls-1" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
-    </g>
-  </g>
-  <path id="Треугольник-17" data-name="Треугольник" class="section-4-back-cls-24" d="M384 270.27V0L0 135.13l384 135.14z"/>
-  <path id="Треугольник-18" data-name="Треугольник" class="section-4-back-cls-24" d="M384 0v270.27l384-135.14L384 0z"/>
-  <path id="Треугольник-19" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 270.27V0L768 135.13l384 135.14z"/>
-  <path id="Треугольник-20" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 0v270.27l384-135.14L1152 0z"/>
-  <path id="Треугольник-21" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 270.27V0l-384 135.13 384 135.14z"/>
-  <path id="Треугольник-22" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 540.54V270.27L768 405.4l384 135.14z"/>
-  <path id="Треугольник-23" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 270.27v270.27l384-135.14-384-135.13z"/>
-  <path id="Треугольник-24" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
-  <path id="Треугольник-25" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 810.8V540.55L768 675.67l384 135.14z"/>
-  <path id="Треугольник-26" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 540.54V810.8l384-135.13-384-135.13z"/>
-  <path id="Треугольник-27" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 810.8V540.55l-384 135.13 384 135.14z"/>
-  <path id="Треугольник-28" data-name="Треугольник" class="section-4-back-cls-24" d="M384 1081.08V810.8L0 945.96l384 135.13z"/>
-  <path id="Треугольник-29" data-name="Треугольник" class="section-4-back-cls-24" d="M384 810.8v270.28l384-135.13L384 810.8z"/>
-  <path id="Треугольник-30" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 1081.08V810.8l-384 135.15 384 135.13z"/>
-  <path id="Треугольник-31" data-name="Треугольник" class="section-4-back-cls-24" d="M768 675.67V405.4L384 540.54l384 135.13z"/>
-  <path id="Треугольник-32" data-name="Треугольник" class="section-4-back-cls-24" d="M768 405.4v270.27l384-135.13L768 405.4z"/>
-  <path id="Треугольник-33" data-name="Треугольник" class="section-4-back-cls-24" d="M1536 405.4V135.13l-384 135.14 384 135.13z"/>
-  <path id="Треугольник-34" data-name="Треугольник" class="section-4-back-cls-24" d="M1536 135.13V405.4l384-135.13-384-135.14z"/>
-  <path id="Треугольник-35" data-name="Треугольник" class="section-4-back-cls-24" d="M1536 675.67v270.28l384-135.14-384-135.13z"/>
-  <path id="Треугольник-36" data-name="Треугольник" class="section-4-back-cls-24" d="M0 135.13V405.4l384-135.13L0 135.13z"/>
-  <path id="Треугольник-37" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 810.8v270.28l384-135.13-384-135.14z"/>
-  <path id="Треугольник-38" data-name="Треугольник" class="section-4-back-cls-25" d="M1536 945.95V675.67L1152 810.8l384 135.15z"/>
-  <path id="Треугольник-39" data-name="Треугольник" class="section-4-back-cls-24" d="M0 675.67v270.28L384 810.8 0 675.68z"/>
-  <path id="Треугольник-40" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 270.27V0l-384 135.13 384 135.14z"/>
-  <path id="Треугольник-41" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 1081.08V810.8l-384 135.15 384 135.13z"/>
-  <path id="Часть_треугольника" data-name="Часть треугольника" class="section-4-back-cls-24" d="M384 0l384 135.13V0H384z"/>
-  <path id="Часть_треугольника-2" data-name="Часть треугольника" class="section-4-back-cls-24" d="M768 0v135.13L1152 0H768z"/>
-  <path id="Часть_треугольника-3" data-name="Часть треугольника" class="section-4-back-cls-24" d="M768 945.95l-384 135.13h384V945.95z"/>
-  <path id="Часть_треугольника-4" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1152 1081.08L768 945.95v135.13h384z"/>
-  <path id="Часть_треугольника-5" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1152 0l384 135.13V0h-384z"/>
-  <path id="Часть_треугольника-6" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1536 0v135.13L1920 0h-384z"/>
-  <path id="Часть_треугольника-7" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1536 945.95l-384 135.13h384V945.95z"/>
-  <path id="Часть_треугольника-8" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1920 1081.08l-384-135.13v135.13h384z"/>
-  <path id="Часть_треугольника-9" data-name="Часть треугольника" class="section-4-back-cls-24" d="M0 0v135.13L384 0H0z"/>
-  <path id="Часть_треугольника-10" data-name="Часть треугольника" class="section-4-back-cls-24" d="M0 1081.08V945.95l384 135.13H0z"/>
-  <g id="header">
-    <path id="Треугольник_заголовка" data-name="Треугольник заголовка" class="section-4-back-cls-4" d="M768 0H384l384 135.13L1152 0H768z"/>
-    <text class="section-4-back-cls-26" transform="translate(584.58 52.62)">
-      Что я сделал?
-    </text>
-  </g>
-</svg>
+                    <defs>
+                        <style>
+                        .section-4-back-cls-1,.section-4-back-cls-24,.section-4-back-cls-25{fill:none;}.section-4-back-cls-1,.section-4-back-cls-24,.section-4-back-cls-4{stroke:#3b2a66;stroke-miterlimit:10;}.section-4-back-cls-1{stroke-width:2px;}.section-4-back-cls-2{fill:#171717;}.section-4-back-cls-3{clip-path:url(#section-4-back-clip-path);}.section-4-back-cls-4{fill:#3b2a66;}.section-4-back-cls-5{font-size:36px;}.section-4-back-cls-12,.section-4-back-cls-14,.section-4-back-cls-26,.section-4-back-cls-5,.section-4-back-cls-7{fill:#fff;}.section-4-back-cls-12,.section-4-back-cls-26,.section-4-back-cls-5{font-family:PoiretOne-Regular, Poiret One;}.section-4-back-cls-6{letter-spacing:-0.11em;}.section-4-back-cls-12,.section-4-back-cls-7{font-size:28px;}.section-4-back-cls-14,.section-4-back-cls-7{font-family:Raleway-Light, Raleway;}.section-4-back-cls-8{clip-path:url(#section-4-back-clip-path-2);}.section-4-back-cls-9{letter-spacing:-0.07em;}.section-4-back-cls-10{clip-path:url(#section-4-back-clip-path-3);}.section-4-back-cls-11{clip-path:url(#section-4-back-clip-path-4);}.section-4-back-cls-13{letter-spacing:-0.04em;}.section-4-back-cls-14{font-size:20px;}.section-4-back-cls-15{clip-path:url(#section-4-back-clip-path-5);}.section-4-back-cls-16{letter-spacing:-0.07em;}.section-4-back-cls-17{clip-path:url(#section-4-back-clip-path-6);}.section-4-back-cls-18{clip-path:url(#section-4-back-clip-path-7);}.section-4-back-cls-19{clip-path:url(#section-4-back-clip-path-8);}.section-4-back-cls-20{clip-path:url(#section-4-back-clip-path-9);}.section-4-back-cls-21{clip-path:url(#section-4-back-clip-path-10);}.section-4-back-cls-22{letter-spacing:-0.05em;}.section-4-back-cls-23{clip-path:url(#section-4-back-clip-path-11);}.section-4-back-cls-26{font-size:58px;}.section-4-back-cls-27{letter-spacing:-0.06em;}
+                        </style>
+                        <clipPath id="section-4-back-clip-path">
+                        <path id="Ромб" class="section-4-back-cls-1" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-2">
+                        <path id="Ромб-2" data-name="Ромб" class="section-4-back-cls-1" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-3">
+                        <path id="Ромб-3" data-name="Ромб" class="section-4-back-cls-1" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-4">
+                        <path id="Треугольник" class="section-4-back-cls-1" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-5">
+                        <path id="Треугольник-2" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-6">
+                        <path id="Треугольник-3" data-name="Треугольник" class="section-4-back-cls-1" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-7">
+                        <path id="Треугольник-4" data-name="Треугольник" class="section-4-back-cls-1" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-8">
+                        <path id="Треугольник-5" data-name="Треугольник" class="section-4-back-cls-1" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-9">
+                        <path id="Треугольник-6" data-name="Треугольник" class="section-4-back-cls-1" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-10">
+                        <path id="Треугольник-7" data-name="Треугольник" class="section-4-back-cls-1" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
+                        </clipPath>
+                        <clipPath id="section-4-back-clip-path-11">
+                        <path id="Треугольник-8" data-name="Треугольник" class="section-4-back-cls-1" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
+                        </clipPath>
+                    </defs>
+                    <path id="Фон" class="section-4-back-cls-2" d="M0 0h1920v1080H0z"/>
+                    <g id="portfolio-cases">
+                        <g id="mksoloview">
+                        <g class="section-4-back-cls-3">
+                            <a href="projects/mksoloviev/" target="_blank">
+                            <image width="772" height="273" transform="translate(382 132.4)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
+                            <g id="overlay" class="overlay">
+                            <path id="overlay-back" class="section-4-back-cls-4" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
+                            <text class="section-4-back-cls-5" transform="translate(715.23 207)">
+                                <tspan class="section-4-back-cls-6">Т</tspan><tspan x="11.38" y="0">ренинг</tspan><tspan x="-114.3" y="43.2">Владимира Соловьева</tspan>
+                            </text>
+                            <text class="section-4-back-cls-7" transform="translate(639.45 310.44)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                                </a>
+                        </g>
+                        <path id="Ромб-4" data-name="Ромб" class="section-4-back-cls-1" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
+                        </g>
+                        <g id="solverytics">
+                        <g class="section-4-back-cls-8">
+                            <a href="projects/solverytics/" target="_blank">
+                            <image width="780" height="320" transform="translate(1152 355.13)" xlink:href="images/section-4-back-pics/solverytics.jpg"/>
+                            <g id="overlay-2" data-name="overlay" class="overlay">
+                            <path id="overlay-back-2" data-name="overlay-back" class="section-4-back-cls-4" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
+                            <text class="section-4-back-cls-5" transform="translate(1464.53 491.73)">
+                                So<tspan class="section-4-back-cls-9" x="37.58" y="0">l</tspan><tspan x="44.1" y="0">verytics</tspan>
+                            </text>
+                            <text class="section-4-back-cls-7" transform="translate(1354.98 560.17)">
+                                Frontend, backend, дизайн
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Ромб-5" data-name="Ромб" class="section-4-back-cls-1" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
+                        </g>
+                        <g id="logo-centr">
+                        <g class="section-4-back-cls-10">
+                            <a href="http://logo-centr.ru/" target="_blank">
+                            <image width="830" height="300" transform="translate(0 539)" xlink:href="images/section-4-back-pics/logo-centr.jpg"/>
+                            <g id="overlay-3" data-name="overlay" class="overlay">
+                            <path id="overlay-back-3" data-name="overlay-back" class="section-4-back-cls-4" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
+                            <text class="section-4-back-cls-5" transform="translate(268.95 627.4)">
+                                Центр развития<tspan x="-35.1" y="43.2">детей и подростков</tspan>
+                            </text>
+                            <text class="section-4-back-cls-7" transform="translate(255.45 730.85)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Ромб-6" data-name="Ромб" class="section-4-back-cls-1" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
+                        </g>
+                        <g id="atlant">
+                        <g class="section-4-back-cls-11">
+                            <a href="http://stroim-kottedzh.ru/" target="_blank">
+                            <image width="390" height="280" transform="translate(1530 264.86)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
+                            <g id="overlay-4" data-name="overlay" class="overlay">
+                            <path id="overlay-back-4" data-name="overlay-back" class="section-4-back-cls-4" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
+                            <text class="section-4-back-cls-12" transform="translate(1712.53 378.5)">
+                                At<tspan class="section-4-back-cls-13" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan>
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(1674.94 422.1)">
+                                Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-9" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
+                        </g>
+                        <g id="mbuz-dsu-2">
+                        <g class="section-4-back-cls-15">
+                            <a href="projects/mbuz-dsu-2/" target="_blank">
+                            <image width="390" height="280" transform="translate(1533 530.27)" xlink:href="images/section-4-back-pics/mbuz-dsu-2.jpg"/>
+                            <g id="overlay-5" data-name="overlay" class="overlay">
+                            <path id="overlay-back-5" data-name="overlay-back" class="section-4-back-cls-4" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
+                            <text class="section-4-back-cls-12" transform="translate(1707.71 658.23)">
+                                МБУЗ <tspan class="section-4-back-cls-16" x="79.18" y="0">Д</tspan><tspan x="102.28" y="0">СУ 2</tspan>
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(1701.18 701.83)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-10" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
+                        </g>
+                        <g id="dobra">
+                        <g class="section-4-back-cls-17">
+                            <a href="projects/me_v2.0/dobra/" target="_blank">
+                            <image width="391" height="280" transform="translate(380.5 670.27)" xlink:href="images/section-4-back-pics/dobra.JPG"/>
+                            <g id="overlay-6" data-name="overlay" class="overlay">
+                            <path id="overlay-back-6" data-name="overlay-back" class="section-4-back-cls-4" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
+                            <text class="section-4-back-cls-12" transform="translate(534.25 783.91)">
+                                Добра доставка
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(522.94 827.5)">
+                                Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-11" data-name="Треугольник" class="section-4-back-cls-1" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
+                        </g>
+                        <g id="yashmebel">
+                        <g class="section-4-back-cls-18">
+                            <a href="http://yashmebel.ru/" target="_blank">
+                            <image width="390" height="280" transform="translate(768 675.67)" xlink:href="images/section-4-back-pics/yashmebel.JPG"/>
+                            <g id="overlay-7" data-name="overlay" class="overlay">
+                            <path id="overlay-back-7" data-name="overlay-back" class="section-4-back-cls-4" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
+                            <text class="section-4-back-cls-12" transform="translate(844.72 794.81)">
+                                ЯшМебель
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(815.45 838.41)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-12" data-name="Треугольник" class="section-4-back-cls-1" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
+                        </g>
+                        <g id="vektor">
+                        <g class="section-4-back-cls-19">
+                            <a href="projects/vektor/" target="_blank">
+                            <image width="390" height="280" transform="translate(0 405.4)" xlink:href="images/section-4-back-pics/vektor.jpg"/>
+                            <g id="overlay-8" data-name="overlay" class="overlay">
+                            <path id="overlay-back-8" data-name="overlay-back" class="section-4-back-cls-4" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
+                            <text class="section-4-back-cls-12" transform="translate(97.29 514.54)">
+                                Вектор
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(45.07 558.14)">
+                                Frontend, backend, <tspan x="51.91" y="24">логотип</tspan>
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-13" data-name="Треугольник" class="section-4-back-cls-1" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
+                        </g>
+                        <g id="hermes-news">
+                        <g class="section-4-back-cls-20">
+                            <a href="projects/hermes-news/" target="_blank">
+                            <image width="390" height="280" transform="translate(381 270.27)" xlink:href="images/section-4-back-pics/hermes-news.jpg"/>
+                            <g id="overlay-9" data-name="overlay" class="overlay">
+                            <path id="overlay-back-9" data-name="overlay-back" class="section-4-back-cls-4" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
+                            <text class="section-4-back-cls-12" transform="translate(440.6 389.41)">
+                                Hermes News
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(393.97 433.01)">
+                                Frontend, backend, дизайн
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-14" data-name="Треугольник" class="section-4-back-cls-1" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
+                        </g>
+                        <g id="me">
+                        <g class="section-4-back-cls-21">
+                            <a href="projects/me_v2.0/" target="_blank">
+                            <image width="390" height="280" transform="translate(-6 265.27)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
+                            <g id="overlay-10" data-name="overlay" class="overlay">
+                            <path id="overlay-back-10" data-name="overlay-back" class="section-4-back-cls-4" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
+                            <text class="section-4-back-cls-12" transform="translate(137.75 388.5)">
+                                Mar<tspan class="section-4-back-cls-22" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan>
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(165.18 432.1)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-15" data-name="Треугольник" class="section-4-back-cls-1" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
+                        </g>
+                        <g id="broasty">
+                        <g class="section-4-back-cls-23">
+                            <a href="http://broastyfoodtruck.com/" target="_blank">
+                            <image width="390" height="280" transform="translate(762 805.27)" xlink:href="images/section-4-back-pics/broasty.jpg"/>
+                            <g id="overlay-11" data-name="overlay" class="overlay">
+                            <path id="overlay-back-11" data-name="overlay-back" class="section-4-back-cls-4" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
+                            <text class="section-4-back-cls-12" transform="translate(976.85 919.04)">
+                                Broasty
+                            </text>
+                            <text class="section-4-back-cls-14" transform="translate(897.06 962.64)">
+                                Дополнение функционала
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-16" data-name="Треугольник" class="section-4-back-cls-1" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
+                        </g>
+                    </g>
+                    <path id="Треугольник-17" data-name="Треугольник" class="section-4-back-cls-24" d="M384 270.27V0L0 135.13l384 135.14z"/>
+                    <path id="Треугольник-18" data-name="Треугольник" class="section-4-back-cls-24" d="M384 0v270.27l384-135.14L384 0z"/>
+                    <path id="Треугольник-19" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 270.27V0L768 135.13l384 135.14z"/>
+                    <path id="Треугольник-20" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 0v270.27l384-135.14L1152 0z"/>
+                    <path id="Треугольник-21" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 270.27V0l-384 135.13 384 135.14z"/>
+                    <path id="Треугольник-22" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 540.54V270.27L768 405.4l384 135.14z"/>
+                    <path id="Треугольник-23" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 270.27v270.27l384-135.14-384-135.13z"/>
+                    <path id="Треугольник-24" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
+                    <path id="Треугольник-25" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 810.8V540.55L768 675.67l384 135.14z"/>
+                    <path id="Треугольник-26" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 540.54V810.8l384-135.13-384-135.13z"/>
+                    <path id="Треугольник-27" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 810.8V540.55l-384 135.13 384 135.14z"/>
+                    <path id="Треугольник-28" data-name="Треугольник" class="section-4-back-cls-24" d="M384 1081.08V810.8L0 945.96l384 135.13z"/>
+                    <path id="Треугольник-29" data-name="Треугольник" class="section-4-back-cls-24" d="M384 810.8v270.28l384-135.13L384 810.8z"/>
+                    <path id="Треугольник-30" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 1081.08V810.8l-384 135.15 384 135.13z"/>
+                    <path id="Треугольник-31" data-name="Треугольник" class="section-4-back-cls-24" d="M768 675.67V405.4L384 540.54l384 135.13z"/>
+                    <path id="Треугольник-32" data-name="Треугольник" class="section-4-back-cls-24" d="M768 405.4v270.27l384-135.13L768 405.4z"/>
+                    <path id="Треугольник-33" data-name="Треугольник" class="section-4-back-cls-24" d="M1536 405.4V135.13l-384 135.14 384 135.13z"/>
+                    <path id="Треугольник-34" data-name="Треугольник" class="section-4-back-cls-24" d="M1536 135.13V405.4l384-135.13-384-135.14z"/>
+                    <path id="Треугольник-35" data-name="Треугольник" class="section-4-back-cls-24" d="M1536 675.67v270.28l384-135.14-384-135.13z"/>
+                    <path id="Треугольник-36" data-name="Треугольник" class="section-4-back-cls-24" d="M0 135.13V405.4l384-135.13L0 135.13z"/>
+                    <path id="Треугольник-37" data-name="Треугольник" class="section-4-back-cls-24" d="M1152 810.8v270.28l384-135.13-384-135.14z"/>
+                    <path id="Треугольник-38" data-name="Треугольник" class="section-4-back-cls-25" d="M1536 945.95V675.67L1152 810.8l384 135.15z"/>
+                    <path id="Треугольник-39" data-name="Треугольник" class="section-4-back-cls-24" d="M0 675.67v270.28L384 810.8 0 675.68z"/>
+                    <path id="Треугольник-40" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 270.27V0l-384 135.13 384 135.14z"/>
+                    <path id="Треугольник-41" data-name="Треугольник" class="section-4-back-cls-24" d="M1920 1081.08V810.8l-384 135.15 384 135.13z"/>
+                    <path id="Часть_треугольника" data-name="Часть треугольника" class="section-4-back-cls-24" d="M384 0l384 135.13V0H384z"/>
+                    <path id="Часть_треугольника-2" data-name="Часть треугольника" class="section-4-back-cls-24" d="M768 0v135.13L1152 0H768z"/>
+                    <path id="Часть_треугольника-3" data-name="Часть треугольника" class="section-4-back-cls-24" d="M768 945.95l-384 135.13h384V945.95z"/>
+                    <path id="Часть_треугольника-4" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1152 1081.08L768 945.95v135.13h384z"/>
+                    <path id="Часть_треугольника-5" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1152 0l384 135.13V0h-384z"/>
+                    <path id="Часть_треугольника-6" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1536 0v135.13L1920 0h-384z"/>
+                    <path id="Часть_треугольника-7" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1536 945.95l-384 135.13h384V945.95z"/>
+                    <path id="Часть_треугольника-8" data-name="Часть треугольника" class="section-4-back-cls-24" d="M1920 1081.08l-384-135.13v135.13h384z"/>
+                    <path id="Часть_треугольника-9" data-name="Часть треугольника" class="section-4-back-cls-24" d="M0 0v135.13L384 0H0z"/>
+                    <path id="Часть_треугольника-10" data-name="Часть треугольника" class="section-4-back-cls-24" d="M0 1081.08V945.95l384 135.13H0z"/>
+                    <g id="header">
+                        <path id="Треугольник_заголовка" data-name="Треугольник заголовка" class="section-4-back-cls-4" d="M768 0H384l384 135.13L1152 0H768z"/>
+                        <text class="section-4-back-cls-26" transform="translate(584.58 52.62)">
+                        Что я сделал?
+                        </text>
+                    </g>
+                </svg>
 
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920" class="section-4-back-mobile" id="section-4-back-mobile">
-  <defs>
-    <style>
-      .section-4-mobile-cls-1,.section-4-mobile-cls-24,.section-4-mobile-cls-25{fill:none;}.section-4-mobile-cls-1,.section-4-mobile-cls-24,.section-4-mobile-cls-26,.section-4-mobile-cls-4{stroke:#3b2a66;stroke-miterlimit:10;}.section-4-mobile-cls-1{stroke-width:2px;}.section-4-mobile-cls-2{fill:#171717;}.section-4-mobile-cls-3{clip-path:url(#section-4-mobile-clip-path);}.section-4-mobile-cls-26,.section-4-mobile-cls-4{fill:#3b2a66;}.section-4-mobile-cls-4{opacity:0.75;}.section-4-mobile-cls-5{font-size:36px;}.section-4-mobile-cls-12,.section-4-mobile-cls-14,.section-4-mobile-cls-27,.section-4-mobile-cls-5,.section-4-mobile-cls-7{fill:#fff;}.section-4-mobile-cls-12,.section-4-mobile-cls-27,.section-4-mobile-cls-5{font-family:PoiretOne-Regular, Poiret One;}.section-4-mobile-cls-6{letter-spacing:-0.11em;}.section-4-mobile-cls-12,.section-4-mobile-cls-7{font-size:28px;}.section-4-mobile-cls-14,.section-4-mobile-cls-7{font-family:Raleway-Light, Raleway;}.section-4-mobile-cls-8{clip-path:url(#section-4-mobile-clip-path-2);}.section-4-mobile-cls-9{letter-spacing:-0.07em;}.section-4-mobile-cls-10{clip-path:url(#section-4-mobile-clip-path-3);}.section-4-mobile-cls-11{clip-path:url(#section-4-mobile-clip-path-4);}.section-4-mobile-cls-13{letter-spacing:-0.04em;}.section-4-mobile-cls-14{font-size:20px;}.section-4-mobile-cls-15{clip-path:url(#section-4-mobile-clip-path-5);}.section-4-mobile-cls-16{letter-spacing:-0.07em;}.section-4-mobile-cls-17{clip-path:url(#section-4-mobile-clip-path-6);}.section-4-mobile-cls-18{clip-path:url(#section-4-mobile-clip-path-7);}.section-4-mobile-cls-19{clip-path:url(#section-4-mobile-clip-path-8);}.section-4-mobile-cls-20{clip-path:url(#section-4-mobile-clip-path-9);}.section-4-mobile-cls-21{clip-path:url(#section-4-mobile-clip-path-10);}.section-4-mobile-cls-22{letter-spacing:-0.05em;}.section-4-mobile-cls-23{clip-path:url(#section-4-mobile-clip-path-11);}.section-4-mobile-cls-27{font-size:58px;}.section-4-mobile-cls-28{letter-spacing:-0.06em;}
-    </style>
-    <clipPath id="section-4-mobile-clip-path">
-      <path id="Ромб" class="section-4-mobile-cls-1" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-2">
-      <path id="Ромб-2" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-3">
-      <path id="Ромб-3" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-4">
-      <path id="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-5">
-      <path id="Треугольник-2" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-6">
-      <path id="Треугольник-3" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-7">
-      <path id="Треугольник-4" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-8">
-      <path id="Треугольник-5" data-name="Треугольник" class="section-4-mobile-cls-1" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-9">
-      <path id="Треугольник-6" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-10">
-      <path id="Треугольник-7" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-11">
-      <path id="Треугольник-8" data-name="Треугольник" class="section-4-mobile-cls-1" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
-    </clipPath>
-  </defs>
-  <path id="Фон" class="section-4-mobile-cls-2" d="M0 0h1080v1920H0z"/>
-  <g id="portfolio-cases">
-    <g id="mksoloview">
-      <g class="section-4-mobile-cls-3">
-          <a href="projects/mksoloviev/" target="_blank">
-        <image width="772" height="273" transform="matrix(.94 0 0 1 358.32 132.4)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
-        <g id="overlay">
-          <path id="overlay-back" class="section-4-mobile-cls-4" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
-          <text class="section-4-mobile-cls-5" transform="matrix(.94 0 0 1 670.9 207)">
-            <tspan class="section-4-mobile-cls-6">Т</tspan><tspan x="11.38" y="0">ренинг</tspan><tspan x="-114.3" y="43.2">Владимира Соловьева</tspan>
-          </text>
-          <text class="section-4-mobile-cls-7" transform="matrix(.94 0 0 1 599.82 310.44)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Ромб-4" data-name="Ромб" class="section-4-mobile-cls-1" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
-    </g>
-    <g id="solverytics">
-      <g class="section-4-mobile-cls-8">
-          <a href="projects/solverytics/" target="_blank">
-        <image width="780" height="320" transform="matrix(.94 0 0 1 0 1301.08)" xlink:href="images/section-4-back-pics/solverytics.jpg"/>
-        <g id="overlay-2" data-name="overlay" class="overlay">
-          <path id="overlay-back-2" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
-          <text class="section-4-mobile-cls-5" transform="matrix(.94 0 0 1 293.16 1437.68)">
-            So<tspan class="section-4-mobile-cls-9" x="37.58" y="0">l</tspan><tspan x="44.1" y="0">verytics</tspan>
-          </text>
-          <text class="section-4-mobile-cls-7" transform="matrix(.94 0 0 1 190.4 1506.11)">
-            Frontend, backend, дизайн
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Ромб-5" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
-    </g>
-    <g id="logo-centr">
-      <g class="section-4-mobile-cls-10">
-          <a href="http://logo-centr.ru/" target="_blank">
-        <image width="830" height="300" transform="matrix(.94 0 0 1 0 539)" xlink:href="images/section-4-back-pics/logo-centr.jpg"/>
-        <g id="overlay-3" data-name="overlay" class="overlay">
-          <path id="overlay-back-3" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
-          <text class="section-4-mobile-cls-5" transform="matrix(.94 0 0 1 252.28 627.41)">
-            Центр развития<tspan x="-35.1" y="43.2">детей и подростков</tspan>
-          </text>
-          <text class="section-4-mobile-cls-7" transform="matrix(.94 0 0 1 239.62 730.84)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Ромб-6" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
-    </g>
-    <g id="atlant">
-      <g class="section-4-mobile-cls-11">
-          <a href="http://stroim-kottedzh.ru/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 354.57 1210.81)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
-        <g id="overlay-4" data-name="overlay" class="overlay">
-          <path id="overlay-back-4" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 525.79 1324.44)">
-            At<tspan class="section-4-mobile-cls-13" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan>
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 490.53 1368.05)">
-            Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-9" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
-    </g>
-    <g id="mbuz-dsu-2">
-      <g class="section-4-mobile-cls-15">
-          <a href="projects/mbuz-dsu-2/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 357.39 1476.22)" xlink:href="images/section-4-back-pics/mbuz-dsu-2.jpg"/>
-        <g id="overlay-5" data-name="overlay" class="overlay">
-          <path id="overlay-back-5" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 521.27 1604.18)">
-            МБУЗ <tspan class="section-4-mobile-cls-16" x="79.18" y="0">Д</tspan><tspan x="102.28" y="0">СУ 2</tspan>
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 515.14 1647.77)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-10" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
-    </g>
-    <g id="dobra">
-      <g class="section-4-mobile-cls-17">
-          <a href="projects/me_v2.0/dobra/" target="_blank">
-        <image width="391" height="280" transform="matrix(.94 0 0 1 356.92 670.27)" xlink:href="images/section-4-back-pics/dobra.JPG"/>
-        <g id="overlay-6" data-name="overlay" class="overlay">
-          <path id="overlay-back-6" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 501.14 783.91)">
-            Добра доставка
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 490.53 827.5)">
-            Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-11" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
-    </g>
-    <g id="yashmebel">
-      <g class="section-4-mobile-cls-18">
-          <a href="http://yashmebel.ru/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 720.4 675.67)" xlink:href="images/section-4-back-pics/yashmebel.JPG"/>
-        <g id="overlay-7" data-name="overlay" class="overlay">
-          <path id="overlay-back-7" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 792.36 784.81)">
-            ЯшМебель
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 764.91 828.41)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-12" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
-    </g>
-    <g id="vektor">
-      <g class="section-4-mobile-cls-19">
-          <a href="projects/vektor/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 0 405.4)" xlink:href="images/section-4-back-pics/vektor.jpg"/>
-        <g id="overlay-8" data-name="overlay" class="overlay">
-          <path id="overlay-back-8" data-name="overlay-back" class="section-4-mobile-cls-4" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 91.26 514.54)">
-            Вектор
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 42.28 558.14)">
-            Frontend, backend, <tspan x="51.91" y="24">логотип</tspan>
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-13" data-name="Треугольник" class="section-4-mobile-cls-1" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
-    </g>
-    <g id="hermes-news">
-      <g class="section-4-mobile-cls-20">
-          <a href="projects/hermes-news/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 357.39 270.27)" xlink:href="images/section-4-back-pics/hermes-news.jpg"/>
-        <g id="overlay-9" data-name="overlay" class="overlay">
-          <path id="overlay-back-9" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 413.29 389.41)">
-            Hermes News
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 369.55 433.01)">
-            Frontend, backend, дизайн
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-14" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
-    </g>
-    <g id="me">
-      <g class="section-4-mobile-cls-21">
-          <a href="projects/me_v2.0/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 -5.63 265.27)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
-        <g id="overlay-10" data-name="overlay" class="overlay">
-          <path id="overlay-back-10" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 129.21 388.5)">
-            Mar<tspan class="section-4-mobile-cls-22" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan>
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 154.94 432.1)">
-            Frontend, backend
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-15" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
-    </g>
-    <g id="broasty">
-      <g class="section-4-mobile-cls-23">
-          <a href="http://broastyfoodtruck.com/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 714.77 805.27)" xlink:href="images/section-4-back-pics/broasty.jpg"/>
-        <g id="overlay-11" data-name="overlay" class="overlay">
-          <path id="overlay-back-11" data-name="overlay-back" class="section-4-mobile-cls-4" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
-          <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 916.31 919.04)">
-            Broasty
-          </text>
-          <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 841.46 962.64)">
-            Дополнение функционала
-          </text>
-        </g>
-          </a>
-      </g>
-      <path id="Треугольник-16" data-name="Треугольник" class="section-4-mobile-cls-1" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
-    </g>
-  </g>
-  <path id="Треугольник-17" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 270.27V0L720.4 135.13l360.2 135.14z"/>
-  <path id="Треугольник-18" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 540.54V270.27L720.4 405.4l360.2 135.14z"/>
-  <path id="Треугольник-19" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 1216.2v270.28l360.2-135.13L0 1216.2z"/>
-  <path id="Треугольник-20" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
-  <path id="Треугольник-21" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 810.8V540.55L720.4 675.67l360.2 135.14z"/>
-  <path id="Треугольник-22" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 1486.48v270.28l360.2-135.14L0 1486.48z"/>
-  <path id="Треугольник-23" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1756.76v-270.28l-360.2 135.14 360.2 135.14z"/>
-  <path id="Треугольник-24" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1081.08V810.8L0 945.96l360.2 135.13z"/>
-  <path id="Треугольник-25" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 810.8v270.28l360.2-135.13L360.2 810.8z"/>
-  <path id="Треугольник-26" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 675.67V405.4L360.2 540.54l360.2 135.13z"/>
-  <path id="Треугольник-27" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 405.4v270.27l360.2-135.13L720.4 405.4z"/>
-  <path id="Треугольник-28" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1351.35v-270.27L0 1216.2l360.2 135.15z"/>
-  <path id="Треугольник-29" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1081.08v270.27l360.2-135.14-360.2-135.12z"/>
-  <path id="Треугольник-30" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1621.62v270.27l360.2-135.14-360.2-135.14z"/>
-  <path id="Треугольник-31" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 135.13V405.4l360.2-135.13L0 135.13z"/>
-  <path id="Треугольник-32" data-name="Треугольник" class="section-4-mobile-cls-25" d="M360.2 1891.9V1621.6L0 1756.76l360.2 135.13z"/>
-  <path id="Треугольник-33" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 675.67v270.28L360.2 810.8 0 675.68z"/>
-  <path id="Часть_треугольника" data-name="Часть треугольника" class="section-4-mobile-cls-24" d="M0 0l360.2 135.13V0H0z"/>
-  <path id="Часть_треугольника-2" data-name="Часть треугольника" class="section-4-mobile-cls-24" d="M360.2 0v135.13L720.4 0H360.2z"/>
-  <g id="header">
-    <path id="Треугольник_заголовка" data-name="Треугольник заголовка" class="section-4-mobile-cls-26" d="M360.2 0H0l360.2 135.13L720.4 0H360.2z"/>
-    <text class="section-4-mobile-cls-27" transform="translate(188.15 52.62) scale(0.94 1)">
-      Что я сделал?
-    </text>
-  </g>
-  <path id="Треугольник-34" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1216.2V945.96l-360.2 135.13 360.2 135.13z"/>
-  <path id="Треугольник-35" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 945.95v270.26l360.2-135.12L0 945.95z"/>
-  <path id="Треугольник-36" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 945.95v270.26l360.2-135.12-360.2-135.13z"/>
-  <path id="Треугольник-37" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 1351.35v-270.27L720.4 1216.2l360.2 135.15z"/>
-  <path id="Треугольник-38" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1216.2v270.28l360.2-135.13-360.2-135.14z"/>
-  <path id="Треугольник-39" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 1621.62v-270.27l-360.2 135.13 360.2 135.14z"/>
-  <path id="Треугольник-40" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1486.48v270.28l360.2-135.14-360.2-135.14z"/>
-  <path id="Треугольник-41" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 1891.9V1621.6l-360.2 135.14 360.2 135.13z"/>
-  <path class="section-4-mobile-cls-24" d="M285.27 1920l74.93-28.1L0 1756.75V1920M720.4 1920v-163.24L360.2 1891.9l74.93 28.1"/>
-</svg>
+                    <defs>
+                        <style>
+                        .section-4-mobile-cls-1,.section-4-mobile-cls-24,.section-4-mobile-cls-25{fill:none;}.section-4-mobile-cls-1,.section-4-mobile-cls-24,.section-4-mobile-cls-26,.section-4-mobile-cls-4{stroke:#3b2a66;stroke-miterlimit:10;}.section-4-mobile-cls-1{stroke-width:2px;}.section-4-mobile-cls-2{fill:#171717;}.section-4-mobile-cls-3{clip-path:url(#section-4-mobile-clip-path);}.section-4-mobile-cls-26,.section-4-mobile-cls-4{fill:#3b2a66;}.section-4-mobile-cls-4{opacity:0.75;}.section-4-mobile-cls-5{font-size:36px;}.section-4-mobile-cls-12,.section-4-mobile-cls-14,.section-4-mobile-cls-27,.section-4-mobile-cls-5,.section-4-mobile-cls-7{fill:#fff;}.section-4-mobile-cls-12,.section-4-mobile-cls-27,.section-4-mobile-cls-5{font-family:PoiretOne-Regular, Poiret One;}.section-4-mobile-cls-6{letter-spacing:-0.11em;}.section-4-mobile-cls-12,.section-4-mobile-cls-7{font-size:28px;}.section-4-mobile-cls-14,.section-4-mobile-cls-7{font-family:Raleway-Light, Raleway;}.section-4-mobile-cls-8{clip-path:url(#section-4-mobile-clip-path-2);}.section-4-mobile-cls-9{letter-spacing:-0.07em;}.section-4-mobile-cls-10{clip-path:url(#section-4-mobile-clip-path-3);}.section-4-mobile-cls-11{clip-path:url(#section-4-mobile-clip-path-4);}.section-4-mobile-cls-13{letter-spacing:-0.04em;}.section-4-mobile-cls-14{font-size:20px;}.section-4-mobile-cls-15{clip-path:url(#section-4-mobile-clip-path-5);}.section-4-mobile-cls-16{letter-spacing:-0.07em;}.section-4-mobile-cls-17{clip-path:url(#section-4-mobile-clip-path-6);}.section-4-mobile-cls-18{clip-path:url(#section-4-mobile-clip-path-7);}.section-4-mobile-cls-19{clip-path:url(#section-4-mobile-clip-path-8);}.section-4-mobile-cls-20{clip-path:url(#section-4-mobile-clip-path-9);}.section-4-mobile-cls-21{clip-path:url(#section-4-mobile-clip-path-10);}.section-4-mobile-cls-22{letter-spacing:-0.05em;}.section-4-mobile-cls-23{clip-path:url(#section-4-mobile-clip-path-11);}.section-4-mobile-cls-27{font-size:58px;}.section-4-mobile-cls-28{letter-spacing:-0.06em;}
+                        </style>
+                        <clipPath id="section-4-mobile-clip-path">
+                        <path id="Ромб" class="section-4-mobile-cls-1" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-2">
+                        <path id="Ромб-2" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-3">
+                        <path id="Ромб-3" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-4">
+                        <path id="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-5">
+                        <path id="Треугольник-2" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-6">
+                        <path id="Треугольник-3" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-7">
+                        <path id="Треугольник-4" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-8">
+                        <path id="Треугольник-5" data-name="Треугольник" class="section-4-mobile-cls-1" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-9">
+                        <path id="Треугольник-6" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-10">
+                        <path id="Треугольник-7" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
+                        </clipPath>
+                        <clipPath id="section-4-mobile-clip-path-11">
+                        <path id="Треугольник-8" data-name="Треугольник" class="section-4-mobile-cls-1" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
+                        </clipPath>
+                    </defs>
+                    <path id="Фон" class="section-4-mobile-cls-2" d="M0 0h1080v1920H0z"/>
+                    <g id="portfolio-cases">
+                        <g id="mksoloview">
+                        <g class="section-4-mobile-cls-3">
+                            <a href="projects/mksoloviev/" target="_blank">
+                            <image width="772" height="273" transform="matrix(.94 0 0 1 358.32 132.4)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
+                            <g id="overlay">
+                            <path id="overlay-back" class="section-4-mobile-cls-4" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
+                            <text class="section-4-mobile-cls-5" transform="matrix(.94 0 0 1 670.9 207)">
+                                <tspan class="section-4-mobile-cls-6">Т</tspan><tspan x="11.38" y="0">ренинг</tspan><tspan x="-114.3" y="43.2">Владимира Соловьева</tspan>
+                            </text>
+                            <text class="section-4-mobile-cls-7" transform="matrix(.94 0 0 1 599.82 310.44)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Ромб-4" data-name="Ромб" class="section-4-mobile-cls-1" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
+                        </g>
+                        <g id="solverytics">
+                        <g class="section-4-mobile-cls-8">
+                            <a href="projects/solverytics/" target="_blank">
+                            <image width="780" height="320" transform="matrix(.94 0 0 1 0 1301.08)" xlink:href="images/section-4-back-pics/solverytics.jpg"/>
+                            <g id="overlay-2" data-name="overlay" class="overlay">
+                            <path id="overlay-back-2" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
+                            <text class="section-4-mobile-cls-5" transform="matrix(.94 0 0 1 293.16 1437.68)">
+                                So<tspan class="section-4-mobile-cls-9" x="37.58" y="0">l</tspan><tspan x="44.1" y="0">verytics</tspan>
+                            </text>
+                            <text class="section-4-mobile-cls-7" transform="matrix(.94 0 0 1 190.4 1506.11)">
+                                Frontend, backend, дизайн
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Ромб-5" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
+                        </g>
+                        <g id="logo-centr">
+                        <g class="section-4-mobile-cls-10">
+                            <a href="http://logo-centr.ru/" target="_blank">
+                            <image width="830" height="300" transform="matrix(.94 0 0 1 0 539)" xlink:href="images/section-4-back-pics/logo-centr.jpg"/>
+                            <g id="overlay-3" data-name="overlay" class="overlay">
+                            <path id="overlay-back-3" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
+                            <text class="section-4-mobile-cls-5" transform="matrix(.94 0 0 1 252.28 627.41)">
+                                Центр развития<tspan x="-35.1" y="43.2">детей и подростков</tspan>
+                            </text>
+                            <text class="section-4-mobile-cls-7" transform="matrix(.94 0 0 1 239.62 730.84)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Ромб-6" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
+                        </g>
+                        <g id="atlant">
+                        <g class="section-4-mobile-cls-11">
+                            <a href="http://stroim-kottedzh.ru/" target="_blank">
+                            <image width="390" height="280" transform="matrix(.94 0 0 1 354.57 1210.81)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
+                            <g id="overlay-4" data-name="overlay" class="overlay">
+                            <path id="overlay-back-4" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 525.79 1324.44)">
+                                At<tspan class="section-4-mobile-cls-13" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan>
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 490.53 1368.05)">
+                                Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-9" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
+                        </g>
+                        <g id="mbuz-dsu-2">
+                        <g class="section-4-mobile-cls-15">
+                            <a href="projects/mbuz-dsu-2/" target="_blank">
+                            <image width="390" height="280" transform="matrix(.94 0 0 1 357.39 1476.22)" xlink:href="images/section-4-back-pics/mbuz-dsu-2.jpg"/>
+                            <g id="overlay-5" data-name="overlay" class="overlay">
+                            <path id="overlay-back-5" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 521.27 1604.18)">
+                                МБУЗ <tspan class="section-4-mobile-cls-16" x="79.18" y="0">Д</tspan><tspan x="102.28" y="0">СУ 2</tspan>
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 515.14 1647.77)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-10" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
+                        </g>
+                        <g id="dobra">
+                        <g class="section-4-mobile-cls-17">
+                            <a href="projects/me_v2.0/dobra/" target="_blank">
+                            <image width="391" height="280" transform="matrix(.94 0 0 1 356.92 670.27)" xlink:href="images/section-4-back-pics/dobra.JPG"/>
+                            <g id="overlay-6" data-name="overlay" class="overlay">
+                            <path id="overlay-back-6" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 501.14 783.91)">
+                                Добра доставка
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 490.53 827.5)">
+                                Доработка, дополнение <tspan x="51.32" y="24">функционала</tspan>
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-11" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
+                        </g>
+                        <g id="yashmebel">
+                        <g class="section-4-mobile-cls-18">
+                            <a href="http://yashmebel.ru/" target="_blank">
+                            <image width="390" height="280" transform="matrix(.94 0 0 1 720.4 675.67)" xlink:href="images/section-4-back-pics/yashmebel.JPG"/>
+                            <g id="overlay-7" data-name="overlay" class="overlay">
+                            <path id="overlay-back-7" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 792.36 784.81)">
+                                ЯшМебель
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 764.91 828.41)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-12" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
+                        </g>
+                        <g id="vektor">
+                        <g class="section-4-mobile-cls-19">
+                            <a href="projects/vektor/" target="_blank">
+                            <image width="390" height="280" transform="matrix(.94 0 0 1 0 405.4)" xlink:href="images/section-4-back-pics/vektor.jpg"/>
+                            <g id="overlay-8" data-name="overlay" class="overlay">
+                            <path id="overlay-back-8" data-name="overlay-back" class="section-4-mobile-cls-4" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 91.26 514.54)">
+                                Вектор
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 42.28 558.14)">
+                                Frontend, backend, <tspan x="51.91" y="24">логотип</tspan>
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-13" data-name="Треугольник" class="section-4-mobile-cls-1" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
+                        </g>
+                        <g id="hermes-news">
+                        <g class="section-4-mobile-cls-20">
+                            <a href="projects/hermes-news/" target="_blank">
+                            <image width="390" height="280" transform="matrix(.94 0 0 1 357.39 270.27)" xlink:href="images/section-4-back-pics/hermes-news.jpg"/>
+                            <g id="overlay-9" data-name="overlay" class="overlay">
+                            <path id="overlay-back-9" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 413.29 389.41)">
+                                Hermes News
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 369.55 433.01)">
+                                Frontend, backend, дизайн
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-14" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
+                        </g>
+                        <g id="me">
+                        <g class="section-4-mobile-cls-21">
+                            <a href="projects/me_v2.0/" target="_blank">
+                            <image width="390" height="280" transform="matrix(.94 0 0 1 -5.63 265.27)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
+                            <g id="overlay-10" data-name="overlay" class="overlay">
+                            <path id="overlay-back-10" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 129.21 388.5)">
+                                Mar<tspan class="section-4-mobile-cls-22" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan>
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 154.94 432.1)">
+                                Frontend, backend
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-15" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
+                        </g>
+                        <g id="broasty">
+                        <g class="section-4-mobile-cls-23">
+                            <a href="http://broastyfoodtruck.com/" target="_blank">
+                            <image width="390" height="280" transform="matrix(.94 0 0 1 714.77 805.27)" xlink:href="images/section-4-back-pics/broasty.jpg"/>
+                            <g id="overlay-11" data-name="overlay" class="overlay">
+                            <path id="overlay-back-11" data-name="overlay-back" class="section-4-mobile-cls-4" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
+                            <text class="section-4-mobile-cls-12" transform="matrix(.94 0 0 1 916.31 919.04)">
+                                Broasty
+                            </text>
+                            <text class="section-4-mobile-cls-14" transform="matrix(.94 0 0 1 841.46 962.64)">
+                                Дополнение функционала
+                            </text>
+                            </g>
+                            </a>
+                        </g>
+                        <path id="Треугольник-16" data-name="Треугольник" class="section-4-mobile-cls-1" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
+                        </g>
+                    </g>
+                    <path id="Треугольник-17" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 270.27V0L720.4 135.13l360.2 135.14z"/>
+                    <path id="Треугольник-18" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 540.54V270.27L720.4 405.4l360.2 135.14z"/>
+                    <path id="Треугольник-19" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 1216.2v270.28l360.2-135.13L0 1216.2z"/>
+                    <path id="Треугольник-20" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
+                    <path id="Треугольник-21" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 810.8V540.55L720.4 675.67l360.2 135.14z"/>
+                    <path id="Треугольник-22" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 1486.48v270.28l360.2-135.14L0 1486.48z"/>
+                    <path id="Треугольник-23" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1756.76v-270.28l-360.2 135.14 360.2 135.14z"/>
+                    <path id="Треугольник-24" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1081.08V810.8L0 945.96l360.2 135.13z"/>
+                    <path id="Треугольник-25" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 810.8v270.28l360.2-135.13L360.2 810.8z"/>
+                    <path id="Треугольник-26" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 675.67V405.4L360.2 540.54l360.2 135.13z"/>
+                    <path id="Треугольник-27" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 405.4v270.27l360.2-135.13L720.4 405.4z"/>
+                    <path id="Треугольник-28" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1351.35v-270.27L0 1216.2l360.2 135.15z"/>
+                    <path id="Треугольник-29" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1081.08v270.27l360.2-135.14-360.2-135.12z"/>
+                    <path id="Треугольник-30" data-name="Треугольник" class="section-4-mobile-cls-24" d="M360.2 1621.62v270.27l360.2-135.14-360.2-135.14z"/>
+                    <path id="Треугольник-31" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 135.13V405.4l360.2-135.13L0 135.13z"/>
+                    <path id="Треугольник-32" data-name="Треугольник" class="section-4-mobile-cls-25" d="M360.2 1891.9V1621.6L0 1756.76l360.2 135.13z"/>
+                    <path id="Треугольник-33" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 675.67v270.28L360.2 810.8 0 675.68z"/>
+                    <path id="Часть_треугольника" data-name="Часть треугольника" class="section-4-mobile-cls-24" d="M0 0l360.2 135.13V0H0z"/>
+                    <path id="Часть_треугольника-2" data-name="Часть треугольника" class="section-4-mobile-cls-24" d="M360.2 0v135.13L720.4 0H360.2z"/>
+                    <g id="header">
+                        <path id="Треугольник_заголовка" data-name="Треугольник заголовка" class="section-4-mobile-cls-26" d="M360.2 0H0l360.2 135.13L720.4 0H360.2z"/>
+                        <text class="section-4-mobile-cls-27" transform="translate(188.15 52.62) scale(0.94 1)">
+                        Что я сделал?
+                        </text>
+                    </g>
+                    <path id="Треугольник-34" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1216.2V945.96l-360.2 135.13 360.2 135.13z"/>
+                    <path id="Треугольник-35" data-name="Треугольник" class="section-4-mobile-cls-24" d="M0 945.95v270.26l360.2-135.12L0 945.95z"/>
+                    <path id="Треугольник-36" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 945.95v270.26l360.2-135.12-360.2-135.13z"/>
+                    <path id="Треугольник-37" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 1351.35v-270.27L720.4 1216.2l360.2 135.15z"/>
+                    <path id="Треугольник-38" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1216.2v270.28l360.2-135.13-360.2-135.14z"/>
+                    <path id="Треугольник-39" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 1621.62v-270.27l-360.2 135.13 360.2 135.14z"/>
+                    <path id="Треугольник-40" data-name="Треугольник" class="section-4-mobile-cls-24" d="M720.4 1486.48v270.28l360.2-135.14-360.2-135.14z"/>
+                    <path id="Треугольник-41" data-name="Треугольник" class="section-4-mobile-cls-24" d="M1080.6 1891.9V1621.6l-360.2 135.14 360.2 135.13z"/>
+                    <path class="section-4-mobile-cls-24" d="M285.27 1920l74.93-28.1L0 1756.75V1920M720.4 1920v-163.24L360.2 1891.9l74.93 28.1"/>
+                </svg>
 
             </div>
         </section>
@@ -2617,8 +2617,9 @@
                 Как со мной связаться?
             </div>
             <div class="section-5-content row">
-                <a href="mailto:iam@ivankorolenko.com" target="_blank" class="section-5-email">iam@ivankorolenko.com</a>
+                <a href="http://t.me/ivankorolenko" target="_blank" class="section-5-tg">Telegram</a>
                 <a href="https://vk.com/ivan_korolenko" target="_blank" class="section-5-vk">VK</a>
+                <div class="section-5-email white">iam@ivankorolenko.com</div>
             </div>
         </section>
     </div>

@@ -257,7 +257,7 @@ li {
     width: 3.1rem;
     height: 2.325rem;
     transform: rotate(0deg);
-    transition: all .4s ease-in-out;
+    transition: all .3s ease-in-out;
     cursor: pointer;
 }
 
@@ -270,7 +270,7 @@ li {
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition: all .4s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 #nav-icon1 span:nth-child(1) {
@@ -357,7 +357,7 @@ li {
     z-index: 50;
     border: 1px solid white;
     padding: 1vw;
-    transition: 0.6s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 .nav-language-changer:hover {
@@ -924,7 +924,6 @@ li {
 
 .section-5-content {
     opacity: 0;
-    width: 34.8rem;
     z-index: 10;
     font-size: 2rem;
     position: absolute;
@@ -932,19 +931,19 @@ li {
     transform: translateY(-50%);
     line-height: 4.5rem;
     border: 0.1vw solid #3b2a66;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     transition: 0.6s all ease-in-out;
 }
 
-.section-5-content a {
+.section-5-content a, .section-5-content div {
     color: white;
     margin: 0 1rem;
     border: 0.1vh solid #3b2a66;
     padding: 0 1rem;
-    transition: 0.6s all ease-in-out;
+    transition: 0.3s background-color ease-in-out;
 }
 
-.section-5-content a:hover {
+.section-5-content a:hover, .section-5-content div:hover{
     background-color: #3b2a66;
 }
 
