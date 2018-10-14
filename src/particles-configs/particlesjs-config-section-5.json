@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 60,
       "density": {
         "enable": true,
         "value_area": 800
@@ -14,7 +14,7 @@
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#171717"
       },
       "polygon": {
         "nb_sides": 5
@@ -82,7 +82,7 @@
     },
     "modes": {
       "grab": {
-        "distance": 200,
+        "distance": 150,
         "line_linked": {
           "opacity": 1
         }
@@ -99,7 +99,7 @@
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 1
       },
       "remove": {
         "particles_nb": 2
