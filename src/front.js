@@ -117,7 +117,7 @@ $(document).ready(function () {
                 opacity: 1,
                 translateY: [
                     {
-                        value: "200",
+                        value: "100",
                         duration: 0
                     },
                     {
@@ -149,10 +149,10 @@ $(document).ready(function () {
                 targets: '#Краски',
                 opacity: {
                     value: 1,
-                    duration: 500
+                    duration: 1000
                 },
                 easing: "easeInOutQuad",
-                offset: '-=350'
+                offset: '-=500'
             })
             .add({
                 targets: '#Полосы_на_дереве',
