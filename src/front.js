@@ -303,12 +303,23 @@ $(document).ready(function () {
         section2StartAnimation
             .add({
                 targets: '.section-2-photo',
+                duration: 100,
+                easing: "easeInOutQuad",
+                complete: () => {
+                    $('.section-2-photo').css({
+                        'max-height': '1000px'
+                    })
+                }
+            })
+            .add({
+                targets: '.section-2-photo',
                 opacity: 1,
-                delay: 100,
                 duration: 500,
                 easing: "easeInOutQuad",
                 complete: () => {
-                    $('.section-2-photo').css({'transform': 'translateY(0)'})
+                    $('.section-2-photo').css({
+                        'transform': 'translateY(0)', 
+                    })
                 }
             })
             .add({
@@ -803,8 +814,8 @@ $(document).ready(function () {
         $('.nav-internal li, .bottom-nav li').click(function (event) {
             let pageToScrollTo = parseInt($(this).attr('data-page-to'))
             $("#section-scroll").moveTo(pageToScrollTo)
-            // Закрываем меню имитируя нажатие на крестик
-            $('#nav-icon1').click()
+            // Если пункт в боковом меню, закрываем меню имитируя нажатие на крестик
+            if($(this).parent().hasClass('nav-internal')) $('#nav-icon1').click()
         })
 
 })

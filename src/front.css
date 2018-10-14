@@ -487,9 +487,10 @@ li {
 }
 
 .section-2-photo {
+    max-height: 0;
     opacity: 0;
     transform: translateY(-100%);
-    transition: transform 0.4s ease-in-out;
+    transition: max-height 0.1s ease-in-out, transform 0.4s ease-in-out, ;
 }
 
 .section-2-photo-img {
