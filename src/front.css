@@ -397,8 +397,9 @@ li {
     bottom: 1vw;
     right: 1vw;
     font-size: 1rem;
-    font-family: 'PoiretOne-Regular', sans-serif;
 }
+
+.copyright::after { content: "\A\A"; white-space: pre; }
 
 .section-1-main-text {
     z-index: 50;

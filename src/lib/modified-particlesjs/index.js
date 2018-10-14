@@ -436,6 +436,11 @@ var pJS = function(tag_id, params){
         pJS.canvas.ctx.rect(p.x-radius, p.y-radius, radius*2, radius*2);
       break;
 
+      case 'rain':
+        pJS.canvas.ctx.rect(p.x-radius, p.y-radius, radius, radius*10);
+      break;
+
+
       case 'triangle':
         pJS.fn.vendors.drawShape(pJS.canvas.ctx, p.x-radius, p.y+radius / 1.66, radius*2, 3, 2);
       break;
