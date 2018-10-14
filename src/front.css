@@ -257,7 +257,7 @@ li {
     width: 3.1rem;
     height: 2.325rem;
     transform: rotate(0deg);
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
     cursor: pointer;
 }
 
@@ -270,7 +270,7 @@ li {
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #nav-icon1 span:nth-child(1) {
@@ -917,8 +917,9 @@ li {
     position: relative;
     line-height: 4.5rem;
     margin: 1rem auto;
-    border: 0.1vw solid #3b2a66;
+    border: 0.1vh solid #fff;
     padding: 0.5rem 2rem;
+    background: #171717;
     transition: 0.6s all ease-in-out;
 }
 
@@ -930,21 +931,24 @@ li {
     top: 50%;
     transform: translateY(-50%);
     line-height: 4.5rem;
-    border: 0.1vw solid #3b2a66;
+    border: 0.1vh solid #fff;
     padding: 2rem 1rem;
+    background: #171717;
     transition: 0.6s all ease-in-out;
 }
 
 .section-5-content a, .section-5-content div {
     color: white;
     margin: 0 1rem;
-    border: 0.1vh solid #3b2a66;
+    border: 0.1vh solid #fff;
     padding: 0 1rem;
+    background: #171717;
     transition: 0.3s background-color ease-in-out;
 }
 
 .section-5-content a:hover, .section-5-content div:hover{
-    background-color: #3b2a66;
+    background-color: #fff;
+    color: #171717;
 }
 
 
@@ -958,7 +962,7 @@ li {
 
 .slideOutRight,
 .slideInRight {
-    animation-duration: .4s !important;
+    animation-duration: .6s !important;
 }
 
 .fadeOutRight {
