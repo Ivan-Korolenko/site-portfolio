@@ -881,12 +881,13 @@ li {
 }
 
 #portfolio-cases .overlay {
-    transform: translateX(100vw);
-    transition: 0.2s all ease-in-out;
+    transform: translateY(0px);
+    transition: 0.3s transform ease-in-out;
 }
 
 #portfolio-cases>g:hover .overlay {
-    transform: translateY(0px);
+    transform: translateX(100vw);
+    transition: 0.6s transform ease-in-out;
 }
 
 .section-5 {
