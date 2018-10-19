@@ -2070,6 +2070,10 @@
             </div>
         </section>
         <section class="section-4 column">
+            <div id="section-4-case-modal">
+                <div class="close-case-modal"><span></span><span></span></div>
+                <div class="case-modal-content"></div>
+            </div>
             <div class="section-4-back-container" id="section-4-back-container">
 
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" class="section-4-back" id="section-4-back" preserveAspectRatio="none">

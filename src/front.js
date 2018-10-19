@@ -49,14 +49,14 @@ $(document).ready(function () {
         this.isFifthParticlesLoaded = false
         this.fifthParticlesLoadedBeforeFirst = false
 
-        //Элементы для анимации первой секции start
+        //Элементы для анимации первой секции
         const section1BackSvg = document.getElementById('section-1-back'),
-            section1BackTrees = section1BackSvg.querySelectorAll('#Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2'),
             section1Foreground = document.querySelectorAll('.section-1-main-text, .bottom-nav'),
-            section1SunlightAndTrees = section1BackSvg.querySelectorAll('#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2'),
-            section1OverlayAndForeground = document.querySelectorAll('#section-1-back-overlay, #nav-icon1, .nav, .section-1-main-text, .bottom-nav'),
-            section1NavInternal = document.getElementsByClassName('nav-internal'),
-            section1MainText = document.getElementsByClassName('section-1-main-text')
+            section1SunlightAndTrees = section1BackSvg.querySelectorAll('#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2')
+
+        const caseModal = $('#section-4-case-modal')
+        const caseModalContent = $('#section-4-case-modal .case-modal-content')
+        const caseModalCloser = $('#section-4-case-modal .close-case-modal')
 
         //Вращение слов в первой секции
         function wordRotate() {
@@ -774,6 +774,14 @@ $(document).ready(function () {
         $('.nav').click(function (event) {
             event.stopImmediatePropagation()
         })
+
+        //Переходы при кликах на пункты меню
+        $('.nav-internal li, .bottom-nav li').click(function (event) {
+            let pageToScrollTo = parseInt($(this).attr('data-page-to'))
+            $("#section-scroll").moveTo(pageToScrollTo)
+            // Если пункт в боковом меню, закрываем меню имитируя нажатие на крестик
+            if($(this).parent().hasClass('nav-internal')) $('#nav-icon1').click()
+        })
         
 
         // Анимация блока "Использованные технологии"
@@ -810,12 +818,36 @@ $(document).ready(function () {
             event.stopImmediatePropagation()
         })
 
-        //Переходы при кликах на пункты меню
-        $('.nav-internal li, .bottom-nav li').click(function (event) {
-            let pageToScrollTo = parseInt($(this).attr('data-page-to'))
-            $("#section-scroll").moveTo(pageToScrollTo)
-            // Если пункт в боковом меню, закрываем меню имитируя нажатие на крестик
-            if($(this).parent().hasClass('nav-internal')) $('#nav-icon1').click()
+        const caseModalData = {
+            'amtel' : `
+                <h3>Моя роль в проекте</h3>
+                <p>Оптовый сайт</p>
+            `,
+            'ea_messenger': `
+                <h3>Моя роль в проекте</h3>
+                <p>Мессенджер</p>
+            `,
+            'ea': ``,
+            'wolf': ``,
+            'mksoloview': ``,
+            'me': ``,
+            'atlant': ``,
+            '15_puzzle': ``,
+            'passgen': ``,
+            'portfolio': ``,
+        }
+
+        // Клик по кейсу в 4 секции вызывает открытие модалки с соответсвтующим контентом из переменной
+        $('[data-open-case-modal]').click(e => {
+            const name = $(e.currentTarget).data('openCaseModal')
+
+            caseModal.css({ 'right': '0' })
+            caseModalContent.html(caseModalData[name])
+        })
+
+        // Закрываем модалку по клику на крестик
+        caseModalCloser.click(e => {
+            caseModal.css({ 'right': '120vw' })
         })
 
 })
