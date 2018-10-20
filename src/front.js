@@ -936,22 +936,6 @@ $(document).ready(function () {
         // Закрываем модалку с кейсом по клику на крестик
         caseModalCloser.click(e => {
             caseModal.css({ 'right': '120vw' })
-        })
-
-        // // Клик по картинкам в модалке с кейсом увеличивает их
-        // $(document).on('click', '#section-4-case-modal .case-modal-link-part img', e => {
-        //     e.stopImmediatePropagation()
-        //     $('#section-4-case-modal .case-modal-link-part img').each(function() {
-        //         if($(this).hasClass('enlarged-img')) $(this).removeClass('enlarged-img')
-        //     })
-        //     $(e.currentTarget).toggleClass('enlarged-img')
-        // })
-
-        // // Клик вне картинки в модалке с кейсом уменьшает её обратно
-        // $(document).on('click', e => {
-        //     if($(e.target).parents('#section-4-case-modal').length || $(e.target).is('#section-4-case-modal'))
-        //         $('#section-4-case-modal .case-modal-link-part img').removeClass('enlarged-img')
-        // })
-        
+        })      
 
 })

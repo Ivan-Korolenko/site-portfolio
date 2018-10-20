@@ -388,28 +388,6 @@ li {
     margin: 0 3rem;
     padding: 1rem 0;
     cursor: pointer;
-    display: table;
-}
-
-
-/* bottom-border nav animation */
-
-.nav li:after,
-.bottom-nav li:after {
-    content: '';
-    display: block;
-    height: 0.1vh;
-    width: 100%;
-    background: white;
-    transition: width .3s ease, background-color .3s ease;
-    /* from center */
-    margin: auto;
-}
-
-.nav li:hover:after,
-.bottom-nav li:hover:after {
-    width: 0%;
-    background: transparent;
 }
 
 .copyright {
@@ -957,15 +935,6 @@ li {
     /* cursor: zoom-in; */
     transition: 0.3s all ease-in-out; 
 }
-
-/* .enlarged-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 50% !important;
-    transform: scale(2) translate(-50%, -50%)
-} */
 
 #section-4-back-container {
     position: absolute;
