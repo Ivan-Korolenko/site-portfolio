@@ -111,6 +111,26 @@ li {
     transition: none !important;
 }
 
+.underline-hover-link {
+    display: table;
+}
+
+.underline-hover-link:after {
+    content: '';
+    display: block;
+    height: 0.1vh;
+    width: 100%;
+    background: white;
+    transition: width .3s ease, background-color .3s ease;
+    /* from center */
+    margin: auto;
+}
+
+.underline-hover-link:hover:after {
+    width: 0%;
+    background: transparent;
+}
+
 
 /*----------- END BASE ---------------*/
 
@@ -861,7 +881,7 @@ li {
     right: 120vw;
     z-index: 50;
     position: absolute;
-    background: #3b2a66;
+    background: #171717;
     color: #fff;
     transition: 0.5s right ease-in-out;
 }
@@ -907,6 +927,45 @@ li {
     text-align: left;
 
 }
+
+#section-4-case-modal .case-modal-text-part {
+    width:100%;
+}
+
+#section-4-case-modal .case-modal-text-part li {
+    list-style: inherit;
+    margin-left: 1.2rem;
+}
+
+#section-4-case-modal .case-modal-link-part {
+    width: 25vw;
+    padding-left: 2rem;
+    margin-left: 2rem; 
+    border-left: 1px solid #fff;
+}
+
+#section-4-case-modal .case-modal-link-part a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#section-4-case-modal .case-modal-link-part img {
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 1rem;
+    /* cursor: zoom-in; */
+    transition: 0.3s all ease-in-out; 
+}
+
+/* .enlarged-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50% !important;
+    transform: scale(2) translate(-50%, -50%)
+} */
 
 #section-4-back-container {
     position: absolute;

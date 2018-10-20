@@ -111,19 +111,19 @@
             <div style="cursor: pointer;" onclick="let date = new Date(new Date().getTime() + 360 * 1000 * 24); document.cookie = 'LangChanged=1; path=/; expires=' + date.toUTCString(); window.location = 'en/';" class="nav-language-changer">EN</div>
 
             <div class="nav-internal">
-                <li class="menu-elem-1" data-page-to="1">
+                <li class="menu-elem-1 underline-hover-link" data-page-to="1">
                     Главная
                 </li>
-                <li class="menu-elem-2" data-page-to="2">
+                <li class="menu-elem-2 underline-hover-link" data-page-to="2">
                     Кто я?
                 </li>
-                <li class="menu-elem-3" data-page-to="3">
+                <li class="menu-elem-3 underline-hover-link" data-page-to="3">
                     Что я умею?
                 </li>
-                <li class="menu-elem-4" data-page-to="4">
+                <li class="menu-elem-4 underline-hover-link" data-page-to="4">
                     Что я сделал?
                 </li>
-                <li class="menu-elem-5" data-page-to="5">
+                <li class="menu-elem-5 underline-hover-link" data-page-to="5">
                     Как со мной связаться?
                 </li>
                 <p class="copyright">© 2017-2018 Ivan Korolenko</p>
@@ -1869,16 +1869,16 @@
             </div>
 
             <div class="bottom-nav row white">
-                <li class="bottom-nav-menu-elem-2" data-page-to="2">
+                <li class="bottom-nav-menu-elem-2 underline-hover-link" data-page-to="2">
                     Кто я?
                 </li>
-                <li class="bottom-nav-menu-elem-3" data-page-to="3">
+                <li class="bottom-nav-menu-elem-3 underline-hover-link" data-page-to="3">
                     Что я умею?
                 </li>
-                <li class="bottom-nav-menu-elem-4" data-page-to="4">
+                <li class="bottom-nav-menu-elem-4 underline-hover-link" data-page-to="4">
                     Что я сделал?
                 </li>
-                <li class="bottom-nav-menu-elem-5" data-page-to="5">
+                <li class="bottom-nav-menu-elem-5 underline-hover-link" data-page-to="5">
                     Как со мной связаться?
                 </li>
             </div>
@@ -2072,7 +2072,10 @@
         <section class="section-4 column">
             <div id="section-4-case-modal">
                 <div class="close-case-modal"><span></span><span></span></div>
-                <div class="case-modal-content"></div>
+                <div class="case-modal-content row">
+                    <div class="case-modal-text-part"></div>
+                    <div class="case-modal-link-part"></div>
+                </div>
             </div>
             <div class="section-4-back-container" id="section-4-back-container">
 
