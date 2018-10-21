@@ -81,7 +81,7 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
                 <div class="nav-back"></div>
             </div>
 
-            <div style="cursor: pointer;" onclick="let date = new Date(new Date().getTime() + 360 * 1000 * 24); document.cookie = 'LangChanged=1; path=/; expires=' + date.toUTCString(); window.location = '../';" class="nav-language-changer">RU</div>
+            <div style="cursor: pointer;" onclick="let date = new Date(new Date().getTime() + 360 * 1000 * 24); document.cookie = 'LangChanged=1; path=/; expires=' + date.toUTCString(); window.location = '../';" class="nav-language-changer">EN</div>
 
             <div class="nav-internal">
                 <li class="menu-elem-1" data-page-to="1">

@@ -108,7 +108,7 @@
             <div class="nav-back-container">
                 <div class="nav-back"></div>
             </div>
-            <div style="cursor: pointer;" onclick="let date = new Date(new Date().getTime() + 360 * 1000 * 24); document.cookie = 'LangChanged=1; path=/; expires=' + date.toUTCString(); window.location = 'en/';" class="nav-language-changer">EN</div>
+            <div style="cursor: pointer;" onclick="let date = new Date(new Date().getTime() + 360 * 1000 * 24); document.cookie = 'LangChanged=1; path=/; expires=' + date.toUTCString(); window.location = 'en/';" class="nav-language-changer">RU</div>
 
             <div class="nav-internal">
                 <li class="menu-elem-1 underline-hover-link" data-page-to="1">
