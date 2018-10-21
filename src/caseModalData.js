@@ -62,7 +62,7 @@ export const caseModalData = {
                 </ul><br><br>
             `,
             link: `
-                <a href="http://euroauto.ru/messenger/call/" target="_blank" class="underline-hover-link">Пообщаться с операторами, использующими этот мессенджер</a>
+                <a href="http://euroauto.ru/messenger/call/" target="_blank" class="underline-hover-link">Посмотреть проект как пользователь</a>
                 <a href="images/section-4-back-pics/case-pics/olo-1.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/olo-1.jpg" />
                 </a>
