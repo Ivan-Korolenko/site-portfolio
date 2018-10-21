@@ -775,7 +775,7 @@ li {
     content: '';
     display: block;
     height: 0.2vh;
-    width: 30.5vw;
+    width: 30.5rem;
     background: white;
     transition: width .5s ease, background-color .5s ease;
     /* from center */
@@ -823,7 +823,7 @@ li {
     user-select: none;
     z-index: 20;
     position: absolute;
-    left: 26rem;
+    left: 26vw;
     top: -0.5rem;
     margin-top: 2rem;
     margin-right: 2rem;
@@ -1105,8 +1105,22 @@ li {
 /*----------- END CSS Animations ---------------*/
 
 
-/*----------- STYLES MOBILE ---------------*/
+/*----------- MEDIA STYLES ---------------*/
 
+/*----------- Ultra-Wide Screens ---------------*/
+
+@media screen and (min-aspect-ratio: 17/9) {
+    html, body {
+        font-size: 0.75vw;
+    }
+
+    #section-1-back-container {
+        top: -25vh;
+    }
+}
+
+
+/*----------- END Ultra-Wide Screens ---------------*/
 
 /*----------- Tablets ---------------*/
 
@@ -1357,4 +1371,4 @@ li {
 /*----------- END Phones ---------------*/
 
 
-/*----------- END STYLES MOBILE---------------*/
+/*----------- END MEDIA STYLES ---------------*/

@@ -30,14 +30,17 @@ $(document).ready(function () {
     }
 
     // Задаем различия в версиях для разных форматов устройств
-    let section2WhyMarginBottom = null
     let deviceVersion = null
+    let ultraWide = false
 
     enquire
         .register("screen and (min-width:1280px)", { match: () => { deviceVersion = "desktop" }})
+        .register("screen and (min-aspect-ratio: 17/9)", { match: () => { 
+            deviceVersion = "desktop"
+            ultraWide = true
+        }})
         .register("screen and (max-width:1280px) and (orientation:portrait)", { match: () => { deviceVersion = "mobile" }})
         .register("screen and (max-width:1280px) and (orientation:landscape)", { match: () => { deviceVersion = "tablet" }})
-
 
         //--------------------------------------------------------------------------------------
         //------------- Объявление переменных и функций ----------------------------------------
@@ -194,7 +197,7 @@ $(document).ready(function () {
                         selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
                         invertY: true,
                         scalarY: 10.0,
-                        scalarX: 7.0
+                        scalarX: ultraWide ? 5.0 : 7.0
                     })
 
                     let farAwayLand = new Parallax(scene, {
@@ -601,43 +604,12 @@ $(document).ready(function () {
                     })
                 }
             } 
-            // else {
-            //     if (sectionNumber.includes(1)) {
-            //         //Останавливаем стартовый таймлайн анимаций первой секции
-            //         window.requestAnimationFrame(() => {
-            //             section1StartAnimation.pause()
-            //         })
-
-            //         //WordsRotator в первой секции
-            //         if (typeof window.wordsRotatorT !== 'undefined') {
-            //             window.clearInterval(wordsRotatorT)
-            //         }
-            //     }
-            //     if (sectionNumber.includes(2)) {
-            //         //Ставим на паузу анимации второго экрана
-            //         window.requestAnimationFrame(() => {
-            //             section2StartAnimation.pause()
-            //         })
-
-            //         //Ставим на паузу облако интересов
-            //         $('#section-2-my-interests-cloud-canvas').tagcanvas("pause")
-
-            //     }
-            //     if (sectionNumber.includes(3)) {}
-            //     if (sectionNumber.includes(4)) {}
-            //     if (sectionNumber.includes(5)) {
-            //         //Останавливаем стартовый таймлайн анимаций пятой секции
-            //         window.requestAnimationFrame(() => {
-            //             section5StartAnimation.pause()
-            //         })
-            //     }
-            // }
         }
 
         // Скролл секциями
         function onepagescrollEnable() {
             $("#section-scroll").onepage_scroll({
-                sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
+                sectionContainer: "section",
                 easing: "ease-in-out",
                 animationTime: 300,
                 pagination: false,
@@ -650,32 +622,25 @@ $(document).ready(function () {
                     switch (index) {
                         case 1:
                             AnimationControlPlay(true, [1])
-                            // AnimationControlPlay(false, [2, 3, 4, 5])
                             break
                         case 2:
                             AnimationControlPlay(true, [2])
-                            // AnimationControlPlay(false, [1, 3, 4, 5])
                             break
                         case 3:
                             AnimationControlPlay(true, [3])
-                            // AnimationControlPlay(false, [1, 2, 4, 5])
                             break
                         case 4:
                             AnimationControlPlay(true, [4])
-                            // AnimationControlPlay(false, [1, 2, 3, 5])
                             break
                         case 5:
                             AnimationControlPlay(true, [5])
-                            // AnimationControlPlay(false, [1, 2, 3, 4])
                             break
                     }
                 },
                 afterMove: function (index) {},
                 loop: false,
                 keyboard: true,
-                responsiveFallback: false, // You can fallback to normal page scroll by defining the width of the browser in which
-                // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
-                // the browser's width is less than 600, the fallback will kick in.
+                responsiveFallback: false,
                 direction: "vertical"
             })
         }
@@ -709,14 +674,6 @@ $(document).ready(function () {
         //------------------------------------------------------------------
         //------------- Обработка событий ----------------------------------
         //------------------------------------------------------------------
-
-        // //Остановить все анимации, если пользователь перешел на другую вкладку, и продолжить проигрывание, если вернулся
-        // ifvisible.on("blur", () => {
-        //     AnimationControlPlay(false, [1, 2, 3, 4, 5])
-        // })
-        // ifvisible.on("focus", () => {
-        //     AnimationControlPlay(true, [document.numberOfActiveSection])
-        // })
 
         let scrollState = ''
         let transformStyle = ''
