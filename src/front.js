@@ -115,7 +115,7 @@ $(document).ready(function () {
             autoplay: false
         })
 
-        if(deviceVersion === "desktop") {
+        // if(deviceVersion === "desktop") {
             section1StartAnimation
             .add({
                 targets: '#Солнце',
@@ -224,18 +224,18 @@ $(document).ready(function () {
                 duration: 1000,
                 delay: 100
             })
-        }
-        else {
-            section1StartAnimation
-                .add({
-                    targets: '#Солнце',
-                    duration: 500,
-                    complete: () => {
-                        //Запускаем анимацию вращения слов
-                        window.requestAnimationFrame(wordRotate)
-                    }
-                })
-        }
+        // }
+        // else {
+        //     section1StartAnimation
+        //         .add({
+        //             targets: '#Солнце',
+        //             duration: 500,
+        //             complete: () => {
+        //                 //Запускаем анимацию вращения слов
+        //                 window.requestAnimationFrame(wordRotate)
+        //             }
+        //         })
+        // }
 
         // --- END Анимации первого экрана ---
 
@@ -434,9 +434,10 @@ $(document).ready(function () {
 
         // --- Анимации четвертого экрана ---
 
-        let section4AnimationTargets = deviceVersion === 'desktop' 
-            ? document.querySelectorAll('#section-4-back #portfolio-cases a')
-            : document.querySelectorAll('#section-4-back-mobile #portfolio-cases a') 
+        let section4AnimationTargets = document.querySelectorAll('#section-4-back #portfolio-cases [data-open-case-modal]')
+            // deviceVersion === 'desktop' 
+            //     ? document.querySelectorAll('#section-4-back #portfolio-cases a')
+            //     : document.querySelectorAll('#section-4-back-mobile #portfolio-cases a') 
 
         const section4StartAnimation = anime.timeline({
             autoplay: false
@@ -446,77 +447,78 @@ $(document).ready(function () {
             .add({
                 targets: section4AnimationTargets[0],
                 opacity: 1,
-                delay: 500,
-                duration: 200,
+                delay: 300,
+                duration: 400,
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[1],
                 opacity: 1,
-                duration: 200,
+                duration: 400,
+                offset: '-=250',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[2],
                 opacity: 1,
-                duration: 200,
-                offset: '-=20',
+                duration: 400,
+                offset: '-=250',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[3],
                 opacity: 1,
-                duration: 200,
-                offset: '-=40',
+                duration: 400,
+                offset: '-=250',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[4],
                 opacity: 1,
-                duration: 200,
-                offset: '-=60',
+                duration: 400,
+                offset: '-=250',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[5],
                 opacity: 1,
-                duration: 200,
-                offset: '-=80',
+                duration: 400,
+                offset: '-=300',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[6],
                 opacity: 1,
-                duration: 200,
-                offset: '-=100',
+                duration: 400,
+                offset: '-=300',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[7],
                 opacity: 1,
-                duration: 200,
-                offset: '-=120',
+                duration: 400,
+                offset: '-=300',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[8],
                 opacity: 1,
-                duration: 200,
-                offset: '-=140',
+                duration: 400,
+                offset: '-=350',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[9],
                 opacity: 1,
-                duration: 200,
-                offset: '-=160',
+                duration: 400,
+                offset: '-=350',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[10],
                 opacity: 1,
-                duration: 200,
-                offset: '-=180',
+                duration: 400,
+                offset: '-=350',
                 easing: "easeInOutQuad"
             })
 

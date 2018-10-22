@@ -958,7 +958,7 @@ li {
     object-fit: cover;
 }
 
-#portfolio-cases a {
+#portfolio-cases [data-open-case-modal] {
     opacity: 0;
 }
 
@@ -966,8 +966,7 @@ li {
     cursor: pointer;
 }
 
-#portfolio-cases .overlay {
-    
+#portfolio-cases .overlay {  
     transform: translateY(0px);
     transition: 0.3s transform ease-in-out;
 }
@@ -1133,7 +1132,7 @@ li {
         margin-left: 0;
         height: 102vh;
     }
-    #Солнце,
+    /* #Солнце,
     #Светотень_от_солнца,
     #Тени_деревьев,
     #Свет_деревьев,
@@ -1148,24 +1147,21 @@ li {
     }
     #Тень_человека {
         opacity: 0;
-    }
+    } */
     .section-1-main-text,
     .bottom-nav {
         pointer-events: auto;
     }
-    #section-1-back-container {
-        filter: blur(2px);
-    }
-    #portfolio-cases a {
+    /* #portfolio-cases a {
         opacity: 1;
     }
     #portfolio-cases .overlay {
         transform: translateX(75vw);
-    }
+    } */
      .section-2-facts-p span:before {
-    height: 1px;
-         top: 2.3rem;
-}
+        height: 1px;
+        top: 2.3rem;
+    }
 }
 
 
