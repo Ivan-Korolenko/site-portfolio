@@ -1158,35 +1158,23 @@ li {
         overflow-x: hidden;
         max-height: 100vh;
     }
+    .nav-internal {
+        right: 30%;
+        top: 30%;
+    }
     .nav li:after,
     .bottom-nav li:after {
         height: 1px;
     }
     #section-1-back-container {
         width: auto;
-        filter: blur(2px);
         max-width: 102vw;
+        top: -10vh;
+        left: -130vw;
     }
     #section-1-back {
         width: auto;
-        margin-left: -75%;
         height: 100vh;
-    }
-    #Солнце,
-    #Светотень_от_солнца,
-    #Тени_деревьев,
-    #Свет_деревьев,
-    #Свет_деревьев_2,
-    #Краски,
-    #Полосы_на_дереве,
-    #section-1-back-overlay,
-    .section-1-main-text,
-    .bottom-nav,
-    #particles-background-section-1 {
-        opacity: 1;
-    }
-    #Тень_человека {
-        opacity: 0;
     }
     .section-1-main-text,
     .bottom-nav {
@@ -1196,8 +1184,8 @@ li {
         display: block;
     }
     .copyright {
-        bottom: 10vh;
-        right: 2vw;
+        bottom: 2vh;
+        right: 2rem;
         font-size: 1.5rem;
     }
     .section-2 {
@@ -1225,19 +1213,12 @@ li {
     .section-2-facts {
         top: auto;
         bottom: 0;
-        width: 23rem;
-        height: 46vh;
+        margin-right: 2rem;
+        width: 20rem;
+        height: 35vh;
     }
     .section-2-facts-slider {
         width: 22.5rem;
-    }
-
-    .section-2-facts {
-        top: auto;
-        bottom: 8vh;
-        margin-right: 1vw;
-        width: 20rem;
-        height: 35vh;
     }
 
     .section-2-facts-p {
@@ -1294,8 +1275,9 @@ li {
         font-size: 1.3rem;
     }
     .section-3-used-tech {
-        bottom: -138vh;
-        left: -55vw;
+        top: 90vh;
+        bottom: initial;
+        transition: 0.3s transform ease-in-out, 0.3s top ease-in-out;
     }
     .section-3-used-tech-header:after {
         height: 1px;

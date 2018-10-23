@@ -758,23 +758,42 @@ $(document).ready(function () {
         }
         else {
             $('.section-3-used-tech').click(function (event) {
-                $('.section-3-used-tech').css({
-                    'transform': 'rotate(0deg) translate(40vw, 0)',
-                    'top': '0',
-                    'cursor': 'auto'
-                })
-                $('.section-3-used-tech-header').css('transform', 'translate(0, 1rem)')
+                if(deviceVersion === "tablet") {
+                    $('.section-3-used-tech').css({
+                        'transform': 'rotate(0deg) translate(40vw, 0)',
+                        'top': '0',
+                        'cursor': 'auto'
+                    })
+                    $('.section-3-used-tech-header').css('transform', 'translate(0, 1rem)')
+                }
+                else if (deviceVersion === "mobile") {
+                    $('.section-3-used-tech').css({
+                        'transform': 'rotate(0deg) translate(48vw, 0)',
+                        'top': '0',
+                        'cursor': 'auto'
+                    })
+                    $('.section-3-used-tech-header').css('transform', 'translate(-5rem, 1rem)')
+                }
                 $('.section-3-used-tech-text').css('transform', 'translate(0, 0)')
             })
         }
         
         //Закрытие блока "Использованные технологии" при клике на крестик
         $('.section-3-used-tech-exit').click(function (event) {
-            $('.section-3-used-tech').css({
-                'transform': 'rotate(10deg) translate(0)',
-                'top': '85vh',
-                'cursor': 'pointer'
-            })
+            if(deviceVersion === "tablet") {
+                $('.section-3-used-tech').css({
+                    'transform': 'rotate(10deg) translate(0)',
+                    'top': '85vh',
+                    'cursor': 'pointer'
+                })
+            }
+            else if (deviceVersion === "mobile") {
+                $('.section-3-used-tech').css({
+                    'transform': 'rotate(10deg) translate(0)',
+                    'top': '90vh',
+                    'cursor': 'pointer'
+                })
+            }
             $('.section-3-used-tech-header').css('transform', 'translate(0, 0)')
             $('.section-3-used-tech-text').css('transform', 'translate(0, 0)')
             //Не вызывать клик по родительскому элементу при клике по крестику
