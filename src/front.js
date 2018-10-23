@@ -759,10 +759,11 @@ $(document).ready(function () {
         else {
             $('.section-3-used-tech').click(function (event) {
                 $('.section-3-used-tech').css({
-                    'transform': 'rotate(0deg) translate(40vw,-80vh)',
+                    'transform': 'rotate(0deg) translate(40vw, 0)',
+                    'top': '0',
                     'cursor': 'auto'
                 })
-                $('.section-3-used-tech-header').css('transform', 'translate(-8rem, 1rem)')
+                $('.section-3-used-tech-header').css('transform', 'translate(0, 1rem)')
                 $('.section-3-used-tech-text').css('transform', 'translate(0, 0)')
             })
         }
@@ -771,6 +772,7 @@ $(document).ready(function () {
         $('.section-3-used-tech-exit').click(function (event) {
             $('.section-3-used-tech').css({
                 'transform': 'rotate(10deg) translate(0)',
+                'top': '85vh',
                 'cursor': 'pointer'
             })
             $('.section-3-used-tech-header').css('transform', 'translate(0, 0)')

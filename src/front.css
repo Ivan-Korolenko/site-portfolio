@@ -1124,44 +1124,22 @@ li {
 /*----------- Tablets ---------------*/
 
 @media screen and (max-width:1280px) and (orientation:landscape) {
-    #section-1-back-container {
-        width: auto;
-    }
-    #section-1-back {
-        width: auto;
-        margin-left: 0;
-        height: 102vh;
-    }
-    /* #Солнце,
-    #Светотень_от_солнца,
-    #Тени_деревьев,
-    #Свет_деревьев,
-    #Свет_деревьев_2,
-    #Краски,
-    #Полосы_на_дереве,
-    #section-1-back-overlay,
-    .section-1-main-text,
-    .bottom-nav,
-    #particles-background-section-1 {
-        opacity: 1;
-    }
-    #Тень_человека {
-        opacity: 0;
-    } */
     .section-1-main-text,
     .bottom-nav {
         pointer-events: auto;
     }
-    /* #portfolio-cases a {
-        opacity: 1;
-    }
-    #portfolio-cases .overlay {
-        transform: translateX(75vw);
-    } */
      .section-2-facts-p span:before {
         height: 1px;
         top: 2.3rem;
     }
+
+    .section-3-used-tech {
+        top: 85vh;
+        bottom: initial;
+        transition: 0.3s transform ease-in-out, 0.3s top ease-in-out;
+    }
+
+
 }
 
 
