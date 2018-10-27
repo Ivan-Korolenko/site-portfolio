@@ -180,8 +180,10 @@ $(document).ready(function () {
                     //Частицы на фоне первой секции
                     window.requestAnimationFrame(() => {
                         particlesJS.load('particles-background-section-1',
-                        //  './particles-configs/particlesjs-config-section-1_specks-of-dust.json'
-                        './particles-configs/particlesjs-config-section-1_rain.json'
+                        //  './particles-configs/particlesjs-config-section-1-specks-of-dust.json'
+                        deviceVersion === "desktop" 
+                            ? './particles-configs/particlesjs-config-section-1-rain.json'
+                            : './particles-configs/particlesjs-config-section-1-rain-mobile.json'
                         )
                     })
                     document.isFirstParticlesLoaded = true
@@ -191,28 +193,31 @@ $(document).ready(function () {
                         .addClass('no-transition')
 
                     // Запускаем параллакс
-                    let scene = document.querySelector('#section-1-parallax-scene')
+                    if(deviceVersion === "desktop") {
+                        let scene = document.querySelector('#section-1-parallax-scene')
 
-                    let firstPlan = new Parallax(scene, {
-                        selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
-                        invertY: true,
-                        scalarY: 10.0,
-                        scalarX: ultraWide ? 5.0 : 7.0
-                    })
+                        let firstPlan = new Parallax(scene, {
+                            selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
+                            invertY: true,
+                            scalarY: 10.0,
+                            scalarX: ultraWide ? 5.0 : 7.0
+                        })
 
-                    let farAwayLand = new Parallax(scene, {
-                        selector: '#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца',
-                        invertY: true,
-                        scalarY: 10.0,
-                        scalarX: 7.0
-                    })
+                        let farAwayLand = new Parallax(scene, {
+                            selector: '#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца',
+                            invertY: true,
+                            scalarY: 10.0,
+                            scalarX: 7.0
+                        })
 
-                    let hills = new Parallax(scene, {
-                        selector: '#Холмы',
-                        invertY: true,
-                        scalarY: 15.0,
-                        scalarX: 5.0
-                    })
+                        let hills = new Parallax(scene, {
+                            selector: '#Холмы',
+                            invertY: true,
+                            scalarY: 15.0,
+                            scalarX: 5.0
+                        })
+
+                    }
 
 
                 }
