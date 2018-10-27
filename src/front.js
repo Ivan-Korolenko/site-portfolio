@@ -756,14 +756,16 @@ $(document).ready(function () {
                     'margin-right': '0',
                     'right': '50%'
                 })
+                
+                if(deviceVersion === 'desktop') {
+                    // Сохраняем позицию скролла
+                    scrollState = $("#section-scroll").css("transform")
+                    transformStyle = ($("#section-scroll").attr("style") ? $("#section-scroll").attr("style") : '') + ' transform:' + scrollState + ' !important;'
 
-                // Сохраняем позицию скролла
-                scrollState = $("#section-scroll").css("transform")
-                transformStyle = ($("#section-scroll").attr("style") ? $("#section-scroll").attr("style") : '') + ' transform:' + scrollState + ' !important;'
-
-                // Отключаем скролл и ставим позцию скролла в запомненную
-                $("body").addClass("disabled-onepage-scroll disable-scroll")
-                $("#section-scroll").attr("style", transformStyle)
+                    // Отключаем скролл и ставим позцию скролла в запомненную
+                    $("body").addClass("disabled-onepage-scroll disable-scroll")
+                    $("#section-scroll").attr("style", transformStyle)
+                } 
             } 
             else {
                 $('.nav').removeClass('slideInRight')
@@ -773,8 +775,10 @@ $(document).ready(function () {
                     'right': '0'
                 })
 
-                // Включаем скролл
-                $("body").removeClass("disabled-onepage-scroll disable-scroll")
+                if(deviceVersion === 'desktop') {
+                    // Включаем скролл
+                    $("body").removeClass("disabled-onepage-scroll disable-scroll")
+                }
             }
         })
         .parents('body').click(function (event) {
