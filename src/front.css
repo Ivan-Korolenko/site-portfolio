@@ -1216,6 +1216,7 @@ li {
         margin-right: 2rem;
         width: 20rem;
         height: 35vh;
+        margin-bottom: 5vh;
     }
     .section-2-facts-slider {
         width: 22.5rem;
@@ -1242,9 +1243,10 @@ li {
     }
 
     .section-2-my-interests {
-        bottom: 4vh;
-        margin-top: 2rem;
+        bottom: 0;
         margin-left: 1rem;
+        margin-bottom: 5vh;
+        height: 34vh;
     }
 
     .section-2-my-interests-p1 {
