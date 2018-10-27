@@ -1279,7 +1279,8 @@ li {
     .section-3-used-tech {
         top: initial;
         bottom: -135vh;
-        transition: 0.3s transform ease-in-out, 0.3s top ease-in-out;
+        transform: rotate(10deg) translate(-150rem);
+        transition: 0.3s all ease-in-out;
     }
     .section-3-used-tech-header:after {
         height: 1px;
