@@ -1188,9 +1188,9 @@ li {
         right: 2rem;
         font-size: 1.5rem;
     }
-    /* .section-2 {
-        z-index: 70;
-    } */
+    .section-2 {
+        max-height: 92.5vh !important;
+    }
     .section-2-my-interests {
         top: auto;
         bottom: 8vh;
