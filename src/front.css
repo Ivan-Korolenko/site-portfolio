@@ -1188,9 +1188,9 @@ li {
         right: 2rem;
         font-size: 1.5rem;
     }
-    .section-2 {
+    /* .section-2 {
         z-index: 70;
-    }
+    } */
     .section-2-my-interests {
         top: auto;
         bottom: 8vh;
@@ -1269,9 +1269,9 @@ li {
         font-size: 1.5rem;
     }  
      
-    .section-3 {
+    /* .section-3 {
         z-index: 69;
-    }
+    } */
     .section-3-skill-text {
         width: 90vw;
         font-size: 1.3rem;
@@ -1299,9 +1299,9 @@ li {
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    .section-4 {
+    /* .section-4 {
         z-index: 70;
-    }
+    } */
     #section-4-back-container {
         width: 100vw;
         height: auto;
