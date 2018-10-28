@@ -459,70 +459,70 @@ $(document).ready(function () {
                 targets: section4AnimationTargets[1],
                 opacity: 1,
                 duration: 400,
-                offset: '-=250',
+                offset: '-=150',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[2],
                 opacity: 1,
                 duration: 400,
-                offset: '-=250',
+                offset: '-=150',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[3],
                 opacity: 1,
                 duration: 400,
-                offset: '-=250',
+                offset: '-=150',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[4],
                 opacity: 1,
                 duration: 400,
-                offset: '-=250',
+                offset: '-=150',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[5],
                 opacity: 1,
                 duration: 400,
-                offset: '-=300',
+                offset: '-=250',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[6],
                 opacity: 1,
                 duration: 400,
-                offset: '-=300',
+                offset: '-=250',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[7],
                 opacity: 1,
                 duration: 400,
-                offset: '-=300',
+                offset: '-=250',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[8],
                 opacity: 1,
                 duration: 400,
-                offset: '-=350',
+                offset: '-=300',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[9],
                 opacity: 1,
                 duration: 400,
-                offset: '-=350',
+                offset: '-=300',
                 easing: "easeInOutQuad"
             })
             .add({
                 targets: section4AnimationTargets[10],
                 opacity: 1,
                 duration: 400,
-                offset: '-=350',
+                offset: '-=300',
                 easing: "easeInOutQuad"
             })
 
