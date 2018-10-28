@@ -788,7 +788,13 @@ $(document).ready(function () {
         
         //Закрытие блока "Использованные технологии" при клике на крестик
         $('.section-3-used-tech-exit').click(function (event) {
-            if(deviceVersion === "tablet") {
+            if (deviceVersion === "desktop") {
+                $('.section-3-used-tech').css({
+                    'transform': 'rotate(10deg) translate(0)',
+                    'cursor': 'pointer'
+                })
+            }
+            else if(deviceVersion === "tablet") {
                 $('.section-3-used-tech').css({
                     'transform': 'rotate(10deg) translate(0)',
                     'top': '85vh',
