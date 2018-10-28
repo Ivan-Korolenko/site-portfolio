@@ -1277,9 +1277,9 @@ li {
         font-size: 1.3rem;
     }
     .section-3-used-tech {
-        top: initial;
-        bottom: -135vh;
-        transform: rotate(10deg) translate(-150rem);
+        /* top: initial; */
+        top: 80vh;
+        /* transform: rotate(10deg) translate(-150rem); */
         transition: 0.3s all ease-in-out;
     }
     .section-3-used-tech-header:after {
@@ -1294,7 +1294,7 @@ li {
     }
     .section-3-used-tech-text {
         margin: auto;
-        margin-top: 8rem;
+        margin-top: 20vh;
         width: 90vw;
         margin-left: 20vw;
         font-size: 1.5rem;

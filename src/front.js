@@ -769,7 +769,7 @@ $(document).ready(function () {
                 if(deviceVersion === "tablet") {
                     $('.section-3-used-tech').css({
                         'transform': 'rotate(0deg) translate(40vw, 0)',
-                        'bottom': 'auto',
+                        'top': '0',
                         'cursor': 'auto'
                     })
                     $('.section-3-used-tech-header').css('transform', 'translate(0, 1rem)')
@@ -777,12 +777,12 @@ $(document).ready(function () {
                 else if (deviceVersion === "mobile") {
                     $('.section-3-used-tech').css({
                         'transform': 'rotate(0deg) translate(48vw, 0)',
-                        'bottom': 'auto',
+                        'top': '0',
                         'cursor': 'auto'
                     })
                     $('.section-3-used-tech-header').css('transform', 'translate(-5rem, 1rem)')
                 }
-                $('.section-3-used-tech-text').css('transform', 'translate(0, 0)')
+                $('.section-3-used-tech-text').css('transform', 'translate(0, -12vh)')
             })
         }
         
@@ -791,14 +791,14 @@ $(document).ready(function () {
             if(deviceVersion === "tablet") {
                 $('.section-3-used-tech').css({
                     'transform': 'rotate(10deg) translate(0)',
-                    'bottom': '-135vh',
+                    'top': '85vh',
                     'cursor': 'pointer'
                 })
             }
             else if (deviceVersion === "mobile") {
                 $('.section-3-used-tech').css({
                     'transform': 'rotate(10deg) translate(0)',
-                    'bottom': '-135vh',
+                    'top': '80vh',
                     'cursor': 'pointer'
                 })
             }
