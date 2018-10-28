@@ -438,10 +438,10 @@ $(document).ready(function () {
 
         // --- Анимации четвертого экрана ---
 
-        let section4AnimationTargets = document.querySelectorAll('#section-4-back #portfolio-cases [data-open-case-modal]')
-            // deviceVersion === 'desktop' 
-            //     ? document.querySelectorAll('#section-4-back #portfolio-cases a')
-            //     : document.querySelectorAll('#section-4-back-mobile #portfolio-cases a') 
+        let section4AnimationTargets = 
+            deviceVersion === 'desktop' 
+                ? document.querySelectorAll('#section-4-back #portfolio-cases [data-open-case-modal]')
+                : document.querySelectorAll('#section-4-back-mobile #portfolio-cases [data-open-case-modal]') 
 
         const section4StartAnimation = anime.timeline({
             autoplay: false

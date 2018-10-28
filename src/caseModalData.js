@@ -1,6 +1,6 @@
 export const caseModalData = {
     'rus' : {
-        'amtel' : {
+        'amtel.club' : {
             text: `
                 <h3>Описание проекта</h3><br>
                 <p>Интернет-магазин для оптовых клиентов компании</p><br><br>
