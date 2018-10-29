@@ -22,7 +22,7 @@ export const caseModalData = {
                     <li>Проект стал выглядеть как современный сайт</li>
                     <li>Добавилось множество функций</li>
                     <li>Пользоваться им стало гораздо удобнее, продажи увеличились</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `
                 <a href="https://amtel.club/" target="_blank" class="underline-hover-link">Посмотреть проект</a>
@@ -59,7 +59,7 @@ export const caseModalData = {
                     <li>За 4 месяца с нуля до момента запуска с полным функционалом создал фронтэнд приложения, являющегося улучшенным аналогом Телеграм Веб</li>
                     <li>Операторы и бизнес-заказчики довольны работой нового приложения</li>
                     <li>Операторы стали быстрее и качественнее обслуживать клиентов, благодаря чему повысился доход компании</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `
                 <a href="http://euroauto.ru/messenger/call/" target="_blank" class="underline-hover-link">Посмотреть проект как пользователь</a>
@@ -91,7 +91,7 @@ export const caseModalData = {
             <ul>
                 <li>Снижено количество необходимых шагов для покупки товара (всё находится на одной странице), из-за этого конверсия "переход в корзину -> покупка товара" увеличена</li>
                 <li>Отдел HR рад новой странице вакансий, теперь можно быстро обновлять вакансии без необходимости обращения к отделу IT, что упростило и ускорило процесс.</li>
-            </ul><br><br>
+            </ul>
             `,
             link: `<a href="http://euroauto.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -111,7 +111,7 @@ export const caseModalData = {
                 <h3>Результат</h3><br>
                 <ul>
                     <li>Первая версия проекта запущена в продакшен и уже функционирует</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://maslo.center/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -128,7 +128,7 @@ export const caseModalData = {
                 <h3>Результат</h3><br>
                 <ul>
                     <li>Всё сделано в срок. Клиент доволен результатом</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/mksoloviev/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -145,7 +145,7 @@ export const caseModalData = {
                 <h3>Результат</h3><br>
                 <ul>
                     <li>Клиент доволен результатом</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/me_v2.0/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -165,7 +165,7 @@ export const caseModalData = {
                 <ul>
                     <li>Клиент доволен результатом</li>
                     <li>Конверсия сайта увеличилась</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="http://stroim-kottedzh.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -183,7 +183,7 @@ export const caseModalData = {
                 <ul>
                     <li>Игра работает</li>
                     <li>Одним проектом с открытым исходным кодом больше</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/react-puzzle-15/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -201,7 +201,7 @@ export const caseModalData = {
                 <ul>
                     <li>Создан удобный генератор паролей, которым мы с друзьями часто пользуемся</li>
                     <li>Одним проектом с открытым исходным кодом больше</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/react-passgen/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -222,7 +222,7 @@ export const caseModalData = {
                     <li>Вы сейчас читаете этот текст</li>
                     <li>Реализованы все идеи, заложенные в концепте + большая часть идей, появившихся в процессе работы.</li>
                     <li>Создан самый сложный в плане визуального frontend-а сайт в моей практике</li>
-                </ul><br><br>
+                </ul>
             `,
             link: ``
         },
@@ -250,7 +250,7 @@ export const caseModalData = {
                     <li>Проект стал выглядеть как современный сайт</li>
                     <li>Добавилось множество функций</li>
                     <li>Пользоваться им стало гораздо удобнее, продажи увеличились</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `
                 <a href="https://amtel.club/" target="_blank" class="underline-hover-link">Посмотреть проект</a>
@@ -287,7 +287,7 @@ export const caseModalData = {
                     <li>За 4 месяца с нуля до момента запуска с полным функционалом создал фронтэнд приложения, являющегося улучшенным аналогом Телеграм Веб</li>
                     <li>Операторы и бизнес-заказчики довольны работой нового приложения</li>
                     <li>Операторы стали быстрее и качественнее обслуживать клиентов, благодаря чему повысился доход компании</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `
                 <a href="http://euroauto.ru/messenger/call/" target="_blank" class="underline-hover-link">Пообщаться с операторами, использующими этот мессенджер</a>
@@ -319,7 +319,7 @@ export const caseModalData = {
             <ul>
                 <li>Снижено количество необходимых шагов для покупки товара (всё находится на одной странице), из-за этого конверсия "переход в корзину -> покупка товара" увеличена</li>
                 <li>Отдел HR рад новой странице вакансий, теперь можно быстро обновлять вакансии без необходимости обращения к отделу IT, что упростило и ускорило процесс.</li>
-            </ul><br><br>
+            </ul>
             `,
             link: `<a href="http://euroauto.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -339,7 +339,7 @@ export const caseModalData = {
                 <h3>Результат</h3><br>
                 <ul>
                     <li>Первая версия проекта запущена в продакшен и уже функционирует</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://maslo.center/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -356,7 +356,7 @@ export const caseModalData = {
                 <h3>Результат</h3><br>
                 <ul>
                     <li>Всё сделано в срок. Клиент доволен результатом</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/mksoloviev/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -373,7 +373,7 @@ export const caseModalData = {
                 <h3>Результат</h3><br>
                 <ul>
                     <li>Клиент доволен результатом</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/me_v2.0/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -393,7 +393,7 @@ export const caseModalData = {
                 <ul>
                     <li>Клиент доволен результатом</li>
                     <li>Конверсия сайта увеличилась</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="http://stroim-kottedzh.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -411,7 +411,7 @@ export const caseModalData = {
                 <ul>
                     <li>Игра работает</li>
                     <li>Одним проектом с открытым исходным кодом больше</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/react-puzzle-15/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -429,7 +429,7 @@ export const caseModalData = {
                 <ul>
                     <li>Создан удобный генератор паролей, которым мы с друзьями часто пользуемся</li>
                     <li>Одним проектом с открытым исходным кодом больше</li>
-                </ul><br><br>
+                </ul>
             `,
             link: `<a href="https://ivankorolenko.com/projects/react-passgen/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
@@ -450,7 +450,7 @@ export const caseModalData = {
                     <li>Вы сейчас читаете этот текст</li>
                     <li>Реализованы все идеи, заложенные в концепте + большая часть идей, появившихся в процессе работы.</li>
                     <li>Создан самый сложный в плане визуального frontend-а сайт в моей практике</li>
-                </ul><br><br>
+                </ul>
             `,
             link: ``
         },

@@ -372,11 +372,11 @@ li {
 .nav-language-changer {
     color: white;
     position: absolute;
-    top: 1.5vw;
-    right: 2vw;
+    top: 2rem;
+    right: 2rem;
     z-index: 50;
     border: 1px solid white;
-    padding: 1vw;
+    padding: 1rem;
     transition: 0.3s all ease-in-out;
 }
 
@@ -1158,9 +1158,14 @@ li {
         overflow-x: hidden;
         max-height: 100vh;
     }
+    .nav-language-changer {
+        font-size: 2rem;
+        padding: 2rem;
+    }
     .nav-internal {
-        right: 30%;
+        right: 17.5%;
         top: 30%;
+        font-size: 2.5rem;
     }
     .nav li:after,
     .bottom-nav li:after {
@@ -1300,13 +1305,6 @@ li {
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    /* .section-4 {
-        z-index: 70;
-    } */
-    /* #section-4-back-container {
-        width: 100vw;
-        height: auto;
-    } */
     #section-4-back {
         display: none;
     }
@@ -1325,8 +1323,55 @@ li {
     #portfolio-cases>g:hover .overlay {
         transform: translateY(0px);
     }
+    #section-4-case-modal {
+        transition: 0.3s right ease-in-out;
+    }
+    #section-4-case-modal .case-modal-content {
+        padding: 6rem 2rem 2rem;
+    }
+    #section-4-case-modal .case-modal-content {
+        padding: 6rem 2rem 2rem;
+        font-size: 1.3rem;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #section-4-case-modal .case-modal-text-part li {
+        margin-left: 2rem;
+    }
+    #section-4-case-modal .case-modal-link-part {
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        border-left: none;
+        border-top: 1px solid #fff;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #section-4-case-modal .case-modal-link-part a {
+        color: #fff;
+        font-size: 1.5rem;
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 45vw;
+    }
+    #section-4-case-modal .case-modal-link-part a.underline-hover-link {
+        display: table;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    #section-4-case-modal .case-modal-link-part img {
+        max-height: 15vh;
+    }
     .particles-js-canvas-el {
         margin-left: -50%;
+    }
+    .slideOutRight,
+    .slideInRight {
+        animation-duration: .3s !important;
     }
 }
 
