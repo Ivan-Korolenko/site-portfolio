@@ -230,30 +230,30 @@ export const caseModalData = {
     'eng': {
         'amtel' : {
             text: `
-                <h3>Описание проекта</h3><br>
-                <p>Интернет-магазин для оптовых клиентов компании</p><br><br>
-                <h3>Моя роль в проекте</h3><br>
-                <p>Frontend-разработчик, дизайнер</p><br><br>
-                <h3>Что было сделано</h3><br>
+                <h3>Project description</h3><br>
+                <p>Online store for wholesale customers of the company</p><br><br>
+                <h3>My role in the project</h3><br>
+                <p>Frontend-developer, designer</p><br><br>
+                <h3>What was done</h3><br>
                 <ul>
-                    <li>Новый блок поиска запчастей по категориям, использующийся на всех страницах с продуктами на сайте</li>
-                    <li>Клиентская часть функционала страницы оплаты счетов</li>
-                    <li>Новый список товаров (вёрстка + клиентская логика)</li>
-                    <li>Рефакторинг и переработка всей клиентской части на проекте (рефакторинг CSS и JS, перенос на Webpack, и т.д.)</li>
-                    <li>Доработка функционала фильтров на всех страницах со списком товаров</li>
-                    <li>Доработка функционала блока "Поиск по марке" на главной (реализация запоминания и смена контента без перезагрузки)</li>
-                    <li>Переработан дизайн на всех страницах</li>
-                    <li>Множество других доработок (более 40 задач) в процессе работы</li>
+                    <li>A new block of search for spare parts by category, used on all pages with products on the site</li>
+                    <li>Frontend of the bill payment page</li>
+                    <li>New product list (layout + client logic)</li>
+                    <li>Refactoring and reengineering the entire client side of the project (refactoring CSS and JS, porting to Webpack, etc.)</li>
+                    <li>Refinement of filters on all pages with a list of products</li>
+                    <li>Refinement of block “Search by brand” on the main page (implementation of memorization and changing content without rebooting)</li>
+                    <li>Reworked design on all pages</li>
+                    <li>Many other improvements (more than 40 tasks)</li>
                 </ul><br><br>
-                <h3>Результаты</h3><br>
+                <h3>Results</h3><br>
                 <ul>
-                    <li>Проект стал выглядеть как современный сайт</li>
-                    <li>Добавилось множество функций</li>
-                    <li>Пользоваться им стало гораздо удобнее, продажи увеличились</li>
+                    <li>The project began to look like a modern website</li>
+                    <li>Added many features</li>
+                    <li>Website became much more convenient to use, sales increased</li>
                 </ul>
             `,
             link: `
-                <a href="https://amtel.club/" target="_blank" class="underline-hover-link">Посмотреть проект</a>
+                <a href="https://amtel.club/" target="_blank" class="underline-hover-link">See the project</a>
                 <a href="images/section-4-back-pics/case-pics/amtel-1.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/amtel-1.jpg" />
                 </a>
@@ -264,11 +264,11 @@ export const caseModalData = {
         },
         'ea_messenger': {
             text: `
-                <h3>Описание проекта</h3><br>
-                <p>Мессенджер подобный Telegram Web (~90% функционала Tg Web + кастомный функционал для нужд компании) для общения между операторами и клиентами</p><br><br>
-                <h3>Моя роль в проекте</h3><br>
-                <p>Frontend-разработчик</p><br><br>
-                <h3>Что было сделано</h3><br>
+                <h3>Project description</h3><br>
+                <p>Messenger like Telegram Web (~ 90% of Tg Web functionality + custom functionality for company needs) for communication between operators and customers</p><br><br>
+                <h3>My role in the project</h3><br>
+                <p>Frontend-developer</p><br><br>
+                <h3>What was done</h3><br>
                 <ul>
                     <li>Разработана структура и описание логики работы всего функционала клиентской части приложения по прямому согласованию с бизнесом</li>
                     <li>Спроектирована и реализована архитектура всей клиентской части</li>
