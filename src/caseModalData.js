@@ -228,7 +228,7 @@ export const caseModalData = {
         },
     },
     'eng': {
-        'amtel' : {
+        'amtel.club' : {
             text: `
                 <h3>Project description</h3><br>
                 <p>Online store for wholesale customers of the company</p><br><br>
@@ -273,9 +273,7 @@ export const caseModalData = {
                     <li>Developed the description of the logic of the entire frontend in direct coordination with business customers</li>
                     <li>Designed and implemented the architecture of the entire frontend</li>
                     <li>
-                    In 2 days I had to write all the necessary messenger functionality for the initial launch (architecture, chat switching, messaging, history, loaders, updating user information, etc.).
-                    All the code that was written back then still works in a real application.
-                    I managed to pass the basic version of the project within the required time, while  working on two other major projects of the company
+                    In 2 days I had to write all the necessary messenger functionality for the initial launch (architecture, chat switching, messaging, history, loaders, updating user information, etc). All the code that was written back then still works in a real application. I managed to finish the basic version of the project within the required time, while  working on two other major projects of the company
                     </li>
                     <li>I wrote about 90% of the frontend-part of the project.
                     Pure ES6 + React + Redux was chosen as a technology stack.
