@@ -1936,37 +1936,16 @@
             <div class="section-2-facts">
                 <p class="section-2-facts-p header"><span>Interesting</span><br>facts about me</p>
                 <div class="section-2-facts-slider white">
-                    <div>Favorite seasons - autumn and spring</div>
-
-                    <div>Favorite colors - black, white, purple</div>
-
-                    <div>I consider curiosity to be the most important quality of a person</div>
-
-                    <div>I studied all the letters of the Russian alphabet in 2.5 years</div>
-
-                    <div>I learned to read and write in 4 years</div>
-
-                    <div>Went to school in 5 years</div>
-
-                    <div>Favorite games in 6 years: Civilization II, Warcraft II</div>
-
-                    <div>Since childhood, I can quickly and without hesitation pronounce "deoxyribonucleic acid" and other scary words</div>
-
-                    <div>At school was an A+ student</div>
-
-                    <div>I independently learned the basic technologies of web development (HTML, CSS, JS, jQuery, PHP) for two weeks</div>
-
-                    <div>I wrote my diploma thesis work in university (90 pages with 18 schemes) in one night</div>
-
-                    <div>I find all the complex and unusual things attractive</div>
-
-                    <div>I know more than 120 musical styles and genres</div>
-
-                    <div>I'm pretty good at playing checkers</div>
-
-                    <div>One of my favorite activities is a search for the best solutions of the problems</div>
-
-                    <div>Favorite writer of the "fantasy" genre - Andrzej Sapkowski</div>
+                    <div>Started going to school at the age of 5. Was an A student.</div>
+                    <div>Wrote my Bachelor's Thesis on the subject of "News aggregator IS" (90 pages with 18 schemes) in one night</div>
+                    <div>Learned basic technologies of web development (HTML, CSS, JS, jQuery, PHP) in two weeks by myself</div>
+                    <div>Learned Illustration and created my first project in two weeks by myself</div>
+                    <div>Learned React + Redux in one week by myself</div>
+                    <div>Created a password generator on React in 4 hours</div>
+                    <div>created the client part of the messenger similar to Telegram Web for use in the company in 4 months</div>
+                    <div>Know what monads, functors, clojures, higher-order functions are and how to use them</div>
+                    <div>Know more than 120 musical styles and genres</div>
+                    <div>Having fun searching for the optimal solutions of the problems</div>    
                 </div>
             </div>
         </section>
@@ -1976,33 +1955,33 @@
             </div>
             <div class="section-3-skills white">
                 <div class="section-3-skill skill-1">
-                    <p class="section-3-skill-header header">HTML5</p>
+                    <p class="section-3-skill-header header">HTML 5</p>
                     <div class="section-3-skill-text">
                         What is it for: Site basis<br>Knowledge level: Sufficient for building layouts of any complexity and peculiarity
                     </div>
                 </div>
                 <div class="section-3-skill skill-2 white">
-                    <p class="section-3-skill-header header">CSS3</p>
+                    <p class="section-3-skill-header header">CSS 3</p>
                     <div class="section-3-skill-text">
-                        What is it for: Site appearance<br>Knowledge level: Sufficient for the implementation of any crazy designer fantasy
+                        What is it for: Site appearance<br>Knowledge level: Sufficient for the implementation of any crazy design fantasy
                     </div>
                 </div>
                 <div class="section-3-skill skill-3 white">
-                    <p class="section-3-skill-header header">JavaScript (+/- jQuery)</p>
+                    <p class="section-3-skill-header header">JS (+ React, Redux, jQuery, etc)</p>
                     <div class="section-3-skill-text">
-                        What is it for: Animations, content loading and data sending<br>Knowledge level: Sufficient for creating frontend-part of any web application
+                        What is it for: Frontend logic<br>Knowledge level: Sufficient for creating a frontend part of an app similar to Telegram Web
                     </div>
                 </div>
                 <div class="section-3-skill skill-4 white">
                     <p class="section-3-skill-header header">PHP</p>
                     <div class="section-3-skill-text">
-                        What is it for: Connecting to databases, authorization, server logic<br>Knowledge level: Sufficient for creating backend-part of any web application
+                        What is it for: Backend logic, intensive calculations, communication between users, data exchange with the database<br>Knowledge level: Sufficient for creating a backend part of a medium complexity web application
                     </div>
                 </div>
                 <div class="section-3-skill skill-5 white">
                     <p class="section-3-skill-header header">SQL</p>
                     <div class="section-3-skill-text">
-                        What is it for: Working with information in databases<br>Knowledge level: Sufficient for creating and maintaining the database of most web applications
+                        What is it for: Creating and changing the database<br>Knowledge level: Sufficient for creating and supporting the database of a medium complexity web application
                     </div>
                 </div>
                 <div class="section-3-skill skill-6 white">
@@ -2014,7 +1993,7 @@
                 <div class="section-3-skill skill-7 white">
                     <p class="section-3-skill-header header">Design</p>
                     <div class="section-3-skill-text">
-                        What is it for: Creating projects that will be pleasant to watch<br>Knowledge level: Sufficient, so that users do not have a desire to snatch their eyes when looking at the site
+                        What is it for: Creating projects that will be pleasant to watch<br>Knowledge level: Sufficient for users not to want to tear their eyes out when looking at the site
                     </div>
                 </div>
             </div>
@@ -2032,550 +2011,870 @@
                 </div>
                 <div class="section-3-used-tech-content">
                     <div class="section-3-used-tech-text">
-                        List of technologies I used to create this site:<br><br>HTML5
-                        <br>CSS3<br>FlexBox<br>JavaScript (ECMA Script 6)<br>JQuery 3<br>SVG<br>HTML Canvas<br>Animate.css<br>Particles.js<br>Anime.js<br>Slick.js<br>Ifinvisible.js<br>Onepagescroll.js<br>Enquire.js<br>Vivus.js<br>Tagcanvas.js<br>CSS Animations<br>Wordrotator.js<br>PHP
+                      <div class="section-3-used-tech-list-header">Technologies that this site uses:</div>
+                      <div class="section-3-used-tech-list-wrap">
+                        <ul class="section-3-used-tech-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>FlexBox</li>
+                            <li>JavaScript (ES6)</li>
+                            <li>JQuery 3</li>
+                            <li>SVG</li>
+                            <li>HTML Canvas</li>
+                            <li>Animate.css</li>
+                            <li>Particles.js</li>
+                            <li>Anime.js</li>
+                            <li>Slick.js</li>
+                            <li>Ifinvisible.js</li>
+                            <li>Onepagescroll.js</li>
+                            <li>Enquire.js</li>
+                            <li>Vivus.js</li>
+                            <li>Tagcanvas.js</li>
+                            <li>Wordrotator.js</li>
+                            <li>PHP</li>
+                        </ul>                    
+                      </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-4 column">
+            <div id="section-4-case-modal">
+                <div class="close-case-modal"><span></span><span></span></div>
+                <div class="case-modal-content row">
+                    <div class="case-modal-text-part"></div>
+                    <div class="case-modal-link-part"></div>
+                </div>
+            </div>
             <div class="section-4-back-container" id="section-4-back-container">
 
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" class="section-4-back" id="section-4-back">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="none" class="section-4-back" id="section-4-back">
   <defs>
     <style>
-      .section-4-back-cls-1,.section-4-back-cls-26,.section-4-back-cls-27{fill:none;}.section-4-back-cls-1,.section-4-back-cls-26,.section-4-back-cls-4{stroke:#3b2a66;stroke-miterlimit:10;}.section-4-back-cls-1{stroke-width:2px;}.section-4-back-cls-2{fill:#171717;}.section-4-back-cls-3{clip-path:url(#section-4-back-clip-path);}.section-4-back-cls-4{fill:#3b2a66;}.section-4-back-cls-5{font-size:36px;}.section-4-back-cls-13,.section-4-back-cls-15,.section-4-back-cls-28,.section-4-back-cls-5,.section-4-back-cls-8{fill:#fff;}.section-4-back-cls-13,.section-4-back-cls-28,.section-4-back-cls-5{font-family:PoiretOne-Regular, Poiret One;}.section-4-back-cls-6{letter-spacing:-0.04em;}.section-4-back-cls-7{letter-spacing:-0.04em;}.section-4-back-cls-13,.section-4-back-cls-8{font-size:28px;}.section-4-back-cls-15,.section-4-back-cls-8{font-family:Raleway-Light, Raleway;}.section-4-back-cls-9{clip-path:url(#section-4-back-clip-path-2);}.section-4-back-cls-10{letter-spacing:-0.07em;}.section-4-back-cls-11{clip-path:url(#section-4-back-clip-path-3);}.section-4-back-cls-12{clip-path:url(#section-4-back-clip-path-4);}.section-4-back-cls-14{letter-spacing:-0.04em;}.section-4-back-cls-15{font-size:20px;}.section-4-back-cls-16{clip-path:url(#section-4-back-clip-path-5);}.section-4-back-cls-17{clip-path:url(#section-4-back-clip-path-6);}.section-4-back-cls-18{clip-path:url(#section-4-back-clip-path-7);}.section-4-back-cls-19{letter-spacing:-0.08em;}.section-4-back-cls-20{clip-path:url(#section-4-back-clip-path-8);}.section-4-back-cls-21{letter-spacing:-0.14em;}.section-4-back-cls-22{clip-path:url(#section-4-back-clip-path-9);}.section-4-back-cls-23{clip-path:url(#section-4-back-clip-path-10);}.section-4-back-cls-24{letter-spacing:-0.05em;}.section-4-back-cls-25{clip-path:url(#section-4-back-clip-path-11);}.section-4-back-cls-28{font-size:58px;}
+      .s4-b-cls-1, .s4-b-cls-3, .s4-b-cls-33, .s4-b-cls-4 {
+        fill: none;
+      }
+
+      .s4-b-cls-1, .s4-b-cls-10, .s4-b-cls-3 {
+        stroke: #3b2a66;
+      }
+
+      .s4-b-cls-1, .s4-b-cls-10, .s4-b-cls-3, .s4-b-cls-32, .s4-b-cls-33 {
+        stroke-miterlimit: 10;
+      }
+
+      .s4-b-cls-1 {
+        stroke-width: 2px;
+      }
+
+      .s4-b-cls-2, .s4-b-cls-32 {
+        fill: #171717;
+      }
+
+      .s4-b-cls-5 {
+        clip-path: url(#s4-b-clip-path);
+      }
+
+      .s4-b-cls-6 {
+        fill: #353535;
+      }
+
+      .s4-b-cls-11, .s4-b-cls-15, .s4-b-cls-34, .s4-b-cls-7 {
+        fill: #fff;
+      }
+
+      .s4-b-cls-8 {
+        fill: #f0831c;
+      }
+
+      .s4-b-cls-9 {
+        fill: #fcc204;
+      }
+
+      .s4-b-cls-10 {
+        fill: #3b2a66;
+      }
+
+      .s4-b-cls-11 {
+        font-size: 28px;
+      }
+
+      .s4-b-cls-11, .s4-b-cls-15, .s4-b-cls-34 {
+        font-family: PoiretOne-Regular, Poiret One;
+      }
+
+      .s4-b-cls-12 {
+        clip-path: url(#s4-b-clip-path-2);
+      }
+
+      .s4-b-cls-13 {
+        fill: #333;
+      }
+
+      .s4-b-cls-14 {
+        fill: #00b2ec;
+      }
+
+      .s4-b-cls-15 {
+        font-size: 36px;
+      }
+
+      .s4-b-cls-16 {
+        clip-path: url(#s4-b-clip-path-3);
+      }
+
+      .s4-b-cls-17 {
+        fill: #434242;
+      }
+
+      .s4-b-cls-18 {
+        clip-path: url(#s4-b-clip-path-4);
+      }
+
+      .s4-b-cls-19 {
+        fill: #222;
+        stroke: #222;
+        stroke-width: 3px;
+      }
+
+      .s4-b-cls-20 {
+        letter-spacing: -0.12em;
+      }
+
+      .s4-b-cls-21 {
+        clip-path: url(#s4-b-clip-path-5);
+      }
+
+      .s4-b-cls-22 {
+        letter-spacing: -0.04em;
+      }
+
+      .s4-b-cls-23 {
+        letter-spacing: -0.04em;
+      }
+
+      .s4-b-cls-24 {
+        clip-path: url(#s4-b-clip-path-6);
+      }
+
+      .s4-b-cls-25 {
+        letter-spacing: -0.05em;
+      }
+
+      .s4-b-cls-26 {
+        clip-path: url(#s4-b-clip-path-7);
+      }
+
+      .s4-b-cls-27 {
+        letter-spacing: -0.04em;
+      }
+
+      .s4-b-cls-28 {
+        clip-path: url(#s4-b-clip-path-8);
+      }
+
+      .s4-b-cls-29 {
+        clip-path: url(#s4-b-clip-path-9);
+      }
+
+      .s4-b-cls-30 {
+        letter-spacing: -0.05em;
+      }
+
+      .s4-b-cls-31 {
+        clip-path: url(#s4-b-clip-path-10);
+      }
+
+      .s4-b-cls-32 {
+        stroke: #000;
+      }
+
+      .s4-b-cls-33 {
+        stroke: #fff;
+      }
+
+      .s4-b-cls-34 {
+        font-size: 58px;
+      }
     </style>
-    <clipPath id="section-4-back-clip-path">
-      <path id="Ромб" class="section-4-back-cls-1" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
+    <clipPath id="s4-b-clip-path">
+      <polygon id="Треугольник" class="s4-b-cls-1" points="767.94 675.03 767.94 404.76 383.94 539.89 767.94 675.03"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-2">
-      <path id="Ромб-2" data-name="Ромб" class="section-4-back-cls-1" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
+    <clipPath id="s4-b-clip-path-2">
+      <polygon id="Ромб" class="s4-b-cls-1" points="384 270.25 0 405.38 384 540.51 768 405.38 384 270.25"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-3">
-      <path id="Ромб-3" data-name="Ромб" class="section-4-back-cls-1" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
+    <clipPath id="s4-b-clip-path-3">
+      <polygon id="Треугольник-2" data-name="Треугольник" class="s4-b-cls-1" points="0.18 405.13 0.18 675.4 384.19 540.26 0.18 405.13"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-4">
-      <path id="Треугольник" class="section-4-back-cls-1" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
+    <clipPath id="s4-b-clip-path-4">
+      <polygon id="Ромб-2" data-name="Ромб" class="s4-b-cls-1" points="384 540.25 0 675.38 384 810.52 768 675.38 384 540.25"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-5">
-      <path id="Треугольник-2" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
+    <clipPath id="s4-b-clip-path-5">
+      <polygon id="Ромб-3" data-name="Ромб" class="s4-b-cls-1" points="1536.19 135.74 1152.19 270.87 1536.19 406.01 1920.19 270.87 1536.19 135.74"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-6">
-      <path id="Треугольник-3" data-name="Треугольник" class="section-4-back-cls-1" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
+    <clipPath id="s4-b-clip-path-6">
+      <polygon id="Треугольник-3" data-name="Треугольник" class="s4-b-cls-1" points="1151.79 270.29 1151.79 540.56 1535.79 405.42 1151.79 270.29"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-7">
-      <path id="Треугольник-4" data-name="Треугольник" class="section-4-back-cls-1" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
+    <clipPath id="s4-b-clip-path-7">
+      <polygon id="Треугольник-4" data-name="Треугольник" class="s4-b-cls-1" points="1920.94 540.53 1920.94 270.26 1536.94 405.39 1920.94 540.53"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-8">
-      <path id="Треугольник-5" data-name="Треугольник" class="section-4-back-cls-1" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
+    <clipPath id="s4-b-clip-path-8">
+      <polygon id="Треугольник-5" data-name="Треугольник" class="s4-b-cls-1" points="1536.47 404.87 1536.47 675.14 1920.47 540.01 1536.47 404.87"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-9">
-      <path id="Треугольник-6" data-name="Треугольник" class="section-4-back-cls-1" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
+    <clipPath id="s4-b-clip-path-9">
+      <polygon id="Треугольник-6" data-name="Треугольник" class="s4-b-cls-1" points="1535.72 675.07 1535.72 404.8 1151.72 539.94 1535.72 675.07"/>
     </clipPath>
-    <clipPath id="section-4-back-clip-path-10">
-      <path id="Треугольник-7" data-name="Треугольник" class="section-4-back-cls-1" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-back-clip-path-11">
-      <path id="Треугольник-8" data-name="Треугольник" class="section-4-back-cls-1" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
+    <clipPath id="s4-b-clip-path-10">
+      <polygon id="Ромб-4" data-name="Ромб" class="s4-b-cls-1" points="1152.32 810.95 768.32 946.08 1152.32 1081.22 1536.32 946.08 1152.32 810.95"/>
     </clipPath>
   </defs>
-  <path id="Фон" class="section-4-back-cls-2" d="M0 0h1920v1080H0z"/>
+  <rect id="Фон" class="s4-b-cls-2" width="1920" height="1080"/>
+  <polygon id="Треугольник-7" data-name="Треугольник" class="s4-b-cls-3" points="384 270.27 384 0 0 135.13 384 270.27"/>
+  <polygon id="Треугольник-8" data-name="Треугольник" class="s4-b-cls-3" points="384 0 384 270.27 768 135.13 384 0"/>
+  <polygon id="Треугольник-9" data-name="Треугольник" class="s4-b-cls-3" points="1152 270.27 1152 0 768 135.13 1152 270.27"/>
+  <polygon id="Треугольник-10" data-name="Треугольник" class="s4-b-cls-3" points="1152 0 1152 270.27 1536 135.13 1152 0"/>
+  <polygon id="Треугольник-11" data-name="Треугольник" class="s4-b-cls-3" points="1920 270.27 1920 0 1536 135.13 1920 270.27"/>
+  <polygon id="Треугольник-12" data-name="Треугольник" class="s4-b-cls-3" points="1152 540.54 1152 270.27 768 405.4 1152 540.54"/>
+  <polygon id="Треугольник-13" data-name="Треугольник" class="s4-b-cls-3" points="1152 270.27 1152 540.54 1536 405.4 1152 270.27"/>
+  <polygon id="Треугольник-14" data-name="Треугольник" class="s4-b-cls-3" points="1920 540.54 1920 270.27 1536 405.4 1920 540.54"/>
+  <polygon id="Треугольник-15" data-name="Треугольник" class="s4-b-cls-3" points="1152 810.81 1152 540.54 768 675.67 1152 810.81"/>
+  <polygon id="Треугольник-16" data-name="Треугольник" class="s4-b-cls-3" points="1152 540.54 1152 810.81 1536 675.67 1152 540.54"/>
+  <polygon id="Треугольник-17" data-name="Треугольник" class="s4-b-cls-3" points="1920 810.81 1920 540.54 1536 675.67 1920 810.81"/>
+  <polygon id="Треугольник-18" data-name="Треугольник" class="s4-b-cls-3" points="384 1081.08 384 810.81 0 945.95 384 1081.08"/>
+  <polygon id="Треугольник-19" data-name="Треугольник" class="s4-b-cls-3" points="384 810.81 384 1081.08 768 945.95 384 810.81"/>
+  <polygon id="Треугольник-20" data-name="Треугольник" class="s4-b-cls-3" points="1920 1081.08 1920 810.81 1536 945.95 1920 1081.08"/>
+  <polygon id="Треугольник-21" data-name="Треугольник" class="s4-b-cls-3" points="768 675.67 768 405.4 384 540.54 768 675.67"/>
+  <polygon id="Треугольник-22" data-name="Треугольник" class="s4-b-cls-3" points="768 405.4 768 675.67 1152 540.54 768 405.4"/>
+  <polygon id="Треугольник-23" data-name="Треугольник" class="s4-b-cls-3" points="1536 405.4 1536 135.13 1152 270.27 1536 405.4"/>
+  <polygon id="Треугольник-24" data-name="Треугольник" class="s4-b-cls-3" points="1536 135.13 1536 405.4 1920 270.27 1536 135.13"/>
+  <polygon id="Треугольник-25" data-name="Треугольник" class="s4-b-cls-3" points="1536 675.67 1536 945.95 1920 810.81 1536 675.67"/>
+  <polygon id="Треугольник-26" data-name="Треугольник" class="s4-b-cls-3" points="0 135.13 0 405.4 384 270.27 0 135.13"/>
+  <polygon id="Треугольник-27" data-name="Треугольник" class="s4-b-cls-3" points="1152 810.81 1152 1081.08 1536 945.95 1152 810.81"/>
+  <polygon id="Треугольник-28" data-name="Треугольник" class="s4-b-cls-4" points="1536 945.95 1536 675.67 1152 810.81 1536 945.95"/>
+  <polygon id="Треугольник-29" data-name="Треугольник" class="s4-b-cls-3" points="0 675.67 0 945.95 384 810.81 0 675.67"/>
+  <polygon id="Треугольник-30" data-name="Треугольник" class="s4-b-cls-3" points="1920 270.27 1920 0 1536 135.13 1920 270.27"/>
+  <polygon id="Треугольник-31" data-name="Треугольник" class="s4-b-cls-3" points="1920 1081.08 1920 810.81 1536 945.95 1920 1081.08"/>
+  <g>
+    <polygon id="Часть_треугольника" data-name="Часть треугольника" class="s4-b-cls-3" points="384 0 768 135.13 768 0 384 0"/>
+    <polygon id="Часть_треугольника-2" data-name="Часть треугольника" class="s4-b-cls-3" points="768 0 768 135.13 1152 0 768 0"/>
+  </g>
+  <g>
+    <polygon id="Часть_треугольника-3" data-name="Часть треугольника" class="s4-b-cls-3" points="1152 0 1536 135.13 1536 0 1152 0"/>
+    <polygon id="Часть_треугольника-4" data-name="Часть треугольника" class="s4-b-cls-3" points="1536 0 1536 135.13 1920 0 1536 0"/>
+  </g>
+  <polygon id="Часть_треугольника-5" data-name="Часть треугольника" class="s4-b-cls-3" points="0 0 0 135.13 384 0 0 0"/>
+  <polygon id="Часть_треугольника-6" data-name="Часть треугольника" class="s4-b-cls-3" points="0 1081.08 0 945.95 384 1081.08 0 1081.08"/>
+  <polygon id="Треугольник-32" data-name="Треугольник" class="s4-b-cls-3" points="767.98 675.62 767.98 945.89 1152.07 810.85 767.98 675.62"/>
+  <polygon id="Треугольник-33" data-name="Треугольник" class="s4-b-cls-3" points="1536.08 405.79 1536.08 676.06 1920.17 541.02 1536.08 405.79"/>
+  <polygon id="Треугольник-34" data-name="Треугольник" class="s4-b-cls-3" points="768.08 135.29 768.08 405.56 1152.17 270.52 768.08 135.29"/>
+  <polygon id="Треугольник-35" data-name="Треугольник" class="s4-b-cls-3" points="384.01 270.2 384.01 540.47 768.11 405.43 384.01 270.2"/>
+  <polygon id="Треугольник-36" data-name="Треугольник" class="s4-b-cls-3" points="384.01 540.64 384.01 810.91 768.11 675.87 384.01 540.64"/>
+  <polygon id="Треугольник-37" data-name="Треугольник" class="s4-b-cls-3" points="-0.24 405.2 -0.24 675.47 383.86 540.43 -0.24 405.2"/>
+  <polygon id="Треугольник-38" data-name="Треугольник" class="s4-b-cls-3" points="1152.01 1081.15 1152.01 810.88 768.01 946.01 1152.01 1081.15"/>
   <g id="portfolio-cases">
-    <g id="mksoloview">
-      <g class="section-4-back-cls-3">
-          <a href="../projects/mksoloviev/" target="_blank">
-        <image width="772" height="273" transform="translate(382 132.4)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
-        <g id="overlay" class="overlay">
-          <path id="overlay-back" class="section-4-back-cls-4" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
-          <text class="section-4-back-cls-5" transform="translate(634.11 227)">
-            V<tspan class="section-4-back-cls-6" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="section-4-back-cls-7" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">ovyov</tspan><tspan x="83.52" y="43.2">training</tspan>
-          </text>
-          <text class="section-4-back-cls-8" transform="translate(639.45 325.44)">
-            Frontend, backend
-          </text>
+    <g id="amtel.club" data-open-case-modal="amtel.club">
+      <g class="s4-b-cls-5">
+        <g id="amtel_back">
+          <rect class="s4-b-cls-6" x="381" y="397.5" width="394" height="280.5"/>
+          <polygon class="s4-b-cls-7" points="638.44 540.67 633.81 540.67 633.81 516.71 621.07 516.71 621.07 512.77 651.29 512.77 651.29 516.71 638.44 516.71 638.44 540.67"/>
+          <polygon class="s4-b-cls-7" points="687.87 512.77 687.87 516.71 666.34 516.71 666.34 524.35 683.24 524.35 683.24 527.94 666.34 527.94 666.34 536.85 688.68 536.85 688.68 540.67 661.71 540.67 661.71 512.77 687.87 512.77"/>
+          <polygon class="s4-b-cls-7" points="707.44 512.77 707.44 536.85 726.66 536.85 726.66 540.67 702.81 540.67 702.81 512.77 707.44 512.77"/>
+          <polygon class="s4-b-cls-7" points="607.18 512.77 593.63 530.95 580.2 512.77 576.38 512.77 576.38 540.67 580.32 540.67 580.32 519.48 593.63 537.43 607.06 519.48 607.06 540.67 611 540.67 611 512.77 607.18 512.77"/>
+          <polygon class="s4-b-cls-8" points="537.13 538.24 563.3 533.96 549.87 531.18 540.14 532.8 537.13 538.24"/>
+          <polygon class="s4-b-cls-9" points="563.3 533.96 534.12 527.94 536.55 523.42 560.17 528.28 563.3 533.96"/>
+          <polygon class="s4-b-cls-7" points="557.04 526.2 549.75 512.88 544.77 512.88 539.56 522.61 543.5 523.42 547.32 516.47 551.95 525.16 557.04 526.2"/>
+          <polygon class="s4-b-cls-7" points="562.14 535.58 557.97 536.27 560.52 540.9 565.03 540.9 562.14 535.58"/>
+          <polygon class="s4-b-cls-7" points="535.63 529.67 529.49 540.9 534 540.9 539.68 530.48 535.63 529.67"/>
+          <path class="s4-b-cls-7" d="M528.22,547.73h-1.85l-5.56,10.07h1.62l1.39-2.43h6.83l1.27,2.43h1.85Zm-3.7,6.25,2.66-5.09L530,554Z"/>
+          <path class="s4-b-cls-7" d="M550.45,553.06a.67.67,0,1,1,0-.93,1.38,1.38,0,0,0,.46-1.27V549.7a1.8,1.8,0,0,0-.58-1.62,2.41,2.41,0,0,0-1.51-.35h-8.1v10.07h7.64a3.81,3.81,0,0,0,2.08-.46,2.08,2.08,0,0,0,.58-1.51v-1.27A1.68,1.68,0,0,0,550.45,553.06Zm-8.1-3.94h5.9a2,2,0,0,1,.81.12,1,1,0,0,1,.23.69v1c0,.35,0,.58-.35.81a1.47,1.47,0,0,1-.69.12h-5.9Zm7.06,6.14a1.56,1.56,0,0,1-.23.93,1.25,1.25,0,0,1-.93.23h-5.9v-3.24h5.9a1.25,1.25,0,0,1,.81.23,1.62,1.62,0,0,1,.35,1Z"/>
+          <polygon class="s4-b-cls-7" points="561.79 557.81 561.79 549.12 557.16 549.12 557.16 547.73 568.16 547.73 568.16 549.12 563.53 549.12 563.53 557.81 561.79 557.81"/>
+          <path class="s4-b-cls-7" d="M585.29,548.2a2.78,2.78,0,0,0-1.85-.46h-7.06a2.64,2.64,0,0,0-1.85.46c-.58.46-.58,1.51-.58,2v5.33a2.49,2.49,0,0,0,.58,1.85,2.35,2.35,0,0,0,1.74.46h7.18a2.64,2.64,0,0,0,1.85-.46,2.78,2.78,0,0,0,.46-1.85v-5.33A2.94,2.94,0,0,0,585.29,548.2ZM584,556.42h-8.34v-7.29H584Z"/>
+          <path class="s4-b-cls-7" d="M596.06,557.81c-1.85,0-2.08-.58-2.08-2V555h1.62v1.39h6.14a1.47,1.47,0,0,0,.69-.12,1,1,0,0,0,.23-.69V554.1c0-.23,0-.58-.23-.69s-.46-.23-.69-.23H598V551.9h3.59a1,1,0,0,0,.69-.23,1.39,1.39,0,0,0,.23-.93v-.46c0-.35,0-.81-.23-.93s-.23-.23-.69-.23h-6v1.27h-1.51v-.69c0-1.39.35-2,2.2-2h5.79a2.59,2.59,0,0,1,1.62.35,2.34,2.34,0,0,1,.46,1.62v.93a1.82,1.82,0,0,1-.46,1.51,2.18,2.18,0,0,1-1,.46,2.74,2.74,0,0,1,1.16.35,2.2,2.2,0,0,1,.46,1.62v1.16a2.2,2.2,0,0,1-.46,1.62,2.63,2.63,0,0,1-1.74.46Z"/>
+          <path class="s4-b-cls-7" d="M618.18,547.73h-1.85l-5.56,10.07h1.74l1.27-2.43h6.83l1.27,2.43h1.85Zm-3.7,6.25,2.78-5.09,2.66,5.09Z"/>
+          <polygon class="s4-b-cls-7" points="640.17 557.81 640.17 549.12 632.3 549.12 632.3 557.81 630.68 557.81 630.68 547.73 641.91 547.73 641.91 557.81 640.17 557.81"/>
+          <path class="s4-b-cls-7" d="M659,557.81V554h-6.6c-.81,0-2.2-.12-2.2-2v-4.28H652v3.82a1.1,1.1,0,0,0,.23.81,1.25,1.25,0,0,0,.81.23h6v-4.86h1.74v10.07Z"/>
+          <path class="s4-b-cls-7" d="M674.91,547.73h-1.74l-5.56,10.07h1.62l1.39-2.43h6.83l1.27,2.43h1.85ZM671.32,554l2.66-5.09,2.78,5.09Z"/>
+          <path class="s4-b-cls-7" d="M689.26,549.12v7.29h7.06v-2.2h1.74v1.27a3.27,3.27,0,0,1-.46,1.85,2.64,2.64,0,0,1-1.85.46H690a2.64,2.64,0,0,1-1.85-.46,2.78,2.78,0,0,1-.46-1.85v-5.33a2.94,2.94,0,0,1,.46-2,2.78,2.78,0,0,1,1.85-.46h5.79a2.64,2.64,0,0,1,1.85.46,3.43,3.43,0,0,1,.46,2v.93h-1.74v-2Z"/>
+          <polygon class="s4-b-cls-7" points="707.79 557.81 707.79 549.12 703.16 549.12 703.16 547.73 714.16 547.73 714.16 549.12 709.41 549.12 709.41 557.81 707.79 557.81"/>
+          <path class="s4-b-cls-7" d="M730.6,557.81V552c0-.46,0-.23.12-2.08a7.56,7.56,0,0,1-.81.93l-8.1,6.95h-1V547.73h1.74v5.56c0,.46-.12,1.51-.12,2.43.35-.58.93-1,1-1.27l7.87-6.72h1v10.07Z"/>
         </g>
-          </a>
+        <g class="overlay" id="overlay">
+          <polygon id="overlay-back" class="s4-b-cls-10" points="767.94 675.03 767.94 404.76 383.94 539.89 767.94 675.03"/>
+          <text class="s4-b-cls-11" transform="translate(573.21 545.99)">Amtel.club</text>
+        </g>
       </g>
-      <path id="Ромб-4" data-name="Ромб" class="section-4-back-cls-1" d="M768 135.13L384 270.27 768 405.4l384-135.13-384-135.14z"/>
+      <polygon id="Треугольник-39" data-name="Треугольник" class="s4-b-cls-1" points="767.94 675.03 767.94 404.76 383.94 539.89 767.94 675.03"/>
     </g>
-    <g id="solverytics">
-      <g class="section-4-back-cls-9">
-          <a href="../projects/solverytics/" target="_blank">
-        <image width="780" height="320" transform="translate(1152 355.13)" xlink:href="images/section-4-back-pics/solverytics.jpg"/>
-        <g id="overlay-2" data-name="overlay" class="overlay">
-          <path id="overlay-back-2" data-name="overlay-back" class="section-4-back-cls-4" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
-          <text class="section-4-back-cls-5" transform="translate(1464.53 491.73)">
-            So<tspan class="section-4-back-cls-10" x="37.58" y="0">l</tspan><tspan x="44.1" y="0">verytics</tspan>
-          </text>
-          <text class="section-4-back-cls-8" transform="translate(1357.49 560.17)">
-            Frontend, backend, design
-          </text>
+    <g id="ea_messenger" data-open-case-modal="ea_messenger">
+      <g class="s4-b-cls-12">
+        <g id="ea_messenger_background">
+          <rect class="s4-b-cls-7" x="0.5" y="267.5" width="771" height="272.5"/>
+          <g id="Слой_1">
+            <g id="_479229256" data-name=" 479229256">
+              <path class="s4-b-cls-13" d="M235.32,388.71c-1.09-1.09-7.33-3.43-8.89-3.9-5.31,11.08-23.88,9.21-25.28-4.53a13.15,13.15,0,0,1,17-14.51,11.25,11.25,0,0,1,6.87,4.37l-17,6.24,2.81,7.8L237.19,375c-.47-10.3-11.24-20-22.94-20-26.37,0-32.15,37-7.33,45.41a22,22,0,0,0,17.63-1.09C228.45,397.44,233.76,392.61,235.32,388.71ZM325,380.28c-2-18.41,24.34-20.91,26.68-3.9A13.7,13.7,0,0,1,340,392C332.22,393.08,326,387.15,325,380.28Zm11.08-24.81c-12.17,1.4-22.31,11.7-20.91,25.44,1.4,12.17,12.17,22.31,25.9,20.44,11.7-.94,21.85-12.17,20.44-25.44A23.08,23.08,0,0,0,336.12,355.47Zm0,71.63c7.8-1.87,14.2,3.9,15.6,10.3a13.91,13.91,0,0,1-10.61,16.07c-17.17,3.43-23.41-22.94-5-26.37Zm-20.91,15.14a23,23,0,0,0,25.44,21.07A23.28,23.28,0,0,0,336.12,417c-12.17.94-21.85,12.17-20.91,25.28Zm-94.56,20.6v-10.3c-4.37,1.4-6.4,2.5-11.24.47-10.77-4.37-11.7-20.44,0-25.28,7.8-3.43,15.14,1.87,17.48,7.18,2,5,1.09,20.13,1.09,26.84h9.67V440.83c0-7.33-1.87-11.24-5.31-15.6-5.93-7.33-19.51-11.24-30.27-4.37-20.44,12.64-10.3,47.75,18.57,42Zm22.94-44.47c-1.09,4.84-.47,26.84.47,31.21,4.37,18.1,31.21,19,36.51,0,.94-4.37,1.56-26.37.94-31.21H271.36c-2,14.67,4.37,35.11-8.74,35.11-3.43,0-6.4-1.87-7.33-3.9-3.43-5.31-1.09-21.38-2-31.21Zm37.92-62H271.36v22c0,3.43-.47,6.87-2,9.21-2.81,5-10.61,5.46-14,0-1.56-2.34-2-5.77-2-9.21,0-4.84.94-18.1,0-22h-9.67c-1.09,2.5-.47,27.31.47,30.74,4.37,19,31.68,19,36.51.47,1.56-5.77.94-23.88.94-31.21ZM311.78,453c-3,0-5.77,0-8.27-1.4-6.4-3.9-5.31-15.6-4.84-23.41h12.64v-9.83H298.67V406.18h-10.3c0,6.87-.47,36,0,40.42,1.56,10.77,11.24,18.1,23.88,16.23l-.47-9.83Zm-23.41-52.59,10.3.47c0-9.83-2-27.78,3.43-33.24,3.43-3,5.31-1.4,10.14-2.34v-9.83c-11.7-1.4-20,4.37-22.31,11.7-2.5,6.4-1.56,25.44-1.56,33.24Z"/>
+              <rect class="s4-b-cls-14" x="381.06" y="355" width="5.36" height="107.11"/>
+              <path class="s4-b-cls-13" d="M403.85,381.68c0,7.18,5.15,12.33,13,12.33s12.8-5.15,12.8-12.33c0-7-5-12.33-12.8-12.33S403.85,374.66,403.85,381.68Zm6.55,0c0-4.06,2.81-6.71,6.4-6.71a6.41,6.41,0,0,1,6.4,6.71c0,4.06-2.65,6.87-6.4,6.87S410.4,385.59,410.4,381.68Z"/>
+              <path class="s4-b-cls-13" d="M441.92,393.54H448V377.47a7.23,7.23,0,0,1,5.15-2.34c3.28,0,5.31,1.87,5.31,5.62v12.8h5.93V379.66c0-7.33-3.9-10.14-9.67-10.14a9.23,9.23,0,0,0-6.71,2.81V370h-6.09Z"/>
+              <path class="s4-b-cls-13" d="M477.5,387c0,4.84,2,7,5.62,7a9.9,9.9,0,0,0,6.24-2l-1.25-4.53a4.9,4.9,0,0,1-2.5.94c-1.4,0-2-1.09-2-3.9V356.87H477.5Z"/>
+              <path class="s4-b-cls-13" d="M500.91,393.54h5.93V370h-5.93Zm-.62-32.15a3.65,3.65,0,0,0,3.75,3.9,3.59,3.59,0,0,0,3.43-3.9A3.46,3.46,0,0,0,504,358,3.54,3.54,0,0,0,500.28,361.4Z"/>
+              <path class="s4-b-cls-13" d="M520.88,393.54H527V377.47a7.23,7.23,0,0,1,5.15-2.34c3.28,0,5.31,1.87,5.31,5.62v12.8h5.93V379.66c0-7.33-3.9-10.14-9.67-10.14a9.23,9.23,0,0,0-6.71,2.81V370h-6.09Z"/>
+              <path class="s4-b-cls-13" d="M575,386.83a10.12,10.12,0,0,1-6.71,2.18c-3.59,0-6.4-1.87-7-5.46h17a9.12,9.12,0,0,0,.47-3.28c0-6.55-5.15-10.92-11.24-10.92-7.8,0-12.48,5.46-12.48,12.33,0,7.49,5.15,12.33,12.64,12.33a14.55,14.55,0,0,0,9.05-2.81Zm-7.8-12.48c3.59,0,5.46,2.34,5.46,5.15H561.14C561.77,376.38,563.64,374.35,567.23,374.35Z"/>
+              <path class="s4-b-cls-13" d="M403.85,435.83c0,7,5.15,12.33,13,12.33s12.8-5.31,12.8-12.33-5-12.33-12.8-12.33S403.85,428.81,403.85,435.83Zm6.55,0c0-4.06,2.81-6.71,6.4-6.71a6.41,6.41,0,0,1,6.4,6.71c0,4.06-2.65,6.71-6.4,6.71S410.4,439.73,410.4,435.83Z"/>
+              <path class="s4-b-cls-13" d="M442.23,447.69h6.09V429.75h6.24v-5.62h-6.24V420.7c0-3.28,1.4-4.68,3.43-4.68a5.14,5.14,0,0,1,3.43,1.25l2-4.68a9.67,9.67,0,0,0-6.55-2.18c-5.31,0-8.43,3.28-8.43,9.83Z"/>
+              <path class="s4-b-cls-13" d="M466.58,447.69h6.09V429.75h6.4v-5.62h-6.4V420.7c0-3.28,1.4-4.68,3.43-4.68a4.86,4.86,0,0,1,3.43,1.25l2-4.68A9.67,9.67,0,0,0,475,410.4c-5.31,0-8.43,3.28-8.43,9.83Z"/>
+              <path class="s4-b-cls-13" d="M508.71,441a11,11,0,0,1-6.71,2.18c-3.59,0-6.4-1.87-7-5.46h17a9.72,9.72,0,0,0,.47-3.28c0-6.55-5.15-10.92-11.24-10.92-7.8,0-12.48,5.46-12.48,12.33,0,7.49,5.15,12.33,12.64,12.33a14.55,14.55,0,0,0,9.05-2.81Zm-7.8-12.48c3.59,0,5.46,2.34,5.46,5.15H494.82C495.45,430.53,497.32,428.5,500.91,428.5Z"/>
+              <path class="s4-b-cls-13" d="M524.31,447.69h6.09V431.77a4.1,4.1,0,0,1,3.9-2.5,5.14,5.14,0,0,1,3,.94l2.18-5.62a5.22,5.22,0,0,0-3.59-.94,6.2,6.2,0,0,0-5.46,2.65v-2.18h-6.09Z"/>
+            </g>
+          </g>
         </g>
-          </a>
+        <g class="overlay" id="overlay-2" data-name="overlay">
+          <polygon id="overlay-back-2" data-name="overlay-back" class="s4-b-cls-10" points="384 270.25 0 405.38 384 540.51 768 405.38 384 270.25"/>
+          <text class="s4-b-cls-15" transform="translate(236.8 421.44)">Euroauto Messenger</text>
+        </g>
       </g>
-      <path id="Ромб-5" data-name="Ромб" class="section-4-back-cls-1" d="M1536 404.87L1152 540l384 135.13L1920 540l-384-135.13z"/>
+      <polygon id="Ромб-5" data-name="Ромб" class="s4-b-cls-1" points="384 270.25 0 405.38 384 540.51 768 405.38 384 270.25"/>
     </g>
-    <g id="logo-centr">
-      <g class="section-4-back-cls-11">
-          <a href="http://logo-centr.ru/" target="_blank">
-        <image width="830" height="300" transform="translate(0 539)" xlink:href="images/section-4-back-pics/logo-centr.jpg"/>
-        <g id="overlay-3" data-name="overlay" class="overlay">
-          <path id="overlay-back-3" data-name="overlay-back" class="section-4-back-cls-4" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
-          <text class="section-4-back-cls-5" transform="translate(197.17 642.41)">
-            Chi<tspan class="section-4-back-cls-6" x="50.04" y="0">l</tspan><tspan x="57.64" y="0">dren and ado</tspan><tspan class="section-4-back-cls-7" x="272.98" y="0">l</tspan><tspan x="280.58" y="0">escents </tspan><tspan x="43.2" y="43.2">deve</tspan><tspan class="section-4-back-cls-6" x="117.07" y="43.2">l</tspan><tspan x="124.67" y="43.2">opment center</tspan>
-          </text>
-          <text class="section-4-back-cls-8" transform="translate(255.45 745.85)">
-            Frontend, backend
-          </text>
+    <g id="ea" data-open-case-modal="ea">
+      <g class="s4-b-cls-16">
+        <g id="ea_back">
+          <rect class="s4-b-cls-7" x="-3" y="399.67" width="392.67" height="278"/>
+          <g id="Слой_1-2" data-name="Слой_1">
+            <path class="s4-b-cls-17" d="M77.94,523.63c-.93-.84-6.27-3-7.84-3.39-4.64,9.68-20.6,8-22.22-4a11.81,11.81,0,0,1,15.28-12.77c2.43.72,5,2.53,5.76,4.1L54.17,513l2.46,6.81,23.06-8.22c-.52-9-9.81-17.29-20-17.3-23,0-28.31,32.46-6.44,39.76A20.55,20.55,0,0,0,68.72,533c3.41-1.64,8-5.75,9.22-9.36Zm78.72-7.43c-1.82-15.85,21.47-18.07,23.48-3.11a11.84,11.84,0,1,1-23.48,3.11Zm9.62-21.73c-10.57,1.21-19.56,10.41-18.18,22.55a20.4,20.4,0,1,0,40.54-4.66c-1.31-10.44-10.55-19.24-22.35-17.89Zm0,62.83A11.75,11.75,0,0,1,180,566.43a11.93,11.93,0,0,1-9.25,14.1c-15,3.08-20.46-20-4.47-23.22Zm-18.22,13.38a20.4,20.4,0,1,0,18.42-22.09,20.43,20.43,0,0,0-18.42,22.09h0Zm-82.8,18,.07-9.08c-4.12,1.18-5.7,2.06-10.2.32-9.15-3.54-10.09-17.55,0-21.83a11.87,11.87,0,0,1,15.54,6.32c1.72,4.28.89,17.57.94,23.21l8.49.16c.08-6.1.05-12.25,0-18.31,0-6.37-1.82-9.66-4.73-13.5-5-6.62-17-10.21-26.57-4.18-17.93,11.27-9,41.92,16.46,36.89h0Zm19.82-38.94c-.59,4.32-.31,23.51.64,27.43,3.78,15.75,27.5,16.77,32.07-.06,1-3.63,1.07-23,.62-27.37h-8.85c-1.58,12.66,4.09,30.77-7.78,30.86a7.62,7.62,0,0,1-6.4-3.49c-2.69-4.72-.75-18.83-1.48-27.37H85.07Zm33.41-54.28-9-.11c0,6.47,0,12.9,0,19.34,0,2.92-.13,6-1.42,8.12a7.53,7.53,0,0,1-12.57.05C94,520.64,94,517.62,94,514.65c0-4.18.54-16-.13-19.29l-8.64,0c-.79,2.39-.24,24.19.44,27.12,3.84,16.54,27.66,16.72,32.12.44,1.46-5.33.73-20.95.73-27.45Zm26.71,84.8c-2.67-.18-5.39,0-7.42-1.25-5.49-3.46-4.62-13.8-4.32-20.66l11.34-.08-.07-8.51-11.3-.09V539l-9,.1c0,5.85-.33,31.77.18,35.38,1.34,9.52,9.6,15.82,20.74,14.33l-.13-8.59h0Zm-20.79-46.12,9,.08c0-8.36-1.8-24.26,3.27-28.89,2.94-2.68,4.75-1.4,8.64-2.15v-8.48c-9.87-1.54-17.13,3.84-19.69,10.41-2.08,5.35-1.22,22.07-1.22,29h0Z"/>
+          </g>
         </g>
-          </a>
+        <g class="overlay" id="overlay-3" data-name="overlay">
+          <polygon id="overlay-back-3" data-name="overlay-back" class="s4-b-cls-10" points="0.18 405.13 0.18 675.4 384.19 540.26 0.18 405.13"/>
+          <text class="s4-b-cls-11" transform="translate(76.89 549.68)">Euroauto.ru</text>
+        </g>
       </g>
-      <path id="Ромб-6" data-name="Ромб" class="section-4-back-cls-1" d="M384 540.54L0 675.67 384 810.8l384-135.13-384-135.13z"/>
+      <polygon id="Треугольник-40" data-name="Треугольник" class="s4-b-cls-1" points="0.18 405.13 0.18 675.4 384.19 540.26 0.18 405.13"/>
     </g>
-    <g id="atlant">
-      <g class="section-4-back-cls-12">
-          <a href="http://stroim-kottedzh.ru/" target="_blank">
-        <image width="390" height="280" transform="translate(1530 264.86)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
-        <g id="overlay-4" data-name="overlay" class="overlay">
-          <path id="overlay-back-4" data-name="overlay-back" class="section-4-back-cls-4" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
-          <text class="section-4-back-cls-13" transform="translate(1712.53 378.5)">
-            At<tspan class="section-4-back-cls-14" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan>
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(1709.08 422.1)">
-            Updating, adding<tspan x="41.42" y="24">features</tspan>
-          </text>
+    <g id="wolf" data-open-case-modal="wolf">
+      <g class="s4-b-cls-18">
+        <g id="wolf_back">
+          <rect class="s4-b-cls-7" x="0.5" y="537.5" width="771" height="272.5"/>
+          <g id="Слой_1-3" data-name="Слой_1">
+            <g id="_554465816" data-name=" 554465816">
+              <path class="s4-b-cls-19" d="M238,705.78c-3.75,0-10.21-1.67-11.94-12.63l-.06-.4c-1.15-7.56-2.42-15.34-6.11-21-2.94-4.44-7.21-7.15-13.1-8.19l-.81-.17a.63.63,0,0,1-.29-.06l-.35-.06H205l-.12-.06h-.06a2,2,0,0,1-1.79-1.85c0-.06-.06-.17-.06-.23a2.18,2.18,0,0,1,1.44-2c.06,0,.06,0,.12-.06a3.68,3.68,0,0,0,.4-.12l.81-.23c.23-.12.52-.17.81-.29a43.73,43.73,0,0,1,12-1.85c16.84,0,24.52,12.11,27.57,19.38,1.1,2.48,2.13,2.48,2.54,2.48a4.72,4.72,0,0,0,2-.63c14.19-7.44,31.79-16.56,35.25-17.65a11.57,11.57,0,0,1,3.06-.46c5.31,0,8.36,4.15,9.17,5.48,1,1.5,2.6,5.19,5,11.13l.17.46c1.27,3.06,2.71,3.46,3.81,3.46a9.31,9.31,0,0,0,3.58-1c1.21-.58,4-2.31,5-2.94,10.79-6.86,20.77-12,29.59-15.23,7.9-2.88,15.06-4.38,21.29-4.38a32.83,32.83,0,0,1,5.88.52l.92.17a1.68,1.68,0,0,1,.52.12,2,2,0,0,1,.58.12l.17.06a2.06,2.06,0,0,1-.12,4,.18.18,0,0,1-.12.06c-.17.06-.35.06-.52.12a.52.52,0,0,1-.29.06l-.06.06a5.36,5.36,0,0,0-.75.23c-7.67,2.6-20.94,12.63-32.65,21.52-6.81,5.13-13.15,10-17.94,13-6.63,4.15-15.17,8.94-22.27,8.94-4.5,0-10.44-2-13.33-11.31l-4.27-11.6c-8,4.73-33.05,19.33-36.8,21.11A18.44,18.44,0,0,1,238,705.78Z"/>
+              <path class="s4-b-cls-19" d="M370.61,705.37c-8.48,0-15-2.65-18.34-7.44a.06.06,0,0,0-.06-.06,12,12,0,0,1-1.62-7.85h0a10.72,10.72,0,0,1,7.15-8.88,9.22,9.22,0,0,1,2.71-.46,7.73,7.73,0,0,1,5.6,2.71,8.8,8.8,0,0,0,.87.75,18.38,18.38,0,0,0,9.11,3.69h1.15c4.38,0,12.4-1.67,16.33-6.29,2.54-2.88,3.58-5.65,2.88-7.38s-3.06-2.65-6.86-3a16.45,16.45,0,0,0-1.79-.12,44,44,0,0,0-15.4,3.35c-.06.06-.29.12-.52.23a68,68,0,0,0-11.36,5.08L360,680l-.46.29a2.33,2.33,0,0,1-1.27.35,2.43,2.43,0,0,1-1.9-.92,2.41,2.41,0,0,1,.23-3.29l.81-.75c9.69-8.83,17.25-12.58,25.56-15.52a50,50,0,0,1,16.38-3,34.77,34.77,0,0,1,4.33.29c5.6.69,12.75,4.27,15.11,10.33,2.13,5.6.17,11.94-5.83,19C403.72,697.53,385.9,705.37,370.61,705.37Z"/>
+              <path class="s4-b-cls-19" d="M409.21,705.66a29.47,29.47,0,0,1-7.79-1l-.12-.06c-.12,0-.17-.06-.29-.06a4.32,4.32,0,0,0-.92-.29l-.12-.06c-.06,0-.12-.06-.17-.06a2.1,2.1,0,0,1-1.44-2,2.12,2.12,0,0,1,1.38-2,.18.18,0,0,1,.12-.06l.17-.06.81-.35a.21.21,0,0,0,.17-.06l.12-.06c15.34-6.35,29-26.88,40.32-46.15a.06.06,0,0,1,.06-.06h0c9.92-16.9,18.23-28.5,26.13-36.34,9.06-9,18.92-13.73,28.61-13.73a29.86,29.86,0,0,1,7.79,1.1l.12.06a.35.35,0,0,1,.23.06,6.3,6.3,0,0,1,1,.29l.06.06c.12,0,.17,0,.23.06a2.06,2.06,0,0,1,1.38,2,2,2,0,0,1-1.38,2l-.06.06c-.12,0-.17.06-.23.06-.23.12-.52.17-.75.29a350786.17,350786.17,0,0,0-.35.12c-15.34,6.4-29,26.94-40.32,46.21v.06c-9.92,16.9-18.23,28.44-26.13,36.34C428.76,700.93,418.84,705.66,409.21,705.66Z"/>
+              <path class="s4-b-cls-19" d="M402.57,762.54a28.16,28.16,0,0,1-8.77-1.38h-.12a.21.21,0,0,0-.17-.06,3.34,3.34,0,0,0-.81-.29l-.17-.06a.44.44,0,0,0-.23-.12,2.06,2.06,0,0,1-.12-3.81l.35-.17c.23-.12.46-.23.75-.35l.17-.12c22-10.79,41.65-44,60.63-76,14.71-24.81,28.56-48.28,43.61-62.24,8.88-8.19,18.46-12.52,27.69-12.52a28.75,28.75,0,0,1,9.11,1.5l.12.06c.06,0,.12.06.17.06.35.12.63.23.92.35l.12.06c.06,0,.17.06.23.06a2.09,2.09,0,0,1-.06,3.87.18.18,0,0,1-.12.06.35.35,0,0,1-.23.06l-.75.35-.29.06c-15.52,6.52-30.17,27.46-42.46,47.13-.81,1.27-2.83,4.56-5.77,9.46h7.21a2.44,2.44,0,0,1,2.42,2.42,13.49,13.49,0,0,1-13.56,13.56h-5.65c-1,1.67-1.62,2.77-1.73,2.94-17,28.67-32.48,53.48-50.07,67H425C417.63,759.71,409.9,762.54,402.57,762.54Z"/>
+              <path class="s4-b-cls-19" d="M469.49,738c-3.12,0-5.6-2-5.6-4.5s2.48-4.5,5.6-4.5,5.6,2,5.6,4.5S472.66,738,469.49,738Z"/>
+              <path class="s4-b-cls-19" d="M498,744.37c-2.6,0-3.75-1.15-4.33-2.13-1.1-2-.58-4.73,1.62-8.54a2.85,2.85,0,0,0,.23-.52,3.64,3.64,0,0,0-.23-.52c-2.19-3.81-2.71-6.63-1.62-8.54.58-1,1.73-2.13,4.33-2.13,4.73,0,12.86,4.27,15,8.83a6.48,6.48,0,0,1,.58,2.25v.23c-.12,3.4-3.69,6.23-5.88,7.61C504.39,743,500.7,744.37,498,744.37Z"/>
+              <path class="s4-b-cls-19" d="M480.28,742.18a4,4,0,0,1-3.69-1.79c-.92-1.62-.52-3.92,1.27-7,.06-.06.06-.12.12-.17s-.06-.17-.12-.23c-1.79-3.06-2.19-5.31-1.27-7a4,4,0,0,1,3.69-1.79c3.92,0,9.63,3.17,11.6,6.46a4.92,4.92,0,0,1,.75,2.37v.29C492.45,737.74,484.66,742.18,480.28,742.18Z"/>
+            </g>
+          </g>
         </g>
-          </a>
+        <g class="overlay" id="overlay-4" data-name="overlay">
+          <polygon id="overlay-back-4" data-name="overlay-back" class="s4-b-cls-10" points="384 540.25 0 675.38 384 810.52 768 675.38 384 540.25"/>
+          <text class="s4-b-cls-15" transform="translate(344.83 691.45)"><tspan class="s4-b-cls-20">W</tspan><tspan x="32.58" y="0">olf</tspan></text>
+        </g>
       </g>
-      <path id="Треугольник-9" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
+      <polygon id="Ромб-6" data-name="Ромб" class="s4-b-cls-1" points="384 540.25 0 675.38 384 810.52 768 675.38 384 540.25"/>
     </g>
-    <g id="mbuz-dsu-2">
-      <g class="section-4-back-cls-16">
-          <a href="../projects/mbuz-dsu-2/" target="_blank">
-        <image width="390" height="280" transform="translate(1533 530.27)" xlink:href="images/section-4-back-pics/mbuz-dsu-2.jpg"/>
-        <g id="overlay-5" data-name="overlay" class="overlay">
-          <path id="overlay-back-5" data-name="overlay-back" class="section-4-back-cls-4" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
-          <text class="section-4-back-cls-13" transform="translate(1707.55 648.23)">
-            House nursing <tspan x="27.65" y="33.6">care №2</tspan>
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(1701.18 716.83)">
-            Frontend, backend
-          </text>
+    <g id="mksoloview" data-open-case-modal="mksoloview">
+      <g class="s4-b-cls-21">
+        <image width="772" height="273" transform="translate(1150.19 133.01)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
+        <g class="overlay" id="overlay-5" data-name="overlay">
+          <polygon id="overlay-back-5" data-name="overlay-back" class="s4-b-cls-10" points="1536.19 135.74 1152.19 270.87 1536.19 406.01 1920.19 270.87 1536.19 135.74"/>
+          <text class="s4-b-cls-15" transform="translate(1395.5 257.6)">V<tspan class="s4-b-cls-22" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-cls-23" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oview’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-10" data-name="Треугольник" class="section-4-back-cls-1" d="M1920 810.27V540l-384 135.13 384 135.14z"/>
+      <polygon id="Ромб-7" data-name="Ромб" class="s4-b-cls-1" points="1536.19 135.74 1152.19 270.87 1536.19 406.01 1920.19 270.87 1536.19 135.74"/>
     </g>
-    <g id="dobra">
-      <g class="section-4-back-cls-17">
-          <a href="../projects/me_v2.0/dobra/" target="_blank">
-        <image width="391" height="280" transform="translate(380.5 670.27)" xlink:href="images/section-4-back-pics/dobra.JPG"/>
-        <g id="overlay-6" data-name="overlay" class="overlay">
-          <path id="overlay-back-6" data-name="overlay-back" class="section-4-back-cls-4" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
-          <text class="section-4-back-cls-13" transform="translate(551.63 783.91)">
-            Dobra delivery
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(557.08 827.5)">
-            Updating, adding<tspan x="41.42" y="24">features</tspan>
-          </text>
+    <g id="me" data-open-case-modal="me">
+      <g class="s4-b-cls-24">
+        <image width="390" height="280" transform="translate(1120.15 263.61) scale(1.08 1)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
+        <g class="overlay" id="overlay-6" data-name="overlay">
+          <polygon id="overlay-back-6" data-name="overlay-back" class="s4-b-cls-10" points="1151.79 270.29 1151.79 540.55 1535.79 405.42 1151.79 270.29"/>
+          <text class="s4-b-cls-11" transform="translate(1185.9 414.84)">Mar<tspan class="s4-b-cls-25" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-11" data-name="Треугольник" class="section-4-back-cls-1" d="M768 945.95V675.67L384 810.8l384 135.15z"/>
+      <polygon id="Треугольник-41" data-name="Треугольник" class="s4-b-cls-1" points="1151.79 270.29 1151.79 540.56 1535.79 405.42 1151.79 270.29"/>
     </g>
-    <g id="yashmebel">
-      <g class="section-4-back-cls-18">
-          <a href="http://yashmebel.ru/" target="_blank">
-        <image width="390" height="280" transform="translate(768 675.67)" xlink:href="images/section-4-back-pics/yashmebel.JPG"/>
-        <g id="overlay-7" data-name="overlay" class="overlay">
-          <path id="overlay-back-7" data-name="overlay-back" class="section-4-back-cls-4" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
-          <text class="section-4-back-cls-13" transform="translate(843.29 794.81)">
-            <tspan class="section-4-back-cls-19">Y</tspan><tspan x="12.43" y="0">ashmebel</tspan>
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(815.45 838.41)">
-            Frontend, backend
-          </text>
+    <g id="atlant" data-open-case-modal="atlant">
+      <g class="s4-b-cls-26">
+        <image width="390" height="280" transform="translate(1535.97 267.53)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
+        <g class="overlay" id="overlay-7" data-name="overlay">
+          <polygon id="overlay-back-7" data-name="overlay-back" class="s4-b-cls-10" points="1920.94 540.53 1920.94 270.26 1536.94 405.39 1920.94 540.53"/>
+          <text class="s4-b-cls-11" transform="translate(1720.34 414.66)">At<tspan class="s4-b-cls-27" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-12" data-name="Треугольник" class="section-4-back-cls-1" d="M768 675.67v270.28l384-135.14-384-135.13z"/>
+      <polygon id="Треугольник-42" data-name="Треугольник" class="s4-b-cls-1" points="1920.94 540.53 1920.94 270.26 1536.94 405.39 1920.94 540.53"/>
     </g>
-    <g id="vektor">
-      <g class="section-4-back-cls-20">
-          <a href="../projects/vektor/" target="_blank">
-        <image width="390" height="280" transform="translate(0 405.4)" xlink:href="images/section-4-back-pics/vektor.jpg"/>
-        <g id="overlay-8" data-name="overlay" class="overlay">
-          <path id="overlay-back-8" data-name="overlay-back" class="section-4-back-cls-4" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
-          <text class="section-4-back-cls-13" transform="translate(99.97 514.54)">
-            <tspan class="section-4-back-cls-21">V</tspan><tspan x="18.09" y="0">ektor</tspan>
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(45.07 558.14)">
-            Frontend, backend, <tspan x="68.65" y="24">logo</tspan>
-          </text>
+    <g id="_15_puzzle" data-name="15_puzzle" data-open-case-modal="15_puzzle">
+      <g class="s4-b-cls-28">
+        <rect class="s4-b-cls-7" x="1528" y="395.5" width="400.5" height="282"/>
+        <image id="_15_puzzle_back" data-name="15_puzzle_back" width="256" height="256" transform="translate(1587.5 485.5) scale(0.45)" xlink:href="images/section-4-back-pics/15_puzzle.png"/>
+        <g class="overlay" id="overlay-8" data-name="overlay">
+          <polygon id="overlay-back-8" data-name="overlay-back" class="s4-b-cls-10" points="1536.47 404.87 1536.47 675.14 1920.47 540.01 1536.47 404.87"/>
+          <text class="s4-b-cls-11" transform="translate(1578.7 546.24)">15 puzz<tspan class="s4-b-cls-27" x="85.09" y="0">l</tspan><tspan x="91" y="0">e» game</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-13" data-name="Треугольник" class="section-4-back-cls-1" d="M0 405.4v270.27l384-135.13L0 405.4z"/>
+      <polygon id="Треугольник-43" data-name="Треугольник" class="s4-b-cls-1" points="1536.47 404.87 1536.47 675.14 1920.47 540.01 1536.47 404.87"/>
     </g>
-    <g id="hermes-news">
-      <g class="section-4-back-cls-22">
-          <a href="../projects/hermes-news/" target="_blank">
-        <image width="390" height="280" transform="translate(381 270.27)" xlink:href="images/section-4-back-pics/hermes-news.jpg"/>
-        <g id="overlay-9" data-name="overlay" class="overlay">
-          <path id="overlay-back-9" data-name="overlay-back" class="section-4-back-cls-4" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
-          <text class="section-4-back-cls-13" transform="translate(440.6 389.41)">
-            Hermes News
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(395.76 433.01)">
-            Frontend, backend, design
-          </text>
+    <g id="passgen" data-open-case-modal="passgen">
+      <g class="s4-b-cls-29">
+        <rect class="s4-b-cls-7" x="1143" y="400.5" width="400.5" height="282"/>
+        <image id="passgen_back" width="512" height="512" transform="translate(1374 487) scale(0.22)" xlink:href="images/section-4-back-pics/passgen.png"/>
+        <g class="overlay" id="overlay-9" data-name="overlay">
+          <polygon id="overlay-back-9" data-name="overlay-back" class="s4-b-cls-10" points="1535.72 675.07 1535.72 404.8 1151.72 539.94 1535.72 675.07"/>
+          <text class="s4-b-cls-11" transform="translate(1273.47 546.03)"><tspan class="s4-b-cls-30">P</tspan><tspan x="9.58" y="0">assword generator</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-14" data-name="Треугольник" class="section-4-back-cls-1" d="M384 270.27v270.27L768 405.4 384 270.27z"/>
+      <polygon id="Треугольник-44" data-name="Треугольник" class="s4-b-cls-1" points="1535.72 675.07 1535.72 404.8 1151.72 539.94 1535.72 675.07"/>
     </g>
-    <g id="me">
-      <g class="section-4-back-cls-23">
-          <a href="../projects/me_v2.0/" target="_blank">
-        <image width="390" height="280" transform="translate(-6 265.27)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
-        <g id="overlay-10" data-name="overlay" class="overlay">
-          <path id="overlay-back-10" data-name="overlay-back" class="section-4-back-cls-4" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
-          <text class="section-4-back-cls-13" transform="translate(137.75 388.5)">
-            Mar<tspan class="section-4-back-cls-24" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan>
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(165.18 432.1)">
-            Frontend, backend
-          </text>
+    <g id="portfolio" data-open-case-modal="portfolio">
+      <g class="s4-b-cls-31">
+        <g id="ik_back">
+          <rect id="preloader-back" class="s4-b-cls-32" x="660.78" y="676" width="981.68" height="552.19"/>
+          <path class="s4-b-cls-33" d="M906.57,925.39h2v45.77h-2Z"/>
+          <path class="s4-b-cls-33" d="M937.45,972.2l-22.76-46.8h2.2l20.75,42.41,20.63-42.41h2Z"/>
+          <path class="s4-b-cls-33" d="M973.76,924.29l22.89,46.86H994.5l-8.67-17.45H961.37l-8.54,17.45h-1.89Zm-.18,4.21-11.41,23.43h22.95Z"/>
+          <path class="s4-b-cls-33" d="M1036.73,925.39h1.77v46.44l-33.68-41.41v40.77H1003V924.74l33.68,41.37Z"/>
+          <path class="s4-b-cls-33" d="M1069,925.39h2v16.78l19.34-16.78h2.44l-20.93,18.27,26.3,27.52h-2.68L1071,945.71v25.45h-2Z"/>
+          <path class="s4-b-cls-33" d="M1106.21,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72A22.15,22.15,0,0,1,1123.5,972h-.92A22.07,22.07,0,0,1,1106.21,964.81Zm38.66-16.55a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33A21.21,21.21,0,0,0,1144.86,948.26Z"/>
+          <path class="s4-b-cls-33" d="M1154.18,925.39h2.62a14.47,14.47,0,0,1,10.4,4.36,13.85,13.85,0,0,1,4.48,10.25,13.6,13.6,0,0,1-4.6,10.23q-4.6,4.34-9.83,4.33h-.43l15.74,16.6H1170l-13.85-14.53v14.53h-2Zm2,27.4h1.11A12,12,0,0,0,1166,949a12.46,12.46,0,0,0,.27-17.62l-.39-.38a12.37,12.37,0,0,0-8.91-3.84h-.79Z"/>
+          <path class="s4-b-cls-33" d="M1184.14,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72,22.16,22.16,0,0,1-16.48,7.11h-.92A22.06,22.06,0,0,1,1184.14,964.81Zm38.66-16.55a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33A21.21,21.21,0,0,0,1222.79,948.26Z"/>
+          <path class="s4-b-cls-33" d="M1234.14,925.39v44h14.16v1.77h-16.17V925.39Z"/>
+          <path class="s4-b-cls-33" d="M1254.1,925.39h16.42v1.77h-14.4v24.9h12v1.77h-12v15.56h14.4v1.77H1254.1Z"/>
+          <path class="s4-b-cls-33" d="M1310.3,925.39h1.77v46.44l-33.68-41.41v40.77h-1.77V924.74l33.68,41.37Z"/>
+          <path class="s4-b-cls-33" d="M1321.22,925.39h2v16.78l19.34-16.78H1345L1324,943.66l26.3,27.52h-2.68l-24.41-25.48v25.45h-2Z"/>
+          <path class="s4-b-cls-33" d="M1358.41,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72,22.16,22.16,0,0,1-16.48,7.11h-.92A22.07,22.07,0,0,1,1358.41,964.81Zm38.66-16.57a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33a21.21,21.21,0,0,0,6.41-15.45Z"/>
         </g>
-          </a>
-      </g>
-      <path id="Треугольник-15" data-name="Треугольник" class="section-4-back-cls-1" d="M384 540.54V270.27L0 405.4l384 135.14z"/>
-    </g>
-    <g id="broasty">
-      <g class="section-4-back-cls-25">
-          <a href="http://broastyfoodtruck.com/" target="_blank">
-        <image width="390" height="280" transform="translate(762 805.27)" xlink:href="images/section-4-back-pics/broasty.jpg"/>
-        <g id="overlay-11" data-name="overlay" class="overlay">
-          <path id="overlay-back-11" data-name="overlay-back" class="section-4-back-cls-4" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
-          <text class="section-4-back-cls-13" transform="translate(976.85 919.04)">
-            Broasty
-          </text>
-          <text class="section-4-back-cls-15" transform="translate(946.93 962.64)">
-            Adding features
-          </text>
+        <g class="overlay" id="overlay-10" data-name="overlay">
+          <polygon id="overlay-back-10" data-name="overlay-back" class="s4-b-cls-10" points="1152.32 810.95 768.32 946.08 1152.32 1081.22 1536.32 946.08 1152.32 810.95"/>
+          <text class="s4-b-cls-15" transform="translate(1002.87 960.31)">This portfolio website</text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-16" data-name="Треугольник" class="section-4-back-cls-1" d="M1152 1081.08V810.8L768 945.96l384 135.13z"/>
+      <polygon id="Ромб-8" data-name="Ромб" class="s4-b-cls-1" points="1152.32 810.95 768.32 946.08 1152.32 1081.22 1536.32 946.08 1152.32 810.95"/>
     </g>
   </g>
-  <path id="Треугольник-17" data-name="Треугольник" class="section-4-back-cls-26" d="M384 270.27V0L0 135.13l384 135.14z"/>
-  <path id="Треугольник-18" data-name="Треугольник" class="section-4-back-cls-26" d="M384 0v270.27l384-135.14L384 0z"/>
-  <path id="Треугольник-19" data-name="Треугольник" class="section-4-back-cls-26" d="M1152 270.27V0L768 135.13l384 135.14z"/>
-  <path id="Треугольник-20" data-name="Треугольник" class="section-4-back-cls-26" d="M1152 0v270.27l384-135.14L1152 0z"/>
-  <path id="Треугольник-21" data-name="Треугольник" class="section-4-back-cls-26" d="M1920 270.27V0l-384 135.13 384 135.14z"/>
-  <path id="Треугольник-22" data-name="Треугольник" class="section-4-back-cls-26" d="M1152 540.54V270.27L768 405.4l384 135.14z"/>
-  <path id="Треугольник-23" data-name="Треугольник" class="section-4-back-cls-26" d="M1152 270.27v270.27l384-135.14-384-135.13z"/>
-  <path id="Треугольник-24" data-name="Треугольник" class="section-4-back-cls-26" d="M1920 540.54V270.27L1536 405.4l384 135.14z"/>
-  <path id="Треугольник-25" data-name="Треугольник" class="section-4-back-cls-26" d="M1152 810.8V540.55L768 675.67l384 135.14z"/>
-  <path id="Треугольник-26" data-name="Треугольник" class="section-4-back-cls-26" d="M1152 540.54V810.8l384-135.13-384-135.13z"/>
-  <path id="Треугольник-27" data-name="Треугольник" class="section-4-back-cls-26" d="M1920 810.8V540.55l-384 135.13 384 135.14z"/>
-  <path id="Треугольник-28" data-name="Треугольник" class="section-4-back-cls-26" d="M384 1081.08V810.8L0 945.96l384 135.13z"/>
-  <path id="Треугольник-29" data-name="Треугольник" class="section-4-back-cls-26" d="M384 810.8v270.28l384-135.13L384 810.8z"/>
-  <path id="Треугольник-30" data-name="Треугольник" class="section-4-back-cls-26" d="M1920 1081.08V810.8l-384 135.15 384 135.13z"/>
-  <path id="Треугольник-31" data-name="Треугольник" class="section-4-back-cls-26" d="M768 675.67V405.4L384 540.54l384 135.13z"/>
-  <path id="Треугольник-32" data-name="Треугольник" class="section-4-back-cls-26" d="M768 405.4v270.27l384-135.13L768 405.4z"/>
-  <path id="Треугольник-33" data-name="Треугольник" class="section-4-back-cls-26" d="M1536 405.4V135.13l-384 135.14 384 135.13z"/>
-  <path id="Треугольник-34" data-name="Треугольник" class="section-4-back-cls-26" d="M1536 135.13V405.4l384-135.13-384-135.14z"/>
-  <path id="Треугольник-35" data-name="Треугольник" class="section-4-back-cls-26" d="M1536 675.67v270.28l384-135.14-384-135.13z"/>
-  <path id="Треугольник-36" data-name="Треугольник" class="section-4-back-cls-26" d="M0 135.13V405.4l384-135.13L0 135.13z"/>
-  <path id="Треугольник-37" data-name="Треугольник" class="section-4-back-cls-26" d="M1152 810.8v270.28l384-135.13-384-135.14z"/>
-  <path id="Треугольник-38" data-name="Треугольник" class="section-4-back-cls-27" d="M1536 945.95V675.67L1152 810.8l384 135.15z"/>
-  <path id="Треугольник-39" data-name="Треугольник" class="section-4-back-cls-26" d="M0 675.67v270.28L384 810.8 0 675.68z"/>
-  <path id="Треугольник-40" data-name="Треугольник" class="section-4-back-cls-26" d="M1920 270.27V0l-384 135.13 384 135.14z"/>
-  <path id="Треугольник-41" data-name="Треугольник" class="section-4-back-cls-26" d="M1920 1081.08V810.8l-384 135.15 384 135.13z"/>
-  <path id="Часть_треугольника" data-name="Часть треугольника" class="section-4-back-cls-26" d="M384 0l384 135.13V0H384z"/>
-  <path id="Часть_треугольника-2" data-name="Часть треугольника" class="section-4-back-cls-26" d="M768 0v135.13L1152 0H768z"/>
-  <path id="Часть_треугольника-3" data-name="Часть треугольника" class="section-4-back-cls-26" d="M768 945.95l-384 135.13h384V945.95z"/>
-  <path id="Часть_треугольника-4" data-name="Часть треугольника" class="section-4-back-cls-26" d="M1152 1081.08L768 945.95v135.13h384z"/>
-  <path id="Часть_треугольника-5" data-name="Часть треугольника" class="section-4-back-cls-26" d="M1152 0l384 135.13V0h-384z"/>
-  <path id="Часть_треугольника-6" data-name="Часть треугольника" class="section-4-back-cls-26" d="M1536 0v135.13L1920 0h-384z"/>
-  <path id="Часть_треугольника-7" data-name="Часть треугольника" class="section-4-back-cls-26" d="M1536 945.95l-384 135.13h384V945.95z"/>
-  <path id="Часть_треугольника-8" data-name="Часть треугольника" class="section-4-back-cls-26" d="M1920 1081.08l-384-135.13v135.13h384z"/>
-  <path id="Часть_треугольника-9" data-name="Часть треугольника" class="section-4-back-cls-26" d="M0 0v135.13L384 0H0z"/>
-  <path id="Часть_треугольника-10" data-name="Часть треугольника" class="section-4-back-cls-26" d="M0 1081.08V945.95l384 135.13H0z"/>
   <g id="header">
-    <path id="Треугольник_заголовка" data-name="Треугольник заголовка" class="section-4-back-cls-4" d="M768 0H384l384 135.13L1152 0H768z"/>
-    <text class="section-4-back-cls-28" transform="translate(523.22 52.62)">
-      What have I done?
-    </text>
+    <polygon id="Треугольник_заголовка" data-name="Треугольник заголовка" class="s4-b-cls-10" points="768 0 384 0 768 135.13 1152 0 768 0"/>
+    <text class="s4-b-cls-34" transform="translate(559.46 52.62)">What I&apos;ve done?</text>
   </g>
 </svg>
 
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920" class="section-4-back-mobile" id="section-4-back-mobile">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920" preserveAspectRatio="none" class="section-4-back-mobile" id="section-4-back-mobile">
   <defs>
     <style>
-      .section-4-mobile-cls-1,.section-4-mobile-cls-26,.section-4-mobile-cls-27{fill:none;}.section-4-mobile-cls-1,.section-4-mobile-cls-26,.section-4-mobile-cls-28,.section-4-mobile-cls-4{stroke:#3b2a66;stroke-miterlimit:10;}.section-4-mobile-cls-1{stroke-width:2px;}.section-4-mobile-cls-2{fill:#171717;}.section-4-mobile-cls-3{clip-path:url(#section-4-mobile-clip-path);}.section-4-mobile-cls-28,.section-4-mobile-cls-4{fill:#3b2a66;}.section-4-mobile-cls-4{opacity:0.75;}.section-4-mobile-cls-5{font-size:36px;}.section-4-mobile-cls-13,.section-4-mobile-cls-15,.section-4-mobile-cls-29,.section-4-mobile-cls-5,.section-4-mobile-cls-8{fill:#fff;}.section-4-mobile-cls-13,.section-4-mobile-cls-29,.section-4-mobile-cls-5{font-family:PoiretOne-Regular, Poiret One;}.section-4-mobile-cls-6{letter-spacing:-0.04em;}.section-4-mobile-cls-7{letter-spacing:-0.04em;}.section-4-mobile-cls-13,.section-4-mobile-cls-8{font-size:28px;}.section-4-mobile-cls-15,.section-4-mobile-cls-8{font-family:Raleway-Light, Raleway;}.section-4-mobile-cls-9{clip-path:url(#section-4-mobile-clip-path-2);}.section-4-mobile-cls-10{letter-spacing:-0.07em;}.section-4-mobile-cls-11{clip-path:url(#section-4-mobile-clip-path-3);}.section-4-mobile-cls-12{clip-path:url(#section-4-mobile-clip-path-4);}.section-4-mobile-cls-14{letter-spacing:-0.04em;}.section-4-mobile-cls-15{font-size:20px;}.section-4-mobile-cls-16{clip-path:url(#section-4-mobile-clip-path-5);}.section-4-mobile-cls-17{clip-path:url(#section-4-mobile-clip-path-6);}.section-4-mobile-cls-18{clip-path:url(#section-4-mobile-clip-path-7);}.section-4-mobile-cls-19{letter-spacing:-0.08em;}.section-4-mobile-cls-20{clip-path:url(#section-4-mobile-clip-path-8);}.section-4-mobile-cls-21{letter-spacing:-0.14em;}.section-4-mobile-cls-22{clip-path:url(#section-4-mobile-clip-path-9);}.section-4-mobile-cls-23{clip-path:url(#section-4-mobile-clip-path-10);}.section-4-mobile-cls-24{letter-spacing:-0.05em;}.section-4-mobile-cls-25{clip-path:url(#section-4-mobile-clip-path-11);}.section-4-mobile-cls-29{font-size:58px;}
+      .s4-b-m-cls-1, .s4-b-m-cls-3, .s4-b-m-cls-37, .s4-b-m-cls-4 {
+        fill: none;
+      }
+
+      .s4-b-m-cls-1, .s4-b-m-cls-10, .s4-b-m-cls-3 {
+        stroke: #3b2a66;
+      }
+
+      .s4-b-m-cls-1, .s4-b-m-cls-10, .s4-b-m-cls-3, .s4-b-m-cls-36, .s4-b-m-cls-37 {
+        stroke-miterlimit: 10;
+      }
+
+      .s4-b-m-cls-1 {
+        stroke-width: 2px;
+      }
+
+      .s4-b-m-cls-2, .s4-b-m-cls-36 {
+        fill: #171717;
+      }
+
+      .s4-b-m-cls-5 {
+        clip-path: url(#s4-b-m-clip-path);
+      }
+
+      .s4-b-m-cls-6 {
+        fill: #353535;
+      }
+
+      .s4-b-m-cls-11, .s4-b-m-cls-15, .s4-b-m-cls-20, .s4-b-m-cls-26, .s4-b-m-cls-31, .s4-b-m-cls-38, .s4-b-m-cls-7 {
+        fill: #fff;
+      }
+
+      .s4-b-m-cls-8 {
+        fill: #f0831c;
+      }
+
+      .s4-b-m-cls-9 {
+        fill: #fcc204;
+      }
+
+      .s4-b-m-cls-10 {
+        fill: #3b2a66;
+      }
+
+      .s4-b-m-cls-11 {
+        font-size: 27.95px;
+      }
+
+      .s4-b-m-cls-11, .s4-b-m-cls-15, .s4-b-m-cls-20, .s4-b-m-cls-26, .s4-b-m-cls-31, .s4-b-m-cls-38 {
+        font-family: PoiretOne-Regular, Poiret One;
+      }
+
+      .s4-b-m-cls-12 {
+        clip-path: url(#s4-b-m-clip-path-2);
+      }
+
+      .s4-b-m-cls-13 {
+        fill: #333;
+      }
+
+      .s4-b-m-cls-14 {
+        fill: #00b2ec;
+      }
+
+      .s4-b-m-cls-15 {
+        font-size: 36px;
+      }
+
+      .s4-b-m-cls-16 {
+        clip-path: url(#s4-b-m-clip-path-3);
+      }
+
+      .s4-b-m-cls-17 {
+        fill: #434242;
+      }
+
+      .s4-b-m-cls-18 {
+        clip-path: url(#s4-b-m-clip-path-4);
+      }
+
+      .s4-b-m-cls-19 {
+        fill: #222;
+        stroke: #222;
+        stroke-width: 3px;
+      }
+
+      .s4-b-m-cls-20 {
+        font-size: 35.93px;
+      }
+
+      .s4-b-m-cls-21 {
+        letter-spacing: -0.12em;
+      }
+
+      .s4-b-m-cls-22 {
+        clip-path: url(#s4-b-m-clip-path-5);
+      }
+
+      .s4-b-m-cls-23 {
+        letter-spacing: -0.04em;
+      }
+
+      .s4-b-m-cls-24 {
+        letter-spacing: -0.04em;
+      }
+
+      .s4-b-m-cls-25 {
+        clip-path: url(#s4-b-m-clip-path-6);
+      }
+
+      .s4-b-m-cls-26 {
+        font-size: 28px;
+      }
+
+      .s4-b-m-cls-27 {
+        letter-spacing: -0.05em;
+      }
+
+      .s4-b-m-cls-28 {
+        clip-path: url(#s4-b-m-clip-path-7);
+      }
+
+      .s4-b-m-cls-29 {
+        letter-spacing: -0.04em;
+      }
+
+      .s4-b-m-cls-30 {
+        clip-path: url(#s4-b-m-clip-path-8);
+      }
+
+      .s4-b-m-cls-31 {
+        font-size: 28px;
+      }
+
+      .s4-b-m-cls-32 {
+        letter-spacing: -0.04em;
+      }
+
+      .s4-b-m-cls-33 {
+        clip-path: url(#s4-b-m-clip-path-9);
+      }
+
+      .s4-b-m-cls-34 {
+        letter-spacing: -0.05em;
+      }
+
+      .s4-b-m-cls-35 {
+        clip-path: url(#s4-b-m-clip-path-10);
+      }
+
+      .s4-b-m-cls-36 {
+        stroke: #000;
+      }
+
+      .s4-b-m-cls-37 {
+        stroke: #fff;
+      }
+
+      .s4-b-m-cls-38 {
+        font-size: 58px;
+      }
     </style>
-    <clipPath id="section-4-mobile-clip-path">
-      <path id="Ромб" class="section-4-mobile-cls-1" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
+    <clipPath id="s4-b-m-clip-path">
+      <polygon id="Треугольник" class="s4-b-m-cls-1" points="720.28 674.59 720.28 404.81 360.28 539.7 720.28 674.59"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-2">
-      <path id="Ромб-2" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
+    <clipPath id="s4-b-m-clip-path-2">
+      <polygon id="Ромб" class="s4-b-m-cls-1" points="360.33 270.54 0.33 405.43 360.33 540.32 720.33 405.43 360.33 270.54"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-3">
-      <path id="Ромб-3" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
+    <clipPath id="s4-b-m-clip-path-3">
+      <polygon id="Треугольник-2" data-name="Треугольник" class="s4-b-m-cls-1" points="0.51 405.18 0.51 674.96 360.51 540.07 0.51 405.18"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-4">
-      <path id="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
+    <clipPath id="s4-b-m-clip-path-4">
+      <polygon id="Ромб-2" data-name="Ромб" class="s4-b-m-cls-1" points="360.33 540.05 0.33 674.94 360.33 809.83 720.33 674.94 360.33 540.05"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-5">
-      <path id="Треугольник-2" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
+    <clipPath id="s4-b-m-clip-path-5">
+      <polygon id="Ромб-3" data-name="Ромб" class="s4-b-m-cls-1" points="720.5 946.42 359.69 1081.53 720.5 1216.65 1081.3 1081.53 720.5 946.42"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-6">
-      <path id="Треугольник-3" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
+    <clipPath id="s4-b-m-clip-path-6">
+      <polygon id="Треугольник-3" data-name="Треугольник" class="s4-b-m-cls-1" points="359.32 1080.95 359.32 1351.18 720.12 1216.06 359.32 1080.95"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-7">
-      <path id="Треугольник-4" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
+    <clipPath id="s4-b-m-clip-path-7">
+      <polygon id="Треугольник-4" data-name="Треугольник" class="s4-b-m-cls-1" points="1082 1351.15 1082 1080.92 721.2 1216.03 1082 1351.15"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-8">
-      <path id="Треугольник-5" data-name="Треугольник" class="section-4-mobile-cls-1" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
+    <clipPath id="s4-b-m-clip-path-8">
+      <polygon id="Треугольник-5" data-name="Треугольник" class="s4-b-m-cls-1" points="720.76 1215.52 720.76 1485.75 1081.56 1350.63 720.76 1215.52"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-9">
-      <path id="Треугольник-6" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
+    <clipPath id="s4-b-m-clip-path-9">
+      <polygon id="Треугольник-6" data-name="Треугольник" class="s4-b-m-cls-1" points="720.05 1485.68 720.05 1215.45 359.25 1350.56 720.05 1485.68"/>
     </clipPath>
-    <clipPath id="section-4-mobile-clip-path-10">
-      <path id="Треугольник-7" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
-    </clipPath>
-    <clipPath id="section-4-mobile-clip-path-11">
-      <path id="Треугольник-8" data-name="Треугольник" class="section-4-mobile-cls-1" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
+    <clipPath id="s4-b-m-clip-path-10">
+      <polygon id="Ромб-4" data-name="Ромб" class="s4-b-m-cls-1" points="360.36 1621.94 0.88 1756.68 360.36 1891.42 719.84 1756.68 360.36 1621.94"/>
     </clipPath>
   </defs>
-  <path id="Фон" class="section-4-mobile-cls-2" d="M0 0h1080v1920H0z"/>
+  <rect id="Фон" class="s4-b-m-cls-2" width="1080" height="1920"/>
+  <polygon id="Треугольник-7" data-name="Треугольник" class="s4-b-m-cls-3" points="1080.6 270.27 1080.6 0 720.4 135.13 1080.6 270.27"/>
+  <polygon id="Треугольник-8" data-name="Треугольник" class="s4-b-m-cls-3" points="1080.6 540.54 1080.6 270.27 720.4 405.4 1080.6 540.54"/>
+  <polygon id="Треугольник-9" data-name="Треугольник" class="s4-b-m-cls-3" points="0 1216.21 0 1486.48 360.2 1351.35 0 1216.21"/>
+  <polygon id="Треугольник-10" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 1486.48 720.4 1216.21 360.2 1351.35 720.4 1486.48"/>
+  <polygon id="Треугольник-11" data-name="Треугольник" class="s4-b-m-cls-3" points="1080.6 810.81 1080.6 540.54 720.4 675.67 1080.6 810.81"/>
+  <polygon id="Треугольник-12" data-name="Треугольник" class="s4-b-m-cls-3" points="0 1486.48 0 1756.76 360.2 1621.62 0 1486.48"/>
+  <polygon id="Треугольник-13" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 1756.76 720.4 1486.48 360.2 1621.62 720.4 1756.76"/>
+  <polygon id="Треугольник-14" data-name="Треугольник" class="s4-b-m-cls-3" points="360.2 1081.08 360.2 810.81 0 945.95 360.2 1081.08"/>
+  <polygon id="Треугольник-15" data-name="Треугольник" class="s4-b-m-cls-3" points="360.2 810.81 360.2 1081.08 720.4 945.95 360.2 810.81"/>
+  <polygon id="Треугольник-16" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 675.67 720.4 405.4 360.2 540.54 720.4 675.67"/>
+  <polygon id="Треугольник-17" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 405.4 720.4 675.67 1080.6 540.54 720.4 405.4"/>
+  <polygon id="Треугольник-18" data-name="Треугольник" class="s4-b-m-cls-3" points="360.2 1351.35 360.2 1081.08 0 1216.21 360.2 1351.35"/>
+  <polygon id="Треугольник-19" data-name="Треугольник" class="s4-b-m-cls-3" points="360.2 1081.08 360.2 1351.35 720.4 1216.21 360.2 1081.08"/>
+  <polygon id="Треугольник-20" data-name="Треугольник" class="s4-b-m-cls-3" points="360.2 1621.62 360.2 1891.89 720.4 1756.76 360.2 1621.62"/>
+  <polygon id="Треугольник-21" data-name="Треугольник" class="s4-b-m-cls-3" points="0 135.13 0 405.4 360.2 270.27 0 135.13"/>
+  <polygon id="Треугольник-22" data-name="Треугольник" class="s4-b-m-cls-4" points="360.2 1891.89 360.2 1621.62 0 1756.76 360.2 1891.89"/>
+  <polygon id="Треугольник-23" data-name="Треугольник" class="s4-b-m-cls-3" points="0 675.67 0 945.95 360.2 810.81 0 675.67"/>
+  <g>
+    <polygon id="Часть_треугольника" data-name="Часть треугольника" class="s4-b-m-cls-3" points="0 0 360.2 135.13 360.2 0 0 0"/>
+    <polygon id="Часть_треугольника-2" data-name="Часть треугольника" class="s4-b-m-cls-3" points="360.2 0 360.2 135.13 720.4 0 360.2 0"/>
+  </g>
+  <polygon id="Треугольник-24" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 1216.21 720.4 945.95 360.2 1081.08 720.4 1216.21"/>
+  <polygon id="Треугольник-25" data-name="Треугольник" class="s4-b-m-cls-3" points="0 945.95 0 1216.21 360.2 1081.08 0 945.95"/>
+  <polygon id="Треугольник-26" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 945.95 720.4 1216.21 1080.6 1081.08 720.4 945.95"/>
+  <polygon id="Треугольник-27" data-name="Треугольник" class="s4-b-m-cls-3" points="1080.6 1351.35 1080.6 1081.08 720.4 1216.21 1080.6 1351.35"/>
+  <polygon id="Треугольник-28" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 1216.21 720.4 1486.48 1080.6 1351.35 720.4 1216.21"/>
+  <polygon id="Треугольник-29" data-name="Треугольник" class="s4-b-m-cls-3" points="1080.6 1621.62 1080.6 1351.35 720.4 1486.48 1080.6 1621.62"/>
+  <polygon id="Треугольник-30" data-name="Треугольник" class="s4-b-m-cls-3" points="720.4 1486.48 720.4 1756.76 1080.6 1621.62 720.4 1486.48"/>
+  <polygon id="Треугольник-31" data-name="Треугольник" class="s4-b-m-cls-3" points="1080.6 1891.89 1080.6 1621.62 720.4 1756.76 1080.6 1891.89"/>
+  <polygon id="Треугольник-32" data-name="Треугольник" class="s4-b-m-cls-3" points="359.59 540.26 359.59 269.99 -0.61 405.12 359.59 540.26"/>
+  <polygon id="Треугольник-33" data-name="Треугольник" class="s4-b-m-cls-3" points="359.59 269.99 359.59 540.26 719.79 405.12 359.59 269.99"/>
+  <polygon id="Треугольник-34" data-name="Треугольник" class="s4-b-m-cls-3" points="360.26 810.25 360.26 539.98 0.06 675.11 360.26 810.25"/>
+  <polygon id="Треугольник-35" data-name="Треугольник" class="s4-b-m-cls-3" points="360.26 539.98 360.26 810.25 720.46 675.11 360.26 539.98"/>
+  <polygon id="Треугольник-36" data-name="Треугольник" class="s4-b-m-cls-3" points="720.42 405.08 720.42 134.81 360.22 269.94 720.42 405.08"/>
+  <polygon id="Треугольник-37" data-name="Треугольник" class="s4-b-m-cls-3" points="720.42 134.81 720.42 405.08 1080.62 269.94 720.42 134.81"/>
+  <polygon id="Треугольник-38" data-name="Треугольник" class="s4-b-m-cls-3" points="720.34 946 720.34 675.73 360.14 810.86 720.34 946"/>
+  <polygon id="Треугольник-39" data-name="Треугольник" class="s4-b-m-cls-3" points="720.34 675.73 720.34 946 1080.54 810.86 720.34 675.73"/>
+  <polygon id="Треугольник-40" data-name="Треугольник" class="s4-b-m-cls-3" points="360.15 1621.37 360.15 1351.1 -0.05 1486.23 360.15 1621.37"/>
+  <polygon id="Треугольник-41" data-name="Треугольник" class="s4-b-m-cls-3" points="360.15 1351.1 360.15 1621.37 720.35 1486.23 360.15 1351.1"/>
   <g id="portfolio-cases">
-    <g id="mksoloview">
-      <g class="section-4-mobile-cls-3">
-          <a href="../projects/mksoloviev/" target="_blank">
-        <image width="772" height="273" transform="matrix(.94 0 0 1 358.32 132.4)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
-        <g id="overlay" class="overlay">
-          <path id="overlay-back" class="section-4-mobile-cls-4" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
-          <text class="section-4-mobile-cls-5" transform="translate(586.13 227)">
-            V<tspan class="section-4-mobile-cls-6" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="section-4-mobile-cls-7" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">ovyov</tspan><tspan x="83.52" y="43.2">training</tspan>
-          </text>
-          <text class="section-4-mobile-cls-8" transform="matrix(.94 0 0 1 599.82 325.44)">
-            Frontend, backend
-          </text>
+    <g id="amtel.club" data-open-case-modal="amtel.club">
+      <g class="s4-b-m-cls-5">
+        <g id="amtel_back">
+          <rect class="s4-b-m-cls-6" x="357.52" y="397.57" width="369.38" height="279.99"/>
+          <polygon class="s4-b-m-cls-7" points="598.87 540.48 594.53 540.48 594.53 516.55 582.59 516.55 582.59 512.63 610.92 512.63 610.92 516.55 598.87 516.55 598.87 540.48"/>
+          <polygon class="s4-b-m-cls-7" points="645.22 512.63 645.22 516.55 625.03 516.55 625.03 524.18 640.87 524.18 640.87 527.76 625.03 527.76 625.03 536.66 645.98 536.66 645.98 540.48 620.68 540.48 620.68 512.63 645.22 512.63"/>
+          <polygon class="s4-b-m-cls-7" points="663.56 512.63 663.56 536.66 681.58 536.66 681.58 540.48 659.22 540.48 659.22 512.63 663.56 512.63"/>
+          <polygon class="s4-b-m-cls-7" points="569.56 512.63 556.86 530.77 544.27 512.63 540.69 512.63 540.69 540.48 544.38 540.48 544.38 519.33 556.86 537.24 569.45 519.33 569.45 540.48 573.14 540.48 573.14 512.63 569.56 512.63"/>
+          <polygon class="s4-b-m-cls-8" points="503.89 538.05 528.42 533.77 515.83 531 506.71 532.62 503.89 538.05"/>
+          <polygon class="s4-b-m-cls-9" points="528.42 533.77 501.07 527.76 503.35 523.26 525.49 528.11 528.42 533.77"/>
+          <polygon class="s4-b-m-cls-7" points="522.56 526.03 515.72 512.74 511.06 512.74 506.17 522.45 509.86 523.26 513.45 516.32 517.79 524.99 522.56 526.03"/>
+          <polygon class="s4-b-m-cls-7" points="527.34 535.39 523.43 536.09 525.82 540.71 530.05 540.71 527.34 535.39"/>
+          <polygon class="s4-b-m-cls-7" points="502.48 529.5 496.73 540.71 500.96 540.71 506.28 530.31 502.48 529.5"/>
+          <path class="s4-b-m-cls-7" d="M495.54,547.53H493.8l-5.21,10.05h1.52l1.3-2.43h6.4l1.19,2.43h1.74Zm-3.47,6.24,2.5-5.09,2.61,5.09Z"/>
+          <path class="s4-b-m-cls-7" d="M516.38,552.84a.64.64,0,1,1,0-.92,1.43,1.43,0,0,0,.43-1.27v-1.16a1.86,1.86,0,0,0-.54-1.62,2.15,2.15,0,0,0-1.41-.35h-7.6v10.05h7.16a3.39,3.39,0,0,0,2-.46,2.15,2.15,0,0,0,.54-1.5v-1.27A1.72,1.72,0,0,0,516.38,552.84Zm-7.6-3.93h5.54a1.74,1.74,0,0,1,.76.12,1,1,0,0,1,.22.69v1c0,.35,0,.58-.33.81a1.3,1.3,0,0,1-.65.12h-5.54ZM515.4,555a1.63,1.63,0,0,1-.22.92,1.12,1.12,0,0,1-.87.23h-5.54V553h5.54a1.12,1.12,0,0,1,.76.23,1.68,1.68,0,0,1,.33,1Z"/>
+          <polygon class="s4-b-m-cls-7" points="527.01 557.58 527.01 548.91 522.67 548.91 522.67 547.53 532.98 547.53 532.98 548.91 528.64 548.91 528.64 557.58 527.01 557.58"/>
+          <path class="s4-b-m-cls-7" d="M549,548a2.49,2.49,0,0,0-1.74-.46h-6.62A2.36,2.36,0,0,0,539,548c-.54.46-.54,1.5-.54,2v5.32a2.6,2.6,0,0,0,.54,1.85,2.1,2.1,0,0,0,1.63.46h6.73a2.36,2.36,0,0,0,1.74-.46,2.92,2.92,0,0,0,.43-1.85V550A3.09,3.09,0,0,0,549,548Zm-1.19,8.21H540v-7.28h7.82Z"/>
+          <path class="s4-b-m-cls-7" d="M559.14,557.58c-1.74,0-2-.58-2-2v-.81h1.52v1.39h5.75a1.3,1.3,0,0,0,.65-.12,1,1,0,0,0,.22-.69v-1.5c0-.23,0-.58-.22-.69s-.43-.23-.65-.23H561v-1.27h3.36a.88.88,0,0,0,.65-.23,1.46,1.46,0,0,0,.22-.92v-.46c0-.35,0-.81-.22-.92s-.22-.23-.65-.23h-5.64v1.27H557.3v-.69c0-1.39.33-2,2.06-2h5.43a2.31,2.31,0,0,1,1.52.35,2.45,2.45,0,0,1,.43,1.62v.92a1.9,1.9,0,0,1-.43,1.5,2,2,0,0,1-1,.46,2.46,2.46,0,0,1,1.09.35,2.3,2.3,0,0,1,.43,1.62v1.16a2.3,2.3,0,0,1-.43,1.62,2.36,2.36,0,0,1-1.63.46Z"/>
+          <path class="s4-b-m-cls-7" d="M579.87,547.53h-1.74l-5.21,10.05h1.63l1.19-2.43h6.4l1.19,2.43h1.74Zm-3.47,6.24,2.61-5.09,2.5,5.09Z"/>
+          <polygon class="s4-b-m-cls-7" points="600.5 557.58 600.5 548.91 593.12 548.91 593.12 557.58 591.6 557.58 591.6 547.53 602.12 547.53 602.12 557.58 600.5 557.58"/>
+          <path class="s4-b-m-cls-7" d="M618.19,557.58v-3.81H612c-.76,0-2.06-.12-2.06-2v-4.28h1.63v3.81a1.15,1.15,0,0,0,.22.81,1.12,1.12,0,0,0,.76.23h5.64v-4.85h1.63v10.05Z"/>
+          <path class="s4-b-m-cls-7" d="M633.06,547.53h-1.63l-5.21,10.05h1.52l1.3-2.43h6.4l1.19,2.43h1.74Zm-3.36,6.24,2.5-5.09,2.61,5.09Z"/>
+          <path class="s4-b-m-cls-7" d="M646.52,548.91v7.28h6.62V554h1.63v1.27a3.43,3.43,0,0,1-.43,1.85,2.36,2.36,0,0,1-1.74.46h-5.43a2.36,2.36,0,0,1-1.74-.46,2.92,2.92,0,0,1-.43-1.85V550a3.09,3.09,0,0,1,.43-2,2.49,2.49,0,0,1,1.74-.46h5.43a2.36,2.36,0,0,1,1.74.46,3.6,3.6,0,0,1,.43,2v.92h-1.63v-2Z"/>
+          <polygon class="s4-b-m-cls-7" points="663.88 557.58 663.88 548.91 659.54 548.91 659.54 547.53 669.86 547.53 669.86 548.91 665.4 548.91 665.4 557.58 663.88 557.58"/>
+          <path class="s4-b-m-cls-7" d="M685.27,557.58V551.8c0-.46,0-.23.11-2.08a7.42,7.42,0,0,1-.76.92l-7.6,6.93h-1V547.53h1.63v5.55c0,.46-.11,1.5-.11,2.43.33-.58.87-1,1-1.27l7.38-6.7h1v10.05Z"/>
         </g>
-          </a>
+        <g class="overlay" id="overlay">
+          <polygon id="overlay-back" class="s4-b-m-cls-10" points="720.28 674.59 720.28 404.81 360.28 539.7 720.28 674.59"/>
+          <text class="s4-b-m-cls-11" transform="translate(537.72 545.78) scale(0.94 1)">Amtel.club</text>
+        </g>
       </g>
-      <path id="Ромб-4" data-name="Ромб" class="section-4-mobile-cls-1" d="M720.4 135.13L360.2 270.27 720.4 405.4l360.2-135.13-360.2-135.14z"/>
+      <polygon id="Треугольник-42" data-name="Треугольник" class="s4-b-m-cls-1" points="720.28 674.59 720.28 404.81 360.28 539.7 720.28 674.59"/>
     </g>
-    <g id="solverytics">
-      <g class="section-4-mobile-cls-9">
-          <a href="../projects/solverytics/" target="_blank">
-        <image width="780" height="320" transform="matrix(.94 0 0 1 0 1301.08)" xlink:href="images/section-4-back-pics/solverytics.jpg"/>
-        <g id="overlay-2" data-name="overlay" class="overlay">
-          <path id="overlay-back-2" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
-          <text class="section-4-mobile-cls-5" transform="matrix(.94 0 0 1 293.16 1437.68)">
-            So<tspan class="section-4-mobile-cls-10" x="37.58" y="0">l</tspan><tspan x="44.1" y="0">verytics</tspan>
-          </text>
-          <text class="section-4-mobile-cls-8" transform="matrix(.94 0 0 1 192.75 1506.11)">
-            Frontend, backend, design
-          </text>
+    <g id="ea_messenger" data-open-case-modal="ea_messenger">
+      <g class="s4-b-m-cls-12">
+        <g id="ea_messenger_background">
+          <rect class="s4-b-m-cls-7" x="0.8" y="267.8" width="722.81" height="272.01"/>
+          <g id="Слой_1">
+            <g id="_479229256" data-name=" 479229256">
+              <path class="s4-b-m-cls-13" d="M220.94,388.79c-1-1.09-6.88-3.43-8.34-3.89-5,11.06-22.38,9.19-23.7-4.52-1.46-9.66,7.31-17.45,15.95-14.49a10.52,10.52,0,0,1,6.44,4.36l-15.95,6.23,2.63,7.79,24.72-9.19c-.44-10.28-10.53-19.94-21.51-19.94-24.72,0-30.14,36.92-6.88,45.33a19.49,19.49,0,0,0,16.53-1.09C214.51,397.51,219.48,392.68,220.94,388.79Zm84.12-8.41c-1.9-18.38,22.82-20.87,25-3.89,1,8.41-4.54,14.64-11,15.58C311.79,393.15,305.94,387.23,305.06,380.38Zm10.39-24.77C304,357,294.53,367.29,295.85,381c1.32,12.15,11.41,22.27,24.28,20.4,11-.93,20.48-12.15,19.16-25.39C338,363.87,327.88,354.21,315.45,355.61Zm0,71.5c7.31-1.87,13.31,3.89,14.63,10.28a13.87,13.87,0,0,1-9.95,16c-16.09,3.43-21.94-22.9-4.68-26.32Zm-19.6,15.11c.88,12.15,11,22.43,23.85,21,11-1.09,20.48-11.68,19.6-24.92-.88-12.15-11-22.27-23.85-21.34-11.41.93-20.48,12.15-19.6,25.23Zm-88.65,20.56V452.49c-4.1,1.4-6,2.49-10.53.47-10.09-4.36-11-20.4,0-25.23,7.31-3.43,14.19,1.87,16.38,7.17,1.9,5,1,20.09,1,26.79h9.07V440.81c0-7.32-1.76-11.21-5-15.58-5.56-7.32-18.29-11.21-28.38-4.36-19.16,12.62-9.66,47.66,17.41,41.9Zm21.51-44.39c-1,4.83-.44,26.79.44,31.15,4.1,18.07,29.26,19,34.23,0,.88-4.36,1.46-26.32.88-31.15h-9.51c-1.9,14.64,4.1,35-8.19,35-3.22,0-6-1.87-6.88-3.89-3.22-5.3-1-21.34-1.9-31.15Zm35.55-61.84h-9.51v22c0,3.43-.44,6.85-1.9,9.19a7.49,7.49,0,0,1-13.17,0c-1.46-2.34-1.9-5.76-1.9-9.19,0-4.83.88-18.07,0-22H228.7c-1,2.49-.44,27.26.44,30.69,4.1,19,29.7,19,34.23.47,1.46-5.76.88-23.83.88-31.15ZM292.63,453c-2.78,0-5.41,0-7.75-1.4-6-3.89-5-15.58-4.54-23.36h11.85v-9.81H280.34V406.23h-9.66c0,6.85-.44,36,0,40.34,1.46,10.75,10.53,18.07,22.38,16.2l-.44-9.81Zm-21.94-52.49,9.66.47c0-9.81-1.9-27.73,3.22-33.18,3.22-3,5-1.4,9.51-2.34v-9.81c-11-1.4-18.73,4.36-20.92,11.68-2.34,6.39-1.46,25.39-1.46,33.18Z"/>
+              <rect class="s4-b-m-cls-14" x="357.58" y="355.14" width="5.03" height="106.92"/>
+              <path class="s4-b-m-cls-13" d="M378.94,381.78c0,7.17,4.83,12.31,12.14,12.31s12-5.14,12-12.31c0-7-4.68-12.31-12-12.31S378.94,374.77,378.94,381.78Zm6.14,0c0-4,2.63-6.7,6-6.7s6,2.8,6,6.7c0,4-2.49,6.85-6,6.85S385.08,385.67,385.08,381.78Z"/>
+              <path class="s4-b-m-cls-13" d="M414.64,393.62h5.71v-16a6.61,6.61,0,0,1,4.83-2.34c3.07,0,5,1.87,5,5.61v12.77h5.56V379.75c0-7.32-3.66-10.12-9.07-10.12a8.41,8.41,0,0,0-6.29,2.8V370.1h-5.71Z"/>
+              <path class="s4-b-m-cls-13" d="M448,387.07c0,4.83,1.9,7,5.27,7a8.93,8.93,0,0,0,5.85-2l-1.17-4.52a4.43,4.43,0,0,1-2.34.93c-1.32,0-1.9-1.09-1.9-3.89V357H448Z"/>
+              <path class="s4-b-m-cls-13" d="M469.93,393.62h5.56V370.1h-5.56Zm-.59-32.09c0,2.49,1.61,3.89,3.51,3.89,1.61,0,3.22-1.4,3.22-3.89a3.35,3.35,0,0,0-3.22-3.43A3.41,3.41,0,0,0,469.35,361.53Z"/>
+              <path class="s4-b-m-cls-13" d="M488.66,393.62h5.71v-16a6.61,6.61,0,0,1,4.83-2.34c3.07,0,5,1.87,5,5.61v12.77h5.56V379.75c0-7.32-3.66-10.12-9.07-10.12a8.41,8.41,0,0,0-6.29,2.8V370.1h-5.71Z"/>
+              <path class="s4-b-m-cls-13" d="M539.42,386.92a9.13,9.13,0,0,1-6.29,2.18,6.22,6.22,0,0,1-6.58-5.45H542.5a9.64,9.64,0,0,0,.44-3.27,10.47,10.47,0,0,0-10.53-10.9c-7.31,0-11.7,5.45-11.7,12.31,0,7.48,4.83,12.31,11.85,12.31a13.08,13.08,0,0,0,8.49-2.8Zm-7.31-12.46a4.84,4.84,0,0,1,5.12,5.14H526.4C527,376.48,528.74,374.46,532.11,374.46Z"/>
+              <path class="s4-b-m-cls-13" d="M378.94,435.83c0,7,4.83,12.31,12.14,12.31s12-5.3,12-12.31-4.68-12.31-12-12.31S378.94,428.82,378.94,435.83Zm6.14,0c0-4,2.63-6.7,6-6.7s6,2.8,6,6.7c0,4-2.49,6.7-6,6.7S385.08,439.72,385.08,435.83Z"/>
+              <path class="s4-b-m-cls-13" d="M414.93,447.67h5.71V429.75h5.85v-5.61h-5.85v-3.43c0-3.27,1.32-4.67,3.22-4.67a4.65,4.65,0,0,1,3.22,1.25l1.9-4.67a8.73,8.73,0,0,0-6.14-2.18c-5,0-7.9,3.27-7.9,9.81Z"/>
+              <path class="s4-b-m-cls-13" d="M437.75,447.67h5.71V429.75h6v-5.61h-6v-3.43c0-3.27,1.32-4.67,3.22-4.67a4.4,4.4,0,0,1,3.22,1.25l1.9-4.67a8.73,8.73,0,0,0-6.14-2.18c-5,0-7.9,3.27-7.9,9.81Z"/>
+              <path class="s4-b-m-cls-13" d="M477.25,441a10,10,0,0,1-6.29,2.18,6.22,6.22,0,0,1-6.58-5.45h15.95a10.28,10.28,0,0,0,.44-3.27,10.47,10.47,0,0,0-10.53-10.9c-7.31,0-11.7,5.45-11.7,12.31,0,7.48,4.83,12.31,11.85,12.31a13.08,13.08,0,0,0,8.49-2.8Zm-7.31-12.46a4.84,4.84,0,0,1,5.12,5.14H464.23C464.81,430.53,466.57,428.51,469.93,428.51Z"/>
+              <path class="s4-b-m-cls-13" d="M491.88,447.67h5.71V431.78a3.85,3.85,0,0,1,3.66-2.49,4.62,4.62,0,0,1,2.78.93l2-5.61a4.68,4.68,0,0,0-3.36-.93,5.72,5.72,0,0,0-5.12,2.65v-2.18h-5.71Z"/>
+            </g>
+          </g>
         </g>
-          </a>
+        <g class="overlay" id="overlay-2" data-name="overlay">
+          <polygon id="overlay-back-2" data-name="overlay-back" class="s4-b-m-cls-10" points="360.33 270.54 0.33 405.43 360.33 540.32 720.33 405.43 360.33 270.54"/>
+          <text class="s4-b-m-cls-15" transform="translate(212.76 421.52)">Euroauto Messenger</text>
+        </g>
       </g>
-      <path id="Ромб-5" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 1350.8L0 1485.95l360.2 135.14 360.2-135.14-360.2-135.13z"/>
+      <polygon id="Ромб-5" data-name="Ромб" class="s4-b-m-cls-1" points="360.33 270.54 0.33 405.43 360.33 540.32 720.33 405.43 360.33 270.54"/>
     </g>
-    <g id="logo-centr">
-      <g class="section-4-mobile-cls-11">
-          <a href="http://logo-centr.ru/" target="_blank">
-        <image width="830" height="300" transform="matrix(.94 0 0 1 0 539)" xlink:href="images/section-4-back-pics/logo-centr.jpg"/>
-        <g id="overlay-3" data-name="overlay" class="overlay">
-          <path id="overlay-back-3" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
-          <text class="section-4-mobile-cls-5" transform="translate(173 647.41)">
-            Chi<tspan class="section-4-mobile-cls-6" x="50.04" y="0">l</tspan><tspan x="57.64" y="0">dren and ado</tspan><tspan class="section-4-mobile-cls-7" x="272.98" y="0">l</tspan><tspan x="280.58" y="0">escents </tspan><tspan x="43.2" y="43.2">deve</tspan><tspan class="section-4-mobile-cls-6" x="117.07" y="43.2">l</tspan><tspan x="124.67" y="43.2">opment center</tspan>
-          </text>
-          <text class="section-4-mobile-cls-8" transform="matrix(.94 0 0 1 239.62 750.84)">
-            Frontend, backend
-          </text>
+    <g id="ea" data-open-case-modal="ea">
+      <g class="s4-b-m-cls-16">
+        <g id="ea_back">
+          <rect class="s4-b-m-cls-7" x="-2.48" y="399.73" width="368.13" height="277.5"/>
+          <g id="Слой_1-2" data-name="Слой_1">
+            <path class="s4-b-m-cls-17" d="M73.4,523.47c-.87-.84-5.88-3-7.35-3.38-4.35,9.66-19.31,8-20.83-4-1.06-8.44,6.41-15.23,14.32-12.74,2.28.72,4.72,2.52,5.4,4.09l-13.83,5.5,2.3,6.79L75,511.49c-.49-9-9.2-17.26-18.75-17.27-21.59,0-26.54,32.4-6,39.69a18.2,18.2,0,0,0,14.51-1.1c3.19-1.64,7.46-5.74,8.64-9.34Zm73.8-7.42c-1.71-15.82,20.13-18,22-3.1.88,7-4,12.66-9.6,13.38-6.55.84-11.77-4.28-12.42-10.27Zm9-21.69c-9.91,1.21-18.34,10.39-17,22.51,1.11,10.42,10,19.24,21.25,17.91,9.67-1.14,18.15-10.67,16.75-22.57-1.23-10.42-9.89-19.21-21-17.86Zm0,62.72c6.49-1.4,11.77,3.57,12.86,9.1a11.9,11.9,0,0,1-8.67,14.07c-14,3.07-19.18-19.93-4.19-23.18Zm-17.08,13.36c.88,10.62,9.63,19.41,20.76,18.47,9.83-.83,18.26-10.19,17.36-21.86-.84-10.86-9.61-19.7-20.85-18.66-9.88.91-18.24,10.33-17.27,22h0ZM61.51,588.36l.07-9.06c-3.87,1.18-5.34,2.06-9.56.32-8.58-3.54-9.46-17.52,0-21.79,6.62-3,12.73,1.45,14.57,6.3,1.61,4.27.83,17.54.88,23.17l8,.16c.08-6.09,0-12.23,0-18.27A20.57,20.57,0,0,0,71,555.71c-4.7-6.61-15.91-10.19-24.91-4.17-16.81,11.25-8.46,41.84,15.43,36.82h0ZM80.09,549.5c-.55,4.31-.29,23.46.6,27.38,3.54,15.72,25.78,16.74,30.07-.06.92-3.62,1-23,.58-27.32H103c-1.48,12.64,3.83,30.72-7.29,30.81a7.06,7.06,0,0,1-6-3.49c-2.53-4.71-.7-18.79-1.39-27.32H80.09Zm31.32-54.19-8.46-.1c0,6.46,0,12.88,0,19.3,0,2.91-.12,6-1.34,8.1a6.83,6.83,0,0,1-11.78.05c-1.37-2.18-1.42-5.2-1.41-8.15,0-4.18.51-16-.12-19.25l-8.1,0c-.74,2.38-.22,24.15.41,27.07,3.6,16.51,25.93,16.68,30.11.44,1.37-5.32.68-20.91.68-27.4Zm25,84.64c-2.5-.18-5.05,0-7-1.24-5.15-3.45-4.33-13.77-4.05-20.62l10.63-.08-.07-8.49-10.59-.09V538.8l-8.44.1c0,5.84-.31,31.72.17,35.32,1.25,9.51,9,15.79,19.44,14.3l-.12-8.57h0Zm-19.49-46,8.45.08c0-8.34-1.69-24.21,3.07-28.83,2.75-2.67,4.45-1.4,8.1-2.15v-8.46a16.25,16.25,0,0,0-18.46,10.39c-1.95,5.34-1.14,22-1.14,29h0Z"/>
+          </g>
         </g>
-          </a>
+        <g class="overlay" id="overlay-3" data-name="overlay">
+          <polygon id="overlay-back-3" data-name="overlay-back" class="s4-b-m-cls-10" points="0.51 405.18 0.51 674.96 360.51 540.07 0.51 405.18"/>
+          <text class="s4-b-m-cls-11" transform="translate(72.42 549.47) scale(0.94 1)">Euroauto.ru</text>
+        </g>
       </g>
-      <path id="Ромб-6" data-name="Ромб" class="section-4-mobile-cls-1" d="M360.2 540.54L0 675.67 360.2 810.8l360.2-135.13-360.2-135.13z"/>
+      <polygon id="Треугольник-43" data-name="Треугольник" class="s4-b-m-cls-1" points="0.51 405.18 0.51 674.96 360.51 540.07 0.51 405.18"/>
     </g>
-    <g id="atlant">
-      <g class="section-4-mobile-cls-12">
-          <a href="http://stroim-kottedzh.ru/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 354.57 1210.81)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
-        <g id="overlay-4" data-name="overlay" class="overlay">
-          <path id="overlay-back-4" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
-          <text class="section-4-mobile-cls-13" transform="matrix(.94 0 0 1 525.79 1324.44)">
-            At<tspan class="section-4-mobile-cls-14" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan>
-          </text>
-          <text class="section-4-mobile-cls-15" transform="translate(517.66 1368.05)">
-            Updating, adding<tspan x="41.42" y="24">features</tspan>
-          </text>
+    <g id="wolf" data-open-case-modal="wolf">
+      <g class="s4-b-m-cls-18">
+        <g id="wolf_back">
+          <rect class="s4-b-m-cls-7" x="0.8" y="537.31" width="722.81" height="272.01"/>
+          <g id="Слой_1-3" data-name="Слой_1">
+            <g id="_554465816" data-name=" 554465816">
+              <path class="s4-b-m-cls-19" d="M223.45,705.28c-3.52,0-9.57-1.67-11.19-12.61l-.05-.4c-1.08-7.54-2.27-15.32-5.73-21a17.46,17.46,0,0,0-12.28-8.18l-.76-.17a.56.56,0,0,1-.27-.06l-.32-.06h-.32l-.11-.06h-.05a1.92,1.92,0,0,1-1.68-1.84c0-.06-.05-.17-.05-.23a2.16,2.16,0,0,1,1.35-2c.05,0,.05,0,.11-.06a3.29,3.29,0,0,0,.38-.12l.76-.23c.22-.12.49-.17.76-.29a38.7,38.7,0,0,1,11.25-1.84c15.79,0,23,12.09,25.85,19.35,1,2.48,2,2.48,2.38,2.48a4.23,4.23,0,0,0,1.89-.63c13.3-7.43,29.8-16.53,33-17.62a10.24,10.24,0,0,1,2.87-.46c5,0,7.84,4.15,8.6,5.47.92,1.5,2.43,5.18,4.71,11.11l.16.46c1.19,3.05,2.54,3.45,3.57,3.45a8.31,8.31,0,0,0,3.35-1c1.14-.58,3.73-2.3,4.65-2.94,10.11-6.85,19.47-12,27.74-15.2,7.41-2.88,14.12-4.38,20-4.38a29,29,0,0,1,5.52.52l.87.17a1.5,1.5,0,0,1,.49.12,1.82,1.82,0,0,1,.54.12l.16.06a2.08,2.08,0,0,1,1.51,2.07,2,2,0,0,1-1.62,2,.16.16,0,0,1-.11.06c-.16.06-.32.06-.49.12a.46.46,0,0,1-.27.06l-.05.06a4.8,4.8,0,0,0-.7.23c-7.19,2.59-19.63,12.61-30.61,21.48-6.38,5.12-12.33,10-16.82,13-6.22,4.15-14.22,8.93-20.88,8.93-4.22,0-9.79-2-12.49-11.29l-4-11.57c-7.52,4.72-31,19.29-34.5,21.08A16.45,16.45,0,0,1,223.45,705.28Z"/>
+              <path class="s4-b-m-cls-19" d="M347.78,704.88c-8,0-14.06-2.65-17.2-7.43,0,0,0-.06-.05-.06a12.61,12.61,0,0,1-1.51-7.83h0c.38-2.59,1.78-7.08,6.71-8.87a8.17,8.17,0,0,1,2.54-.46,7.1,7.1,0,0,1,5.25,2.71,8.42,8.42,0,0,0,.81.75,16.68,16.68,0,0,0,8.54,3.69h1.08c4.11,0,11.63-1.67,15.31-6.28,2.38-2.88,3.35-5.64,2.7-7.37s-2.87-2.65-6.44-3a14.49,14.49,0,0,0-1.68-.12A39.08,39.08,0,0,0,349.4,674a5.26,5.26,0,0,1-.49.23,61.94,61.94,0,0,0-10.65,5.07l-.43.29-.43.29a2.08,2.08,0,0,1-1.19.35,2.23,2.23,0,0,1-1.78-.92,2.52,2.52,0,0,1,.22-3.28l.76-.75c9.09-8.81,16.17-12.55,24-15.49a44.29,44.29,0,0,1,15.36-3,30.65,30.65,0,0,1,4.06.29c5.25.69,12,4.26,14.17,10.31,2,5.59.16,11.92-5.46,18.94C378.83,697,362.11,704.88,347.78,704.88Z"/>
+              <path class="s4-b-m-cls-19" d="M384,705.17a26.05,26.05,0,0,1-7.3-1l-.11-.06c-.11,0-.16-.06-.27-.06a3.88,3.88,0,0,0-.87-.29l-.11-.06c-.05,0-.11-.06-.16-.06a2.08,2.08,0,0,1-1.35-2,2.11,2.11,0,0,1,1.3-2,.16.16,0,0,1,.11-.06l.16-.06.76-.35a.19.19,0,0,0,.16-.06l.11-.06c14.39-6.33,27.2-26.83,37.8-46.07a.05.05,0,0,1,.05-.06h0c9.3-16.87,17.09-28.45,24.5-36.28,8.49-9,17.74-13.7,26.82-13.7a26.41,26.41,0,0,1,7.3,1.09l.11.06a.31.31,0,0,1,.22.06,5.64,5.64,0,0,1,.92.29l.05.06c.11,0,.16,0,.22.06a2.06,2.06,0,0,1,1.3,2,2,2,0,0,1-1.3,2l-.05.06c-.11,0-.16.06-.22.06-.22.12-.49.17-.7.29a237485355479.35,237485355479.35,0,0,1-.32.12c-14.39,6.39-27.15,26.89-37.8,46.12v.06c-9.3,16.87-17.09,28.39-24.5,36.28C402.3,700.45,393,705.17,384,705.17Z"/>
+              <path class="s4-b-m-cls-19" d="M377.74,761.94a24.94,24.94,0,0,1-8.22-1.38h-.11a.19.19,0,0,0-.16-.06,3,3,0,0,0-.76-.29l-.16-.06a.4.4,0,0,0-.22-.12,2,2,0,0,1-1.24-1.9,2,2,0,0,1,1.14-1.9l.32-.17c.22-.12.43-.23.7-.35l.16-.12c20.66-10.77,39-43.88,56.84-75.84,13.79-24.76,26.77-48.2,40.89-62.13,8.33-8.18,17.31-12.5,26-12.5a25.47,25.47,0,0,1,8.54,1.5l.11.06c.05,0,.11.06.16.06.32.12.59.23.87.35l.11.06c.05,0,.16.06.22.06a2.14,2.14,0,0,1-.05,3.86.16.16,0,0,1-.11.06.31.31,0,0,1-.22.06l-.7.35-.27.06c-14.55,6.51-28.28,27.41-39.8,47-.76,1.27-2.65,4.55-5.41,9.44h6.76a2.36,2.36,0,0,1,2.27,2.42,13.57,13.57,0,0,1-3.73,9.62,11.92,11.92,0,0,1-9,3.92h-5.3c-.92,1.67-1.51,2.76-1.62,2.94-16,28.62-30.45,53.38-46.94,66.85h-.05C391.86,759.12,384.61,761.94,377.74,761.94Z"/>
+              <path class="s4-b-m-cls-19" d="M440.48,737.41c-2.92,0-5.25-2-5.25-4.49s2.33-4.49,5.25-4.49,5.25,2,5.25,4.49S443.45,737.41,440.48,737.41Z"/>
+              <path class="s4-b-m-cls-19" d="M467.2,743.81a4.2,4.2,0,0,1-4.06-2.13c-1-2-.54-4.72,1.51-8.52a2.94,2.94,0,0,0,.22-.52,3.76,3.76,0,0,0-.22-.52c-2.06-3.8-2.54-6.62-1.51-8.52a4.2,4.2,0,0,1,4.06-2.13c4.43,0,12.06,4.26,14.06,8.81a6.81,6.81,0,0,1,.54,2.25v.23c-.11,3.4-3.46,6.22-5.52,7.6C473.2,742.48,469.74,743.81,467.2,743.81Z"/>
+              <path class="s4-b-m-cls-19" d="M450.59,741.62a3.72,3.72,0,0,1-3.46-1.79c-.87-1.61-.49-3.92,1.19-7,.05-.06.05-.12.11-.17s-.05-.17-.11-.23c-1.68-3.05-2.06-5.3-1.19-7a3.72,3.72,0,0,1,3.46-1.79c3.68,0,9,3.17,10.87,6.45a5.14,5.14,0,0,1,.7,2.36v.29C462,737.18,454.7,741.62,450.59,741.62Z"/>
+            </g>
+          </g>
         </g>
-          </a>
+        <g class="overlay" id="overlay-4" data-name="overlay">
+          <polygon id="overlay-back-4" data-name="overlay-back" class="s4-b-m-cls-10" points="360.33 540.05 0.33 674.94 360.33 809.83 720.33 674.94 360.33 540.05"/>
+          <text class="s4-b-m-cls-20" transform="translate(323.61 690.98) scale(0.94 1)"><tspan class="s4-b-m-cls-21">W</tspan><tspan x="32.52" y="0">olf</tspan></text>
+        </g>
       </g>
-      <path id="Треугольник-9" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
+      <polygon id="Ромб-6" data-name="Ромб" class="s4-b-m-cls-1" points="360.33 540.05 0.33 674.94 360.33 809.83 720.33 674.94 360.33 540.05"/>
     </g>
-    <g id="mbuz-dsu-2">
-      <g class="section-4-mobile-cls-16">
-          <a href="../projects/mbuz-dsu-2/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 357.39 1476.22)" xlink:href="images/section-4-back-pics/mbuz-dsu-2.jpg"/>
-        <g id="overlay-5" data-name="overlay" class="overlay">
-          <path id="overlay-back-5" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
-          <text class="section-4-mobile-cls-13" transform="translate(515.94 1594.18)">
-            House nursing <tspan x="27.65" y="33.6">care №2</tspan>
-          </text>
-          <text class="section-4-mobile-cls-15" transform="matrix(.94 0 0 1 515.14 1662.77)">
-            Frontend, backend
-          </text>
+    <g id="mksoloview" data-open-case-modal="mksoloview">
+      <g class="s4-b-m-cls-22">
+        <image width="772" height="273" transform="translate(357.81 943.69) scale(0.94 1)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
+        <g class="overlay" id="overlay-5" data-name="overlay">
+          <polygon id="overlay-back-5" data-name="overlay-back" class="s4-b-m-cls-10" points="720.5 946.42 359.69 1081.53 720.5 1216.65 1081.3 1081.53 720.5 946.42"/>
+          <text class="s4-b-m-cls-15" transform="translate(579.44 1068.27)">V<tspan class="s4-b-m-cls-23" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-m-cls-24" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oview’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-10" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 1756.2v-270.26l-360.2 135.14 360.2 135.13z"/>
+      <polygon id="Ромб-7" data-name="Ромб" class="s4-b-m-cls-1" points="720.5 946.42 359.69 1081.53 720.5 1216.65 1081.3 1081.53 720.5 946.42"/>
     </g>
-    <g id="dobra">
-      <g class="section-4-mobile-cls-17">
-          <a href="../projects/me_v2.0/dobra/" target="_blank">
-        <image width="391" height="280" transform="matrix(.94 0 0 1 356.92 670.27)" xlink:href="images/section-4-back-pics/dobra.JPG"/>
-        <g id="overlay-6" data-name="overlay" class="overlay">
-          <path id="overlay-back-6" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
-          <text class="section-4-mobile-cls-13" transform="translate(512.02 783.91)">
-            Dobra delivery
-          </text>
-          <text class="section-4-mobile-cls-15" transform="translate(517.66 827.5)">
-            Updating, adding<tspan x="41.42" y="24">features</tspan>
-          </text>
+    <g id="me" data-open-case-modal="me">
+      <g class="s4-b-m-cls-25">
+        <image width="390" height="280" transform="translate(329.59 1074.27) scale(1.01 1)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
+        <g class="overlay" id="overlay-6" data-name="overlay">
+          <polygon id="overlay-back-6" data-name="overlay-back" class="s4-b-m-cls-10" points="359.32 1080.95 359.32 1351.18 720.12 1216.06 359.32 1080.95"/>
+          <text class="s4-b-m-cls-26" transform="translate(391.37 1225.48) scale(0.94 1)">Mar<tspan class="s4-b-m-cls-27" x="51.4" y="0">k</tspan><tspan x="60.75" y="0">eting Engineers</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-11" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 945.95V675.67L360.2 810.8l360.2 135.15z"/>
+      <polygon id="Треугольник-44" data-name="Треугольник" class="s4-b-m-cls-1" points="359.32 1080.95 359.32 1351.18 720.12 1216.06 359.32 1080.95"/>
     </g>
-    <g id="yashmebel">
-      <g class="section-4-mobile-cls-18">
-          <a href="http://yashmebel.ru/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 720.4 675.67)" xlink:href="images/section-4-back-pics/yashmebel.JPG"/>
-        <g id="overlay-7" data-name="overlay" class="overlay">
-          <path id="overlay-back-7" data-name="overlay-back" class="section-4-mobile-cls-4" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
-          <text class="section-4-mobile-cls-13" transform="matrix(.94 0 0 1 791.03 784.81)">
-            <tspan class="section-4-mobile-cls-19">Y</tspan><tspan x="12.43" y="0">ashmebel</tspan>
-          </text>
-          <text class="section-4-mobile-cls-15" transform="matrix(.94 0 0 1 764.91 828.41)">
-            Frontend, backend
-          </text>
+    <g id="atlant" data-open-case-modal="atlant">
+      <g class="s4-b-m-cls-28">
+        <image width="390" height="280" transform="translate(720.28 1078.2) scale(0.94 1)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
+        <g class="overlay" id="overlay-7" data-name="overlay">
+          <polygon id="overlay-back-7" data-name="overlay-back" class="s4-b-m-cls-10" points="1082 1351.15 1082 1080.92 721.2 1216.03 1082 1351.15"/>
+          <text class="s4-b-m-cls-26" transform="translate(893.52 1225.3) scale(0.94 1)">At<tspan class="s4-b-m-cls-29" x="29.4" y="0">l</tspan><tspan x="35.3" y="0">ant Group</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-12" data-name="Треугольник" class="section-4-mobile-cls-1" d="M720.4 675.67v270.28l360.2-135.14-360.2-135.13z"/>
+      <polygon id="Треугольник-45" data-name="Треугольник" class="s4-b-m-cls-1" points="1082 1351.15 1082 1080.92 721.2 1216.03 1082 1351.15"/>
     </g>
-    <g id="vektor">
-      <g class="section-4-mobile-cls-20">
-          <a href="../projects/vektor/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 0 405.4)" xlink:href="images/section-4-back-pics/vektor.jpg"/>
-        <g id="overlay-8" data-name="overlay" class="overlay">
-          <path id="overlay-back-8" data-name="overlay-back" class="section-4-mobile-cls-4" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
-          <text class="section-4-mobile-cls-13" transform="matrix(.94 0 0 1 93.78 514.54)">
-            <tspan class="section-4-mobile-cls-21">V</tspan><tspan x="18.09" y="0">ektor</tspan>
-          </text>
-          <text class="section-4-mobile-cls-15" transform="matrix(.94 0 0 1 42.28 558.14)">
-            Frontend, backend, <tspan x="68.65" y="24">logo</tspan>
-          </text>
+    <g id="_15_puzzle" data-name="15_puzzle" data-open-case-modal="15_puzzle">
+      <g class="s4-b-m-cls-30">
+        <rect class="s4-b-m-cls-7" x="712.8" y="1206.14" width="376.3" height="281.96"/>
+        <image id="_15_puzzle_back" data-name="15_puzzle_back" width="256" height="256" transform="translate(768.7 1296.13) scale(0.42 0.45)" xlink:href="images/section-4-back-pics/15_puzzle.png"/>
+        <g class="overlay" id="overlay-8" data-name="overlay">
+          <polygon id="overlay-back-8" data-name="overlay-back" class="s4-b-m-cls-10" points="720.76 1215.52 720.76 1485.75 1081.56 1350.63 720.76 1215.52"/>
+          <text class="s4-b-m-cls-31" transform="translate(754.55 1356.86)">15 puzz<tspan class="s4-b-m-cls-32" x="85.09" y="0">l</tspan><tspan x="91" y="0">e» game</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-13" data-name="Треугольник" class="section-4-mobile-cls-1" d="M0 405.4v270.27l360.2-135.13L0 405.4z"/>
+      <polygon id="Треугольник-46" data-name="Треугольник" class="s4-b-m-cls-1" points="720.76 1215.52 720.76 1485.75 1081.56 1350.63 720.76 1215.52"/>
     </g>
-    <g id="hermes-news">
-      <g class="section-4-mobile-cls-22">
-          <a href="../projects/hermes-news/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 357.39 270.27)" xlink:href="images/section-4-back-pics/hermes-news.jpg"/>
-        <g id="overlay-9" data-name="overlay" class="overlay">
-          <path id="overlay-back-9" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
-          <text class="section-4-mobile-cls-13" transform="matrix(.94 0 0 1 413.29 389.41)">
-            Hermes News
-          </text>
-          <text class="section-4-mobile-cls-15" transform="matrix(.94 0 0 1 371.23 433.01)">
-            Frontend, backend, design
-          </text>
+    <g id="passgen" data-open-case-modal="passgen">
+      <g class="s4-b-m-cls-33">
+        <rect class="s4-b-m-cls-7" x="351.05" y="1211.14" width="376.3" height="281.96"/>
+        <image id="passgen_back" width="512" height="512" transform="translate(568.1 1297.63) scale(0.2 0.22)" xlink:href="images/section-4-back-pics/passgen.png"/>
+        <g class="overlay" id="overlay-9" data-name="overlay">
+          <polygon id="overlay-back-9" data-name="overlay-back" class="s4-b-m-cls-10" points="720.05 1485.68 720.05 1215.45 359.25 1350.56 720.05 1485.68"/>
+          <text class="s4-b-m-cls-31" transform="translate(466.69 1356.66)"><tspan class="s4-b-m-cls-34">P</tspan><tspan x="9.58" y="0">assword generator</tspan></text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-14" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 270.27v270.27L720.4 405.4 360.2 270.27z"/>
+      <polygon id="Треугольник-47" data-name="Треугольник" class="s4-b-m-cls-1" points="720.05 1485.68 720.05 1215.45 359.25 1350.56 720.05 1485.68"/>
     </g>
-    <g id="me">
-      <g class="section-4-mobile-cls-23">
-          <a href="../projects/me_v2.0/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 -5.63 265.27)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
-        <g id="overlay-10" data-name="overlay" class="overlay">
-          <path id="overlay-back-10" data-name="overlay-back" class="section-4-mobile-cls-4" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
-          <text class="section-4-mobile-cls-13" transform="matrix(.94 0 0 1 129.21 388.5)">
-            Mar<tspan class="section-4-mobile-cls-24" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan>
-          </text>
-          <text class="section-4-mobile-cls-15" transform="matrix(.94 0 0 1 154.94 432.1)">
-            Frontend, backend
-          </text>
+    <g id="portfolio" data-open-case-modal="portfolio">
+      <g class="s4-b-m-cls-35">
+        <g id="ik_back">
+          <rect id="preloader-back" class="s4-b-m-cls-36" x="-99.79" y="1487.39" width="919.01" height="550.58"/>
+          <path class="s4-b-m-cls-37" d="M130.3,1736.05h1.89v45.63H130.3Z"/>
+          <path class="s4-b-m-cls-37" d="M159.21,1782.72l-21.31-46.67H140l19.42,42.29,19.31-42.29h1.83Z"/>
+          <path class="s4-b-m-cls-37" d="M193.2,1735l21.42,46.73h-2l-8.11-17.4h-22.9l-8,17.4h-1.77Zm-.17,4.2-10.68,23.36h21.48Z"/>
+          <path class="s4-b-m-cls-37" d="M252.15,1736.05h1.66v46.3l-31.53-41.29v40.65h-1.66v-46.3l31.53,41.25Z"/>
+          <path class="s4-b-m-cls-37" d="M282.38,1736.05h1.83v16.73l18.11-16.73h2.28L285,1754.27l24.62,27.44h-2.51l-22.85-25.4v25.37h-1.89Z"/>
+          <path class="s4-b-m-cls-37" d="M317.19,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.16,20.16,0,0,1-15.43,7.09h-.86Q323.68,1782.48,317.19,1775.36Zm36.19-16.5a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33A21.86,21.86,0,0,0,353.38,1758.85Z"/>
+          <path class="s4-b-m-cls-37" d="M362.1,1736.05h2.46a13.15,13.15,0,0,1,9.74,4.35,14.24,14.24,0,0,1,4.2,10.22,14,14,0,0,1-4.31,10.2q-4.31,4.32-9.2,4.32h-.4l14.74,16.55h-2.38l-13-14.48v14.48H362.1Zm1.83,27.32h1a10.91,10.91,0,0,0,8.17-3.77,13,13,0,0,0,.25-17.57l-.36-.38a11.25,11.25,0,0,0-8.34-3.83h-.74Z"/>
+          <path class="s4-b-m-cls-37" d="M390.15,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.17,20.17,0,0,1-15.43,7.09h-.86Q396.63,1782.48,390.15,1775.36Zm36.19-16.5a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33A21.86,21.86,0,0,0,426.34,1758.85Z"/>
+          <path class="s4-b-m-cls-37" d="M437,1736.05v43.87h13.25v1.76H435.07v-45.63Z"/>
+          <path class="s4-b-m-cls-37" d="M455.64,1736.05H471v1.76H457.53v24.83h11.25v1.76H457.53v15.51H471v1.76H455.64Z"/>
+          <path class="s4-b-m-cls-37" d="M508.26,1736.05h1.66v46.3l-31.53-41.29v40.65h-1.66v-46.3l31.53,41.25Z"/>
+          <path class="s4-b-m-cls-37" d="M518.48,1736.05h1.83v16.73l18.11-16.73h2.28l-19.59,18.22,24.62,27.44h-2.51l-22.86-25.4v25.37h-1.89Z"/>
+          <path class="s4-b-m-cls-37" d="M553.3,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.17,20.17,0,0,1-15.43,7.09h-.86Q559.79,1782.48,553.3,1775.36Zm36.19-16.52a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33a21.86,21.86,0,0,0,6-15.41Z"/>
         </g>
-          </a>
-      </g>
-      <path id="Треугольник-15" data-name="Треугольник" class="section-4-mobile-cls-1" d="M360.2 540.54V270.27L0 405.4l360.2 135.14z"/>
-    </g>
-    <g id="broasty">
-      <g class="section-4-mobile-cls-25">
-          <a href="http://broastyfoodtruck.com/" target="_blank">
-        <image width="390" height="280" transform="matrix(.94 0 0 1 714.77 805.27)" xlink:href="images/section-4-back-pics/broasty.jpg"/>
-        <g id="overlay-11" data-name="overlay" class="overlay">
-          <path id="overlay-back-11" data-name="overlay-back" class="section-4-mobile-cls-4" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
-          <text class="section-4-mobile-cls-13" transform="matrix(.94 0 0 1 916.31 919.04)">
-            Broasty
-          </text>
-          <text class="section-4-mobile-cls-15" transform="translate(883.71 962.64)">
-            Adding features
-          </text>
+        <g class="overlay" id="overlay-10" data-name="overlay">
+          <polygon id="overlay-back-10" data-name="overlay-back" class="s4-b-m-cls-10" points="360.36 1621.94 0.88 1756.68 360.36 1891.42 719.84 1756.68 360.36 1621.94"/>
+          <text class="s4-b-m-cls-15" transform="translate(210.53 1770.95)">This portfolio website</text>
         </g>
-          </a>
       </g>
-      <path id="Треугольник-16" data-name="Треугольник" class="section-4-mobile-cls-1" d="M1080.6 1081.08V810.8L720.4 945.96l360.2 135.13z"/>
+      <polygon id="Ромб-8" data-name="Ромб" class="s4-b-m-cls-1" points="360.36 1621.94 0.88 1756.68 360.36 1891.42 719.84 1756.68 360.36 1621.94"/>
     </g>
   </g>
-  <path id="Треугольник-17" data-name="Треугольник" class="section-4-mobile-cls-26" d="M1080.6 270.27V0L720.4 135.13l360.2 135.14z"/>
-  <path id="Треугольник-18" data-name="Треугольник" class="section-4-mobile-cls-26" d="M1080.6 540.54V270.27L720.4 405.4l360.2 135.14z"/>
-  <path id="Треугольник-19" data-name="Треугольник" class="section-4-mobile-cls-26" d="M0 1216.2v270.28l360.2-135.13L0 1216.2z"/>
-  <path id="Треугольник-20" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 1486.48V1216.2l-360.2 135.15 360.2 135.13z"/>
-  <path id="Треугольник-21" data-name="Треугольник" class="section-4-mobile-cls-26" d="M1080.6 810.8V540.55L720.4 675.67l360.2 135.14z"/>
-  <path id="Треугольник-22" data-name="Треугольник" class="section-4-mobile-cls-26" d="M0 1486.48v270.28l360.2-135.14L0 1486.48z"/>
-  <path id="Треугольник-23" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 1756.76v-270.28l-360.2 135.14 360.2 135.14z"/>
-  <path id="Треугольник-24" data-name="Треугольник" class="section-4-mobile-cls-26" d="M360.2 1081.08V810.8L0 945.96l360.2 135.13z"/>
-  <path id="Треугольник-25" data-name="Треугольник" class="section-4-mobile-cls-26" d="M360.2 810.8v270.28l360.2-135.13L360.2 810.8z"/>
-  <path id="Треугольник-26" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 675.67V405.4L360.2 540.54l360.2 135.13z"/>
-  <path id="Треугольник-27" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 405.4v270.27l360.2-135.13L720.4 405.4z"/>
-  <path id="Треугольник-28" data-name="Треугольник" class="section-4-mobile-cls-26" d="M360.2 1351.35v-270.27L0 1216.2l360.2 135.15z"/>
-  <path id="Треугольник-29" data-name="Треугольник" class="section-4-mobile-cls-26" d="M360.2 1081.08v270.27l360.2-135.14-360.2-135.12z"/>
-  <path id="Треугольник-30" data-name="Треугольник" class="section-4-mobile-cls-26" d="M360.2 1621.62v270.27l360.2-135.14-360.2-135.14z"/>
-  <path id="Треугольник-31" data-name="Треугольник" class="section-4-mobile-cls-26" d="M0 135.13V405.4l360.2-135.13L0 135.13z"/>
-  <path id="Треугольник-32" data-name="Треугольник" class="section-4-mobile-cls-27" d="M360.2 1891.9V1621.6L0 1756.76l360.2 135.13z"/>
-  <path id="Треугольник-33" data-name="Треугольник" class="section-4-mobile-cls-26" d="M0 675.67v270.28L360.2 810.8 0 675.68z"/>
-  <path id="Часть_треугольника" data-name="Часть треугольника" class="section-4-mobile-cls-26" d="M0 0l360.2 135.13V0H0z"/>
-  <path id="Часть_треугольника-2" data-name="Часть треугольника" class="section-4-mobile-cls-26" d="M360.2 0v135.13L720.4 0H360.2z"/>
   <g id="header">
-    <path id="Треугольник_заголовка" data-name="Треугольник заголовка" class="section-4-mobile-cls-28" d="M360.2 0H0l360.2 135.13L720.4 0H360.2z"/>
-    <text class="section-4-mobile-cls-29" transform="translate(115.42 47.62)">
-      What have I done?
-    </text>
+    <polygon id="Треугольник_заголовка" data-name="Треугольник заголовка" class="s4-b-m-cls-10" points="360.2 0 0 0 360.2 135.13 720.4 0 360.2 0"/>
+    <text class="s4-b-m-cls-38" transform="translate(151.66 52.62)">What I&apos;ve done?</text>
   </g>
-  <path id="Треугольник-34" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 1216.2V945.96l-360.2 135.13 360.2 135.13z"/>
-  <path id="Треугольник-35" data-name="Треугольник" class="section-4-mobile-cls-26" d="M0 945.95v270.26l360.2-135.12L0 945.95z"/>
-  <path id="Треугольник-36" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 945.95v270.26l360.2-135.12-360.2-135.13z"/>
-  <path id="Треугольник-37" data-name="Треугольник" class="section-4-mobile-cls-26" d="M1080.6 1351.35v-270.27L720.4 1216.2l360.2 135.15z"/>
-  <path id="Треугольник-38" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 1216.2v270.28l360.2-135.13-360.2-135.14z"/>
-  <path id="Треугольник-39" data-name="Треугольник" class="section-4-mobile-cls-26" d="M1080.6 1621.62v-270.27l-360.2 135.13 360.2 135.14z"/>
-  <path id="Треугольник-40" data-name="Треугольник" class="section-4-mobile-cls-26" d="M720.4 1486.48v270.28l360.2-135.14-360.2-135.14z"/>
-  <path id="Треугольник-41" data-name="Треугольник" class="section-4-mobile-cls-26" d="M1080.6 1891.9V1621.6l-360.2 135.14 360.2 135.13z"/>
-  <path class="section-4-mobile-cls-26" d="M285.27 1920l74.93-28.1L0 1756.75V1920M720.4 1920v-163.24L360.2 1891.9l74.93 28.1"/>
 </svg>
 
             </div>
@@ -2586,8 +2885,9 @@
                 How to contact me?
             </div>
             <div class="section-5-content row">
-                <a href="mailto:iam@ivankorolenko.com" target="_blank" class="section-5-email">iam@ivankorolenko.com</a>
+                <a href="http://t.me/ivankorolenko" target="_blank" class="section-5-tg">Telegram</a>
                 <a href="https://vk.com/ivan_korolenko" target="_blank" class="section-5-vk">VK</a>
+                <div class="section-5-email white">iam@ivankorolenko.com</div>
             </div>
         </section>
     </div>
