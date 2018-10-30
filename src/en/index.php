@@ -1941,7 +1941,7 @@
                     <div>Learned basic technologies of web development (HTML, CSS, JS, jQuery, PHP) in two weeks by myself</div>
                     <div>Learned Illustration and created my first project in two weeks by myself</div>
                     <div>Learned React + Redux in one week by myself</div>
-                    <div>Created a password generator on React in 4 hours</div>
+                    <div>Created a password generator on React in 6 hours</div>
                     <div>created the client part of the messenger similar to Telegram Web for use in the company in 4 months</div>
                     <div>Know what monads, functors, clojures, higher-order functions are and how to use them</div>
                     <div>Know more than 120 musical styles and genres</div>
