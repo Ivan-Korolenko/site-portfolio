@@ -4,7 +4,6 @@
 <html lang="ru">
 
 <head>
-
     <?php 
       //get locale and redirect on proper version if needed
       $lang_changed = $_COOKIE["LangChanged"];
@@ -35,7 +34,6 @@
           </script>');
       }
     ?>
-
     <meta charset="utf-8">
     
     <meta name="description" content="Сайт-портфолио Ивана Короленко. Frontend веб-разработка." />
@@ -91,6 +89,15 @@
     <script type="text/javascript" src="front.js?version=<?php echo filemtime('front.js'); ?>"></script>
 
 </head>
+
+<?php
+function ob_html_compress($buf){
+    return preg_replace(array('/<!--(.*)-->/Uis',"/[[:blank:]]+/"),array('',' '),str_replace(array("\n","\r","\t"),'',$buf));
+}
+
+ob_start("ob_html_compress");
+
+?>
 
 <body>
     <div class="preloader-container">
@@ -2915,3 +2922,7 @@
 </body>
 
 </html>
+
+<?php
+    ob_end_flush();
+?>
