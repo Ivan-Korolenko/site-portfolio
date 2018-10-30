@@ -80,19 +80,19 @@
             <div style="cursor: pointer;" onclick="let date = new Date(new Date().getTime() + 360 * 1000 * 24); document.cookie = 'LangChanged=1; path=/; expires=' + date.toUTCString(); window.location = '../';" class="nav-language-changer">EN</div>
 
             <div class="nav-internal">
-                <li class="menu-elem-1" data-page-to="1">
+                <li class="menu-elem-1 underline-hover-link" data-page-to="1">
                     Home
                 </li>
-                <li class="menu-elem-2" data-page-to="2">
+                <li class="menu-elem-2 underline-hover-link" data-page-to="2">
                     Who am I?
                 </li>
-                <li class="menu-elem-3" data-page-to="3">
+                <li class="menu-elem-3 underline-hover-link" data-page-to="3">
                     What can I do?
                 </li>
-                <li class="menu-elem-4" data-page-to="4">
+                <li class="menu-elem-4 underline-hover-link" data-page-to="4">
                     What have I done?
                 </li>
-                <li class="menu-elem-5" data-page-to="5">
+                <li class="menu-elem-5 underline-hover-link" data-page-to="5">
                     How to contact me?
                 </li>
                 <p class="copyright">© 2017-2018 Ivan Korolenko</p>
@@ -1837,16 +1837,16 @@
             </div>
 
             <div class="bottom-nav row white">
-                <li class="bottom-nav-menu-elem-2" data-page-to="2">
+                <li class="bottom-nav-menu-elem-2 underline-hover-link" data-page-to="2">
                     Who am I?
                 </li>
-                <li class="bottom-nav-menu-elem-3" data-page-to="3">
+                <li class="bottom-nav-menu-elem-3 underline-hover-link" data-page-to="3">
                     What can I do?
                 </li>
-                <li class="bottom-nav-menu-elem-4" data-page-to="4">
+                <li class="bottom-nav-menu-elem-4 underline-hover-link" data-page-to="4">
                     What have I done?
                 </li>
-                <li class="bottom-nav-menu-elem-5" data-page-to="5">
+                <li class="bottom-nav-menu-elem-5 underline-hover-link" data-page-to="5">
                     How to contact me?
                 </li>
             </div>
@@ -2377,7 +2377,7 @@
         <image width="772" height="273" transform="translate(1150.19 133.01)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
         <g class="overlay" id="overlay-5" data-name="overlay">
           <polygon id="overlay-back-5" data-name="overlay-back" class="s4-b-cls-10" points="1536.19 135.74 1152.19 270.87 1536.19 406.01 1920.19 270.87 1536.19 135.74"/>
-          <text class="s4-b-cls-15" transform="translate(1395.5 257.6)">V<tspan class="s4-b-cls-22" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-cls-23" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oview’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
+          <text class="s4-b-cls-15" transform="translate(1395.5 257.6)">V<tspan class="s4-b-cls-22" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-cls-23" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oviev’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
         </g>
       </g>
       <polygon id="Ромб-7" data-name="Ромб" class="s4-b-cls-1" points="1536.19 135.74 1152.19 270.87 1536.19 406.01 1920.19 270.87 1536.19 135.74"/>
@@ -2798,7 +2798,7 @@
         <image width="772" height="273" transform="translate(357.81 943.69) scale(0.94 1)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
         <g class="overlay" id="overlay-5" data-name="overlay">
           <polygon id="overlay-back-5" data-name="overlay-back" class="s4-b-m-cls-10" points="720.5 946.42 359.69 1081.53 720.5 1216.65 1081.3 1081.53 720.5 946.42"/>
-          <text class="s4-b-m-cls-15" transform="translate(579.44 1068.27)">V<tspan class="s4-b-m-cls-23" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-m-cls-24" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oview’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
+          <text class="s4-b-m-cls-15" transform="translate(579.44 1068.27)">V<tspan class="s4-b-m-cls-23" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-m-cls-24" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oviev’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
         </g>
       </g>
       <polygon id="Ромб-7" data-name="Ромб" class="s4-b-m-cls-1" points="720.5 946.42 359.69 1081.53 720.5 1216.65 1081.3 1081.53 720.5 946.42"/>

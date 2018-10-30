@@ -25,7 +25,7 @@ $(document).ready(function () {
     // Задаем различия в языковых версиях
     let wordsForRotator = ['приложения', 'сайты', 'идеи', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации']
     if (lang && lang === "eng") {
-        wordsForRotator = ['websites', 'ideas', 'concepts', 'design', 'illustrations', 'algorithms', 'animations']
+        wordsForRotator = ['applications', 'websites', 'ideas', 'design', 'illustrations', 'algorithms', 'animations']
     }
 
     // Задаем различия в версиях для разных форматов устройств
