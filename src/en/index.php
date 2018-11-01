@@ -1874,7 +1874,7 @@ ob_start("ob_html_compress");
                 I also like to make backend, design and illustrations.<br>
                 By the way, the illustration that you saw above is my first project. 
                 <br><br>
-                If your problem has solutions, I'll find ithem.<br>
+                If your problem has solutions, I'll find them.<br>
                 In my spare time I study everything that catches my eye (often it even happens to be something useful).
                 <br><br>
                 Perks:<br>
