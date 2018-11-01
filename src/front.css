@@ -1335,7 +1335,7 @@ li {
         transform: translateY(0px);
     }
     #section-4-case-modal {
-        transition: 0.3s right ease-in-out;
+        transition: 0.1s right ease-in-out;
     }
     #section-4-case-modal .case-modal-content {
         padding: 6rem 2rem 2rem;
