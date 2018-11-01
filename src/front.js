@@ -439,7 +439,7 @@ $(document).ready(function () {
         // --- Анимации четвертого экрана ---
 
         let section4AnimationTargets = 
-            deviceVersion === 'mobiile'
+            deviceVersion === 'mobile'
                 ? document.querySelectorAll('#section-4-back-mobile #portfolio-cases [data-open-case-modal]') 
                 : document.querySelectorAll('#section-4-back #portfolio-cases [data-open-case-modal]')
 
@@ -808,7 +808,7 @@ $(document).ready(function () {
                     'cursor': 'pointer'
                 })
             }
-            $('.section-3-used-tech-header').css('transform', 'translate(0, 0)')
+            $('.section-3-used-tech-header').css('transform', 'translate(3rem, 0)')
             $('.section-3-used-tech-text').css('transform', 'translate(0, 0)')
             //Не вызывать клик по родительскому элементу при клике по крестику
             event.stopImmediatePropagation()

@@ -1884,77 +1884,77 @@ ob_start("ob_html_compress");
                 <br><br>
                 Do you have an interesting idea? Let's bring it to life together!
             </div>
+            <div class="section-2-sides-wrapper">
+                <div class="section-2-my-interests">
+                    <p class="section-2-my-interests-p1 header">My interests</p>
+                    <p class="section-2-my-interests-p2">(visual representation of my mind)</p>
+                    <div class="section-2-my-interests-cloud" id="section-2-my-interests-cloud">
+                        <canvas width="600" height="600" id="section-2-my-interests-cloud-canvas" style="width:100%;">
+                        <ul>
 
-            <div class="section-2-my-interests">
-                <p class="section-2-my-interests-p1 header">My interests</p>
-                <p class="section-2-my-interests-p2">(visual representation of my mind)</p>
-                <div class="section-2-my-interests-cloud" id="section-2-my-interests-cloud">
-                    <canvas width="600" height="600" id="section-2-my-interests-cloud-canvas" style="width:100%;">
-                    <ul>
-
-                        <li><a>Web</a></li>
-                        <li><a>IT</a></li>
-                        <li><a>Development</a></li>
-                        <li><a>Self-education</a></li>
-                        <li><a>Transhumanism</a></li>
-                        <li><a>Data science</a></li>
-                        <li><a>Math</a></li>
-                        <li><a>Philosophy</a></li>
-                        <li><a>Linguistics</a></li>
-                        <li><a>Cybernetics</a></li>
-                        <li><a>Psychology</a></li>
-                        <li><a>Semantics</a></li>
-                        <li><a>Self-development</a></li>
-                        <li><a>Medicine</a></li>
-                        <li><a>AI</a></li>
-                        <li><a>Pharmacy</a></li>
-                        <li><a>Music</a></li>
-                        <li><a>Art</a></li>
-                        <li><a>Chemistry</a></li>
-                        <li><a>Design</a></li>
-                        <li><a>Great historical figures</a></li>
-                        <li><a>Illustration</a></li>
-                        <li><a>Sci-Fi</a></li>
-                        <li><a>Law</a></li>
-                        <li><a>Cinema</a></li>
-                        <li><a>Human history</a></li>
-                        <li><a>Fantasy</a></li>
-                        <li><a>Mythology</a></li>
-                        <li><a>Sociology</a></li>
-                        <li><a>Cryptography</a></li>
-                        <li><a>Politics</a></li>
-                        <li><a>Economy</a></li>
-                        <li><a>Tactics</a></li>
-                        <li><a>Genetics</a></li>
-                        <li><a>3D-printing</a></li>
-                        <li><a>Augmented reality</a></li>
-                        <li><a>VR</a></li>
-                        <li><a>Weapons</a></li>
-                        <li><a>Logic</a></li>
-                        <li><a>Rhetoric</a></li>
-                        <li><a>Strategy</a></li>
-                        <li><a>Epistemology</a></li>
-                        <li><a>Aesthetics</a></li>
-                        <li><a>Games</a></li>
-                        <li><a>Memes</a></li>
-                    </ul>
-                    </canvas>
+                            <li><a>Web</a></li>
+                            <li><a>IT</a></li>
+                            <li><a>Development</a></li>
+                            <li><a>Self-education</a></li>
+                            <li><a>Transhumanism</a></li>
+                            <li><a>Data science</a></li>
+                            <li><a>Math</a></li>
+                            <li><a>Philosophy</a></li>
+                            <li><a>Linguistics</a></li>
+                            <li><a>Cybernetics</a></li>
+                            <li><a>Psychology</a></li>
+                            <li><a>Semantics</a></li>
+                            <li><a>Self-development</a></li>
+                            <li><a>Medicine</a></li>
+                            <li><a>AI</a></li>
+                            <li><a>Pharmacy</a></li>
+                            <li><a>Music</a></li>
+                            <li><a>Art</a></li>
+                            <li><a>Chemistry</a></li>
+                            <li><a>Design</a></li>
+                            <li><a>Great historical figures</a></li>
+                            <li><a>Illustration</a></li>
+                            <li><a>Sci-Fi</a></li>
+                            <li><a>Law</a></li>
+                            <li><a>Cinema</a></li>
+                            <li><a>Human history</a></li>
+                            <li><a>Fantasy</a></li>
+                            <li><a>Mythology</a></li>
+                            <li><a>Sociology</a></li>
+                            <li><a>Cryptography</a></li>
+                            <li><a>Politics</a></li>
+                            <li><a>Economy</a></li>
+                            <li><a>Tactics</a></li>
+                            <li><a>Genetics</a></li>
+                            <li><a>3D-printing</a></li>
+                            <li><a>Augmented reality</a></li>
+                            <li><a>VR</a></li>
+                            <li><a>Weapons</a></li>
+                            <li><a>Logic</a></li>
+                            <li><a>Rhetoric</a></li>
+                            <li><a>Strategy</a></li>
+                            <li><a>Epistemology</a></li>
+                            <li><a>Aesthetics</a></li>
+                            <li><a>Games</a></li>
+                            <li><a>Memes</a></li>
+                        </ul>
+                        </canvas>
+                    </div>
                 </div>
-            </div>
-
-            <div class="section-2-facts">
-                <p class="section-2-facts-p header"><span>Interesting</span><br>facts about me</p>
-                <div class="section-2-facts-slider white">
-                    <div>Started going to school at the age of 5. Was an A student.</div>
-                    <div>Wrote my Bachelor's Thesis on the subject of "News aggregator IS" (90 pages with 18 schemes) in one night</div>
-                    <div>Learned basic technologies of web development (HTML, CSS, JS, jQuery, PHP) in two weeks by myself</div>
-                    <div>Learned Illustration and created my first project in two weeks by myself</div>
-                    <div>Learned React + Redux in one week by myself</div>
-                    <div>Created a password generator on React in 6 hours</div>
-                    <div>created the client part of the messenger similar to Telegram Web for use in the company in 4 months</div>
-                    <div>Know what monads, functors, clojures, higher-order functions are and how to use them</div>
-                    <div>Know more than 120 musical styles and genres</div>
-                    <div>Having fun searching for the optimal solutions of the problems</div>    
+                <div class="section-2-facts">
+                    <p class="section-2-facts-p header"><span>Interesting</span><br>facts about me</p>
+                    <div class="section-2-facts-slider white">
+                        <div>Started going to school at the age of 5. Was an A student.</div>
+                        <div>Wrote my Bachelor's Thesis on the subject of "News aggregator IS" (90 pages with 18 schemes) in one night</div>
+                        <div>Learned basic technologies of web development (HTML, CSS, JS, jQuery, PHP) in two weeks by myself</div>
+                        <div>Learned Illustration and created my first project in two weeks by myself</div>
+                        <div>Learned React + Redux in one week by myself</div>
+                        <div>Created a password generator on React in 6 hours</div>
+                        <div>created the client part of the messenger similar to Telegram Web for use in the company in 4 months</div>
+                        <div>Know what monads, functors, clojures, higher-order functions are and how to use them</div>
+                        <div>Know more than 120 musical styles and genres</div>
+                        <div>Having fun searching for the optimal solutions of the problems</div>    
+                    </div>
                 </div>
             </div>
         </section>
