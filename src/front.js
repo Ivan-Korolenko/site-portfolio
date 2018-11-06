@@ -10,12 +10,10 @@ let Vivus = require('./lib/vivus.min.js')
 let anime = require('./lib/anime.min.js') 
 let ifvisible = require('./lib/ifvisible.min.js') 
 $.onepage_scroll = require('./lib/modified-jquery.onepage-scroll.js') 
-// import './lib/particles.min.js'
 import './lib/modified-particlesjs'
 $.wordsrotator = require('./lib/modified-word-rotator/jquery.wordrotator.min.js') 
 $.tagcanvas = require('./lib/jquery.tagcanvas.min.js') 
 import './lib/slick/slick.min.js'
-import Parallax from 'parallax-js'
 
 import {caseModalData} from './caseModalData'
 
@@ -114,7 +112,6 @@ $(document).ready(function () {
             autoplay: false
         })
 
-        // if(deviceVersion === "desktop") {
             section1StartAnimation
             .add({
                 targets: '#Солнце',
@@ -190,35 +187,6 @@ $(document).ready(function () {
                     // Отключаем скорость анимации у элементов иллюстрации
                     $('#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2')
                         .addClass('no-transition')
-
-                    // Запускаем параллакс
-                    if(deviceVersion === "desktop") {
-                        let scene = document.querySelector('#section-1-parallax-scene')
-
-                        let firstPlan = new Parallax(scene, {
-                            selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
-                            invertY: true,
-                            scalarY: 10.0,
-                            scalarX: ultraWide ? 5.0 : 7.0
-                        })
-
-                        let farAwayLand = new Parallax(scene, {
-                            selector: '#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца',
-                            invertY: true,
-                            scalarY: 10.0,
-                            scalarX: 7.0
-                        })
-
-                        let hills = new Parallax(scene, {
-                            selector: '#Холмы',
-                            invertY: true,
-                            scalarY: 15.0,
-                            scalarX: 5.0
-                        })
-
-                    }
-
-
                 }
             })
             .add({
@@ -228,18 +196,6 @@ $(document).ready(function () {
                 duration: 1000,
                 delay: 100
             })
-        // }
-        // else {
-        //     section1StartAnimation
-        //         .add({
-        //             targets: '#Солнце',
-        //             duration: 500,
-        //             complete: () => {
-        //                 //Запускаем анимацию вращения слов
-        //                 window.requestAnimationFrame(wordRotate)
-        //             }
-        //         })
-        // }
 
         // --- END Анимации первого экрана ---
 
