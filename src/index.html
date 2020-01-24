@@ -1,27 +1,26 @@
-<!-- © 2017-2018 Ivan Korolenko -->
-
 <!DOCTYPE HTML>
 <html lang="ru">
 
 <head>
-    <meta name="description" content="Website portfolio of Ivan Korolenko. Frontend web development." />
-    <meta name="keywords" content="Ivan Korolenko, portfolio, web development, frontend" />
-    <meta name="author" content="Ivan Korolenko" />
-    <meta name="copyright" content="Ivan Korolenko" />
+    <meta charset="utf-8">
+    
+    <meta name="description" content="Сайт-портфолио Ивана Короленко. Frontend веб-разработка." />
+    <meta name="keywords" content="Иван Короленко, портфолио, разработка, frontend, фронтэнд" />
+    <meta name="author" content="Иван Короленко" />
+    <meta name="copyright" content="Иван Короленко" />
 
-    <meta property="og:title" content="Ivan Korolenko" />
-    <meta property="og:description" content="Website portfolio of Ivan Korolenko. Web development, design, illustrations." />
+    <meta property="og:title" content="Иван Короленко" />
+    <meta property="og:description" content="Сайт-портфолио Ивана Короленко. Frontend веб-разработка." />
     <meta property="og:image" content="https://ivankorolenko.com/images/big-logo.jpg" />
-    <meta property="og:site_name" content="Ivan Korolenko" />
-    <meta property="og:url" content="https://ivankorolenko.com/en/" />
+    <meta property="og:site_name" content="Иван Короленко" />
+    <meta property="og:url" content="https://ivankorolenko.com/" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Ivan Korolenko" />
-    <meta name="twitter:description" content="Website portfolio of Ivan Korolenko. Web development, design, illustrations." />
-    <meta name="twitter:creator" content="Ivan Korolenko" />
+    <meta name="twitter:title" content="Иван Короленко" />
+    <meta name="twitter:description" content="Сайт-портфолио Ивана Короленко. Frontend веб-разработка." />
+    <meta name="twitter:creator" content="Иван Короленко" />
     <meta name="twitter:image" content="https://ivankorolenko.com/images/big-logo.jpg" />
 
-    <meta charset="utf-8">
     <!-- tab color on mobile -->
     <meta name="theme-color" content="#171717" />
     <meta name="msapplication-navbutton-color" content="#171717">
@@ -30,46 +29,34 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ivan Korolenko</title>
+    <title>Иван Короленко</title>
 
     <link rel="icon" href="images/small-logo-white.png">
-
-    <link rel="stylesheet" type="text/css" href="front.css?version=<?php echo filemtime('front.css'); ?>" />
-
+    
     <script>
-      //check if user is a bot
-      function botCheck(){
+        //check if user is a bot
+        function botCheck(){
         var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
-        var re = new RegExp(botPattern, 'i')
-          var userAgent = navigator.userAgent
-          if (re.test(userAgent)) return true
-          else return false
-      }
-
-      // detect IE, Edge, don't redirect bots
-      if ((document.documentMode || /Edge/.test(navigator.userAgent) || /MSIE (\d+\.\d+);/.test(navigator.userAgent))
-            // || (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1))
-      && botCheck() !== true) 
-        window.location = 'not-supported.html'
+                  var re = new RegExp(botPattern, 'i')
+                  var userAgent = navigator.userAgent
+                  if (re.test(userAgent)) return true
+                  else return false
+        }
+        // detect IE, Edge, don't redirect bots
+        if ((document.documentMode || /Edge/.test(navigator.userAgent) || /MSIE (\d+\.\d+);/.test(navigator.userAgent))
+        // || (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1))
+        && botCheck() !== true) 
+          window.location = 'not-supported.html'
     </script>
     <noscript>
-        <meta HTTP-EQUIV="Refresh" CONTENT="0;URL=js_off.html">
+        <meta HTTP-EQUIV="Refresh" CONTENT="0;URL=js-off.html">
     </noscript>
+    <script>
+      var lang = "rus"
+    </script>
 
-    <script>var lang = "eng"</script>
-    <script type="text/javascript" src="front.js?version=<?php echo filemtime('front.js'); ?>"></script>
-
-    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45539910 = new Ya.Metrika({ id:45539910, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45539910" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->     
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45539910 = new Ya.Metrika({ id:45539910, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45539910" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </head>
-
-<?php
-function ob_html_compress($buf){
-    return preg_replace(array('/<!--(.*)-->/Uis',"/[[:blank:]]+/"),array('',' '),str_replace(array("\n","\r","\t"),'',$buf));
-}
-
-ob_start("ob_html_compress");
-
-?>
 
 <body>
     <div class="preloader-container">
@@ -87,24 +74,23 @@ ob_start("ob_html_compress");
             <div class="nav-back-container">
                 <div class="nav-back"></div>
             </div>
-
-            <div style="cursor: pointer;" onclick="let date = new Date(new Date().getTime() + 360 * 1000 * 24); document.cookie = 'LangChanged=1; path=/; expires=' + date.toUTCString(); window.location = '../';" class="nav-language-changer">EN</div>
+            <div style="cursor: pointer;" onclick="window.location = 'en/';" class="nav-language-changer">RU</div>
 
             <div class="nav-internal">
                 <li class="menu-elem-1 underline-hover-link" data-page-to="1">
-                    Home
+                    Главная
                 </li>
                 <li class="menu-elem-2 underline-hover-link" data-page-to="2">
-                    Who am I?
+                    Кто я?
                 </li>
                 <li class="menu-elem-3 underline-hover-link" data-page-to="3">
-                    What can I do?
+                    Что я умею?
                 </li>
                 <li class="menu-elem-4 underline-hover-link" data-page-to="4">
-                    What have I done?
+                    Что я сделал?
                 </li>
                 <li class="menu-elem-5 underline-hover-link" data-page-to="5">
-                    How to contact me?
+                    Как со мной связаться?
                 </li>
                 <p class="copyright">© 2017-2018 Ivan Korolenko</p>
             </div>
@@ -115,7 +101,7 @@ ob_start("ob_html_compress");
             <div id="particles-background-section-1"></div>
             <div class="section-1-back-container" id="section-1-back-container">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" class="section-1-back" id="section-1-back">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" class="section-1-back" id="section-1-back">
                 <defs>
                     <style>
                     .cls-1 {
@@ -1837,180 +1823,181 @@ ob_start("ob_html_compress");
                 </g>
                 </svg>
 
+
                 <div id="section-1-back-overlay"></div>
             </div>
 
             <div class="section-1-main-text white">
-                <p class="section-1-main-text-p1 header">Hi, my name is Ivan Korolenko, <br> and I create
-                    <span class="section-1-word-rotate">websites</span>
+                <p class="section-1-main-text-p1 header">Привет, меня зовут Иван Короленко,<br> и я создаю
+                    <span class="section-1-word-rotate">сайты</span>
                 </p>
                 <p class="section-1-main-text-p2 move-up-down">↓</p>
             </div>
 
             <div class="bottom-nav row white">
                 <li class="bottom-nav-menu-elem-2 underline-hover-link" data-page-to="2">
-                    Who am I?
+                    Кто я?
                 </li>
                 <li class="bottom-nav-menu-elem-3 underline-hover-link" data-page-to="3">
-                    What can I do?
+                    Что я умею?
                 </li>
                 <li class="bottom-nav-menu-elem-4 underline-hover-link" data-page-to="4">
-                    What have I done?
+                    Что я сделал?
                 </li>
                 <li class="bottom-nav-menu-elem-5 underline-hover-link" data-page-to="5">
-                    How to contact me?
+                    Как со мной связаться?
                 </li>
             </div>
 
         </section>
         <section class="section-2 column white">
             <div class="section-2-header header white">
-                Who am I?
+                Кто я?
             </div>
             <div class="section-2-photo">
-                <img src="images/section-2-photo.jpg" class="section-2-photo-img" alt="Ivan Korolenko" title="Ivan Korolenko">
+                <img src="images/section-2-photo.jpg" class="section-2-photo-img" alt="Иван Короленко" title="Иван Короленко">
             </div>
             <div class="section-2-about-me">
-                I am a frontend web developer, who likes challenging tasks.<br>
-                My specialization is frontend development.<br>
-                I also like to make backend, design and illustrations.<br>
-                By the way, the illustration that you saw above is my first project. 
+                Я - веб-разработчик, который любит сложные задачи.<br>
+                Моя специализация - frontend разработка.<br>
+                Также мне нравится заниматься backend-ом, дизайном и иллюстрированием.<br>
+                Кстати, иллюстрация, которую вы видели выше - как раз моя первая работа.  
                 <br><br>
-                If your problem has solutions, I'll find them.<br>
-                In my spare time I study everything that catches my eye (often it even happens to be something useful).
+                Если у вашей проблемы есть решения, я найду их.<br>
+                В свободное время занимаюсь изучением всего что попадается на глаза (часто это даже оказывается чем-то полезным).
                 <br><br>
-                Perks:<br>
-                - turbo-mode: then needed can do work for the week in a few hours<br>
-                - the more difficult the task, the higher the motivation<br>
-                - prefer functional style of programming
+                Особенности:<br>
+                - турбо-режим: при необходимости могу выполнить недельную работу за несколько часов<br>
+                - чем сложнее задача, тем выше мотивация<br>
+                - предпочитаю функциональный стиль программирования
                 <br><br>
-                Do you have an interesting idea? Let's bring it to life together!
+                У Вас есть интересная идея? Давайте реализуем её вместе!
             </div>
+
             <div class="section-2-sides-wrapper">
                 <div class="section-2-my-interests">
-                    <p class="section-2-my-interests-p1 header">My interests</p>
-                    <p class="section-2-my-interests-p2">(visual representation of my mind)</p>
+                    <p class="section-2-my-interests-p1 header">Мои интересы</p>
+                    <p class="section-2-my-interests-p2">(визуальная репрезентация моего сознания)</p>
                     <div class="section-2-my-interests-cloud" id="section-2-my-interests-cloud">
                         <canvas width="600" height="600" id="section-2-my-interests-cloud-canvas" style="width:100%;">
                         <ul>
-
                             <li><a>Web</a></li>
                             <li><a>IT</a></li>
-                            <li><a>Development</a></li>
-                            <li><a>Self-education</a></li>
-                            <li><a>Transhumanism</a></li>
+                            <li><a>Разработка</a></li>
+                            <li><a>Самообучение</a></li>
+                            <li><a>Трансгуманизм</a></li>
                             <li><a>Data science</a></li>
-                            <li><a>Math</a></li>
-                            <li><a>Philosophy</a></li>
-                            <li><a>Linguistics</a></li>
-                            <li><a>Cybernetics</a></li>
-                            <li><a>Psychology</a></li>
-                            <li><a>Semantics</a></li>
-                            <li><a>Self-development</a></li>
-                            <li><a>Medicine</a></li>
-                            <li><a>AI</a></li>
-                            <li><a>Pharmacy</a></li>
-                            <li><a>Music</a></li>
-                            <li><a>Art</a></li>
-                            <li><a>Chemistry</a></li>
-                            <li><a>Design</a></li>
-                            <li><a>Great historical figures</a></li>
-                            <li><a>Illustration</a></li>
-                            <li><a>Sci-Fi</a></li>
-                            <li><a>Law</a></li>
-                            <li><a>Cinema</a></li>
-                            <li><a>Human history</a></li>
-                            <li><a>Fantasy</a></li>
-                            <li><a>Mythology</a></li>
-                            <li><a>Sociology</a></li>
-                            <li><a>Cryptography</a></li>
-                            <li><a>Politics</a></li>
-                            <li><a>Economy</a></li>
-                            <li><a>Tactics</a></li>
-                            <li><a>Genetics</a></li>
-                            <li><a>3D-printing</a></li>
-                            <li><a>Augmented reality</a></li>
-                            <li><a>VR</a></li>
-                            <li><a>Weapons</a></li>
-                            <li><a>Logic</a></li>
-                            <li><a>Rhetoric</a></li>
-                            <li><a>Strategy</a></li>
-                            <li><a>Epistemology</a></li>
-                            <li><a>Aesthetics</a></li>
-                            <li><a>Games</a></li>
-                            <li><a>Memes</a></li>
+                            <li><a>Математика</a></li>
+                            <li><a>Философия</a></li>
+                            <li><a>Лингвистика</a></li>
+                            <li><a>Кибернетика</a></li>
+                            <li><a>Психология</a></li>
+                            <li><a>Семантика</a></li>
+                            <li><a>Саморазвитие</a></li>
+                            <li><a>Медицина</a></li>
+                            <li><a>Искусственный интеллект</a></li>
+                            <li><a>Фармацевтика</a></li>
+                            <li><a>Музыка</a></li>
+                            <li><a>Живопись</a></li>
+                            <li><a>Химия</a></li>
+                            <li><a>Дизайн</a></li>
+                            <li><a>Великие исторические личности</a></li>
+                            <li><a>Иллюстрирование</a></li>
+                            <li><a>Научная фантастика</a></li>
+                            <li><a>Юриспруденция</a></li>
+                            <li><a>Кинематограф</a></li>
+                            <li><a>История человечества</a></li>
+                            <li><a>Фэнтези</a></li>
+                            <li><a>Мифология</a></li>
+                            <li><a>Социология</a></li>
+                            <li><a>Криптография</a></li>
+                            <li><a>Политика</a></li>
+                            <li><a>Экономика</a></li>
+                            <li><a>Тактика</a></li>
+                            <li><a>Генетика</a></li>
+                            <li><a>3D-принтинг</a></li>
+                            <li><a>Аугментированная реальность</a></li>
+                            <li><a>Виртуальная реальность</a></li>
+                            <li><a>Оружие</a></li>
+                            <li><a>Логика</a></li>
+                            <li><a>Риторика</a></li>
+                            <li><a>Стратегия</a></li>
+                            <li><a>Эпистемология</a></li>
+                            <li><a>Эстетика</a></li>
+                            <li><a>Игры</a></li>
+                            <li><a>Мемы</a></li>
                         </ul>
                         </canvas>
                     </div>
                 </div>
                 <div class="section-2-facts">
-                    <p class="section-2-facts-p header"><span>Interesting</span><br>facts about me</p>
+                    <p class="section-2-facts-p header"><span>Интересные</span><br>факты обо мне</p>
                     <div class="section-2-facts-slider white">
-                        <div>Started going to school at the age of 5. Was an A student.</div>
-                        <div>Wrote my Bachelor's Thesis on the subject of "News aggregator IS" (90 pages with 18 schemes) in one night</div>
-                        <div>Learned basic technologies of web development (HTML, CSS, JS, jQuery, PHP) in two weeks by myself</div>
-                        <div>Learned Illustration and created my first project in two weeks by myself</div>
-                        <div>Learned React + Redux in one week by myself</div>
-                        <div>Created a password generator on React in 6 hours</div>
-                        <div>created the client part of the messenger similar to Telegram Web for use in the company in 4 months</div>
-                        <div>Know what monads, functors, clojures, higher-order functions are and how to use them</div>
-                        <div>Know more than 120 musical styles and genres</div>
-                        <div>Having fun searching for the optimal solutions of the problems</div>    
+                        <div>Пошел в школу в 5 лет. Был отличником.</div>
+                        <div>Написал дипломную работу на тему "ИС новостного агрегатора" на 90 страниц с 18 схемами за одну ночь.</div>
+                        <div>Изучил базовые технологии веб-разработки (HTML, CSS, JS, jQuery, PHP, SQL) за три недели</div>
+                        <div>Изучил иллюстрирование и создал первую иллюстрацию за две недели</div>
+                        <div>Изучил React + Redux за неделю</div>
+                        <div>Написал генератор паролей на React за 6 часов</div>
+                        <div>За 4 месяца создал клиентскую часть мессенджера подобного Telegram Web для использования в компании</div>
+                        <div>Знаю что такое монады, функторы, замыкания, функции высшего порядка, и как их использовать</div>
+                        <div>Знаю больше 120 музыкальных стилей и жанров</div>
+                        <div>Развлекаюсь перебором решений задач в поисках оптимального</div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-3 column">
             <div class="section-3-header header white">
-                What can I do?
+                Что я умею?
             </div>
             <div class="section-3-skills white">
                 <div class="section-3-skill skill-1">
                     <p class="section-3-skill-header header">HTML 5</p>
                     <div class="section-3-skill-text">
-                        What is it for: Site basis<br>Knowledge level: Sufficient for building layouts of any complexity and peculiarity
+                        Зачем это нужно: Каркас и контент сайта<br>Уровень знаний: Достаточный для построения верстки любой сложности и необычности.
                     </div>
                 </div>
                 <div class="section-3-skill skill-2 white">
                     <p class="section-3-skill-header header">CSS 3</p>
                     <div class="section-3-skill-text">
-                        What is it for: Site appearance<br>Knowledge level: Sufficient for the implementation of any crazy design fantasy
+                        Зачем это нужно: Внешний вид сайта<br>Уровень знаний: Достаточный для воплощения в жизнь любой безумной дизайнерской фантазии.
                     </div>
                 </div>
                 <div class="section-3-skill skill-3 white">
-                    <p class="section-3-skill-header header">JS (+ React, Redux, jQuery, etc)</p>
+                    <p class="section-3-skill-header header">JS (+ React, Redux, jQuery, и т.д.)</p>
                     <div class="section-3-skill-text">
-                        What is it for: Frontend logic<br>Knowledge level: Sufficient for creating a frontend part of an app similar to Telegram Web
+                        Зачем это нужно: Построение клиентской (с которой взаимодействует пользователь) части веб-приложения<br>Уровень знаний: Достаточный для создания frontend части приложения уровня Telegram Web
                     </div>
                 </div>
                 <div class="section-3-skill skill-4 white">
                     <p class="section-3-skill-header header">PHP</p>
                     <div class="section-3-skill-text">
-                        What is it for: Backend logic, intensive calculations, communication between users, data exchange with the database<br>Knowledge level: Sufficient for creating a backend part of a medium complexity web application
+                        Зачем это нужно: Серверная логика, интенсивные вычисления, связь пользователей, обмен информацией с БД<br>Уровень знаний: Достаточный для создания backend части веб-приложений средней сложности
                     </div>
                 </div>
                 <div class="section-3-skill skill-5 white">
                     <p class="section-3-skill-header header">SQL</p>
                     <div class="section-3-skill-text">
-                        What is it for: Creating and changing the database<br>Knowledge level: Sufficient for creating and supporting the database of a medium complexity web application
+                        Зачем это нужно: Работа с информацией в базе данных<br>Уровень знаний: Достаточный для создания и поддержки БД веб-приложения средней сложности
                     </div>
                 </div>
                 <div class="section-3-skill skill-6 white">
                     <p class="section-3-skill-header header">Illustrator + Photoshop</p>
                     <div class="section-3-skill-text">
-                        What is it for: Creating/editing images, illustrations<br>Knowledge level: Sufficient to create an illustration in the first section of this site and any manipulations with images
+                        Зачем это нужно: Создание/редактирование растровых и векторных изображений<br>Уровень знаний: Достаточный для создания иллюстрации в первой секции этого сайта и любых манипуляций с изображениями
                     </div>
                 </div>
                 <div class="section-3-skill skill-7 white">
-                    <p class="section-3-skill-header header">Design</p>
+                    <p class="section-3-skill-header header">Дизайн</p>
                     <div class="section-3-skill-text">
-                        What is it for: Creating projects that will be pleasant to watch<br>Knowledge level: Sufficient for users not to want to tear their eyes out when looking at the site
+                        Зачем это нужно: Создание проектов, на которые будет приятно смотреть<br> Уровень знаний: Достаточный для того чтобы у пользователей не возникало желания вырвать себе глаза при взгляде на сайт
                     </div>
                 </div>
             </div>
             <div class="section-3-used-tech white">
                 <p class="section-3-used-tech-header header">
-                    Used technologies
+                    Использованные технологии
                 </p>
                 <div class="section-3-used-tech-exit">
                     <svg class="section-3-used-tech-exit-img" id="exit-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512">
@@ -2022,29 +2009,28 @@ ob_start("ob_html_compress");
                 </div>
                 <div class="section-3-used-tech-content">
                     <div class="section-3-used-tech-text">
-                      <div class="section-3-used-tech-list-header">Technologies that this site uses:</div>
-                      <div class="section-3-used-tech-list-wrap">
-                        <ul class="section-3-used-tech-list">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>FlexBox</li>
-                            <li>JavaScript (ES6)</li>
-                            <li>JQuery 3</li>
-                            <li>SVG</li>
-                            <li>HTML Canvas</li>
-                            <li>Animate.css</li>
-                            <li>Particles.js</li>
-                            <li>Anime.js</li>
-                            <li>Slick.js</li>
-                            <li>Ifinvisible.js</li>
-                            <li>Onepagescroll.js</li>
-                            <li>Enquire.js</li>
-                            <li>Vivus.js</li>
-                            <li>Tagcanvas.js</li>
-                            <li>Wordrotator.js</li>
-                            <li>PHP</li>
-                        </ul>                    
-                      </div>
+                        <div class="section-3-used-tech-list-header">Технологии, на которых работает этот сайт:</div>
+                        <div class="section-3-used-tech-list-wrap">
+                            <ul class="section-3-used-tech-list">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>FlexBox</li>
+                                <li>JavaScript (ES6)</li>
+                                <li>JQuery 3</li>
+                                <li>SVG</li>
+                                <li>HTML Canvas</li>
+                                <li>Animate.css</li>
+                                <li>Particles.js</li>
+                                <li>Anime.js</li>
+                                <li>Slick.js</li>
+                                <li>Ifinvisible.js</li>
+                                <li>Onepagescroll.js</li>
+                                <li>Enquire.js</li>
+                                <li>Vivus.js</li>
+                                <li>Tagcanvas.js</li>
+                                <li>Wordrotator.js</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2062,7 +2048,7 @@ ob_start("ob_html_compress");
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="none" class="section-4-back" id="section-4-back">
   <defs>
     <style>
-      .s4-b-cls-1, .s4-b-cls-3, .s4-b-cls-33, .s4-b-cls-4 {
+      .s4-b-cls-1, .s4-b-cls-3, .s4-b-cls-32, .s4-b-cls-4 {
         fill: none;
       }
 
@@ -2070,7 +2056,7 @@ ob_start("ob_html_compress");
         stroke: #3b2a66;
       }
 
-      .s4-b-cls-1, .s4-b-cls-10, .s4-b-cls-3, .s4-b-cls-32, .s4-b-cls-33 {
+      .s4-b-cls-1, .s4-b-cls-10, .s4-b-cls-3, .s4-b-cls-31, .s4-b-cls-32 {
         stroke-miterlimit: 10;
       }
 
@@ -2078,7 +2064,7 @@ ob_start("ob_html_compress");
         stroke-width: 2px;
       }
 
-      .s4-b-cls-2, .s4-b-cls-32 {
+      .s4-b-cls-2, .s4-b-cls-31 {
         fill: #171717;
       }
 
@@ -2090,7 +2076,7 @@ ob_start("ob_html_compress");
         fill: #353535;
       }
 
-      .s4-b-cls-11, .s4-b-cls-15, .s4-b-cls-34, .s4-b-cls-7 {
+      .s4-b-cls-11, .s4-b-cls-15, .s4-b-cls-33, .s4-b-cls-7 {
         fill: #fff;
       }
 
@@ -2110,7 +2096,7 @@ ob_start("ob_html_compress");
         font-size: 28px;
       }
 
-      .s4-b-cls-11, .s4-b-cls-15, .s4-b-cls-34 {
+      .s4-b-cls-11, .s4-b-cls-15, .s4-b-cls-33 {
         font-family: PoiretOne-Regular, Poiret One;
       }
 
@@ -2157,54 +2143,50 @@ ob_start("ob_html_compress");
       }
 
       .s4-b-cls-22 {
-        letter-spacing: -0.04em;
+        letter-spacing: -0.11em;
       }
 
       .s4-b-cls-23 {
-        letter-spacing: -0.04em;
-      }
-
-      .s4-b-cls-24 {
         clip-path: url(#s4-b-clip-path-6);
       }
 
-      .s4-b-cls-25 {
+      .s4-b-cls-24 {
         letter-spacing: -0.05em;
       }
 
-      .s4-b-cls-26 {
+      .s4-b-cls-25 {
         clip-path: url(#s4-b-clip-path-7);
       }
 
-      .s4-b-cls-27 {
+      .s4-b-cls-26 {
         letter-spacing: -0.04em;
       }
 
-      .s4-b-cls-28 {
+      .s4-b-cls-27 {
         clip-path: url(#s4-b-clip-path-8);
       }
 
-      .s4-b-cls-29 {
+      .s4-b-cls-28 {
         clip-path: url(#s4-b-clip-path-9);
       }
 
-      .s4-b-cls-30 {
-        letter-spacing: -0.05em;
+      .s4-b-cls-29 {
+        letter-spacing: -0.13em;
       }
 
-      .s4-b-cls-31 {
+      .s4-b-cls-30 {
         clip-path: url(#s4-b-clip-path-10);
       }
 
-      .s4-b-cls-32 {
+      .s4-b-cls-31 {
         stroke: #000;
       }
 
-      .s4-b-cls-33 {
+      .s4-b-cls-32 {
         stroke: #fff;
       }
 
-      .s4-b-cls-34 {
+      .s4-b-cls-33 {
         font-size: 58px;
       }
     </style>
@@ -2340,7 +2322,7 @@ ob_start("ob_html_compress");
         </g>
         <g class="overlay" id="overlay-2" data-name="overlay">
           <polygon id="overlay-back-2" data-name="overlay-back" class="s4-b-cls-10" points="384 270.25 0 405.38 384 540.51 768 405.38 384 270.25"/>
-          <text class="s4-b-cls-15" transform="translate(236.8 421.44)">Euroauto Messenger</text>
+          <text class="s4-b-cls-15" transform="translate(217.24 421.44)">Мессенджер Euroauto</text>
         </g>
       </g>
       <polygon id="Ромб-5" data-name="Ромб" class="s4-b-cls-1" points="384 270.25 0 405.38 384 540.51 768 405.38 384 270.25"/>
@@ -2388,74 +2370,74 @@ ob_start("ob_html_compress");
         <image width="772" height="273" transform="translate(1150.19 133.01)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
         <g class="overlay" id="overlay-5" data-name="overlay">
           <polygon id="overlay-back-5" data-name="overlay-back" class="s4-b-cls-10" points="1536.19 135.74 1152.19 270.87 1536.19 406.01 1920.19 270.87 1536.19 135.74"/>
-          <text class="s4-b-cls-15" transform="translate(1395.5 257.6)">V<tspan class="s4-b-cls-22" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-cls-23" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oviev’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
+          <text class="s4-b-cls-15" transform="translate(1483.42 257.6)"><tspan class="s4-b-cls-22">Т</tspan><tspan x="11.38" y="0">ренинг</tspan><tspan x="-114.3" y="43.2">Владимира Соловьева</tspan></text>
         </g>
       </g>
       <polygon id="Ромб-7" data-name="Ромб" class="s4-b-cls-1" points="1536.19 135.74 1152.19 270.87 1536.19 406.01 1920.19 270.87 1536.19 135.74"/>
     </g>
     <g id="me" data-open-case-modal="me">
-      <g class="s4-b-cls-24">
+      <g class="s4-b-cls-23">
         <image width="390" height="280" transform="translate(1120.15 263.61) scale(1.08 1)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
         <g class="overlay" id="overlay-6" data-name="overlay">
           <polygon id="overlay-back-6" data-name="overlay-back" class="s4-b-cls-10" points="1151.79 270.29 1151.79 540.55 1535.79 405.42 1151.79 270.29"/>
-          <text class="s4-b-cls-11" transform="translate(1185.9 414.84)">Mar<tspan class="s4-b-cls-25" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan></text>
+          <text class="s4-b-cls-11" transform="translate(1185.9 414.84)">Mar<tspan class="s4-b-cls-24" x="51.41" y="0">k</tspan><tspan x="60.76" y="0">eting Engineers</tspan></text>
         </g>
       </g>
       <polygon id="Треугольник-41" data-name="Треугольник" class="s4-b-cls-1" points="1151.79 270.29 1151.79 540.56 1535.79 405.42 1151.79 270.29"/>
     </g>
     <g id="atlant" data-open-case-modal="atlant">
-      <g class="s4-b-cls-26">
+      <g class="s4-b-cls-25">
         <image width="390" height="280" transform="translate(1535.97 267.53)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
         <g class="overlay" id="overlay-7" data-name="overlay">
           <polygon id="overlay-back-7" data-name="overlay-back" class="s4-b-cls-10" points="1920.94 540.53 1920.94 270.26 1536.94 405.39 1920.94 540.53"/>
-          <text class="s4-b-cls-11" transform="translate(1720.34 414.66)">At<tspan class="s4-b-cls-27" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan></text>
+          <text class="s4-b-cls-11" transform="translate(1720.34 414.66)">At<tspan class="s4-b-cls-26" x="29.4" y="0">l</tspan><tspan x="35.31" y="0">ant Group</tspan></text>
         </g>
       </g>
       <polygon id="Треугольник-42" data-name="Треугольник" class="s4-b-cls-1" points="1920.94 540.53 1920.94 270.26 1536.94 405.39 1920.94 540.53"/>
     </g>
     <g id="_15_puzzle" data-name="15_puzzle" data-open-case-modal="15_puzzle">
-      <g class="s4-b-cls-28">
+      <g class="s4-b-cls-27">
         <rect class="s4-b-cls-7" x="1528" y="395.5" width="400.5" height="282"/>
         <image id="_15_puzzle_back" data-name="15_puzzle_back" width="256" height="256" transform="translate(1587.5 485.5) scale(0.45)" xlink:href="images/section-4-back-pics/15_puzzle.png"/>
         <g class="overlay" id="overlay-8" data-name="overlay">
           <polygon id="overlay-back-8" data-name="overlay-back" class="s4-b-cls-10" points="1536.47 404.87 1536.47 675.14 1920.47 540.01 1536.47 404.87"/>
-          <text class="s4-b-cls-11" transform="translate(1578.7 546.24)">15 puzz<tspan class="s4-b-cls-27" x="85.09" y="0">l</tspan><tspan x="91" y="0">e» game</tspan></text>
+          <text class="s4-b-cls-11" transform="translate(1570.21 546.24)">Игра «Пятнашки»</text>
         </g>
       </g>
       <polygon id="Треугольник-43" data-name="Треугольник" class="s4-b-cls-1" points="1536.47 404.87 1536.47 675.14 1920.47 540.01 1536.47 404.87"/>
     </g>
     <g id="passgen" data-open-case-modal="passgen">
-      <g class="s4-b-cls-29">
+      <g class="s4-b-cls-28">
         <rect class="s4-b-cls-7" x="1143" y="400.5" width="400.5" height="282"/>
         <image id="passgen_back" width="512" height="512" transform="translate(1374 487) scale(0.22)" xlink:href="images/section-4-back-pics/passgen.png"/>
         <g class="overlay" id="overlay-9" data-name="overlay">
           <polygon id="overlay-back-9" data-name="overlay-back" class="s4-b-cls-10" points="1535.72 675.07 1535.72 404.8 1151.72 539.94 1535.72 675.07"/>
-          <text class="s4-b-cls-11" transform="translate(1273.47 546.03)"><tspan class="s4-b-cls-30">P</tspan><tspan x="9.58" y="0">assword generator</tspan></text>
+          <text class="s4-b-cls-11" transform="translate(1268.41 546.03)"><tspan class="s4-b-cls-29">Г</tspan><tspan x="6.55" y="0">енератор паролей</tspan></text>
         </g>
       </g>
       <polygon id="Треугольник-44" data-name="Треугольник" class="s4-b-cls-1" points="1535.72 675.07 1535.72 404.8 1151.72 539.94 1535.72 675.07"/>
     </g>
     <g id="portfolio" data-open-case-modal="portfolio">
-      <g class="s4-b-cls-31">
+      <g class="s4-b-cls-30">
         <g id="ik_back">
-          <rect id="preloader-back" class="s4-b-cls-32" x="660.78" y="676" width="981.68" height="552.19"/>
-          <path class="s4-b-cls-33" d="M906.57,925.39h2v45.77h-2Z"/>
-          <path class="s4-b-cls-33" d="M937.45,972.2l-22.76-46.8h2.2l20.75,42.41,20.63-42.41h2Z"/>
-          <path class="s4-b-cls-33" d="M973.76,924.29l22.89,46.86H994.5l-8.67-17.45H961.37l-8.54,17.45h-1.89Zm-.18,4.21-11.41,23.43h22.95Z"/>
-          <path class="s4-b-cls-33" d="M1036.73,925.39h1.77v46.44l-33.68-41.41v40.77H1003V924.74l33.68,41.37Z"/>
-          <path class="s4-b-cls-33" d="M1069,925.39h2v16.78l19.34-16.78h2.44l-20.93,18.27,26.3,27.52h-2.68L1071,945.71v25.45h-2Z"/>
-          <path class="s4-b-cls-33" d="M1106.21,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72A22.15,22.15,0,0,1,1123.5,972h-.92A22.07,22.07,0,0,1,1106.21,964.81Zm38.66-16.55a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33A21.21,21.21,0,0,0,1144.86,948.26Z"/>
-          <path class="s4-b-cls-33" d="M1154.18,925.39h2.62a14.47,14.47,0,0,1,10.4,4.36,13.85,13.85,0,0,1,4.48,10.25,13.6,13.6,0,0,1-4.6,10.23q-4.6,4.34-9.83,4.33h-.43l15.74,16.6H1170l-13.85-14.53v14.53h-2Zm2,27.4h1.11A12,12,0,0,0,1166,949a12.46,12.46,0,0,0,.27-17.62l-.39-.38a12.37,12.37,0,0,0-8.91-3.84h-.79Z"/>
-          <path class="s4-b-cls-33" d="M1184.14,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72,22.16,22.16,0,0,1-16.48,7.11h-.92A22.06,22.06,0,0,1,1184.14,964.81Zm38.66-16.55a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33A21.21,21.21,0,0,0,1222.79,948.26Z"/>
-          <path class="s4-b-cls-33" d="M1234.14,925.39v44h14.16v1.77h-16.17V925.39Z"/>
-          <path class="s4-b-cls-33" d="M1254.1,925.39h16.42v1.77h-14.4v24.9h12v1.77h-12v15.56h14.4v1.77H1254.1Z"/>
-          <path class="s4-b-cls-33" d="M1310.3,925.39h1.77v46.44l-33.68-41.41v40.77h-1.77V924.74l33.68,41.37Z"/>
-          <path class="s4-b-cls-33" d="M1321.22,925.39h2v16.78l19.34-16.78H1345L1324,943.66l26.3,27.52h-2.68l-24.41-25.48v25.45h-2Z"/>
-          <path class="s4-b-cls-33" d="M1358.41,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72,22.16,22.16,0,0,1-16.48,7.11h-.92A22.07,22.07,0,0,1,1358.41,964.81Zm38.66-16.57a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33a21.21,21.21,0,0,0,6.41-15.45Z"/>
+          <rect id="preloader-back" class="s4-b-cls-31" x="660.78" y="676" width="981.68" height="552.19"/>
+          <path class="s4-b-cls-32" d="M906.57,925.39h2v45.77h-2Z"/>
+          <path class="s4-b-cls-32" d="M937.45,972.2l-22.76-46.8h2.2l20.75,42.41,20.63-42.41h2Z"/>
+          <path class="s4-b-cls-32" d="M973.76,924.29l22.89,46.86H994.5l-8.67-17.45H961.37l-8.54,17.45h-1.89Zm-.18,4.21-11.41,23.43h22.95Z"/>
+          <path class="s4-b-cls-32" d="M1036.73,925.39h1.77v46.44l-33.68-41.41v40.77H1003V924.74l33.68,41.37Z"/>
+          <path class="s4-b-cls-32" d="M1069,925.39h2v16.78l19.34-16.78h2.44l-20.93,18.27,26.3,27.52h-2.68L1071,945.71v25.45h-2Z"/>
+          <path class="s4-b-cls-32" d="M1106.21,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72A22.15,22.15,0,0,1,1123.5,972h-.92A22.07,22.07,0,0,1,1106.21,964.81Zm38.66-16.55a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33A21.21,21.21,0,0,0,1144.86,948.26Z"/>
+          <path class="s4-b-cls-32" d="M1154.18,925.39h2.62a14.47,14.47,0,0,1,10.4,4.36,13.85,13.85,0,0,1,4.48,10.25,13.6,13.6,0,0,1-4.6,10.23q-4.6,4.34-9.83,4.33h-.43l15.74,16.6H1170l-13.85-14.53v14.53h-2Zm2,27.4h1.11A12,12,0,0,0,1166,949a12.46,12.46,0,0,0,.27-17.62l-.39-.38a12.37,12.37,0,0,0-8.91-3.84h-.79Z"/>
+          <path class="s4-b-cls-32" d="M1184.14,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72,22.16,22.16,0,0,1-16.48,7.11h-.92A22.06,22.06,0,0,1,1184.14,964.81Zm38.66-16.55a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33A21.21,21.21,0,0,0,1222.79,948.26Z"/>
+          <path class="s4-b-cls-32" d="M1234.14,925.39v44h14.16v1.77h-16.17V925.39Z"/>
+          <path class="s4-b-cls-32" d="M1254.1,925.39h16.42v1.77h-14.4v24.9h12v1.77h-12v15.56h14.4v1.77H1254.1Z"/>
+          <path class="s4-b-cls-32" d="M1310.3,925.39h1.77v46.44l-33.68-41.41v40.77h-1.77V924.74l33.68,41.37Z"/>
+          <path class="s4-b-cls-32" d="M1321.22,925.39h2v16.78l19.34-16.78H1345L1324,943.66l26.3,27.52h-2.68l-24.41-25.48v25.45h-2Z"/>
+          <path class="s4-b-cls-32" d="M1358.41,964.81a23.25,23.25,0,0,1-6.93-16.69,22.59,22.59,0,0,1,7-16.54,23.75,23.75,0,0,1,33.59-.06l0,0a22.62,22.62,0,0,1,7,16.57,23.23,23.23,0,0,1-6.9,16.72,22.16,22.16,0,0,1-16.48,7.11h-.92A22.07,22.07,0,0,1,1358.41,964.81Zm38.66-16.57a21.16,21.16,0,0,0-6.38-15.44,21.62,21.62,0,0,0-30.58-.21l-.21.21a21.84,21.84,0,0,0,0,30.89l0,0a21.52,21.52,0,0,0,30.43.33l.33-.33a21.21,21.21,0,0,0,6.41-15.45Z"/>
         </g>
         <g class="overlay" id="overlay-10" data-name="overlay">
           <polygon id="overlay-back-10" data-name="overlay-back" class="s4-b-cls-10" points="1152.32 810.95 768.32 946.08 1152.32 1081.22 1536.32 946.08 1152.32 810.95"/>
-          <text class="s4-b-cls-15" transform="translate(1002.87 960.31)">This portfolio website</text>
+          <text class="s4-b-cls-15" transform="translate(984.02 960.31)">Этот сайт-портфолио</text>
         </g>
       </g>
       <polygon id="Ромб-8" data-name="Ромб" class="s4-b-cls-1" points="1152.32 810.95 768.32 946.08 1152.32 1081.22 1536.32 946.08 1152.32 810.95"/>
@@ -2463,14 +2445,15 @@ ob_start("ob_html_compress");
   </g>
   <g id="header">
     <polygon id="Треугольник_заголовка" data-name="Треугольник заголовка" class="s4-b-cls-10" points="768 0 384 0 768 135.13 1152 0 768 0"/>
-    <text class="s4-b-cls-34" transform="translate(559.46 52.62)">What I&apos;ve done?</text>
+    <text class="s4-b-cls-33" transform="translate(584.58 52.62)">Что я сделал?</text>
   </g>
 </svg>
+
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920" preserveAspectRatio="none" class="section-4-back-mobile" id="section-4-back-mobile">
   <defs>
     <style>
-      .s4-b-m-cls-1, .s4-b-m-cls-3, .s4-b-m-cls-37, .s4-b-m-cls-4 {
+      .s4-b-m-cls-1, .s4-b-m-cls-3, .s4-b-m-cls-34, .s4-b-m-cls-4 {
         fill: none;
       }
 
@@ -2478,7 +2461,7 @@ ob_start("ob_html_compress");
         stroke: #3b2a66;
       }
 
-      .s4-b-m-cls-1, .s4-b-m-cls-10, .s4-b-m-cls-3, .s4-b-m-cls-36, .s4-b-m-cls-37 {
+      .s4-b-m-cls-1, .s4-b-m-cls-10, .s4-b-m-cls-3, .s4-b-m-cls-33, .s4-b-m-cls-34 {
         stroke-miterlimit: 10;
       }
 
@@ -2486,7 +2469,7 @@ ob_start("ob_html_compress");
         stroke-width: 2px;
       }
 
-      .s4-b-m-cls-2, .s4-b-m-cls-36 {
+      .s4-b-m-cls-2, .s4-b-m-cls-33 {
         fill: #171717;
       }
 
@@ -2498,7 +2481,7 @@ ob_start("ob_html_compress");
         fill: #353535;
       }
 
-      .s4-b-m-cls-11, .s4-b-m-cls-15, .s4-b-m-cls-20, .s4-b-m-cls-26, .s4-b-m-cls-31, .s4-b-m-cls-38, .s4-b-m-cls-7 {
+      .s4-b-m-cls-11, .s4-b-m-cls-15, .s4-b-m-cls-22, .s4-b-m-cls-25, .s4-b-m-cls-35, .s4-b-m-cls-36, .s4-b-m-cls-7 {
         fill: #fff;
       }
 
@@ -2518,7 +2501,7 @@ ob_start("ob_html_compress");
         font-size: 27.95px;
       }
 
-      .s4-b-m-cls-11, .s4-b-m-cls-15, .s4-b-m-cls-20, .s4-b-m-cls-26, .s4-b-m-cls-31, .s4-b-m-cls-38 {
+      .s4-b-m-cls-11, .s4-b-m-cls-15, .s4-b-m-cls-22, .s4-b-m-cls-25, .s4-b-m-cls-35, .s4-b-m-cls-36 {
         font-family: PoiretOne-Regular, Poiret One;
       }
 
@@ -2535,7 +2518,7 @@ ob_start("ob_html_compress");
       }
 
       .s4-b-m-cls-15 {
-        font-size: 36px;
+        font-size: 35.93px;
       }
 
       .s4-b-m-cls-16 {
@@ -2557,78 +2540,70 @@ ob_start("ob_html_compress");
       }
 
       .s4-b-m-cls-20 {
-        font-size: 35.93px;
-      }
-
-      .s4-b-m-cls-21 {
         letter-spacing: -0.12em;
       }
 
-      .s4-b-m-cls-22 {
+      .s4-b-m-cls-21 {
         clip-path: url(#s4-b-m-clip-path-5);
       }
 
+      .s4-b-m-cls-22 {
+        font-size: 36px;
+      }
+
       .s4-b-m-cls-23 {
-        letter-spacing: -0.04em;
+        letter-spacing: -0.11em;
       }
 
       .s4-b-m-cls-24 {
-        letter-spacing: -0.04em;
-      }
-
-      .s4-b-m-cls-25 {
         clip-path: url(#s4-b-m-clip-path-6);
       }
 
-      .s4-b-m-cls-26 {
+      .s4-b-m-cls-25 {
         font-size: 28px;
+      }
+
+      .s4-b-m-cls-26 {
+        letter-spacing: -0.05em;
       }
 
       .s4-b-m-cls-27 {
-        letter-spacing: -0.05em;
-      }
-
-      .s4-b-m-cls-28 {
         clip-path: url(#s4-b-m-clip-path-7);
       }
 
-      .s4-b-m-cls-29 {
+      .s4-b-m-cls-28 {
         letter-spacing: -0.04em;
       }
 
-      .s4-b-m-cls-30 {
+      .s4-b-m-cls-29 {
         clip-path: url(#s4-b-m-clip-path-8);
       }
 
-      .s4-b-m-cls-31 {
-        font-size: 28px;
-      }
-
-      .s4-b-m-cls-32 {
-        letter-spacing: -0.04em;
-      }
-
-      .s4-b-m-cls-33 {
+      .s4-b-m-cls-30 {
         clip-path: url(#s4-b-m-clip-path-9);
       }
 
-      .s4-b-m-cls-34 {
-        letter-spacing: -0.05em;
+      .s4-b-m-cls-31 {
+        letter-spacing: -0.13em;
       }
 
-      .s4-b-m-cls-35 {
+      .s4-b-m-cls-32 {
         clip-path: url(#s4-b-m-clip-path-10);
       }
 
-      .s4-b-m-cls-36 {
+      .s4-b-m-cls-33 {
         stroke: #000;
       }
 
-      .s4-b-m-cls-37 {
+      .s4-b-m-cls-34 {
         stroke: #fff;
       }
 
-      .s4-b-m-cls-38 {
+      .s4-b-m-cls-35 {
+        font-size: 35.89px;
+      }
+
+      .s4-b-m-cls-36 {
         font-size: 58px;
       }
     </style>
@@ -2761,7 +2736,7 @@ ob_start("ob_html_compress");
         </g>
         <g class="overlay" id="overlay-2" data-name="overlay">
           <polygon id="overlay-back-2" data-name="overlay-back" class="s4-b-m-cls-10" points="360.33 270.54 0.33 405.43 360.33 540.32 720.33 405.43 360.33 270.54"/>
-          <text class="s4-b-m-cls-15" transform="translate(212.76 421.52)">Euroauto Messenger</text>
+          <text class="s4-b-m-cls-15" transform="translate(204 421.47) scale(0.94 1)">Мессенджер Euroauto</text>
         </g>
       </g>
       <polygon id="Ромб-5" data-name="Ромб" class="s4-b-m-cls-1" points="360.33 270.54 0.33 405.43 360.33 540.32 720.33 405.43 360.33 270.54"/>
@@ -2799,84 +2774,84 @@ ob_start("ob_html_compress");
         </g>
         <g class="overlay" id="overlay-4" data-name="overlay">
           <polygon id="overlay-back-4" data-name="overlay-back" class="s4-b-m-cls-10" points="360.33 540.05 0.33 674.94 360.33 809.83 720.33 674.94 360.33 540.05"/>
-          <text class="s4-b-m-cls-20" transform="translate(323.61 690.98) scale(0.94 1)"><tspan class="s4-b-m-cls-21">W</tspan><tspan x="32.52" y="0">olf</tspan></text>
+          <text class="s4-b-m-cls-15" transform="translate(323.61 690.98) scale(0.94 1)"><tspan class="s4-b-m-cls-20">W</tspan><tspan x="32.52" y="0">olf</tspan></text>
         </g>
       </g>
       <polygon id="Ромб-6" data-name="Ромб" class="s4-b-m-cls-1" points="360.33 540.05 0.33 674.94 360.33 809.83 720.33 674.94 360.33 540.05"/>
     </g>
     <g id="mksoloview" data-open-case-modal="mksoloview">
-      <g class="s4-b-m-cls-22">
+      <g class="s4-b-m-cls-21">
         <image width="772" height="273" transform="translate(357.81 943.69) scale(0.94 1)" xlink:href="images/section-4-back-pics/mksoloviev.jpg"/>
         <g class="overlay" id="overlay-5" data-name="overlay">
           <polygon id="overlay-back-5" data-name="overlay-back" class="s4-b-m-cls-10" points="720.5 946.42 359.69 1081.53 720.5 1216.65 1081.3 1081.53 720.5 946.42"/>
-          <text class="s4-b-m-cls-15" transform="translate(579.44 1068.27)">V<tspan class="s4-b-m-cls-23" x="28.3" y="0">l</tspan><tspan x="35.89" y="0">adimir So</tspan><tspan class="s4-b-m-cls-24" x="179.24" y="0">l</tspan><tspan x="186.84" y="0">oviev’s </tspan><tspan x="91.67" y="43.2">courses</tspan></text>
+          <text class="s4-b-m-cls-22" transform="translate(670.91 1068.26) scale(0.94 1)"><tspan class="s4-b-m-cls-23">Т</tspan><tspan x="11.37" y="0">ренинг</tspan><tspan x="-114.28" y="43.19">Владимира Соловьева</tspan></text>
         </g>
       </g>
       <polygon id="Ромб-7" data-name="Ромб" class="s4-b-m-cls-1" points="720.5 946.42 359.69 1081.53 720.5 1216.65 1081.3 1081.53 720.5 946.42"/>
     </g>
     <g id="me" data-open-case-modal="me">
-      <g class="s4-b-m-cls-25">
+      <g class="s4-b-m-cls-24">
         <image width="390" height="280" transform="translate(329.59 1074.27) scale(1.01 1)" xlink:href="images/section-4-back-pics/me_v2.0.jpg"/>
         <g class="overlay" id="overlay-6" data-name="overlay">
           <polygon id="overlay-back-6" data-name="overlay-back" class="s4-b-m-cls-10" points="359.32 1080.95 359.32 1351.18 720.12 1216.06 359.32 1080.95"/>
-          <text class="s4-b-m-cls-26" transform="translate(391.37 1225.48) scale(0.94 1)">Mar<tspan class="s4-b-m-cls-27" x="51.4" y="0">k</tspan><tspan x="60.75" y="0">eting Engineers</tspan></text>
+          <text class="s4-b-m-cls-25" transform="translate(391.37 1225.48) scale(0.94 1)">Mar<tspan class="s4-b-m-cls-26" x="51.4" y="0">k</tspan><tspan x="60.75" y="0">eting Engineers</tspan></text>
         </g>
       </g>
       <polygon id="Треугольник-44" data-name="Треугольник" class="s4-b-m-cls-1" points="359.32 1080.95 359.32 1351.18 720.12 1216.06 359.32 1080.95"/>
     </g>
     <g id="atlant" data-open-case-modal="atlant">
-      <g class="s4-b-m-cls-28">
+      <g class="s4-b-m-cls-27">
         <image width="390" height="280" transform="translate(720.28 1078.2) scale(0.94 1)" xlink:href="images/section-4-back-pics/atlant.JPG"/>
         <g class="overlay" id="overlay-7" data-name="overlay">
           <polygon id="overlay-back-7" data-name="overlay-back" class="s4-b-m-cls-10" points="1082 1351.15 1082 1080.92 721.2 1216.03 1082 1351.15"/>
-          <text class="s4-b-m-cls-26" transform="translate(893.52 1225.3) scale(0.94 1)">At<tspan class="s4-b-m-cls-29" x="29.4" y="0">l</tspan><tspan x="35.3" y="0">ant Group</tspan></text>
+          <text class="s4-b-m-cls-25" transform="translate(893.52 1225.3) scale(0.94 1)">At<tspan class="s4-b-m-cls-28" x="29.4" y="0">l</tspan><tspan x="35.3" y="0">ant Group</tspan></text>
         </g>
       </g>
       <polygon id="Треугольник-45" data-name="Треугольник" class="s4-b-m-cls-1" points="1082 1351.15 1082 1080.92 721.2 1216.03 1082 1351.15"/>
     </g>
     <g id="_15_puzzle" data-name="15_puzzle" data-open-case-modal="15_puzzle">
-      <g class="s4-b-m-cls-30">
+      <g class="s4-b-m-cls-29">
         <rect class="s4-b-m-cls-7" x="712.8" y="1206.14" width="376.3" height="281.96"/>
         <image id="_15_puzzle_back" data-name="15_puzzle_back" width="256" height="256" transform="translate(768.7 1296.13) scale(0.42 0.45)" xlink:href="images/section-4-back-pics/15_puzzle.png"/>
         <g class="overlay" id="overlay-8" data-name="overlay">
           <polygon id="overlay-back-8" data-name="overlay-back" class="s4-b-m-cls-10" points="720.76 1215.52 720.76 1485.75 1081.56 1350.63 720.76 1215.52"/>
-          <text class="s4-b-m-cls-31" transform="translate(754.55 1356.86)">15 puzz<tspan class="s4-b-m-cls-32" x="85.09" y="0">l</tspan><tspan x="91" y="0">e» game</tspan></text>
+          <text class="s4-b-m-cls-25" transform="translate(752.46 1356.86) scale(0.94 1)">Игра «Пятнашки»</text>
         </g>
       </g>
       <polygon id="Треугольник-46" data-name="Треугольник" class="s4-b-m-cls-1" points="720.76 1215.52 720.76 1485.75 1081.56 1350.63 720.76 1215.52"/>
     </g>
     <g id="passgen" data-open-case-modal="passgen">
-      <g class="s4-b-m-cls-33">
+      <g class="s4-b-m-cls-30">
         <rect class="s4-b-m-cls-7" x="351.05" y="1211.14" width="376.3" height="281.96"/>
         <image id="passgen_back" width="512" height="512" transform="translate(568.1 1297.63) scale(0.2 0.22)" xlink:href="images/section-4-back-pics/passgen.png"/>
         <g class="overlay" id="overlay-9" data-name="overlay">
           <polygon id="overlay-back-9" data-name="overlay-back" class="s4-b-m-cls-10" points="720.05 1485.68 720.05 1215.45 359.25 1350.56 720.05 1485.68"/>
-          <text class="s4-b-m-cls-31" transform="translate(466.69 1356.66)"><tspan class="s4-b-m-cls-34">P</tspan><tspan x="9.58" y="0">assword generator</tspan></text>
+          <text class="s4-b-m-cls-25" transform="translate(468.89 1356.66) scale(0.94 1)"><tspan class="s4-b-m-cls-31">Г</tspan><tspan x="6.55" y="0">енератор паролей</tspan></text>
         </g>
       </g>
       <polygon id="Треугольник-47" data-name="Треугольник" class="s4-b-m-cls-1" points="720.05 1485.68 720.05 1215.45 359.25 1350.56 720.05 1485.68"/>
     </g>
     <g id="portfolio" data-open-case-modal="portfolio">
-      <g class="s4-b-m-cls-35">
+      <g class="s4-b-m-cls-32">
         <g id="ik_back">
-          <rect id="preloader-back" class="s4-b-m-cls-36" x="-99.79" y="1487.39" width="919.01" height="550.58"/>
-          <path class="s4-b-m-cls-37" d="M130.3,1736.05h1.89v45.63H130.3Z"/>
-          <path class="s4-b-m-cls-37" d="M159.21,1782.72l-21.31-46.67H140l19.42,42.29,19.31-42.29h1.83Z"/>
-          <path class="s4-b-m-cls-37" d="M193.2,1735l21.42,46.73h-2l-8.11-17.4h-22.9l-8,17.4h-1.77Zm-.17,4.2-10.68,23.36h21.48Z"/>
-          <path class="s4-b-m-cls-37" d="M252.15,1736.05h1.66v46.3l-31.53-41.29v40.65h-1.66v-46.3l31.53,41.25Z"/>
-          <path class="s4-b-m-cls-37" d="M282.38,1736.05h1.83v16.73l18.11-16.73h2.28L285,1754.27l24.62,27.44h-2.51l-22.85-25.4v25.37h-1.89Z"/>
-          <path class="s4-b-m-cls-37" d="M317.19,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.16,20.16,0,0,1-15.43,7.09h-.86Q323.68,1782.48,317.19,1775.36Zm36.19-16.5a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33A21.86,21.86,0,0,0,353.38,1758.85Z"/>
-          <path class="s4-b-m-cls-37" d="M362.1,1736.05h2.46a13.15,13.15,0,0,1,9.74,4.35,14.24,14.24,0,0,1,4.2,10.22,14,14,0,0,1-4.31,10.2q-4.31,4.32-9.2,4.32h-.4l14.74,16.55h-2.38l-13-14.48v14.48H362.1Zm1.83,27.32h1a10.91,10.91,0,0,0,8.17-3.77,13,13,0,0,0,.25-17.57l-.36-.38a11.25,11.25,0,0,0-8.34-3.83h-.74Z"/>
-          <path class="s4-b-m-cls-37" d="M390.15,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.17,20.17,0,0,1-15.43,7.09h-.86Q396.63,1782.48,390.15,1775.36Zm36.19-16.5a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33A21.86,21.86,0,0,0,426.34,1758.85Z"/>
-          <path class="s4-b-m-cls-37" d="M437,1736.05v43.87h13.25v1.76H435.07v-45.63Z"/>
-          <path class="s4-b-m-cls-37" d="M455.64,1736.05H471v1.76H457.53v24.83h11.25v1.76H457.53v15.51H471v1.76H455.64Z"/>
-          <path class="s4-b-m-cls-37" d="M508.26,1736.05h1.66v46.3l-31.53-41.29v40.65h-1.66v-46.3l31.53,41.25Z"/>
-          <path class="s4-b-m-cls-37" d="M518.48,1736.05h1.83v16.73l18.11-16.73h2.28l-19.59,18.22,24.62,27.44h-2.51l-22.86-25.4v25.37h-1.89Z"/>
-          <path class="s4-b-m-cls-37" d="M553.3,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.17,20.17,0,0,1-15.43,7.09h-.86Q559.79,1782.48,553.3,1775.36Zm36.19-16.52a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33a21.86,21.86,0,0,0,6-15.41Z"/>
+          <rect id="preloader-back" class="s4-b-m-cls-33" x="-99.79" y="1487.39" width="919.01" height="550.58"/>
+          <path class="s4-b-m-cls-34" d="M130.3,1736.05h1.89v45.63H130.3Z"/>
+          <path class="s4-b-m-cls-34" d="M159.21,1782.72l-21.31-46.67H140l19.42,42.29,19.31-42.29h1.83Z"/>
+          <path class="s4-b-m-cls-34" d="M193.2,1735l21.42,46.73h-2l-8.11-17.4h-22.9l-8,17.4h-1.77Zm-.17,4.2-10.68,23.36h21.48Z"/>
+          <path class="s4-b-m-cls-34" d="M252.15,1736.05h1.66v46.3l-31.53-41.29v40.65h-1.66v-46.3l31.53,41.25Z"/>
+          <path class="s4-b-m-cls-34" d="M282.38,1736.05h1.83v16.73l18.11-16.73h2.28L285,1754.27l24.62,27.44h-2.51l-22.85-25.4v25.37h-1.89Z"/>
+          <path class="s4-b-m-cls-34" d="M317.19,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.16,20.16,0,0,1-15.43,7.09h-.86Q323.68,1782.48,317.19,1775.36Zm36.19-16.5a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33A21.86,21.86,0,0,0,353.38,1758.85Z"/>
+          <path class="s4-b-m-cls-34" d="M362.1,1736.05h2.46a13.15,13.15,0,0,1,9.74,4.35,14.24,14.24,0,0,1,4.2,10.22,14,14,0,0,1-4.31,10.2q-4.31,4.32-9.2,4.32h-.4l14.74,16.55h-2.38l-13-14.48v14.48H362.1Zm1.83,27.32h1a10.91,10.91,0,0,0,8.17-3.77,13,13,0,0,0,.25-17.57l-.36-.38a11.25,11.25,0,0,0-8.34-3.83h-.74Z"/>
+          <path class="s4-b-m-cls-34" d="M390.15,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.17,20.17,0,0,1-15.43,7.09h-.86Q396.63,1782.48,390.15,1775.36Zm36.19-16.5a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33A21.86,21.86,0,0,0,426.34,1758.85Z"/>
+          <path class="s4-b-m-cls-34" d="M437,1736.05v43.87h13.25v1.76H435.07v-45.63Z"/>
+          <path class="s4-b-m-cls-34" d="M455.64,1736.05H471v1.76H457.53v24.83h11.25v1.76H457.53v15.51H471v1.76H455.64Z"/>
+          <path class="s4-b-m-cls-34" d="M508.26,1736.05h1.66v46.3l-31.53-41.29v40.65h-1.66v-46.3l31.53,41.25Z"/>
+          <path class="s4-b-m-cls-34" d="M518.48,1736.05h1.83v16.73l18.11-16.73h2.28l-19.59,18.22,24.62,27.44h-2.51l-22.86-25.4v25.37h-1.89Z"/>
+          <path class="s4-b-m-cls-34" d="M553.3,1775.36a24,24,0,0,1-6.49-16.64,23.26,23.26,0,0,1,6.57-16.49,21.29,21.29,0,0,1,31.45-.06l0,0a23.3,23.3,0,0,1,6.51,16.52,24,24,0,0,1-6.46,16.67,20.17,20.17,0,0,1-15.43,7.09h-.86Q559.79,1782.48,553.3,1775.36Zm36.19-16.52a21.82,21.82,0,0,0-6-15.4,19.38,19.38,0,0,0-28.63-.21l-.19.21a22.79,22.79,0,0,0,0,30.8l0,0a19.28,19.28,0,0,0,28.48.33l.31-.33a21.86,21.86,0,0,0,6-15.41Z"/>
         </g>
         <g class="overlay" id="overlay-10" data-name="overlay">
           <polygon id="overlay-back-10" data-name="overlay-back" class="s4-b-m-cls-10" points="360.36 1621.94 0.88 1756.68 360.36 1891.42 719.84 1756.68 360.36 1621.94"/>
-          <text class="s4-b-m-cls-15" transform="translate(210.53 1770.95)">This portfolio website</text>
+          <text class="s4-b-m-cls-35" transform="translate(202.81 1770.87) scale(0.94 1)">Этот сайт-портфолио</text>
         </g>
       </g>
       <polygon id="Ромб-8" data-name="Ромб" class="s4-b-m-cls-1" points="360.36 1621.94 0.88 1756.68 360.36 1891.42 719.84 1756.68 360.36 1621.94"/>
@@ -2884,16 +2859,17 @@ ob_start("ob_html_compress");
   </g>
   <g id="header">
     <polygon id="Треугольник_заголовка" data-name="Треугольник заголовка" class="s4-b-m-cls-10" points="360.2 0 0 0 360.2 135.13 720.4 0 360.2 0"/>
-    <text class="s4-b-m-cls-38" transform="translate(151.66 52.62)">What I&apos;ve done?</text>
+    <text class="s4-b-m-cls-36" transform="translate(188.15 52.62) scale(0.94 1)">Что я сделал?</text>
   </g>
 </svg>
+
 
             </div>
         </section>
         <section class="section-5 column">
             <div id="particles-background-section-5"></div>
             <div class="section-5-header header white">
-                How to contact me?
+                Как со мной связаться?
             </div>
             <div class="section-5-content row">
                 <a href="http://t.me/ivankorolenko" target="_blank" class="section-5-tg">Telegram</a>
@@ -2905,6 +2881,3 @@ ob_start("ob_html_compress");
 </body>
 
 </html>
-<?php
-    ob_end_flush();
-?>
