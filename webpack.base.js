@@ -9,8 +9,8 @@ module.exports = {
     context: path.resolve(__dirname, 'src'),
     entry: {
         'redirect': './redirect',
-        'front': './front',
-        'en/front': './en/front-eng'
+        'index': './',
+        'en/index': './en'
     },
     module: {
         rules: [
@@ -81,13 +81,13 @@ module.exports = {
             inject: 'head',
             filename: 'en/index.html',
             template: 'en/index.html',
-            chunks: ['redirect', 'en/front']
+            chunks: ['redirect', 'en/index']
         }),
         new HtmlWebpackPlugin({
             inject: 'head',
             filename: 'ru/index.html',
             template: 'ru/index.html',
-            chunks: ['redirect', 'front']
+            chunks: ['redirect', 'index']
         })
     ],
     resolve: {

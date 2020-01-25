@@ -697,46 +697,6 @@ li {
     background-color: #9e34a2;
 }
 
-
-/* .skill-1 {
-    background-color: #db6d33;
-}
-
-.skill-2 {
-    background-color: #344da2;
-}
-
-.skill-3 {
-    background-color: #dbbf19;
-}
-
-.skill-4 {
-    background-color: #472398;
-}
-
-.skill-5 {
-    background-color: #4260c6;
-}
-
-.skill-6 {
-    background-color: #9e40c1;
-}
-
-.skill-7 {
-    background-color: #37b740;
-} */
-
-.skill-1,
-.skill-2,
-.skill-3,
-.skill-4,
-.skill-5,
-.skill-6,
-.skill-7,
-{
-    transition: transform all 0.3s ease-in-out;
-}
-
 .section-3-skill:hover {
     padding-bottom: 15rem;
 }
