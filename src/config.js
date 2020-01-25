@@ -456,11 +456,9 @@ const caseModalData = {
     }   
 }
 
-const defaultLang = 'en'
-
 const wordsForRotator = {
     'ru': ['приложения', 'сайты', 'идеи', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации'],
     'en': ['applications', 'websites', 'ideas', 'design', 'illustrations', 'algorithms', 'animations']
 }
 
-export { caseModalData, defaultLang, wordsForRotator }
+export { caseModalData, wordsForRotator }

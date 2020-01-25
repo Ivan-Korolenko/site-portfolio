@@ -14,13 +14,11 @@ $.wordsrotator = require('./lib/modified-word-rotator/jquery.wordrotator.min.js'
 $.tagcanvas = require('./lib/jquery.tagcanvas.min.js') 
 import './lib/slick/slick.min.js'
 
-import {caseModalData, defaultLang, wordsForRotator} from './config'
+import {caseModalData, wordsForRotator} from './config'
 
 
 $(document).ready(function () {
     const lang = window.location.pathname.split("/")[1]
-
-    if (!lang) window.location.pathname = defaultLang
     
     let deviceVersion = null
 

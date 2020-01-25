@@ -8,6 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     entry: {
+        'redirect': './redirect',
         'front': './front',
         'en/front': './en/front-eng'
     },
@@ -53,10 +54,12 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new CopyWebpackPlugin([
+            { from: './index.html', to: '../dist/index.html' },
+
             { from: './ru/images', to: '../dist/ru/images' },
             { from: './fonts', to: '../dist/fonts' },
-            { from: './not-supported.html', to: '../dist/not-supported.html' },
-            { from: './js-off.html', to: '../dist/js-off.html' },
+            { from: './ru/not-supported.html', to: '../dist/ru/not-supported.html' },
+            { from: './ru/js-off.html', to: '../dist/ru/js-off.html' },
             { from: './particles-configs', to: '../dist/particles-configs' },
 
             { from: './en/images', to: '../dist/en/images' },
@@ -76,21 +79,15 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             inject: 'head',
-            filename: 'index.html',
-            template: 'index.html',
-            chunks: ['front'],
-        }),
-        new HtmlWebpackPlugin({
-            inject: 'head',
             filename: 'en/index.html',
             template: 'en/index.html',
-            chunks: ['en/front']
+            chunks: ['redirect', 'en/front']
         }),
         new HtmlWebpackPlugin({
             inject: 'head',
             filename: 'ru/index.html',
             template: 'ru/index.html',
-            chunks: ['front']
+            chunks: ['redirect', 'front']
         })
     ],
     resolve: {
