@@ -1,5 +1,5 @@
-export const caseModalData = {
-    'rus' : {
+const caseModalData = {
+    'ru' : {
         'amtel.club' : {
             text: `
                 <h3>Описание проекта</h3><br>
@@ -227,7 +227,7 @@ export const caseModalData = {
             link: ``
         },
     },
-    'eng': {
+    'en': {
         'amtel.club' : {
             text: `
                 <h3>Project description</h3><br>
@@ -455,3 +455,12 @@ export const caseModalData = {
         },
     }   
 }
+
+const defaultLang = 'en'
+
+const wordsForRotator = {
+    'ru': ['приложения', 'сайты', 'идеи', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации'],
+    'en': ['applications', 'websites', 'ideas', 'design', 'illustrations', 'algorithms', 'animations']
+}
+
+export { caseModalData, defaultLang, wordsForRotator }

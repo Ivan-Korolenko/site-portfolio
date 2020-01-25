@@ -53,7 +53,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new CopyWebpackPlugin([
-            { from: './images', to: '../dist/images' },
+            { from: './ru/images', to: '../dist/ru/images' },
             { from: './fonts', to: '../dist/fonts' },
             { from: './not-supported.html', to: '../dist/not-supported.html' },
             { from: './js-off.html', to: '../dist/js-off.html' },
@@ -85,6 +85,12 @@ module.exports = {
             filename: 'en/index.html',
             template: 'en/index.html',
             chunks: ['en/front']
+        }),
+        new HtmlWebpackPlugin({
+            inject: 'head',
+            filename: 'ru/index.html',
+            template: 'ru/index.html',
+            chunks: ['front']
         })
     ],
     resolve: {

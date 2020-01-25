@@ -1,4 +1,3 @@
-/* © 2017-2018 Ivan Korolenko */
 import './lib/animate.min.css'
 import './lib/modified-word-rotator/jquery.wordrotator.css'
 import './lib/jquery.onepage-scroll.css'
@@ -15,27 +14,18 @@ $.wordsrotator = require('./lib/modified-word-rotator/jquery.wordrotator.min.js'
 $.tagcanvas = require('./lib/jquery.tagcanvas.min.js') 
 import './lib/slick/slick.min.js'
 
-import {caseModalData} from './caseModalData'
+import {caseModalData, defaultLang, wordsForRotator} from './config'
 
 
 $(document).ready(function () {
+    const lang = window.location.pathname.split("/")[1]
 
-    // Задаем различия в языковых версиях
-    let wordsForRotator = ['приложения', 'сайты', 'идеи', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации']
-    if (lang && lang === "eng") {
-        wordsForRotator = ['applications', 'websites', 'ideas', 'design', 'illustrations', 'algorithms', 'animations']
-    }
-
-    // Задаем различия в версиях для разных форматов устройств
+    if (!lang) window.location.pathname = defaultLang
+    
     let deviceVersion = null
-    let ultraWide = false
 
     enquire
         .register("screen and (min-width:1280px)", { match: () => { deviceVersion = "desktop" }})
-        .register("screen and (min-aspect-ratio: 17/9)", { match: () => { 
-            deviceVersion = "desktop"
-            ultraWide = true
-        }})
         .register("screen and (max-width:1280px) and (orientation:portrait)", { match: () => { deviceVersion = "mobile" }})
         .register("screen and (max-width:1280px) and (orientation:landscape)", { match: () => { deviceVersion = "tablet" }})
 
@@ -64,7 +54,7 @@ $(document).ready(function () {
         function wordRotate() {
             $('.section-1-word-rotate').empty()
             $('.section-1-word-rotate').wordsrotator({
-                words: wordsForRotator,
+                words: wordsForRotator[lang],
                 randomize: false,
                 stopOnHover: true,
                 changeOnClick: false,
@@ -176,10 +166,10 @@ $(document).ready(function () {
                     //Частицы на фоне первой секции
                     window.requestAnimationFrame(() => {
                         particlesJS.load('particles-background-section-1',
-                        //  './particles-configs/particlesjs-config-section-1-specks-of-dust.json'
+                        //  '../particles-configs/particlesjs-config-section-1-specks-of-dust.json'
                         deviceVersion === "desktop" 
-                            ? './particles-configs/particlesjs-config-section-1-rain.json'
-                            : './particles-configs/particlesjs-config-section-1-rain-mobile.json'
+                            ? '../particles-configs/particlesjs-config-section-1-rain.json'
+                            : '../particles-configs/particlesjs-config-section-1-rain-mobile.json'
                         )
                     })
                     document.isFirstParticlesLoaded = true
@@ -507,8 +497,8 @@ $(document).ready(function () {
                     //Частицы на фоне пятой секции
                     window.requestAnimationFrame(() => {
                         deviceVersion === "desktop"
-                            ? particlesJS.load('particles-background-section-5', './particles-configs/particlesjs-config-section-5.json')
-                            : particlesJS.load('particles-background-section-5', './particles-configs/particlesjs-config-section-5-mobile.json')
+                            ? particlesJS.load('particles-background-section-5', '../particles-configs/particlesjs-config-section-5.json')
+                            : particlesJS.load('particles-background-section-5', '../particles-configs/particlesjs-config-section-5-mobile.json')
                     })
                     document.isFifthParticlesLoaded = true
                     //Если частицы в пятой секции загрузились до частиц в первой
@@ -698,6 +688,11 @@ $(document).ready(function () {
 
         $('.nav').click(function (event) {
             event.stopImmediatePropagation()
+        })
+
+        $('.nav-language-changer').click(function (event) {
+            const newLang = lang === "en" ? "ru" : "en"
+            window.location.pathname = newLang
         })
 
         //Переходы при кликах на пункты меню
