@@ -13,6 +13,7 @@ import './lib/modified-particlesjs'
 $.wordsrotator = require('./lib/modified-word-rotator/jquery.wordrotator.min.js') 
 $.tagcanvas = require('./lib/jquery.tagcanvas.min.js') 
 import './lib/slick/slick.min.js'
+import Parallax from 'parallax-js'
 
 import {caseModalData, wordsForRotator} from './config'
 
@@ -21,18 +22,18 @@ $(document).ready(function () {
     const lang = window.location.pathname.split("/")[1]
     
     let deviceVersion = null
+    let ultraWide = false
 
     enquire
         .register("screen and (min-width:1280px)", { match: () => { deviceVersion = "desktop" }})
+        .register("screen and (min-aspect-ratio: 17/9)", { match: () => { 
+            deviceVersion = "desktop"
+            ultraWide = true
+        }})
         .register("screen and (max-width:1280px) and (orientation:portrait)", { match: () => { deviceVersion = "mobile" }})
         .register("screen and (max-width:1280px) and (orientation:landscape)", { match: () => { deviceVersion = "tablet" }})
 
     this.indexOfActiveSection = 1
-
-    // For correct particles working after stop/restart
-    this.isFirstParticlesLoaded = false
-    this.isFifthParticlesLoaded = false
-    this.fifthParticlesLoadedBeforeFirst = false
 
     const section1BackSvg = document.getElementById('section-1-back'),
         section1Foreground = document.querySelectorAll('.section-1-main-text, .bottom-nav'),
@@ -148,28 +149,39 @@ $(document).ready(function () {
                 }
                 //Запускаем анимацию вращения слов
                 window.requestAnimationFrame(wordRotate)
-                //Частицы на фоне первой секции
-                window.requestAnimationFrame(() => {
-                    particlesJS.load('particles-background-section-1',
-                    //  '../particles-configs/particlesjs-config-section-1-specks-of-dust.json'
-                    deviceVersion === "desktop" 
-                        ? '../particles-configs/particlesjs-config-section-1-rain.json'
-                        : '../particles-configs/particlesjs-config-section-1-rain-mobile.json'
-                    )
-                })
-                document.isFirstParticlesLoaded = true
 
                 // Отключаем скорость анимации у элементов иллюстрации
                 $('#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2')
                     .addClass('no-transition')
+
+                // Parallax
+                // if(deviceVersion === "desktop") {
+
+                const scene = document.querySelector('#section-1-parallax-scene')
+
+                const firstPlan = new Parallax(scene, {
+                    selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
+                    invertY: true,
+                    scalarY: 10.0,
+                    scalarX: ultraWide ? 5.0 : 7.0,
+                })
+
+                const farAwayLand = new Parallax(scene, {
+                    selector: '#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца',
+                    invertY: true,
+                    scalarY: 10.0,
+                    scalarX: 7.0
+                })
+
+                const hills = new Parallax(scene, {
+                    selector: '#Холмы',
+                    invertY: true,
+                    scalarY: 15.0,
+                    scalarX: 5.0
+                })
+
+                // }
             }
-        })
-        .add({
-            targets: '#particles-background-section-1',
-            opacity: 1,
-            easing: "easeInOutQuad",
-            duration: 1000,
-            delay: 100
         })
 
     if (!$('#section-2-my-interests-cloud-canvas').tagcanvas({
@@ -467,15 +479,11 @@ $(document).ready(function () {
             easing: "easeInOutQuad",
             complete: () => {
                 window.requestAnimationFrame(() => {
-                    deviceVersion === "desktop"
-                        ? particlesJS.load('particles-background-section-5', '../particles-configs/particlesjs-config-section-5.json')
-                        : particlesJS.load('particles-background-section-5', '../particles-configs/particlesjs-config-section-5-mobile.json')
+                    particlesJS.load('particles-background-section-5', 
+                        deviceVersion === "desktop" 
+                            ? '../particles-configs/particlesjs-config-section-5.json'
+                            : '../particles-configs/particlesjs-config-section-5-mobile.json')
                 })
-                document.isFifthParticlesLoaded = true
-
-                if (document.isFirstParticlesLoaded !== true) {
-                    document.fifthParticlesLoadedBeforeFirst = true
-                }
             }
         })
         .add({

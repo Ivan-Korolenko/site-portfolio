@@ -435,18 +435,6 @@ li {
     cursor: pointer;
 }
 
-#particles-background-section-1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    opacity: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    opacity: 0;
-}
-
 .particles-js-canvas-el {
     user-select: none;
     position: absolute;
