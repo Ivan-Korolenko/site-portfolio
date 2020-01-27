@@ -40,5 +40,8 @@
     "postcss-loader": "^3.0.0",
     "slick-carousel": "^1.8.1",
     "vivus": "^0.4.5"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }

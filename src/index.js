@@ -35,8 +35,6 @@ $(document).ready(function () {
         .register("screen and (max-width:1280px) and (orientation:portrait)", { match: () => { deviceVersion = "mobile" }})
         .register("screen and (max-width:1280px) and (orientation:landscape)", { match: () => { deviceVersion = "tablet" }})
 
-    this.indexOfActiveSection = 1
-
     const section1BackSvg = document.getElementById('section-1-back'),
         section1Foreground = document.querySelectorAll('.section-1-main-text, .bottom-nav'),
         section1SunlightAndTrees = section1BackSvg.querySelectorAll('#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2')
@@ -149,40 +147,37 @@ $(document).ready(function () {
                 for (i = 0; i < section1Foreground.length; ++i) {
                     section1Foreground[i].style.pointerEvents = "auto"
                 }
-                //Запускаем анимацию вращения слов
+
                 window.requestAnimationFrame(wordRotate)
 
-                // Отключаем скорость анимации у элементов иллюстрации
+                // Disabling transitions on illustration's elements
                 $('#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2')
                     .addClass('no-transition')
 
                 // Parallax
-                // if(deviceVersion === "desktop") {
 
                 const scene = document.querySelector('#section-1-parallax-scene')
-
-                const firstPlan = new Parallax(scene, {
+                // foreground
+                new Parallax(scene, {
                     selector: '#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт',
                     invertY: true,
                     scalarY: 10.0,
                     scalarX: ultraWide ? 5.0 : 7.0,
                 })
-
-                const farAwayLand = new Parallax(scene, {
+                // far away land
+                new Parallax(scene, {
                     selector: '#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца',
                     invertY: true,
                     scalarY: 10.0,
                     scalarX: 7.0
                 })
-
-                const hills = new Parallax(scene, {
+                // hills
+                new Parallax(scene, {
                     selector: '#Холмы',
                     invertY: true,
                     scalarY: 15.0,
                     scalarX: 5.0
                 })
-
-                // }
             }
         })
 
@@ -501,7 +496,6 @@ $(document).ready(function () {
             if (sectionNumber.includes(1)) {
                 section1StartAnimation.play()
 
-                //WordsRotator in section 1
                 if (typeof window.wordsRotatorT !== 'undefined') {
                     window.clearInterval(wordsRotatorT)
                     window.wordsRotatorT = setInterval(window.wordsRotatorRotate, window.wordsRotatorSettings.speed)
@@ -541,8 +535,6 @@ $(document).ready(function () {
             pagination: false,
             updateURL: false,
             beforeMove: function (index) {
-                document.indexOfActiveSection = parseInt($('.active').attr('data-index'))
-
                 switch (index) {
                     case 1:
                         AnimationControlPlay(true, [1])
@@ -561,7 +553,6 @@ $(document).ready(function () {
                         break
                 }
             },
-            afterMove: function (index) {},
             loop: false,
             keyboard: true,
             responsiveFallback: false,
@@ -581,7 +572,6 @@ $(document).ready(function () {
         },
     }, function () {
         window.requestAnimationFrame(() => {
-            // Animation of letters coming closer and disappearing
             $('#preloader path').css({
                 'opacity': '0',
                 'transform-origin': 'center',
@@ -658,7 +648,7 @@ $(document).ready(function () {
 
     // Scroll to section after menu item click
     $('.nav-internal li, .bottom-nav li').click(function (event) {
-        let pageToScrollTo = parseInt($(this).attr('data-page-to'))
+        const pageToScrollTo = parseInt($(this).attr('data-page-to'))
         $("#section-scroll").moveTo(pageToScrollTo)
         // If clicked item is in side menu, close menu like if user clicked on a cross
         if($(this).parent().hasClass('nav-internal')) $('#nav-icon1').click()

@@ -3,7 +3,7 @@ const path = require('path')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     context: path.resolve(__dirname, 'src'),
@@ -24,9 +24,7 @@ module.exports = {
                             {
                                 loader: 'postcss-loader',
                                 options: {
-                                    plugins: () => [require('autoprefixer')({
-                                        'browsers': ['> 0.5%', 'last 4 versions']
-                                    })],
+                                    plugins: () => [require('autoprefixer')],
                                 }
                             },
                         ]
