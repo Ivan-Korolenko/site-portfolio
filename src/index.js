@@ -1,18 +1,20 @@
-import './lib/animate.min.css'
+import $ from 'jquery';
+window.$ = window.jQuery = $;
+
+import 'animate.css'
 import './lib/modified-word-rotator/jquery.wordrotator.css'
-import './lib/jquery.onepage-scroll.css'
-import './lib/slick/slick.css'
+import './lib/modified-jquery.onepage-scroll/modified-jquery.onepage-scroll.css'
+import 'slick-carousel/slick/slick.css'
 import './styles.css'
 
-let enquire = require('./lib/enquire.min.js') 
-let Vivus = require('./lib/vivus.min.js') 
-let anime = require('./lib/anime.min.js') 
-let ifvisible = require('./lib/ifvisible.min.js') 
-$.onepage_scroll = require('./lib/modified-jquery.onepage-scroll.js') 
-import './lib/modified-particlesjs'
-$.wordsrotator = require('./lib/modified-word-rotator/jquery.wordrotator.min.js') 
-$.tagcanvas = require('./lib/jquery.tagcanvas.min.js') 
-import './lib/slick/slick.min.js'
+import enquire from 'enquire.js'
+import Vivus from 'vivus'
+import anime from 'animejs'
+import './lib/modified-jquery.onepage-scroll/modified-jquery.onepage-scroll.js'
+import 'particles.js'
+import './lib/modified-word-rotator/jquery.wordrotator.min.js'
+import 'jquery-tagcanvas'
+import 'slick-carousel'
 import Parallax from 'parallax-js'
 
 import {caseModalData, wordsForRotator} from './config'
