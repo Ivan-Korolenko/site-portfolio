@@ -56,12 +56,14 @@ module.exports = {
         new CopyWebpackPlugin([
             { from: './index.html', to: '../dist/index.html' },
 
+            { from: './images', to: '../dist/ru/images' },
             { from: './ru/images', to: '../dist/ru/images' },
             { from: './fonts', to: '../dist/fonts' },
             { from: './ru/not-supported.html', to: '../dist/ru/not-supported.html' },
             { from: './ru/js-off.html', to: '../dist/ru/js-off.html' },
             { from: './particles-configs', to: '../dist/particles-configs' },
 
+            { from: './images', to: '../dist/en/images' },
             { from: './en/images', to: '../dist/en/images' },
             { from: './fonts', to: '../dist/en/fonts' },
             { from: './en/not-supported.html', to: '../dist/en/not-supported.html' },
