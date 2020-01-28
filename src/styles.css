@@ -809,7 +809,7 @@ li {
     position: absolute;
     background: #171717;
     color: #fff;
-    transition: 0.5s right ease-in-out;
+    transition: 0.3s right ease-in-out;
 }
 
 #section-4-case-modal .close-case-modal {
@@ -916,12 +916,12 @@ li {
 
 #portfolio-cases .overlay {  
     transform: translateY(0px);
-    transition: 0.3s transform ease-in-out;
+    transition: 0.2s transform ease-in-out;
 }
 
 #portfolio-cases>g:hover .overlay {
     transform: translateX(100vw);
-    transition: 0.6s transform ease-in-out;
+    transition: 0.4s transform ease-in-out;
 }
 
 .section-5 {

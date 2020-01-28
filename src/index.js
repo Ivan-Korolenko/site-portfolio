@@ -22,9 +22,12 @@ import {caseModalData, wordsForRotator} from './config'
 
 $(document).ready(function () {
     const lang = window.location.pathname.split("/")[1]
-    
+    const copyright = document.querySelector(".copyright")
+    const currentYear = new Date().getFullYear()
     let deviceVersion = null
     let ultraWide = false
+
+    copyright.innerHTML = `© 2017-${currentYear} Ivan Korolenko`
 
     enquire
         .register("screen and (min-width:1280px)", { match: () => { deviceVersion = "desktop" }})
@@ -257,7 +260,7 @@ $(document).ready(function () {
         .add({
             targets: '.section-2-photo',
             opacity: 1,
-            duration: 500,
+            duration: 200,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.section-2-photo').css({
@@ -275,13 +278,13 @@ $(document).ready(function () {
         .add({
             targets: '.section-2-my-interests',
             opacity: 1,
-            duration: 500,
+            duration: 200,
             easing: "easeInOutQuad"
         })
         .add({
             targets: '.section-2-facts',
             opacity: 1,
-            duration: 500,
+            duration: 200,
             delay: 200,
             easing: "easeInOutQuad",
             complete: () => {
@@ -305,7 +308,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.skill-1',
-            duration: 300,
+            duration: 200,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.skill-1').css('transform', 'translate(0rem)')
@@ -313,7 +316,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.skill-2',
-            duration: 350,
+            duration: 250,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.skill-2').css('transform', 'translate(0rem)')
@@ -321,7 +324,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.skill-3',
-            duration: 400,
+            duration: 300,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.skill-3').css('transform', 'translate(0rem)')
@@ -329,7 +332,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.skill-4',
-            duration: 450,
+            duration: 350,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.skill-4').css('transform', 'translate(0rem)')
@@ -337,7 +340,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.skill-5',
-            duration: 500,
+            duration: 400,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.skill-5').css('transform', 'translate(0rem)')
@@ -345,7 +348,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.skill-6',
-            duration: 550,
+            duration: 450,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.skill-6').css('transform', 'translate(0rem)')
@@ -353,7 +356,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.skill-7',
-            duration: 600,
+            duration: 500,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.skill-7').css('transform', 'translate(0rem)')
@@ -361,7 +364,7 @@ $(document).ready(function () {
         })
         .add({
             targets: '.section-3-used-tech',
-            duration: 1000,
+            duration: 800,
             easing: "easeInOutQuad",
             complete: () => {
                 $('.section-3-used-tech').css('transform', 'rotate(10deg) translate(0rem)')
@@ -382,78 +385,78 @@ $(document).ready(function () {
         .add({
             targets: section4AnimationTargets[0],
             opacity: 1,
-            delay: 300,
-            duration: 400,
+            delay: 200,
+            duration: 300,
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[1],
             opacity: 1,
-            duration: 400,
+            duration: 300,
             offset: '-=150',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[2],
             opacity: 1,
-            duration: 400,
+            duration: 300,
             offset: '-=150',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[3],
             opacity: 1,
-            duration: 400,
+            duration: 300,
             offset: '-=150',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[4],
             opacity: 1,
-            duration: 400,
+            duration: 300,
             offset: '-=150',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[5],
             opacity: 1,
-            duration: 400,
-            offset: '-=250',
+            duration: 300,
+            offset: '-=200',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[6],
             opacity: 1,
-            duration: 400,
-            offset: '-=250',
+            duration: 300,
+            offset: '-=200',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[7],
             opacity: 1,
-            duration: 400,
-            offset: '-=250',
+            duration: 300,
+            offset: '-=200',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[8],
             opacity: 1,
-            duration: 400,
-            offset: '-=300',
+            duration: 300,
+            offset: '-=250',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[9],
             opacity: 1,
-            duration: 400,
-            offset: '-=300',
+            duration: 300,
+            offset: '-=250',
             easing: "easeInOutQuad"
         })
         .add({
             targets: section4AnimationTargets[10],
             opacity: 1,
-            duration: 400,
-            offset: '-=300',
+            duration: 300,
+            offset: '-=250',
             easing: "easeInOutQuad"
         })
 
@@ -465,14 +468,14 @@ $(document).ready(function () {
         .add({
             targets: '.section-5-header',
             opacity: 1,
-            duration: 300,
+            duration: 100,
             easing: "easeInOutQuad"
         })
         .add({
             targets: '.section-5-content',
             opacity: 1,
-            duration: 300,
-            delay: 300,
+            duration: 200,
+            delay: 200,
             easing: "easeInOutQuad",
             complete: () => {
                 window.requestAnimationFrame(() => {
@@ -486,8 +489,8 @@ $(document).ready(function () {
         .add({
             targets: '#particles-background-section-5',
             opacity: 1,
-            duration: 500,
-            delay: 500,
+            duration: 400,
+            delay: 200,
             easing: "easeInOutQuad"
         })
 
