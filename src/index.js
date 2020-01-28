@@ -540,10 +540,8 @@ $(document).ready(function () {
             beforeMove: function (index) {
                 // Close modals that can't use scroll blocking
                 // because they can't have position: fixed (unusual starting position or something else)
-                if (deviceVersion !== "desktop") {
-                    caseModalCloser.click()
-                    $('.section-3-used-tech-exit').click()
-                }
+                caseModalCloser.click()
+                $('.section-3-used-tech-exit').click()
                 
                 switch (index) {
                     case 1:
