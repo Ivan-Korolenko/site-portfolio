@@ -17,7 +17,7 @@ import 'jquery-tagcanvas'
 import 'slick-carousel'
 import Parallax from 'parallax-js'
 
-import {caseModalData, wordsForRotator} from './config'
+import {caseModalData, usedTechParams, wordsForRotator} from './config'
 
 
 $(document).ready(function () {
@@ -538,6 +538,13 @@ $(document).ready(function () {
             pagination: false,
             updateURL: false,
             beforeMove: function (index) {
+                // Close modals that can't use scroll blocking
+                // because they can't have position: fixed (unusual starting position or something else)
+                if (deviceVersion !== "desktop") {
+                    caseModalCloser.click()
+                    $('.section-3-used-tech-exit').click()
+                }
+                
                 switch (index) {
                     case 1:
                         AnimationControlPlay(true, [1])
@@ -586,14 +593,23 @@ $(document).ready(function () {
 
     // --- Event Handlers ---
     
-    let scrollState = ''
-    let transformStyle = ''
+    const toggleScroll = (activate) => {
+        if (activate) $("body").removeClass("disabled-onepage-scroll disable-scroll")
+        else {
+            const scrollState = $("#section-scroll").css("transform")
+            const transformStyle = ($("#section-scroll").attr("style") ? $("#section-scroll").attr("style") : '') + ' transform:' + scrollState + ' !important;'
+
+            $("body").addClass("disabled-onepage-scroll disable-scroll")
+            $("#section-scroll").attr("style", transformStyle)
+        }
+    }
 
     // Menu animations
     $('#nav-icon1').click(function (event) {
         event.stopImmediatePropagation()
         $('#nav-icon1').toggleClass('open')
         if ($('#nav-icon1').hasClass('open')) {
+            toggleScroll(false)
             $('.nav').css({
                 'display': 'block',
                 'pointer-events': 'auto',
@@ -605,26 +621,15 @@ $(document).ready(function () {
                 'margin-right': '0',
                 'right': '50%'
             })
-            
-            if(deviceVersion === 'desktop') {
-                scrollState = $("#section-scroll").css("transform")
-                transformStyle = ($("#section-scroll").attr("style") ? $("#section-scroll").attr("style") : '') + ' transform:' + scrollState + ' !important;'
-
-                $("body").addClass("disabled-onepage-scroll disable-scroll")
-                $("#section-scroll").attr("style", transformStyle)
-            } 
         } 
         else {
+            toggleScroll(true)
             $('.nav').removeClass('slideInRight')
             $('.nav').addClass('slideOutRight')
             $('#nav-icon1').css({
                 'margin-right': '2rem',
                 'right': '0'
             })
-
-            if(deviceVersion === 'desktop') {
-                $("body").removeClass("disabled-onepage-scroll disable-scroll")
-            }
         }
     })
     .parents('body').click(function (event) {
@@ -659,61 +664,17 @@ $(document).ready(function () {
     
 
     // "Used technologies" block animations
-    if (deviceVersion === "desktop") {
-        $('.section-3-used-tech').click(function (event) {
-            $('.section-3-used-tech').css({
-                'transform': 'rotate(0deg) translate(40vw,-86vh)',
-                'cursor': 'auto'
-            })
-            $('.section-3-used-tech-header').css('transform', 'translate(0, 1rem)')
-            $('.section-3-used-tech-text').css('transform', 'translate(0, -17vh)')
-        })
-    }
-    else {
-        $('.section-3-used-tech').click(function (event) {
-            if(deviceVersion === "tablet") {
-                $('.section-3-used-tech').css({
-                    'transform': 'rotate(0deg) translate(40vw, 0)',
-                    'top': '0',
-                    'cursor': 'auto'
-                })
-                $('.section-3-used-tech-header').css('transform', 'translate(0, 1rem)')
-            }
-            else if (deviceVersion === "mobile") {
-                $('.section-3-used-tech').css({
-                    'transform': 'rotate(0deg) translate(48vw, 0)',
-                    'top': '0',
-                    'cursor': 'auto'
-                })
-                $('.section-3-used-tech-header').css('transform', 'translate(-5rem, 1rem)')
-            }
-            $('.section-3-used-tech-text').css('transform', 'translate(0, -12vh)')
-        })
-    }
+    
+    $('.section-3-used-tech').click(function (event) {
+        $('.section-3-used-tech').css(usedTechParams.open[deviceVersion].main)
+        $('.section-3-used-tech-header').css(usedTechParams.open[deviceVersion].header)
+        $('.section-3-used-tech-text').css(usedTechParams.open[deviceVersion].text)
+    })
     
     $('.section-3-used-tech-exit').click(function (event) {
-        if (deviceVersion === "desktop") {
-            $('.section-3-used-tech').css({
-                'transform': 'rotate(10deg) translate(0)',
-                'cursor': 'pointer'
-            })
-        }
-        else if(deviceVersion === "tablet") {
-            $('.section-3-used-tech').css({
-                'transform': 'rotate(10deg) translate(0)',
-                'top': '85vh',
-                'cursor': 'pointer'
-            })
-        }
-        else if (deviceVersion === "mobile") {
-            $('.section-3-used-tech').css({
-                'transform': 'rotate(10deg) translate(0)',
-                'top': '80vh',
-                'cursor': 'pointer'
-            })
-        }
-        $('.section-3-used-tech-header').css('transform', 'translate(3rem, 0)')
-        $('.section-3-used-tech-text').css('transform', 'translate(0, 0)')
+        $('.section-3-used-tech').css(usedTechParams.close[deviceVersion].main)
+        $('.section-3-used-tech-header').css(usedTechParams.close[deviceVersion].header)
+        $('.section-3-used-tech-text').css(usedTechParams.close[deviceVersion].text)
 
         // Do not call click on parent when cross is clicked
         event.stopImmediatePropagation()

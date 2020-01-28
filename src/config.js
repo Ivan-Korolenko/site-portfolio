@@ -394,9 +394,62 @@ const caseModalData = {
     }   
 }
 
+const usedTechParams = {
+    'open': {
+        'desktop': {
+            main: { 'transform': 'rotate(0deg) translate(40vw,-86vh)', 'cursor': 'auto' },
+            header: { 'transform': 'translate(0, 1rem)' },
+            text: { 'transform': 'translate(0, -17vh)' }
+        },
+        'tablet': {
+            main: { 
+                'transform': 'rotate(0deg) translate(40vw, 0)',
+                'top': '0',
+                'cursor': 'auto' 
+            },
+            header: { 'transform': 'translate(0, 1rem)' },
+            text: { 'transform': 'translate(0, -12vh)' }
+        },
+        'mobile': {
+            main: { 
+                'transform': 'rotate(0deg) translate(48vw, 0)',
+                'top': '0',
+                'cursor': 'auto' 
+            },
+            header: { 'transform': 'translate(-5rem, 1rem)' },
+            text: { 'transform': 'translate(0, -12vh)' }
+        }
+    },
+    'close': {
+        'desktop': {
+            main: { 'transform': 'rotate(10deg) translate(0)', 'cursor': 'pointer' },
+            header: { 'transform': 'translate(3rem, 0)' },
+            text: { 'transform': 'translate(0, 0)' }
+        },
+        'tablet': {
+            main: { 
+                'transform': 'rotate(10deg) translate(0)',
+                'top': '85vh',
+                'cursor': 'pointer'
+            },
+            header: { 'transform': 'translate(3rem, 0)' },
+            text: { 'transform': 'translate(0, 0)' }
+        },
+        'mobile': {
+            main: { 
+                'transform': 'rotate(10deg) translate(0)',
+                'top': '80vh',
+                'cursor': 'pointer'
+            },
+            header: { 'transform': 'translate(3rem, 0)' },
+            text: { 'transform': 'translate(0, 0)' }
+        }
+    }
+}
+
 const wordsForRotator = {
     'ru': ['приложения', 'сайты', 'идеи', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации'],
     'en': ['applications', 'websites', 'ideas', 'design', 'illustrations', 'algorithms', 'animations']
 }
 
-export { caseModalData, wordsForRotator }
+export { caseModalData, usedTechParams, wordsForRotator }
