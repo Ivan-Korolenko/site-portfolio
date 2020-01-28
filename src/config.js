@@ -115,59 +115,27 @@ const caseModalData = {
             `,
             link: `<a href="https://maslo.center/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
-        'mksoloview': {
+        'mercaux': {
             text: `
-                <h3>Описание проекта</h3><br>
-                <p>Сайт мастер-класса Владимира Соловьева</p><br><br>
-                <h3>Моя роль в проекте</h3><br>
-                <p>Frontend-разработчик</p><br><br>
+                <h3>Описание проектов</h3><br>
+                <p>Разработка новой версии Mercaux Portal (система управления бизнесом для клиентов компании) на React и улучшение сайта компании - Mercaux.com</p><br><br>
+                <h3>Моя роль в проектах</h3><br>
+                <p>Senior Frontend-разработчик</p><br><br>
                 <h3>Что было сделано</h3><br>
                 <ul>
-                    <li>Проект реализован в самом начале карьеры. За 3 дня необходимо было реализовать 13 лендингов с различными логикой и наполнением</li>
-                </ul><br><br>
-                <h3>Результат</h3><br>
-                <ul>
-                    <li>Всё сделано в срок. Клиент доволен результатом</li>
-                </ul>
-            `,
-            link: `<a href="https://ivankorolenko.com/projects/mksoloviev/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
-        },
-        'me': {
-            text: `
-                <h3>Описание проекта</h3><br>
-                <p>Сайт компании Marketing Engineers</p><br><br>
-                <h3>Моя роль в проекте</h3><br>
-                <p>Frontend-разработчик</p><br><br>
-                <h3>Что было сделано</h3><br>
-                <ul>
-                    <li>Проект реализован в самом начале карьеры. За день создан лендинг с необычной версткой и различными анимациями</li>
-                </ul><br><br>
-                <h3>Результат</h3><br>
-                <ul>
-                    <li>Клиент доволен результатом</li>
-                </ul>
-            `,
-            link: `<a href="https://ivankorolenko.com/projects/me_v2.0/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
-        },
-        'atlant': {
-            text: `
-                <h3>Описание проекта</h3><br>
-                <p>Сайт строительной компании Atlant Group</p><br><br>
-                <h3>Моя роль в проекте</h3><br>
-                <p>Frontend-разработчик</p><br><br>
-                <h3>Что было сделано</h3><br>
-                <ul>
-                    <li>Переработана большая часть страниц сайта</li>
-                    <li>Добавлен функционал и контент</li>
-                    <li>Создан тест (на главной странице)</li>
+                    <li>Создана архитектура новых Портала и Ядра</li>
+                    <li>Новый Портал разработан с использованием таких технологий как JavaScript (ES8), React,
+                    Redux, Saga, Ramda. Правильное применение этих технологий и продуманная структура компонентов сделали новую версию Портала быстрее, надежнее и проще в поддержке, сократили время на внесение изменений разработчиками, а также улучшили опыт клиентов на сайте.</li>
+                    <li>В Mercaux.com внесено множество улучшений и нового функционала для желающих узнать больше о компании, её стратегии и целях</li>
+                    <li>Создано и переработано множество email темплейтов клиентов компании, таких как Nike, Under Armour, United Colors of Benetton</li>
                 </ul><br><br>
                 <h3>Результаты</h3><br>
                 <ul>
-                    <li>Клиент доволен результатом</li>
-                    <li>Конверсия сайта увеличилась</li>
+                    <li>Бизнес-команда и клиенты довольны новому Порталу, улучшенным сайтом и новыми email-темплейтами</li>
+                    <li>Разработчики компании получили понятную и оптимальную архитектуру проекта, а также  реализацию с производительным кодом, написанным с применением лучших практик и читаемым как английский текст</li>
                 </ul>
             `,
-            link: `<a href="http://stroim-kottedzh.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
+            link: `<a href="https://mercaux.com" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
         },
         '15_puzzle': {
             text: `
@@ -342,59 +310,29 @@ const caseModalData = {
             `,
             link: `<a href="https://maslo.center/" target="_blank" class="underline-hover-link">See the project</a>`
         },
-        'mksoloview': {
+        'mercaux': {
             text: `
-                <h3>Project description</h3><br>
-                <p>Vladimir Soloviev's courses</p><br><br>
-                <h3>My role in the project</h3><br>
-                <p>Frontend-developer</p><br><br>
+                <h3>Projects description</h3><br>
+                <p>New Mercaux Portal development (business management system for company's clients) on React and improvement of the main company's site (Mercaux.com)</p><br><br>
+                <h3>My role in the projects</h3><br>
+                <p>Senior Frontend-developer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
-                    <li>The project was implemented at the very beginning of my career. In 3 days it was necessary to implement 13 landing pages with different logic and content</li>
-                </ul><br><br>
-                <h3>Result</h3><br>
-                <ul>
-                    <li>Everything is done in given time. Customer satisfied with the result</li>
-                </ul>
-            `,
-            link: `<a href="https://ivankorolenko.com/projects/mksoloviev/" target="_blank" class="underline-hover-link">See the project</a>`
-        },
-        'me': {
-            text: `
-                <h3>Project description</h3><br>
-                <p>Marketing Engineers website</p><br><br>
-                <h3>My role in the project</h3><br>
-                <p>Frontend-developer</p><br><br>
-                <h3>What was done</h3><br>
-                <ul>
-                    <li>The project was implemented at the very beginning of my career. In 1 day created a landing page with an unusual layout and various animations.</li>
-                </ul><br><br>
-                <h3>Result</h3><br>
-                <ul>
-                    <li>Client is happy with the result</li>
-                </ul>
-            `,
-            link: `<a href="https://ivankorolenko.com/projects/me_v2.0/" target="_blank" class="underline-hover-link">See the project</a>`
-        },
-        'atlant': {
-            text: `
-                <h3>Project description</h3><br>
-                <p>Atlant Group (construction company) website</p><br><br>
-                <h3>My role in the project</h3><br>
-                <p>Frontend-developer</p><br><br>
-                <h3>What was done</h3><br>
-                <ul>
-                    <li>Reworked most of the pages</li>
-                    <li>Added functionality and content</li>
-                    <li>Created a test module (on the main page)</li>
+                    <li>New Portal's and Core's architectures are created</li>
+                    <li>New Portal developed with such technologies as JavaScript (ES8), React,
+                    Redux, Saga, Ramda. Right application of these technologies makes this new platform faster,
+                    more reliable and robust, improves flexibility of components. New technologies and thoughtful
+                    design of components reduces the time to refine, test and improve the application, while improving the User Experience</li>
+                    <li>Many improvements and new functionality have been made on Mercaux.com for people who want to know more about the company, it’s projects, strategies and goals.</li>
+                    <li>Many email templates for company's clients such as Nike, Under Armour, United Colors of Benetton are created and improved</li>
                 </ul><br><br>
                 <h3>Results</h3><br>
                 <ul>
-                    <li>Client is happy with the result</li>
-                    <li>Site conversion increased</li>
+                    <li>The business team and customers are satisfied with the new Portal, improved site and new email templates</li>
+                    <li>The developers of the company got a clear and optimal architecture of the project, as well as an implementation with a perfomant code written using best practices, that reads like English text</li>
                 </ul>
             `,
-            link: `<a href="http://stroim-kottedzh.ru/" target="_blank" class="underline-hover-link">See the project</a>`
+            link: `<a href="https://mercaux.com" target="_blank" class="underline-hover-link">See the project</a>`
         },
         '15_puzzle': {
             text: `
