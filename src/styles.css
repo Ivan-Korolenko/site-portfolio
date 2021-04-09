@@ -975,7 +975,7 @@ li {
     transition: 0.6s all ease-in-out;
 }
 
-.section-5-content a, .section-5-content div {
+.section-5-content div {
     color: white;
     margin: 0 1rem;
     border: 0.1vh solid #fff;
@@ -984,8 +984,12 @@ li {
     transition: 0.3s background-color ease-in-out;
 }
 
-.section-5-content a:hover, .section-5-content div:hover{
+.section-5-content div:hover {
     background-color: #fff;
+    color: #171717;
+}
+
+.section-5-content a:hover {
     color: #171717;
 }
 
