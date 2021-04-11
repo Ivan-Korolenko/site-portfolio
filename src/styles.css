@@ -635,7 +635,6 @@ li {
     justify-content: center;
     transform: translate(-120rem);
     transition: 0.6s all ease-in-out, 0.3s padding-bottom ease-in-out;
-    cursor: pointer;
 }
 
 .section-3-skill-header {
