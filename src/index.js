@@ -1,5 +1,5 @@
-import $ from 'jquery';
-window.$ = window.jQuery = $;
+import $ from 'jquery'
+window.$ = window.jQuery = $
 
 import 'animate.css'
 import './lib/modified-word-rotator/jquery.wordrotator.css'
@@ -656,8 +656,6 @@ $(document).ready(function () {
     $('.nav-internal li, .bottom-nav li').click(function (event) {
         const pageToScrollTo = parseInt($(this).attr('data-page-to'))
         $("#section-scroll").moveTo(pageToScrollTo)
-        // If clicked item is in side menu, close menu like if user clicked on a cross
-        if($(this).parent().hasClass('nav-internal')) $('#nav-icon1').click()
     })
     
 
