@@ -1,7 +1,7 @@
 const caseModalData = {
-    'ru' : {
-        'amtel.club' : {
-            text: `
+  ru: {
+    "amtel.club": {
+      text: `
                 <h3>Описание проекта</h3><br>
                 <p>Интернет-магазин для оптовых клиентов компании</p><br><br>
                 <h3>Моя роль в проекте</h3><br>
@@ -24,7 +24,7 @@ const caseModalData = {
                     <li>Пользоваться им стало гораздо удобнее, продажи увеличились</li>
                 </ul>
             `,
-            link: `
+      link: `
                 <a href="https://amtel.club/" target="_blank" class="underline-hover-link">Посмотреть проект</a>
                 <a href="images/section-4-back-pics/case-pics/amtel-1.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/amtel-1.jpg" />
@@ -32,10 +32,10 @@ const caseModalData = {
                 <a href="images/section-4-back-pics/case-pics/amtel-2.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/amtel-2.jpg" />
                 </a>
-            `
-        },
-        'ea_messenger': {
-            text: `
+            `,
+    },
+    ea_messenger: {
+      text: `
                 <h3>Описание проекта</h3><br>
                 <p>Мессенджер подобный Telegram Web (~90% функционала Tg Web + кастомный функционал для нужд компании) для общения между операторами и клиентами</p><br><br>
                 <h3>Моя роль в проекте</h3><br>
@@ -61,7 +61,7 @@ const caseModalData = {
                     <li>Благодаря приложению операторы стали быстрее и качественнее обслуживать клиентов, благодаря чему повысился доход компании</li>
                 </ul>
             `,
-            link: `
+      link: `
                 <a href="http://euroauto.ru/messenger/call/" target="_blank" class="underline-hover-link">Посмотреть проект как пользователь</a>
                 <a href="images/section-4-back-pics/case-pics/olo-1.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/olo-1.jpg" />
@@ -69,10 +69,10 @@ const caseModalData = {
                 <a href="images/section-4-back-pics/case-pics/olo-2.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/olo-2.jpg" />
                 </a>
-            `
-        },
-        'ea': {
-            text: `
+            `,
+    },
+    ea: {
+      text: `
             <h3>Описание проекта</h3><br>
             <p>Основной сайт компании. Интернет-магазин розничной продажи запчастей.</p><br><br>
             <h3>Моя роль в проекте</h3><br>
@@ -93,31 +93,32 @@ const caseModalData = {
                 <li>Отдел HR рад новой странице вакансий, теперь можно быстро обновлять вакансии без необходимости обращения к отделу IT, что упростило и ускорило процесс.</li>
             </ul>
             `,
-            link: `<a href="http://euroauto.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
-        },
-        'vtb': {
-            text: `
+      link: `<a href="http://euroauto.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`,
+    },
+    vtb: {
+      text: `
                 <h3>Описание проекта</h3><br>
                 <p>Веб-приложение ВТБ для онбординга корпоративных клиентов</p><br><br>
                 <h3>Моя роль в проекте</h3><br>
-                <p>Senior Front End Engineer</p><br><br>
+                <p>Lead Front End Engineer</p><br><br>
                 <h3>Что было сделано</h3><br>
                 <ul>
-                    <li>Представлял компанию на международной IT-конференции HolyJS 2020 Piter international с докладом о лямбда-исчислении. Создавал и оценивал задачи по JavaScript для соревнования по программированию от компании</li>
-                    <li>Проводил собеседования и оценку всех front end кандидатов. Помогал успешному кандидату погрузиться в наши проекты</li>
-                    <li>Эффективно интвестигировал и решал критичные проблемы в сложной системе с множеством взаимозависимых составляющих с упором на стабильность и безопасность. Улучшал проекты созданием нового функционала на JavaScript и TypeScript</li>
-                    <li>Значительно стабилизировал проекты и улучшил кодовую нашу базу для улучшения производительности и простоты поддержки кода</li>
                     <li>Оценивал и распределял задачи в моей команде, проводил код-ревью PR-ов членов команды</li>
+                    <li>Проводил собеседования и оценку всех front end кандидатов. Помогал успешным кандидатам погрузиться в наши проекты</li>
+                    <li>Представлял компанию на международной IT-конференции HolyJS 2020 Piter international с докладом о лямбда-исчислении. Создавал и оценивал задачи по JavaScript для соревнования по программированию от компании</li>
+                    <li>Значительно стабилизировал проекты и улучшил кодовую нашу базу для улучшения производительности и простоты поддержки кода</li>
+                    <li>Эффективно инвестигировал и решал критичные проблемы в сложной системе с множеством взаимозависимых составляющих с упором на стабильность и безопасность. Улучшал проекты созданием нового функционала на JavaScript и TypeScript</li>
                 </ul><br><br>
                 <h3>Результат</h3><br>
                 <ul>
-                    <li>Значительно возросла удовлетворенность клиентов сервисом</li>
+                    <li>Значительно увеличил удовлетворенность клиентов сервисом</li>
+                    <li>Увеличил популярность компании в ИТ сообществе</li>
                 </ul>
             `,
-            link: `<a href="https://www.vtb.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
-        },
-        'mercaux': {
-            text: `
+      link: `<a href="https://www.vtb.ru/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`,
+    },
+    mercaux: {
+      text: `
                 <h3>Описание проектов</h3><br>
                 <p>Разработка новой версии Mercaux Portal (система управления бизнесом для клиентов компании) на React и улучшение сайта компании - Mercaux.com</p><br><br>
                 <h3>Моя роль в проектах</h3><br>
@@ -136,10 +137,10 @@ const caseModalData = {
                     <li>Разработчики компании получили понятную и оптимальную архитектуру проекта, а также  реализацию с производительным кодом, написанным с применением лучших практик и читаемым как английский текст</li>
                 </ul>
             `,
-            link: `<a href="https://mercaux.com" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
-        },
-        '15_puzzle': {
-            text: `
+      link: `<a href="https://mercaux.com" target="_blank" class="underline-hover-link">Посмотреть проект</a>`,
+    },
+    "15_puzzle": {
+      text: `
                 <h3>Описание проекта</h3><br>
                 <p>Проект для себя. Реализация игры "Пятнашки" на React</p><br><br>
                 <h3>Моя роль в проекте</h3><br>
@@ -154,10 +155,10 @@ const caseModalData = {
                     <li>Одним проектом с открытым исходным кодом больше</li>
                 </ul>
             `,
-            link: `<a href="https://ivankorolenko.com/projects/react-puzzle-15/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
-        },
-        'passgen': {
-            text: `
+      link: `<a href="https://ivankorolenko.com/projects/react-puzzle-15/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`,
+    },
+    passgen: {
+      text: `
                 <h3>Описание проекта</h3><br>
                 <p>Проект для себя. Генератор надежных паролей на React</p><br><br>
                 <h3>Моя роль в проекте</h3><br>
@@ -172,10 +173,10 @@ const caseModalData = {
                     <li>Одним проектом с открытым исходным кодом больше</li>
                 </ul>
             `,
-            link: `<a href="https://ivankorolenko.com/projects/react-passgen/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`
-        },
-        'portfolio': {
-            text: `
+      link: `<a href="https://ivankorolenko.com/projects/react-passgen/" target="_blank" class="underline-hover-link">Посмотреть проект</a>`,
+    },
+    portfolio: {
+      text: `
                 <h3>Описание проекта</h3><br>
                 <p>Мой сайт-портфолио</p><br><br>
                 <h3>Моя роль в проекте</h3><br>
@@ -193,12 +194,12 @@ const caseModalData = {
                     <li>Создан самый сложный в плане визуального front end-а сайт в моей практике</li>
                 </ul>
             `,
-            link: ``
-        },
+      link: ``,
     },
-    'en': {
-        'amtel.club' : {
-            text: `
+  },
+  en: {
+    "amtel.club": {
+      text: `
                 <h3>Project description</h3><br>
                 <p>Online store for wholesale customers of the company</p><br><br>
                 <h3>My role in the project</h3><br>
@@ -221,7 +222,7 @@ const caseModalData = {
                     <li>Website became much more convenient to use, sales increased</li>
                 </ul>
             `,
-            link: `
+      link: `
                 <a href="https://amtel.club/" target="_blank" class="underline-hover-link">See the project</a>
                 <a href="images/section-4-back-pics/case-pics/amtel-1.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/amtel-1.jpg" />
@@ -229,10 +230,10 @@ const caseModalData = {
                 <a href="images/section-4-back-pics/case-pics/amtel-2.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/amtel-2.jpg" />
                 </a>
-            `
-        },
-        'ea_messenger': {
-            text: `
+            `,
+    },
+    ea_messenger: {
+      text: `
                 <h3>Project description</h3><br>
                 <p>Messenger like Telegram Web (~ 90% of Tg Web functionality + custom functionality for company needs) for communication between operators and customers</p><br><br>
                 <h3>My role in the project</h3><br>
@@ -256,7 +257,7 @@ const caseModalData = {
                     <li>Thanks to the app operators have become faster and better in customer service, thereby increasing company revenue</li>
                 </ul>
             `,
-            link: `
+      link: `
                 <a href="http://euroauto.ru/messenger/call/" target="_blank" class="underline-hover-link">Chat with operators which are using this messenger</a>
                 <a href="images/section-4-back-pics/case-pics/olo-1.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/olo-1.jpg" />
@@ -264,10 +265,10 @@ const caseModalData = {
                 <a href="images/section-4-back-pics/case-pics/olo-2.jpg" target="_blank">
                     <img src="images/section-4-back-pics/case-pics/olo-2.jpg" />
                 </a>
-            `
-        },
-        'ea': {
-            text: `
+            `,
+    },
+    ea: {
+      text: `
             <h3>Project description</h3><br>
             <p>The main site of the company. Retail online auto parts store.</p><br><br>
             <h3>My role in the project</h3><br>
@@ -289,32 +290,32 @@ const caseModalData = {
                 <li>The HR department is pleased with the new vacancies page, now they can quickly update vacancies without having to contact the IT department, which simplified and accelerated the process.</li>
             </ul>
             `,
-            link: `<a href="http://euroauto.ru/" target="_blank" class="underline-hover-link">See the project</a>`
-        },
-        'vtb': {
-            text: `
+      link: `<a href="http://euroauto.ru/" target="_blank" class="underline-hover-link">See the project</a>`,
+    },
+    vtb: {
+      text: `
                 <h3>Project description</h3><br>
                 <p>VTB web application for onboarding of corporate clients</p><br><br>
                 <h3>My role in the project</h3><br>
-                <p>Senior Front End Engineer</p><br><br>
+                <p>Lead Front End Engineer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
-                    <li>Represented the company in HolyJS 2020 Piter international IT-conference as a speaker with talk about lambda calculus. Created and reviewed JavaScript questions for company's programming contests</li>
-                    <li>Interviewed and evaluated all front end candidates. Helped successful candidate to dive into our projects</li>
-                    <li>Effectively investigated and solved critical problems in complex interconnected systems with emphasis on stability
-                    and security. Improved projects with new features written in JavaScript and TypeScript</li>
-                    <li>Significantly stabilized projects and improved our code base for greater performance and easier maintainability</li>
                     <li>Assessed and distributed tasks for my team, conducted code review of team members’ code</li>
+                    <li>Interviewed and evaluated all front end candidates. Helped successful candidates to dive into our projects</li>
+                    <li>Represented the company in HolyJS 2020 Piter international IT-conference as a speaker with talk about lambda calculus. Created and reviewed JavaScript questions for company's programming contests</li>
+                    <li>Significantly stabilized projects and improved our code base for greater performance and easier maintainability</li>
+                    <li>Effectively investigated and solved critical problems in complex interconnected systems with emphasis on stability and security. Improved projects with new features written in JavaScript and TypeScript</li>
                 </ul><br><br>
                 <h3>Result</h3><br>
                 <ul>
-                    <li>Clients’ satisfaction with our service gone up remarkably</li>
+                    <li>Greatly increased clients’ satisfaction with our service</li>
+                    <li>Increased popularity of the company in the IT community</li>
                 </ul>
             `,
-            link: `<a href="https://www.vtb.com/o-banke/" target="_blank" class="underline-hover-link">See the project</a>`
-        },
-        'mercaux': {
-            text: `
+      link: `<a href="https://www.vtb.com/o-banke/" target="_blank" class="underline-hover-link">See the project</a>`,
+    },
+    mercaux: {
+      text: `
                 <h3>Projects description</h3><br>
                 <p>New Mercaux Portal development (business management system for company's clients) on React and improvement of the main company's site (Mercaux.com)</p><br><br>
                 <h3>My role in the projects</h3><br>
@@ -335,10 +336,10 @@ const caseModalData = {
                     <li>Development team of the company got a clear and optimal architecture of the project, as well as an implementation with a perfomant code written using best practices, that reads like English text</li>
                 </ul>
             `,
-            link: `<a href="https://mercaux.com" target="_blank" class="underline-hover-link">See the project</a>`
-        },
-        '15_puzzle': {
-            text: `
+      link: `<a href="https://mercaux.com" target="_blank" class="underline-hover-link">See the project</a>`,
+    },
+    "15_puzzle": {
+      text: `
                 <h3>Project description</h3><br>
                 <p>Project for myself. Implemenatation of the "15 puzzle" game on React</p><br><br>
                 <h3>My role in the project</h3><br>
@@ -353,10 +354,10 @@ const caseModalData = {
                     <li>One more open source project</li>
                 </ul>
             `,
-            link: `<a href="https://ivankorolenko.com/projects/react-puzzle-15/" target="_blank" class="underline-hover-link">See the project</a>`
-        },
-        'passgen': {
-            text: `
+      link: `<a href="https://ivankorolenko.com/projects/react-puzzle-15/" target="_blank" class="underline-hover-link">See the project</a>`,
+    },
+    passgen: {
+      text: `
                 <h3>Project description</h3><br>
                 <p>Project for myself. Secure passwords generator on React</p><br><br>
                 <h3>My role in the project</h3><br>
@@ -371,10 +372,10 @@ const caseModalData = {
                     <li>One more open source project</li>
                 </ul>
             `,
-            link: `<a href="https://ivankorolenko.com/projects/react-passgen/" target="_blank" class="underline-hover-link">See the project</a>`
-        },
-        'portfolio': {
-            text: `
+      link: `<a href="https://ivankorolenko.com/projects/react-passgen/" target="_blank" class="underline-hover-link">See the project</a>`,
+    },
+    portfolio: {
+      text: `
                 <h3>Project description</h3><br>
                 <p>My site-portfolio</p><br><br>
                 <h3>My role in the project</h3><br>
@@ -392,67 +393,67 @@ const caseModalData = {
                     <li>Created the most complex in terms of the visual front end website in my practice</li>
                 </ul>
             `,
-            link: ``
-        },
-    }   
-}
+      link: ``,
+    },
+  },
+};
 
 const usedTechParams = {
-    'open': {
-        'desktop': {
-            main: { 'transform': 'rotate(0deg) translate(40vw,-86vh)', 'cursor': 'auto' },
-            header: { 'transform': 'translate(0, 1rem)' },
-            text: { 'transform': 'translate(0, -17vh)' }
-        },
-        'tablet': {
-            main: { 
-                'transform': 'rotate(0deg) translate(40vw, 0)',
-                'top': '0',
-                'cursor': 'auto' 
-            },
-            header: { 'transform': 'translate(0, 1rem)' },
-            text: { 'transform': 'translate(0, -12vh)' }
-        },
-        'mobile': {
-            main: { 
-                'transform': 'rotate(0deg) translate(48vw, 0)',
-                'top': '0',
-                'cursor': 'auto' 
-            },
-            header: { 'transform': 'translate(-5rem, 1rem)' },
-            text: { 'transform': 'translate(0, -12vh)' }
-        }
+  open: {
+    desktop: {
+      main: { transform: "rotate(0deg) translate(40vw,-86vh)", cursor: "auto" },
+      header: { transform: "translate(0, 1rem)" },
+      text: { transform: "translate(0, -17vh)" },
     },
-    'close': {
-        'desktop': {
-            main: { 'transform': 'rotate(10deg) translate(0)', 'cursor': 'pointer' },
-            header: { 'transform': 'translate(3rem, 0)' },
-            text: { 'transform': 'translate(0, 0)' }
-        },
-        'tablet': {
-            main: { 
-                'transform': 'rotate(10deg) translate(0)',
-                'top': '85vh',
-                'cursor': 'pointer'
-            },
-            header: { 'transform': 'translate(3rem, 0)' },
-            text: { 'transform': 'translate(0, 0)' }
-        },
-        'mobile': {
-            main: { 
-                'transform': 'rotate(10deg) translate(0)',
-                'top': '80vh',
-                'cursor': 'pointer'
-            },
-            header: { 'transform': 'translate(3rem, 0)' },
-            text: { 'transform': 'translate(0, 0)' }
-        }
-    }
-}
+    tablet: {
+      main: {
+        transform: "rotate(0deg) translate(40vw, 0)",
+        top: "0",
+        cursor: "auto",
+      },
+      header: { transform: "translate(0, 1rem)" },
+      text: { transform: "translate(0, -12vh)" },
+    },
+    mobile: {
+      main: {
+        transform: "rotate(0deg) translate(48vw, 0)",
+        top: "0",
+        cursor: "auto",
+      },
+      header: { transform: "translate(-5rem, 1rem)" },
+      text: { transform: "translate(0, -12vh)" },
+    },
+  },
+  close: {
+    desktop: {
+      main: { transform: "rotate(10deg) translate(0)", cursor: "pointer" },
+      header: { transform: "translate(3rem, 0)" },
+      text: { transform: "translate(0, 0)" },
+    },
+    tablet: {
+      main: {
+        transform: "rotate(10deg) translate(0)",
+        top: "85vh",
+        cursor: "pointer",
+      },
+      header: { transform: "translate(3rem, 0)" },
+      text: { transform: "translate(0, 0)" },
+    },
+    mobile: {
+      main: {
+        transform: "rotate(10deg) translate(0)",
+        top: "80vh",
+        cursor: "pointer",
+      },
+      header: { transform: "translate(3rem, 0)" },
+      text: { transform: "translate(0, 0)" },
+    },
+  },
+};
 
 const wordsForRotator = {
-    'ru': ['приложения', 'сайты', 'идеи', 'дизайн', 'иллюстрации', 'алгоритмы', 'анимации'],
-    'en': ['applications', 'websites', 'ideas', 'design', 'illustrations', 'algorithms', 'animations']
-}
+  ru: ["проекты", "идеи", "приложения", "алгоритмы", "сайты"],
+  en: ["projects", "ideas", "applications", "algorithms", "websites"],
+};
 
-export { caseModalData, usedTechParams, wordsForRotator }
+export { caseModalData, usedTechParams, wordsForRotator };
