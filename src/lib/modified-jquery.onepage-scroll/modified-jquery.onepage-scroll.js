@@ -267,21 +267,29 @@
       }
     }
 
+    var lastDelta = 0;
 
     function init_scroll(event, delta) {
         deltaOfInterest = delta;
+
         var timeNow = new Date().getTime();
-        // Cancel scroll if currently animating or within quiet period
-        if(timeNow - lastAnimation < quietPeriod + settings.animationTime) {
+        var isTimeOk = timeNow - lastAnimation >= quietPeriod + settings.animationTime;
+        // My heuristic algorithm to filter out touchpad inertia
+        // Big difference between deltas means it's a touchpad inertia, people usually scroll with more or less the same delta
+        var isDeltaBecameALotSmaller = Math.abs(lastDelta / deltaOfInterest) > 2;
+        // Cancel scroll if currently animating or within quiet period or it's an inertia
+          if(!isTimeOk || isDeltaBecameALotSmaller) {
             return;
         }
 
         if (deltaOfInterest < 0) {
-          el.moveDown()
+          el.moveDown();
         } else {
-          el.moveUp()
+            el.moveUp();
         }
+
         lastAnimation = timeNow;
+        lastDelta = deltaOfInterest;
     }
 
     // Prepare everything before binding wheel scroll

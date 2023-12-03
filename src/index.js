@@ -23,6 +23,7 @@ $(document).ready(function () {
   const lang = window.location.pathname.split("/")[1];
   const copyright = document.querySelector(".copyright");
   const currentYear = new Date().getFullYear();
+  const isAppleDevice = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
   let deviceVersion = null;
   let ultraWide = false;
 
@@ -174,8 +175,8 @@ $(document).ready(function () {
           "#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2"
         ).addClass("no-transition");
 
-        // Parallax. Disabled on mobile because of flickering in new versions of mobile Chrome
-        if (deviceVersion === "desktop") {
+        // Parallax. Disabled on mobile and Apple devices because of flickering
+        if (deviceVersion === "desktop" && !isAppleDevice) {
           const scene = document.querySelector("#section-1-parallax-scene");
           // foreground
           new Parallax(scene, {
@@ -596,23 +597,7 @@ $(document).ready(function () {
         caseModalCloser.click();
         $(".section-3-used-tech-exit").click();
 
-        switch (index) {
-          case 1:
-            AnimationControlPlay(true, [1]);
-            break;
-          case 2:
-            AnimationControlPlay(true, [2]);
-            break;
-          case 3:
-            AnimationControlPlay(true, [3]);
-            break;
-          case 4:
-            AnimationControlPlay(true, [4]);
-            break;
-          case 5:
-            AnimationControlPlay(true, [5]);
-            break;
-        }
+        AnimationControlPlay(true, [index]);
       },
       loop: false,
       keyboard: true,
