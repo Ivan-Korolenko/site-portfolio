@@ -5,11 +5,11 @@ const caseModalData = {
                 <h3>Project description</h3><br>
                 <p>Online store for wholesale customers of the company</p><br><br>
                 <h3>My role in the project</h3><br>
-                <p>Front End Engineer</p><br><br>
+                <p>Frontend Engineer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
                     <li>A new block of search for spare parts by category, used on all pages with products on the site</li>
-                    <li>Front end of the bill payment page</li>
+                    <li>Frontend of the bill payment page</li>
                     <li>New product list (layout + client logic)</li>
                     <li>Refactoring and reengineering the entire client side of the project (refactoring CSS and JS, porting to Webpack, etc.)</li>
                     <li>Refinement of filters on all pages with a list of products</li>
@@ -39,22 +39,22 @@ const caseModalData = {
                 <h3>Project description</h3><br>
                 <p>Messenger like Telegram Web (~ 90% of Tg Web functionality + custom functionality for company needs) for communication between operators and customers</p><br><br>
                 <h3>My role in the project</h3><br>
-                <p>Front End Engineer</p><br><br>
+                <p>Frontend Engineer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
-                    <li>Developed the description of the logic of the entire front end in direct coordination with business customers</li>
-                    <li>Designed and implemented the architecture of the entire front end</li>
+                    <li>Developed the description of the logic of the entire frontend in direct coordination with business customers</li>
+                    <li>Designed and implemented the architecture of the entire frontend</li>
                     <li>
                     In 2 days I had to write all the necessary messenger functionality for the initial launch (architecture, chat switching, messaging, history, loaders, updating user information, etc). All the code that was written back then still works in a real application. I managed to finish the basic version of the project within the required time, while  working on two other major projects of the company
                     </li>
-                    <li>I wrote about 90% of the front end part of the project.
+                    <li>I wrote about 90% of the frontend part of the project.
                     Pure ES6 + React + Redux was chosen as a technology stack.
                     The application is written in a functional style with a "command center" architecture that manages the interactions between multiple "dumb components"
                     </li>
                 </ul><br><br>
                 <h3>Results</h3><br>
                 <ul>
-                    <li>In 4 months from scratch to launch with full functionality was created the front end of the application, which is an improved analogue of Telegram Web</li>
+                    <li>In 4 months from scratch to launch with full functionality was created the frontend of the application, which is an improved analogue of Telegram Web</li>
                     <li>Operators and business customers are happy with the work of the new application</li>
                     <li>Thanks to the app operators have become faster and better in customer service, thereby increasing company revenue</li>
                 </ul>
@@ -74,7 +74,7 @@ const caseModalData = {
             <h3>Project description</h3><br>
             <p>The main site of the company. Retail online auto parts store.</p><br><br>
             <h3>My role in the project</h3><br>
-            <p>Front End Engineer</p><br><br>
+            <p>Frontend Engineer</p><br><br>
             <h3>What was done</h3><br>
             <ul>
                 <li>New cart<br>
@@ -99,11 +99,11 @@ const caseModalData = {
                 <h3>Project description</h3><br>
                 <p>VTB web application for onboarding of corporate clients</p><br><br>
                 <h3>My role in the project</h3><br>
-                <p>Lead Front End Engineer</p><br><br>
+                <p>Lead Frontend Engineer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
                     <li>Assessed and distributed tasks for my team, conducted code review of team members’ code</li>
-                    <li>Interviewed and evaluated all front end candidates. Helped successful candidates to dive into our projects</li>
+                    <li>Interviewed and evaluated all frontend candidates. Helped successful candidates to dive into our projects</li>
                     <li>Represented the company in HolyJS 2020 Piter international IT-conference as a speaker with talk about lambda calculus. Created and reviewed JavaScript questions for company's programming contests</li>
                     <li>Significantly stabilized projects and improved our code base for greater performance and easier maintainability</li>
                     <li>Effectively investigated and solved critical problems in complex interconnected systems with emphasis on stability and security. Improved projects with new features written in JavaScript and TypeScript</li>
@@ -121,7 +121,7 @@ const caseModalData = {
                 <h3>Projects description</h3><br>
                 <p>New Mercaux Portal development (business management system for company's clients) on React and improvement of the main company's site (Mercaux.com)</p><br><br>
                 <h3>My role in the projects</h3><br>
-                <p>Senior Front End Engineer</p><br><br>
+                <p>Senior Frontend Engineer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
                     <li>New Portal's and Core's architectures are created</li>
@@ -145,7 +145,7 @@ const caseModalData = {
                 <h3>Project description</h3><br>
                 <p>Project for myself. Implemenatation of the "15 puzzle" game on React</p><br><br>
                 <h3>My role in the project</h3><br>
-                <p>Front End Engineer, designer</p><br><br>
+                <p>Frontend Engineer, designer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
                     <li>In 2 days created from scratch the "15 puzzle" game on React with counting of moves and time, and highlighting of correctly placed cells.</li>
@@ -163,7 +163,7 @@ const caseModalData = {
                 <h3>Project description</h3><br>
                 <p>Project for myself. Secure passwords generator on React</p><br><br>
                 <h3>My role in the project</h3><br>
-                <p>Front End Engineer, designer</p><br><br>
+                <p>Frontend Engineer, designer</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
                     <li>In a few hours created a password generator on React from scratch. By default it generates passwords which will take 43 quintillion (10 to the power of 18) years to crack. For convenience, a strong password is generated immediately upon entering the site and is copied to the clipboard when you just click on it. Password length can be set to any, but not less than 15 characters, which is slightly higher than the length of the password recommended by information security experts at the time of creating the application (2017)</li>
@@ -181,7 +181,7 @@ const caseModalData = {
                 <h3>Project description</h3><br>
                 <p>My site-portfolio</p><br><br>
                 <h3>My role in the project</h3><br>
-                <p>Front End Engineer, designer, illustrator</p><br><br>
+                <p>Frontend Engineer, designer, illustrator</p><br><br>
                 <h3>What was done</h3><br>
                 <ul>
                     <li>Ideas gathering. I analyzed winners on <a href="https://www.awwwards.com/" target="_blank" class="white underline-hover-link" style="display: inline-block;">AWWWARDS</a>. Ideas about design and functionality from the winning sites have been added to my own, a list of about 50 ideas has been compiled. Ideas that can work together are filtered out and a general concept of the site is invented.</li>
@@ -192,7 +192,7 @@ const caseModalData = {
                 <ul>
                     <li>You are reading this text right now</li>
                     <li>Implemented all the of ideas embodied in the concept + most of the ideas that emerged in the process.</li>
-                    <li>Created the most complex in terms of the visual front end website in my practice</li>
+                    <li>Created the most complex in terms of the visual frontend website in my practice</li>
                 </ul>
             `,
       link: ``,
