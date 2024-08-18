@@ -15,7 +15,7 @@ import "particles.js";
 import "./lib/modified-word-rotator/jquery.wordrotator.min.js";
 import "jquery-tagcanvas";
 import "slick-carousel";
-import Parallax from "parallax-js";
+// import Parallax from "parallax-js";
 
 import { caseModalData, usedTechParams, wordsForRotator } from "./config";
 
@@ -175,33 +175,33 @@ $(document).ready(function () {
           "#Светотень_от_солнца, #Тени_деревьев, #Свет_деревьев, #Свет_деревьев_2"
         ).addClass("no-transition");
 
-        // Parallax. Disabled on mobile and Apple devices because of flickering
-        if (deviceVersion === "desktop" && !isAppleDevice) {
-          const scene = document.querySelector("#section-1-parallax-scene");
-          // foreground
-          new Parallax(scene, {
-            selector:
-              "#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт",
-            invertY: true,
-            scalarY: 5.0,
-            scalarX: ultraWide ? 3.0 : 5.0,
-          });
-          // far away land
-          new Parallax(scene, {
-            selector:
-              "#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца",
-            invertY: true,
-            scalarY: 10.0,
-            scalarX: 5.0,
-          });
-          // hills
-          new Parallax(scene, {
-            selector: "#Холмы",
-            invertY: true,
-            scalarY: 15.0,
-            scalarX: 3.0,
-          });
-        }
+        // // Parallax. Disabled everywhere because of flickering and performance issues after Chrome team updated the engine
+        // if (deviceVersion === "desktop" && !isAppleDevice) {
+        //   const scene = document.querySelector("#section-1-parallax-scene");
+        //   // foreground
+        //   new Parallax(scene, {
+        //     selector:
+        //       "#Лозы, #Земля_первый_план, #Земля_первый_план_ближний_слой, #Земля_первый_план_ближний_слой-2, #Ствол_дерева, #Крона_дерева, #Полосы_на_дереве, #Человек, #Краски, #Копирайт",
+        //     invertY: true,
+        //     scalarY: 5.0,
+        //     scalarX: ultraWide ? 3.0 : 5.0,
+        //   });
+        //   // far away land
+        //   new Parallax(scene, {
+        //     selector:
+        //       "#Солнце, #Горы, #Далекие_земли, #Долина, #Река_в_далеких_землях, #Дальний_план_равнины, #Тени_деревьев, #Перекрытия_в_долине, #Отвлетвления_реки, #Река_в_долине, #Деревья_в_долине, #Светотень_от_солнца",
+        //     invertY: true,
+        //     scalarY: 10.0,
+        //     scalarX: 5.0,
+        //   });
+        //   // hills
+        //   new Parallax(scene, {
+        //     selector: "#Холмы",
+        //     invertY: true,
+        //     scalarY: 15.0,
+        //     scalarX: 3.0,
+        //   });
+        // }
 
         if (deviceVersion === "desktop") {
           window.requestAnimationFrame(() => {
