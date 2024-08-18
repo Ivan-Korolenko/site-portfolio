@@ -57,7 +57,6 @@ module.exports = {
 
       { from: "./images", to: "../dist/en/images" },
       { from: "./fonts", to: "../dist/en/fonts" },
-      { from: "./en/not-supported.html", to: "../dist/en/not-supported.html" },
       { from: "./en/js-off.html", to: "../dist/en/js-off.html" },
       { from: "./particles-configs", to: "../dist/en/particles-configs" },
     ]),
